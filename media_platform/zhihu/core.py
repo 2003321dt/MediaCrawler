@@ -439,18 +439,23 @@ class ZhihuCrawler(AbstractCrawler):
             user_data_dir = os.path.join(
                 os.getcwd(), "browser_data", config.USER_DATA_DIR % config.PLATFORM
             )  # type: ignore
-            browser_context = await chromium.launch_persistent_context(
-                user_data_dir=user_data_dir,
-                accept_downloads=True,
-                headless=headless,
-                proxy=playwright_proxy,  # type: ignore
-                viewport={"width": 1920, "height": 1080},
-                user_agent=user_agent,
-                channel="chrome",  # Use system Chrome stable version
-            )
+            launch_options = {
+                "user_data_dir": user_data_dir,
+                "accept_downloads": True,
+                "headless": headless,
+                "proxy": playwright_proxy,
+                "viewport": {"width": 1920, "height": 1080},
+                "user_agent": user_agent,
+            }
+            if os.getenv("MEDIACRAWLER_USE_BUNDLED_CHROMIUM", "").lower() not in {"1", "true", "yes"}:
+                launch_options["channel"] = "chrome"
+            browser_context = await chromium.launch_persistent_context(**launch_options)
             return browser_context
         else:
-            browser = await chromium.launch(headless=headless, proxy=playwright_proxy, channel="chrome")  # type: ignore
+            launch_options = {"headless": headless, "proxy": playwright_proxy}
+            if os.getenv("MEDIACRAWLER_USE_BUNDLED_CHROMIUM", "").lower() not in {"1", "true", "yes"}:
+                launch_options["channel"] = "chrome"
+            browser = await chromium.launch(**launch_options)  # type: ignore
             browser_context = await browser.new_context(
                 viewport={"width": 1920, "height": 1080}, user_agent=user_agent
             )
