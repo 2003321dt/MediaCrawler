@@ -52,6 +52,7 @@ async def run_exporter() -> None:
     global last_run
     async with run_lock:
         started_at = now_iso()
+        timeout_seconds = int(os.getenv("RUN_TIMEOUT_SECONDS", "360"))
         last_run = {
             "status": "running",
             "started_at": started_at,
@@ -66,7 +67,22 @@ async def run_exporter() -> None:
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE,
         )
-        stdout, stderr = await process.communicate()
+        try:
+            stdout, stderr = await asyncio.wait_for(process.communicate(), timeout=timeout_seconds)
+        except asyncio.TimeoutError:
+            process.kill()
+            stdout, stderr = await process.communicate()
+            stdout_text = stdout.decode("utf-8", errors="replace")
+            stderr_text = stderr.decode("utf-8", errors="replace")
+            last_run = {
+                "status": "failed_timeout",
+                "started_at": started_at,
+                "finished_at": now_iso(),
+                "returncode": None,
+                "stdout_tail": tail(stdout_text),
+                "stderr_tail": tail(stderr_text) or f"run exceeded {timeout_seconds}s",
+            }
+            return
         stdout_text = stdout.decode("utf-8", errors="replace")
         stderr_text = stderr.decode("utf-8", errors="replace")
         last_run = {

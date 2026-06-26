@@ -62,6 +62,7 @@ def patch_runtime_config() -> None:
 
 async def run_platform(platform: str) -> dict[str, Any]:
     patch_runtime_config()
+    timeout_seconds = int(os.getenv("MC_PLATFORM_TIMEOUT_SECONDS", "90"))
     args = [
         "main.py",
         "--platform",
@@ -94,10 +95,17 @@ async def run_platform(platform: str) -> dict[str, Any]:
     started = time.monotonic()
     try:
         sys.argv = args
-        await crawler_main.main()
+        await asyncio.wait_for(crawler_main.main(), timeout=timeout_seconds)
         return {
             "platform": platform,
             "status": "success",
+            "duration_ms": int((time.monotonic() - started) * 1000),
+        }
+    except asyncio.TimeoutError:
+        return {
+            "platform": platform,
+            "status": "failed_timeout",
+            "message": f"platform run exceeded {timeout_seconds}s",
             "duration_ms": int((time.monotonic() - started) * 1000),
         }
     except Exception as exc:
