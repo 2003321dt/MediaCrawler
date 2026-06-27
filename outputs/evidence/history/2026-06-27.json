@@ -1,0 +1,67 @@
+{
+  "status": "partial_failed",
+  "source": "Remote-Windows-Evidence",
+  "mode": "smoke",
+  "finished_at": "2026-06-27T14:41:30+08:00",
+  "window_hours": 24,
+  "seed_limit": 5,
+  "topics": [
+    {
+      "status": "needs_login",
+      "seed_title": "smoke: remote evidence contract check",
+      "keywords": [
+        "smoke",
+        "remote-evidence",
+        "contract"
+      ],
+      "matched_platforms": [],
+      "detail_pages": [
+        {
+          "platform": "smoke",
+          "title": "Remote evidence smoke contract",
+          "url": "evidence://smoke/remote-windows-evidence",
+          "author": "ScraplingEvidence",
+          "published_at": "2026-06-27T14:41:30+08:00",
+          "content": "Smoke only. This proves JSON shape, remote writing, and GitHub handoff scripts; it is not real platform evidence."
+        }
+      ],
+      "videos": [],
+      "images": [],
+      "comments": [],
+      "failures": [
+        {
+          "platform": "weibo",
+          "stage": "login_check",
+          "status": "needs_login",
+          "message": "smoke only; real browser login not configured"
+        },
+        {
+          "platform": "douyin",
+          "stage": "login_check",
+          "status": "needs_login",
+          "message": "smoke only; real browser login not configured"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "login_check",
+          "status": "needs_login",
+          "message": "smoke only; real browser login not configured"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "login_check",
+          "status": "needs_login",
+          "message": "smoke only; real browser login not configured"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "platform": "four_major_platforms",
+      "stage": "smoke",
+      "status": "needs_login",
+      "message": "Remote browser login is not configured yet. User must scan/login later."
+    }
+  ]
+}
