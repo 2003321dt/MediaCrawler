@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "run_id": "cf77d356-2af5-4ae0-a005-40d7cbb86272",
+  "run_id": "d80c1ce7-1ddb-4591-a98a-29d038608fbb",
   "status": "partial_failed",
   "mode": "remote_deep_evidence",
   "source": "Remote-Windows-Evidence",
   "source_role": "external_enrichment",
-  "started_at": "2026-06-29T22:52:17.570763+08:00",
-  "finished_at": "2026-06-29T22:56:36.825262+08:00",
+  "started_at": "2026-06-29T22:58:09.723445+08:00",
+  "finished_at": "2026-06-29T23:02:19.110486+08:00",
   "window_hours": 24,
   "radar_top_limit": 10,
   "seed_limit": 5,
@@ -20,28 +20,27 @@
         "杨紫获白玉兰视后为何争议难平"
       ],
       "category": "entertainment",
-      "published_at": "2026-06-29T22:52:23.796268+08:00",
-      "summary": "6 杨紫获白玉兰视后为何争议难平 剧集 724597",
+      "published_at": "2026-06-29T22:58:15.841133+08:00",
+      "summary": "6 杨紫获白玉兰视后为何争议难平 剧集 710114",
       "hot_score": 104,
       "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%B4%AB%E8%8E%B7%E7%99%BD%E7%8E%89%E5%85%B0%E8%A7%86%E5%90%8E%E4%B8%BA%E4%BD%95%E4%BA%89%E8%AE%AE%E9%9A%BE%E5%B9%B3%23&t=31&band_rank=6&Refer=top",
       "source_hotspot_rank": 6,
       "source_hotspot_source": "Weibo-Hot-Realtime",
       "matched_platforms": [
         "weibo",
-        "douyin",
         "xiaohongshu"
       ],
       "detail_pages": [
         {
           "platform": "weibo",
-          "title": "热门 c 娱扒爹 今天20:20 就问你们，你们敢说杨紫演技比孙俪吴越任素汐好吗？你们敢说生命树CVB收视率网播比其它入选电视剧好吗？德不配位，必然争议难评。#杨紫获白玉兰视后为何争议难平# ​ 动图 动图 动图 动图 45 394 8395",
+          "title": "热门 c 娱扒爹 今天20:20 就问你们，你们敢说杨紫演技比孙俪吴越任素汐好吗？你们敢说生命树CVB收视率网播比其它入选电视剧好吗？德不配位，必然争议难评。#杨紫获白玉兰视后为何争议难平# ​ 动图 动图 动图 动图 49 409 8699",
           "url": "https://weibo.com/5417283742/R6otPxapA?refer_flag=1001030103_",
           "author": "娱扒爹",
           "published_at": "",
-          "content": "热门 c 娱扒爹 今天20:20 就问你们，你们敢说杨紫演技比孙俪吴越任素汐好吗？你们敢说生命树CVB收视率网播比其它入选电视剧好吗？德不配位，必然争议难评。#杨紫获白玉兰视后为何争议难平# ​ 动图 动图 动图 动图 45 394 8395",
-          "captured_at": "2026-06-29T22:52:24.740156+08:00",
+          "content": "热门 c 娱扒爹 今天20:20 就问你们，你们敢说杨紫演技比孙俪吴越任素汐好吗？你们敢说生命树CVB收视率网播比其它入选电视剧好吗？德不配位，必然争议难评。#杨紫获白玉兰视后为何争议难平# ​ 动图 动图 动图 动图 49 409 8699",
+          "captured_at": "2026-06-29T22:58:17.078904+08:00",
           "source_page_url": "https://weibo.com/5417283742/R6otPxapA?refer_flag=1001030103_",
-          "source_page_title": "热门 c 娱扒爹 今天20:20 就问你们，你们敢说杨紫演技比孙俪吴越任素汐好吗？你们敢说生命树CVB收视率网播比其它入选电视剧好吗？德不配位，必然争议难评。#杨紫获白玉兰视后为何争议难平# ​ 动图 动图 动图 动图 45 394 8395",
+          "source_page_title": "热门 c 娱扒爹 今天20:20 就问你们，你们敢说杨紫演技比孙俪吴越任素汐好吗？你们敢说生命树CVB收视率网播比其它入选电视剧好吗？德不配位，必然争议难评。#杨紫获白玉兰视后为何争议难平# ​ 动图 动图 动图 动图 49 409 8699",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
@@ -51,8 +50,8 @@
           "url": "https://weibo.com/1720962692/R6kWUsAW8?refer_flag=1001030103_",
           "author": "极目新闻",
           "published_at": "当前时间 00:00",
-          "content": "当事人 c 极目新闻 今天11:20 来自 微博视频号 #杨紫90后视后身份放大评奖争议#【极目锐评｜杨紫获白玉兰视后争议难平，评选透明度才是痛点所在】#白玉兰意难平不等于杨紫不配获奖#第31届白玉兰奖落幕已有三天，但关于奖项归属的争议仍未平息。#杨紫获白玉兰视后谁不舒服了# 杨紫凭《生命树》击败孙俪、吴越、任素汐拿下最佳女主角，口碑却陷入两极 ​ 展开c 播放视频 https://video.weibo.com/show?fid=1034:5314735873392661 53 472 8839",
-          "captured_at": "2026-06-29T22:52:24.740156+08:00",
+          "content": "当事人 c 极目新闻 今天11:20 来自 微博视频号 #杨紫90后视后身份放大评奖争议#【极目锐评｜杨紫获白玉兰视后争议难平，评选透明度才是痛点所在】#白玉兰意难平不等于杨紫不配获奖#第31届白玉兰奖落幕已有三天，但关于奖项归属的争议仍未平息。#杨紫获白玉兰视后谁不舒服了# 杨紫凭《生命树》击败孙俪、吴越、任素汐拿下最佳女主角，口碑却陷入两极 ​ 展开c 播放视频 https://video.weibo.com/show?fid=1034:5314735873392661 53 486 9170",
+          "captured_at": "2026-06-29T22:58:17.078904+08:00",
           "source_page_url": "https://weibo.com/1720962692/R6kWUsAW8?refer_flag=1001030103_",
           "source_page_title": "当事人 c 极目新闻 今天11:20 来自 微博视频号 #杨紫90后视后身份放大评奖争议#【极目锐评｜杨紫获白玉兰视后争议难平，评选透明度才是痛点所在】#白玉兰意难平不等于杨紫不配获奖#第31届白玉兰奖落幕已有三天，但关于奖项归属的争议仍未平息。#杨紫获白玉兰视后谁不舒服了# 杨紫凭《生命树》击败孙俪、吴越、任素汐拿下",
           "capture_method": "weibo_search_card",
@@ -64,8 +63,8 @@
           "url": "https://weibo.com/1720962692/R6lmb9ytP?refer_flag=1001030103_",
           "author": "极目新闻",
           "published_at": "当前时间 00:00",
-          "content": "更多 a 当事人 c 极目新闻 今天12:23 来自 微博视频号 #张一山力挺杨紫获白玉兰奖#【成白玉兰史上首位90后视后！张一山直言杨紫早该拿奖了】#张一山杨紫多年双向奔赴的友谊##张一山说杨紫长得漂亮比很多人努力# 6月26日，第31届上海电视节白玉兰奖正式揭晓，@杨紫 凭借《生命树》中白菊一角拿下最佳女主角，一举成为白玉兰颁奖史上首位90后视后。喜讯传开后 ​ 展开c 播放视频 https://video.weibo.com/show?fid=1034:5315122474713161 16 61 1288",
-          "captured_at": "2026-06-29T22:52:24.740156+08:00",
+          "content": "更多 a 当事人 c 极目新闻 今天12:23 来自 微博视频号 #张一山力挺杨紫获白玉兰奖#【成白玉兰史上首位90后视后！张一山直言杨紫早该拿奖了】#张一山杨紫多年双向奔赴的友谊##张一山说杨紫长得漂亮比很多人努力# 6月26日，第31届上海电视节白玉兰奖正式揭晓，@杨紫 凭借《生命树》中白菊一角拿下最佳女主角，一举成为白玉兰颁奖史上首位90后视后。喜讯传开后 ​ 展开c 播放视频 https://video.weibo.com/show?fid=1034:5315122474713161 16 63 1346",
+          "captured_at": "2026-06-29T22:58:17.078904+08:00",
           "source_page_url": "https://weibo.com/1720962692/R6lmb9ytP?refer_flag=1001030103_",
           "source_page_title": "更多 a 当事人 c 极目新闻 今天12:23 来自 微博视频号 #张一山力挺杨紫获白玉兰奖#【成白玉兰史上首位90后视后！张一山直言杨紫早该拿奖了】#张一山杨紫多年双向奔赴的友谊##张一山说杨紫长得漂亮比很多人努力# 6月26日，第31届上海电视节白玉兰奖正式揭晓，@杨紫 凭借《生命树》中白菊一角拿下最佳女主角，一举",
           "capture_method": "weibo_search_card",
@@ -73,29 +72,16 @@
         },
         {
           "platform": "weibo",
-          "title": "热门 c 玖玖分享站 今天20:28 #杨紫获白玉兰视后为何争议难平# 杨紫拿到白玉兰视后，从来都不是偶然，是长年累月靠作品一步一步拼出来的。 出道二十多年，五十余部剧集，从童年经典到爆款大剧，角色跨度极大，每一部都拿出了实打实的表演。 #一分钟精选视频扶持计划# ​ 播放视频 https://video.weibo.",
-          "url": "https://weibo.com/6391119617/R6ox8odeB?refer_flag=1001030103_",
-          "author": "玖玖分享站",
-          "published_at": "当前时间 00:00",
-          "content": "热门 c 玖玖分享站 今天20:28 #杨紫获白玉兰视后为何争议难平# 杨紫拿到白玉兰视后，从来都不是偶然，是长年累月靠作品一步一步拼出来的。 出道二十多年，五十余部剧集，从童年经典到爆款大剧，角色跨度极大，每一部都拿出了实打实的表演。 #一分钟精选视频扶持计划# ​ 播放视频 https://video.weibo.com/show?fid=1034:5315242415030371 14 68 1874",
-          "captured_at": "2026-06-29T22:52:24.740156+08:00",
-          "source_page_url": "https://weibo.com/6391119617/R6ox8odeB?refer_flag=1001030103_",
-          "source_page_title": "热门 c 玖玖分享站 今天20:28 #杨紫获白玉兰视后为何争议难平# 杨紫拿到白玉兰视后，从来都不是偶然，是长年累月靠作品一步一步拼出来的。 出道二十多年，五十余部剧集，从童年经典到爆款大剧，角色跨度极大，每一部都拿出了实打实的表演。 #一分钟精选视频扶持计划# ​ 播放视频 https://video.weibo.",
+          "title": "热门 c 丫头在害羞什么呢 今天20:39 来自 吱吱是公主Android #杨紫获白玉兰视后为何争议难平# 最大的争议是——她居然是第一次拿奖？ 不用试探了，杨紫拿奖众望所归 ​ 346 287 7167",
+          "url": "https://weibo.com/6856896007/R6oBIDTeU?refer_flag=1001030103_",
+          "author": "丫头在害羞什么呢",
+          "published_at": "",
+          "content": "热门 c 丫头在害羞什么呢 今天20:39 来自 吱吱是公主Android #杨紫获白玉兰视后为何争议难平# 最大的争议是——她居然是第一次拿奖？ 不用试探了，杨紫拿奖众望所归 ​ 346 287 7167",
+          "captured_at": "2026-06-29T22:58:17.078904+08:00",
+          "source_page_url": "https://weibo.com/6856896007/R6oBIDTeU?refer_flag=1001030103_",
+          "source_page_title": "热门 c 丫头在害羞什么呢 今天20:39 来自 吱吱是公主Android #杨紫获白玉兰视后为何争议难平# 最大的争议是——她居然是第一次拿奖？ 不用试探了，杨紫拿奖众望所归 ​ 346 287 7167",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
-        },
-        {
-          "platform": "douyin",
-          "title": "杨紫拿视后全网群嘲，白玉兰评奖标准早就彻底失衡 #杨紫 #白玉兰奖 #内娱 #视后 #生命树 - 抖音",
-          "url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "00:07 / 04:19 倍速 智能 清屏 应得的 看郭靖宇导演的视频就知道了 实至名归 实至名归 白预兰 章节要点 杨紫凭借《生命树》获得白玉兰最佳女主角引发争议，被质疑为“水后”。争议源于角逐者实力强劲，杨紫作品优势不明显，以及剧集制作和评奖标准存在疑点。奖项存在题材分级和角色成长线优先的隐形规则，杨紫角色契合标准。这场争议反映了大众对影视行业评奖公平性的关注。 00:00 引言 00:44 角逐者的实力对比 01:39 剧集制作与评奖标准 03:11 奖项背后的隐形规则 03:51 结语 内容由AI生成",
-          "author": "",
-          "published_at": "00:07 / 04:19",
-          "captured_at": "2026-06-29T22:52:44.906422+08:00",
-          "capture_method": "dom_detail_page",
-          "evidence_role": "detail_page",
-          "source_page_url": "https://www.douyin.com/video/7656724930632879396",
-          "source_page_title": "杨紫拿视后全网群嘲，白玉兰评奖标准早就彻底失衡 #杨紫 #白玉兰奖 #内娱 #视后 #生命树 - 抖音"
         },
         {
           "platform": "xiaohongshu",
@@ -104,31 +90,27 @@
           "author": "Eu gosto tanto de você. 2小时前",
           "published_at": "Eu gosto tanto de você. 2小时前",
           "content": "被拦住的视后商务经纪人大雷哥一闪而过 Eu gosto tanto de você. 2小时前 69",
-          "captured_at": "2026-06-29T22:53:05.042565+08:00",
+          "captured_at": "2026-06-29T22:58:47.378603+08:00",
           "source_page_url": "https://www.xiaohongshu.com/explore/6a4268b00000000015026de2",
           "source_page_title": "被拦住的视后商务经纪人大雷哥一闪而过 Eu gosto tanto de você. 2小时前 69",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
-        }
-      ],
-      "videos": [
+        },
         {
-          "platform": "douyin",
-          "title": "杨紫拿视后全网群嘲，白玉兰评奖标准早就彻底失衡 #杨紫 #白玉兰奖 #内娱 #视后 #生命树 - 抖音",
-          "url": "https://www.douyin.com/video/7656724930632879396",
-          "cover_url": "",
-          "author": "",
-          "duration": 259.167,
-          "stats": {},
-          "download_status": "metadata_only",
-          "local_path": "",
-          "tool": "browser_cdp",
-          "captured_at": "2026-06-29T22:52:44.906422+08:00",
-          "capture_method": "dom",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "evidence_role": "source_video"
+          "platform": "xiaohongshu",
+          "title": "爸爸因中国申奥给杨紫取名杨旎奥 红星新闻 3小时前 50",
+          "url": "https://www.xiaohongshu.com/explore/6a4254c0000000002201492f",
+          "author": "红星新闻 3小时前",
+          "published_at": "红星新闻 3小时前",
+          "content": "爸爸因中国申奥给杨紫取名杨旎奥 红星新闻 3小时前 50",
+          "captured_at": "2026-06-29T22:58:47.378603+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a4254c0000000002201492f",
+          "source_page_title": "爸爸因中国申奥给杨紫取名杨旎奥 红星新闻 3小时前 50",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
         }
       ],
+      "videos": [],
       "images": [
         {
           "url": "https://wx4.sinaimg.cn/orj360/005UCmYely1iemg2njollg30vm0hsx6v.jpg",
@@ -136,7 +118,7 @@
           "platform": "weibo",
           "width": 480,
           "height": 270,
-          "captured_at": "2026-06-29T22:52:24.740156+08:00",
+          "captured_at": "2026-06-29T22:58:17.078904+08:00",
           "capture_method": "dom"
         },
         {
@@ -145,7 +127,7 @@
           "platform": "weibo",
           "width": 613,
           "height": 270,
-          "captured_at": "2026-06-29T22:52:24.740156+08:00",
+          "captured_at": "2026-06-29T22:58:17.078904+08:00",
           "capture_method": "dom"
         },
         {
@@ -154,7 +136,7 @@
           "platform": "weibo",
           "width": 271,
           "height": 270,
-          "captured_at": "2026-06-29T22:52:24.740156+08:00",
+          "captured_at": "2026-06-29T22:58:17.078904+08:00",
           "capture_method": "dom"
         },
         {
@@ -163,7 +145,7 @@
           "platform": "weibo",
           "width": 367,
           "height": 270,
-          "captured_at": "2026-06-29T22:52:24.740156+08:00",
+          "captured_at": "2026-06-29T22:58:17.078904+08:00",
           "capture_method": "dom"
         },
         {
@@ -172,7 +154,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 435,
-          "captured_at": "2026-06-29T22:52:24.740156+08:00",
+          "captured_at": "2026-06-29T22:58:17.078904+08:00",
           "capture_method": "dom"
         },
         {
@@ -181,78 +163,11 @@
           "platform": "weibo",
           "width": 320,
           "height": 179,
-          "captured_at": "2026-06-29T22:52:24.740156+08:00",
+          "captured_at": "2026-06-29T22:58:17.078904+08:00",
           "capture_method": "dom"
         }
       ],
-      "comments": [
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "Dr.cc ... 生命树拿奖还有疑问吗 5小时前·山东 49 分享 回复 展开21条回复 @七里田间 ... 说实话，要不是白玉兰这几天刷屏，我根本不知道什么生命树，但是任素汐的《无尽的尽头》是真的好 2小时前·云南 158 分享 回复 展开13条回复 爱笑的面包 ... 哪里群嘲了？ 2小时前·山东 6 分享 回复 展开4条回复 开心 ... 没有吧，全网，就你在这解说，我没看到 5小时前·江西 16 分享 回复 展开3条回复 年年有鱼 ... 不是，你从哪看到的全网 4小时前·云南 5 分享 回复 展开4条回复 加载中",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T22:52:44.906422+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "Dr.cc ... 生命树拿奖还有疑问吗 5小时前·山东 49 分享 回复 展开21条回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T22:52:44.906422+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "@七里田间 ... 说实话，要不是白玉兰这几天刷屏，我根本不知道什么生命树，但是任素汐的《无尽的尽头》是真的好 2小时前·云南 158 分享 回复 展开13条回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T22:52:44.906422+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "爱笑的面包 ... 哪里群嘲了？ 2小时前·山东 6 分享 回复 展开4条回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T22:52:44.906422+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "开心 ... 没有吧，全网，就你在这解说，我没看到 5小时前·江西 16 分享 回复 展开3条回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T22:52:44.906422+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "年年有鱼 ... 不是，你从哪看到的全网 4小时前·云南 5 分享 回复 展开4条回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T22:52:44.906422+08:00",
-          "capture_method": "dom"
-        }
-      ],
+      "comments": [],
       "platform_statuses": [
         {
           "platform": "weibo",
@@ -260,7 +175,7 @@
         },
         {
           "platform": "douyin",
-          "status": "partial_failed"
+          "status": "needs_login"
         },
         {
           "platform": "xiaohongshu",
@@ -275,14 +190,14 @@
         {
           "platform": "douyin",
           "stage": "search",
-          "status": "empty",
-          "reason": "stale_filtered:2"
+          "status": "needs_login",
+          "reason": "login_prompt_detected"
         },
         {
           "platform": "xiaohongshu",
           "stage": "search",
           "status": "empty",
-          "reason": "stale_filtered:3"
+          "reason": "stale_filtered:2"
         },
         {
           "platform": "xiaohongshu",
@@ -320,8 +235,8 @@
         "檀健次王楚然吻戏看热了"
       ],
       "category": "entertainment",
-      "published_at": "2026-06-29T22:52:23.796301+08:00",
-      "summary": "7 檀健次王楚然吻戏看热了 剧集 599118 新",
+      "published_at": "2026-06-29T22:58:15.841171+08:00",
+      "summary": "7 檀健次王楚然吻戏看热了 剧集 610316 新",
       "hot_score": 103,
       "source_hotspot_url": "https://s.weibo.com/weibo?q=%E6%AA%80%E5%81%A5%E6%AC%A1%E7%8E%8B%E6%A5%9A%E7%84%B6%E5%90%BB%E6%88%8F%E7%9C%8B%E7%83%AD%E4%BA%86&t=31&band_rank=7&Refer=top",
       "source_hotspot_rank": 7,
@@ -334,53 +249,53 @@
       "detail_pages": [
         {
           "platform": "weibo",
-          "title": "热门 c 柳飘飘有点飘 今天17:23 来自 电视剧爱情有烟火超话 檀健次王楚然吻戏把我看热了🥵，好会亲！！！ #爱情有烟火# L柳飘飘有点飘的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315195522973730 490 436 8458",
+          "title": "热门 c 柳飘飘有点飘 今天17:23 来自 电视剧爱情有烟火超话 檀健次王楚然吻戏把我看热了🥵，好会亲！！！ #爱情有烟火# L柳飘飘有点飘的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315195522973730 553 481 9083",
           "url": "https://weibo.com/3898612300/R6nkauXaU?refer_flag=1001030103_",
           "author": "柳飘飘有点飘",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 柳飘飘有点飘 今天17:23 来自 电视剧爱情有烟火超话 檀健次王楚然吻戏把我看热了🥵，好会亲！！！ #爱情有烟火# L柳飘飘有点飘的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315195522973730 490 436 8458",
-          "captured_at": "2026-06-29T22:53:25.169660+08:00",
+          "content": "热门 c 柳飘飘有点飘 今天17:23 来自 电视剧爱情有烟火超话 檀健次王楚然吻戏把我看热了🥵，好会亲！！！ #爱情有烟火# L柳飘飘有点飘的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315195522973730 553 481 9083",
+          "captured_at": "2026-06-29T22:59:07.645650+08:00",
           "source_page_url": "https://weibo.com/3898612300/R6nkauXaU?refer_flag=1001030103_",
-          "source_page_title": "热门 c 柳飘飘有点飘 今天17:23 来自 电视剧爱情有烟火超话 檀健次王楚然吻戏把我看热了🥵，好会亲！！！ #爱情有烟火# L柳飘飘有点飘的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315195522973730 490 436 8458",
+          "source_page_title": "热门 c 柳飘飘有点飘 今天17:23 来自 电视剧爱情有烟火超话 檀健次王楚然吻戏把我看热了🥵，好会亲！！！ #爱情有烟火# L柳飘飘有点飘的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315195522973730 553 481 9083",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c 超市没有好吃的 46分钟前 #檀健次王楚然吻戏看热了# 原著作者夸的檀健次，这是真的会夸 ​ 32 32 808",
+          "title": "热门 c 超市没有好吃的 52分钟前 #檀健次王楚然吻戏看热了# 原著作者夸的檀健次，这是真的会夸 ​ 38 39 949",
           "url": "https://weibo.com/2212669181/R6pbfePxr?refer_flag=1001030103_",
           "author": "超市没有好吃的",
           "published_at": "",
-          "content": "热门 c 超市没有好吃的 46分钟前 #檀健次王楚然吻戏看热了# 原著作者夸的檀健次，这是真的会夸 ​ 32 32 808",
-          "captured_at": "2026-06-29T22:53:25.169660+08:00",
+          "content": "热门 c 超市没有好吃的 52分钟前 #檀健次王楚然吻戏看热了# 原著作者夸的檀健次，这是真的会夸 ​ 38 39 949",
+          "captured_at": "2026-06-29T22:59:07.645650+08:00",
           "source_page_url": "https://weibo.com/2212669181/R6pbfePxr?refer_flag=1001030103_",
-          "source_page_title": "热门 c 超市没有好吃的 46分钟前 #檀健次王楚然吻戏看热了# 原著作者夸的檀健次，这是真的会夸 ​ 32 32 808",
+          "source_page_title": "热门 c 超市没有好吃的 52分钟前 #檀健次王楚然吻戏看热了# 原著作者夸的檀健次，这是真的会夸 ​ 38 39 949",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c 打哈欠就该睡了_ 今天21:48 来自 檀健次超话 嘶~竟然没对焦…… 这个李亦非给我看上头了 #檀健次王楚然吻戏看热了# ​ 108 73 314",
+          "title": "热门 c 打哈欠就该睡了_ 今天21:48 来自 檀健次超话 嘶~竟然没对焦…… 这个李亦非给我看上头了 #檀健次王楚然吻戏看热了# ​ 111 73 333",
           "url": "https://weibo.com/2497667972/R6p3H6VIg?refer_flag=1001030103_",
           "author": "打哈欠就该睡了_",
           "published_at": "",
-          "content": "热门 c 打哈欠就该睡了_ 今天21:48 来自 檀健次超话 嘶~竟然没对焦…… 这个李亦非给我看上头了 #檀健次王楚然吻戏看热了# ​ 108 73 314",
-          "captured_at": "2026-06-29T22:53:25.169660+08:00",
+          "content": "热门 c 打哈欠就该睡了_ 今天21:48 来自 檀健次超话 嘶~竟然没对焦…… 这个李亦非给我看上头了 #檀健次王楚然吻戏看热了# ​ 111 73 333",
+          "captured_at": "2026-06-29T22:59:07.645650+08:00",
           "source_page_url": "https://weibo.com/2497667972/R6p3H6VIg?refer_flag=1001030103_",
-          "source_page_title": "热门 c 打哈欠就该睡了_ 今天21:48 来自 檀健次超话 嘶~竟然没对焦…… 这个李亦非给我看上头了 #檀健次王楚然吻戏看热了# ​ 108 73 314",
+          "source_page_title": "热门 c 打哈欠就该睡了_ 今天21:48 来自 檀健次超话 嘶~竟然没对焦…… 这个李亦非给我看上头了 #檀健次王楚然吻戏看热了# ​ 111 73 333",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c 多多保持Hoo心情 51分钟前 来自 檀健次超话 很难不看热吧…这就是毕生所学吗，这个李亦非太会亲了😇💦 #檀健次王楚然吻戏看热了# ​​​ L多多保持Hoo心情的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315265869578307 4 9 ",
+          "title": "热门 c 多多保持Hoo心情 57分钟前 来自 檀健次超话 很难不看热吧…这就是毕生所学吗，这个李亦非太会亲了😇💦 #檀健次王楚然吻戏看热了# ​​​ L多多保持Hoo心情的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315265869578307 4 9 ",
           "url": "https://weibo.com/6174713112/R6p8ZjTAh?refer_flag=1001030103_",
           "author": "多多保持Hoo心情",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 多多保持Hoo心情 51分钟前 来自 檀健次超话 很难不看热吧…这就是毕生所学吗，这个李亦非太会亲了😇💦 #檀健次王楚然吻戏看热了# ​​​ L多多保持Hoo心情的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315265869578307 4 9 169",
-          "captured_at": "2026-06-29T22:53:25.169660+08:00",
+          "content": "热门 c 多多保持Hoo心情 57分钟前 来自 檀健次超话 很难不看热吧…这就是毕生所学吗，这个李亦非太会亲了😇💦 #檀健次王楚然吻戏看热了# ​​​ L多多保持Hoo心情的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315265869578307 4 9 174",
+          "captured_at": "2026-06-29T22:59:07.645650+08:00",
           "source_page_url": "https://weibo.com/6174713112/R6p8ZjTAh?refer_flag=1001030103_",
-          "source_page_title": "热门 c 多多保持Hoo心情 51分钟前 来自 檀健次超话 很难不看热吧…这就是毕生所学吗，这个李亦非太会亲了😇💦 #檀健次王楚然吻戏看热了# ​​​ L多多保持Hoo心情的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315265869578307 4 9 ",
+          "source_page_title": "热门 c 多多保持Hoo心情 57分钟前 来自 檀健次超话 很难不看热吧…这就是毕生所学吗，这个李亦非太会亲了😇💦 #檀健次王楚然吻戏看热了# ​​​ L多多保持Hoo心情的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315265869578307 4 9 ",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
@@ -388,10 +303,10 @@
           "platform": "weibo",
           "title": "微博正文 - 微博",
           "url": "https://weibo.com/3898612300/R6nkauXaU?refer_flag=1001030103_",
-          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 柳飘飘有点飘 公开 柳飘飘有点飘 电视剧爱情有烟火超话 26-6-29 17:23 发布于 吉林 关注 檀健次王楚然吻戏把我看热了🥵，好会亲！！！ #爱情有烟火# 柳飘飘有点飘的微博视频 ​​​ 播放视频 00:28 30.3万次观看 共同助力公益 为TA助威 493 442 8486 分享这条博文 同时转发 评论 按倒序 按正序 按热度 LeeMoonKi:不枉我等了30集啊 ，我看个吻戏我容易吗 ，谁家好人最后快超点才亲啊，我今天必须要循环一百遍这个李亦非的吻戏💋 26-6-29 17:26 来自湖北 230 是小倩啊xq :今晚看起来#‍檀健次李亦非# 26-6-29 17:26 来自辽宁 157 蓝喵喵哒:真的看热了 26-6-29 21:50 来自江苏 2 次次心动于露:李亦非好会亲 26-6-29 21:09 来自四川 2 多多好运呀 :李亦非也太会亲了 26-6-29 22:34 来自上海 1 檀檀宝邶吖 :檀健次太会亲了李亦非 26-6-29 22:30 来自河南 1 丰富色彩的水瓶座 :李亦非 26-6-29 22:27 来自安徽 1 可以吃de青苹果 :毕生所学，名不虚传 26-6-29 22:27 来自广东 1 HooHooChen :反复看，太有感觉了 26-6-29 22:19 来自江西 1 多多关照2024 :李亦非的吻又温柔又欲 26-6-29 22:16 来自山东 1 愿心若磐石 :这这这...再多来一点 26-6-29 22:16 来自中国台湾 1 檀心格物 :是那种喜欢看的一切都刚刚好的吻戏 26-6-29 22:12 来自辽宁 1 鸣鸣猪爱大叔 :李亦非 26-6-29 22:12 来自上海 1 与君相逢心悦之 :李亦非太会亲了 太甜了 26-6-29 20:01 来自吉林 1 吓得我瓜子都掉了__:檀健次毕生所学名不虚传 26-6-29 22:33 来自广东 1 在荒野奔跑的小黄鸭:今晚锁定李亦非 ！！ 师父的毕生所学必须逐帧欣赏 #檀健次李亦非# #李亦非三连拒绝分寸感拉满# #檀健次翻盘能力再现# 26-6-29 19:48 来自中国台湾 3 BigaradeFEU:#檀健次王楚然吻戏看热了#@柳飘飘有点飘 26-6-29 21:59 来自中国台湾 卡皮巴拉次薇:妈呀好甜好甜啊 26-6-29 17:25 来自广东 1 爱是信仰_cc :能不能多吻几个，看不够是怎么回事 26-6-29 22:52 来自重庆 普洱米汤 :我们李亦非啥时候才能有名分 26-6-29 22:51 来自广东 QubitQiu :李亦非太会了 26-6-29 22:51 来自重庆 多多的圈圈 :李亦非斯哈斯哈 26-6-29 22:47 来自重庆 熊仔要冬眠 :救命李亦非太会亲了啊啊啊 26-6-29 22:47 来自北京",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 柳飘飘有点飘 公开 柳飘飘有点飘 电视剧爱情有烟火超话 26-6-29 17:23 发布于 吉林 关注 檀健次王楚然吻戏把我看热了🥵，好会亲！！！ #爱情有烟火# 柳飘飘有点飘的微博视频 ​​​ 播放视频 00:28 32.8万次观看 共同助力公益 为TA助威 555 484 9114 分享这条博文 同时转发 评论 按倒序 按正序 按热度 LeeMoonKi:不枉我等了30集啊 ，我看个吻戏我容易吗 ，谁家好人最后快超点才亲啊，我今天必须要循环一百遍这个李亦非的吻戏💋 26-6-29 17:26 来自湖北 247 是小倩啊xq :今晚看起来#‍檀健次李亦非# 26-6-29 17:26 来自辽宁 168 蓝喵喵哒:真的看热了 26-6-29 21:50 来自江苏 3 次次心动于露:李亦非好会亲 26-6-29 21:09 来自四川 3 多多好运呀 :李亦非也太会亲了 26-6-29 22:34 来自上海 2 檀檀宝邶吖 :檀健次太会亲了李亦非 26-6-29 22:30 来自河南 1 丰富色彩的水瓶座 :李亦非 26-6-29 22:27 来自安徽 1 可以吃de青苹果 :毕生所学，名不虚传 26-6-29 22:27 来自广东 1 HooHooChen :反复看，太有感觉了 26-6-29 22:19 来自江西 1 多多关照2024 :李亦非的吻又温柔又欲 26-6-29 22:16 来自山东 1 愿心若磐石 :这这这...再多来一点 26-6-29 22:16 来自中国台湾 1 檀心格物 :是那种喜欢看的一切都刚刚好的吻戏 26-6-29 22:12 来自辽宁 1 鸣鸣猪爱大叔 :李亦非 26-6-29 22:12 来自上海 1 与君相逢心悦之 :李亦非太会亲了 太甜了 26-6-29 20:01 来自吉林 1 次次顺利JC-T:檀健次演技好好 26-6-29 22:58 来自湖北 1 吓得我瓜子都掉了__:檀健次毕生所学名不虚传 26-6-29 22:33 来自广东 1 在荒野奔跑的小黄鸭:今晚锁定李亦非 ！！ 师父的毕生所学必须逐帧欣赏 #檀健次李亦非# #李亦非三连拒绝分寸感拉满# #檀健次翻盘能力再现# 26-6-29 19:48 来自中国台湾 3 BigaradeFEU:#檀健次王楚然吻戏看热了#@柳飘飘有点飘 26-6-29 21:59 来自中国台湾 卡皮巴拉次薇:妈呀好甜好甜啊 26-6-29 17:25 来自广东 1 浪漫的疯子T :可以反复观看李亦非这段来之不易的吻戏！ 檀健次好会演 26-6-29 22:58 来自河南 一块奶酪1222 :好干净好欲 26-6-29 22:57 来自浙江 林森时见檀 :檀健次李亦非 26-6-29 22:56 来自上海 清风明月_半盏星光 :檀健次的吻戏就是苏，内娱最会演吻戏的演员 26-6-29 22:56 来自江苏",
           "author": "播放视频",
           "published_at": "26-6-29 17:23",
-          "captured_at": "2026-06-29T22:53:25.169660+08:00",
+          "captured_at": "2026-06-29T22:59:07.645650+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://weibo.com/3898612300/R6nkauXaU?refer_flag=1001030103_",
@@ -399,16 +314,16 @@
         },
         {
           "platform": "douyin",
-          "title": "钱菲喝醉主动亲了李亦非，小非非正要表白没想到钱菲直接睡着了#王楚然#檀健次 - 抖音",
-          "url": "https://www.douyin.com/video/7656726664626497274",
-          "content": "00:08 / 01:26 倍速 智能 清屏 连播 作者声明：虚构演绎，仅供娱乐",
+          "title": "#檀健次王楚然吻戏看热了 #爱情有烟火 #檀健次 #娱乐评论大赏 - 抖音",
+          "url": "https://www.douyin.com/video/7656820006671723109",
+          "content": "00:07 / 01:15 倍速 智能 清屏 章节要点 檀健次和王楚然在《爱情有烟火》中的醉酒吻戏引发热议，该剧成功地展现了爱情的烟火气，包括日常生活中的嬉笑逗乐、争执和拉扯。檀健次和王楚然的表演展现出了演员之间的火花碰撞，使观众感受到了真实的爱情。 00:00 引言 00:07 对《爱情有烟火》的评价 《爱情有烟火》将爱情的烟火气拍得非常到位，展现了恋人日常生活中的各种经历，能感受到两位艺人满满的张力。 00:50 对檀健次和王楚然的评价 檀健次作为男演员，能把各种肢体动作和感情升华表演得非常到位，王楚然与他搭档，展现出了演员之间的火花碰撞。 01:04 结语 有烟火气的爱情才是正常的爱情，《爱情有烟火》展现的就是这种烟火气。 内容由AI生成",
           "author": "",
-          "published_at": "00:08 / 01:26",
-          "captured_at": "2026-06-29T22:53:45.337912+08:00",
+          "published_at": "00:07 / 01:15",
+          "captured_at": "2026-06-29T22:59:27.762266+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
-          "source_page_url": "https://www.douyin.com/video/7656726664626497274",
-          "source_page_title": "钱菲喝醉主动亲了李亦非，小非非正要表白没想到钱菲直接睡着了#王楚然#檀健次 - 抖音"
+          "source_page_url": "https://www.douyin.com/video/7656820006671723109",
+          "source_page_title": "#檀健次王楚然吻戏看热了 #爱情有烟火 #檀健次 #娱乐评论大赏 - 抖音"
         },
         {
           "platform": "xiaohongshu",
@@ -417,7 +332,7 @@
           "author": "大好晴天 11小时前",
           "published_at": "大好晴天 11小时前",
           "content": "不是昨天 不是明天 就是今天 大好晴天 11小时前 49",
-          "captured_at": "2026-06-29T22:54:05.550120+08:00",
+          "captured_at": "2026-06-29T22:59:47.976588+08:00",
           "source_page_url": "https://www.xiaohongshu.com/explore/6a41eb160000000017008af1",
           "source_page_title": "不是昨天 不是明天 就是今天 大好晴天 11小时前 49",
           "capture_method": "lightweight_summary",
@@ -425,27 +340,14 @@
         },
         {
           "platform": "xiaohongshu",
-          "title": "房东自己想起来了！这吻戏，看得我缺氧！ 豆豆麻麻 6小时前 7153",
+          "title": "房东自己想起来了！这吻戏，看得我缺氧！ 豆豆麻麻 6小时前 7172",
           "url": "https://www.xiaohongshu.com/explore/6a422678000000000802717c",
           "author": "豆豆麻麻 6小时前",
           "published_at": "豆豆麻麻 6小时前",
-          "content": "房东自己想起来了！这吻戏，看得我缺氧！ 豆豆麻麻 6小时前 7153",
-          "captured_at": "2026-06-29T22:54:05.550120+08:00",
+          "content": "房东自己想起来了！这吻戏，看得我缺氧！ 豆豆麻麻 6小时前 7172",
+          "captured_at": "2026-06-29T22:59:47.976588+08:00",
           "source_page_url": "https://www.xiaohongshu.com/explore/6a422678000000000802717c",
-          "source_page_title": "房东自己想起来了！这吻戏，看得我缺氧！ 豆豆麻麻 6小时前 7153",
-          "capture_method": "lightweight_summary",
-          "evidence_role": "lightweight_platform_summary"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "它的洋 6小时前 472",
-          "url": "https://www.xiaohongshu.com/explore/6a42269a0000000021008ca3",
-          "author": "它的洋 6小时前",
-          "published_at": "它的洋 6小时前",
-          "content": "它的洋 6小时前 472",
-          "captured_at": "2026-06-29T22:54:05.550120+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a42269a0000000021008ca3",
-          "source_page_title": "它的洋 6小时前 472",
+          "source_page_title": "房东自己想起来了！这吻戏，看得我缺氧！ 豆豆麻麻 6小时前 7172",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         }
@@ -453,18 +355,18 @@
       "videos": [
         {
           "platform": "douyin",
-          "title": "钱菲喝醉主动亲了李亦非，小非非正要表白没想到钱菲直接睡着了#王楚然#檀健次 - 抖音",
-          "url": "https://www.douyin.com/video/7656726664626497274",
+          "title": "#檀健次王楚然吻戏看热了 #爱情有烟火 #檀健次 #娱乐评论大赏 - 抖音",
+          "url": "https://www.douyin.com/video/7656820006671723109",
           "cover_url": "",
           "author": "",
-          "duration": 85.938,
+          "duration": 74.769,
           "stats": {},
           "download_status": "metadata_only",
           "local_path": "",
           "tool": "browser_cdp",
-          "captured_at": "2026-06-29T22:53:45.337912+08:00",
+          "captured_at": "2026-06-29T22:59:27.762266+08:00",
           "capture_method": "dom",
-          "source_url": "https://www.douyin.com/video/7656726664626497274",
+          "source_url": "https://www.douyin.com/video/7656820006671723109",
           "evidence_role": "source_video"
         }
       ],
@@ -475,7 +377,7 @@
           "platform": "weibo",
           "width": 539,
           "height": 270,
-          "captured_at": "2026-06-29T22:53:25.169660+08:00",
+          "captured_at": "2026-06-29T22:59:07.645650+08:00",
           "capture_method": "dom"
         },
         {
@@ -484,16 +386,16 @@
           "platform": "weibo",
           "width": 360,
           "height": 360,
-          "captured_at": "2026-06-29T22:53:25.169660+08:00",
+          "captured_at": "2026-06-29T22:59:07.645650+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://tvax4.sinaimg.cn/crop.0.0.996.996.1024/e8601a4cly8ggdrka4lokj20ro0ro75p.jpg?KID=imgbed,tva&Expires=1782755616&ssig=hmecGrFix9",
+          "url": "https://tvax4.sinaimg.cn/crop.0.0.996.996.1024/e8601a4cly8ggdrka4lokj20ro0ro75p.jpg?KID=imgbed,tva&Expires=1782755958&ssig=nZSpXb41Wq",
           "source_url": "https://weibo.com/3898612300/R6nkauXaU?refer_flag=1001030103_",
           "platform": "weibo",
           "width": 995,
           "height": 995,
-          "captured_at": "2026-06-29T22:53:25.169660+08:00",
+          "captured_at": "2026-06-29T22:59:07.645650+08:00",
           "capture_method": "dom"
         },
         {
@@ -502,60 +404,49 @@
           "platform": "weibo",
           "width": 642,
           "height": 360,
-          "captured_at": "2026-06-29T22:53:25.169660+08:00",
+          "captured_at": "2026-06-29T22:59:07.645650+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/osQIBf2oAiSeIFKzbA1wiEsCEleRAAYiBEHAK5~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098101600&x-signature=HyLuRxKYoui4YOfh2Aglh8sPJq8%3D",
+          "url": "https://p3-pc-sign.douyinpic.com/tos-cn-p-0015c000-ce/oEy9DEwWICqCFBATQBE0vnFUpQSpfEfn6iAn0j~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098101600&x-signature=xM9vEdfP%2BuhDSTbI4JZdOzJwJO0%3D",
+          "source_url": "https://www.douyin.com/video/7656820006671723109",
+          "platform": "douyin",
+          "width": 330,
+          "height": 587,
+          "captured_at": "2026-06-29T22:59:27.762266+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://p9-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/osQIBf2oAiSeIFKzbA1wiEsCEleRAAYiBEHAK5~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098101600&x-signature=%2BiKqkcRjW0M5nVZKIcZ5YsDRIMQ%3D",
           "source_url": "https://www.douyin.com/video/7656726664626497274",
           "platform": "douyin",
           "width": 440,
           "height": 330,
-          "captured_at": "2026-06-29T22:53:45.337912+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/25c99f6de28f4bec850cc141ce182ea4~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098101600&x-signature=jGhGYhGriWJwg73QFHejzVsgMEU%3D",
-          "source_url": "https://www.douyin.com/video/7656411309197626664",
-          "platform": "douyin",
-          "width": 330,
-          "height": 440,
-          "captured_at": "2026-06-29T22:53:45.337912+08:00",
+          "captured_at": "2026-06-29T22:59:27.762266+08:00",
           "capture_method": "dom"
         }
       ],
       "comments": [
         {
           "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656726664626497274",
-          "content": "软兔甜糯 ... 我的cp终于从同租到接吻了 2小时前·四川 1 分享 回复 王奈何 作者 ... @抖音 @抖音小助手 @抖音作者助手 6小时前·浙江 0 分享 回复 暂时没有更多评论",
+          "source_url": "https://www.douyin.com/video/7656820006671723109",
+          "content": "阿乐说娱乐 作者 ... 爱情应该有烟火气 45分钟前·贵州 0 分享 回复 暂时没有更多评论",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-06-29T22:53:45.337912+08:00",
+          "captured_at": "2026-06-29T22:59:27.762266+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656726664626497274",
-          "content": "软兔甜糯 ... 我的cp终于从同租到接吻了 2小时前·四川 1 分享 回复",
+          "source_url": "https://www.douyin.com/video/7656820006671723109",
+          "content": "阿乐说娱乐 作者 ... 爱情应该有烟火气 45分钟前·贵州 0 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-06-29T22:53:45.337912+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656726664626497274",
-          "content": "王奈何 作者 ... @抖音 @抖音小助手 @抖音作者助手 6小时前·浙江 0 分享 回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T22:53:45.337912+08:00",
+          "captured_at": "2026-06-29T22:59:27.762266+08:00",
           "capture_method": "dom"
         }
       ],
@@ -588,7 +479,7 @@
           "platform": "xiaohongshu",
           "stage": "search",
           "status": "empty",
-          "reason": "stale_filtered:1"
+          "reason": "stale_filtered:2"
         },
         {
           "platform": "xiaohongshu",
@@ -628,7 +519,7 @@
     {
       "topic": "杨紫获白玉兰视后为何争议难平",
       "platform": "douyin",
-      "status": "partial_failed"
+      "status": "needs_login"
     },
     {
       "topic": "杨紫获白玉兰视后为何争议难平",
@@ -665,17 +556,17 @@
     {
       "platform": "douyin",
       "stage": "search",
+      "status": "needs_login",
+      "reason": "login_prompt_detected"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
       "status": "empty",
       "reason": "stale_filtered:2"
     },
     {
       "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:3"
-    },
-    {
-      "platform": "xiaohongshu",
       "stage": "detail",
       "status": "blocked",
       "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
@@ -691,126 +582,6 @@
       "stage": "search",
       "status": "empty",
       "reason": "stale_filtered:1"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:1"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "detail",
-      "status": "blocked",
-      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
-    },
-    {
-      "platform": "kuaishou",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_detail_url_extracted"
-    },
-    {
-      "platform": "weibo",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "weibo",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
-    },
-    {
-      "platform": "douyin",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:3"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
-    },
-    {
-      "platform": "kuaishou",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_detail_url_extracted"
-    },
-    {
-      "platform": "weibo",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "weibo",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
-    },
-    {
-      "platform": "douyin",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "douyin",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
-    },
-    {
-      "platform": "kuaishou",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_detail_url_extracted"
-    },
-    {
-      "platform": "weibo",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "weibo",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
-    },
-    {
-      "platform": "douyin",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "douyin",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
     },
     {
       "platform": "xiaohongshu",
@@ -846,18 +617,6 @@
     },
     {
       "platform": "weibo",
-      "stage": "comments",
-      "status": "empty",
-      "reason": "no_real_comment_nodes_detected"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "comments",
-      "status": "empty",
-      "reason": "no_real_comment_nodes_detected"
-    },
-    {
-      "platform": "douyin",
       "stage": "comments",
       "status": "empty",
       "reason": "no_real_comment_nodes_detected"
