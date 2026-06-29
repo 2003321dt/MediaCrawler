@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "run_id": "f8c382d3-afbe-448e-81a2-a37c53232eab",
+  "run_id": "b1ea0126-80ef-42ba-a6d4-48760e583ad9",
   "status": "partial_failed",
   "mode": "remote_deep_evidence",
   "source": "Remote-Windows-Evidence",
   "source_role": "external_enrichment",
-  "started_at": "2026-06-29T21:53:03.008263+08:00",
-  "finished_at": "2026-06-29T21:57:22.150606+08:00",
+  "started_at": "2026-06-29T22:13:10.814404+08:00",
+  "finished_at": "2026-06-29T22:17:19.762156+08:00",
   "window_hours": 24,
   "radar_top_limit": 10,
   "seed_limit": 5,
@@ -15,269 +15,16 @@
     {
       "source": "Remote-Windows-Evidence",
       "status": "partial_failed",
-      "seed_title": "杨紫获白玉兰视后为何争议难平",
-      "keywords": [
-        "杨紫获白玉兰视后为何争议难平"
-      ],
-      "category": "entertainment",
-      "published_at": "2026-06-29T21:53:09.147341+08:00",
-      "summary": "6 杨紫获白玉兰视后为何争议难平 剧集 764935 新",
-      "hot_score": 104,
-      "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E7%B4%AB%E8%8E%B7%E7%99%BD%E7%8E%89%E5%85%B0%E8%A7%86%E5%90%8E%E4%B8%BA%E4%BD%95%E4%BA%89%E8%AE%AE%E9%9A%BE%E5%B9%B3%23&t=31&band_rank=6&Refer=top",
-      "source_hotspot_rank": 6,
-      "source_hotspot_source": "Weibo-Hot-Realtime",
-      "matched_platforms": [
-        "weibo",
-        "douyin",
-        "xiaohongshu"
-      ],
-      "detail_pages": [
-        {
-          "platform": "douyin",
-          "title": "杨紫拿视后全网群嘲，白玉兰评奖标准早就彻底失衡 #杨紫 #白玉兰奖 #内娱 #视后 #生命树 - 抖音",
-          "url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "00:07 / 04:19 倍速 智能 清屏 应得的 看郭靖宇导演的视频就知道了 实至名归 白预兰 章节要点 杨紫凭借《生命树》获得白玉兰最佳女主角引发争议，被质疑为“水后”。争议源于角逐者实力强劲，杨紫作品优势不明显，以及剧集制作和评奖标准存在疑点。奖项存在题材分级和角色成长线优先的隐形规则，杨紫角色契合标准。这场争议反映了大众对影视行业评奖公平性的关注。 00:00 引言 00:44 角逐者的实力对比 01:39 剧集制作与评奖标准 03:11 奖项背后的隐形规则 03:51 结语 内容由AI生成",
-          "author": "",
-          "published_at": "00:07 / 04:19",
-          "captured_at": "2026-06-29T21:53:30.177460+08:00",
-          "capture_method": "dom_detail_page",
-          "evidence_role": "detail_page",
-          "source_page_url": "https://www.douyin.com/video/7656724930632879396",
-          "source_page_title": "杨紫拿视后全网群嘲，白玉兰评奖标准早就彻底失衡 #杨紫 #白玉兰奖 #内娱 #视后 #生命树 - 抖音"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "被拦住的视后商务经纪人大雷哥一闪而过 Eu gosto tanto de você. 1小时前 58",
-          "url": "https://www.xiaohongshu.com/explore/6a4268b00000000015026de2",
-          "author": "Eu gosto tanto de você. 1小时前",
-          "published_at": "Eu gosto tanto de você. 1小时前",
-          "content": "被拦住的视后商务经纪人大雷哥一闪而过 Eu gosto tanto de você. 1小时前 58",
-          "captured_at": "2026-06-29T21:53:50.484471+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a4268b00000000015026de2",
-          "source_page_title": "被拦住的视后商务经纪人大雷哥一闪而过 Eu gosto tanto de você. 1小时前 58",
-          "capture_method": "lightweight_summary",
-          "evidence_role": "lightweight_platform_summary"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "爸爸因中国申奥给杨紫取名杨旎奥 红星新闻 2小时前 44",
-          "url": "https://www.xiaohongshu.com/explore/6a4254c0000000002201492f",
-          "author": "红星新闻 2小时前",
-          "published_at": "红星新闻 2小时前",
-          "content": "爸爸因中国申奥给杨紫取名杨旎奥 红星新闻 2小时前 44",
-          "captured_at": "2026-06-29T21:53:50.484471+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a4254c0000000002201492f",
-          "source_page_title": "爸爸因中国申奥给杨紫取名杨旎奥 红星新闻 2小时前 44",
-          "capture_method": "lightweight_summary",
-          "evidence_role": "lightweight_platform_summary"
-        }
-      ],
-      "videos": [
-        {
-          "platform": "douyin",
-          "title": "杨紫拿视后全网群嘲，白玉兰评奖标准早就彻底失衡 #杨紫 #白玉兰奖 #内娱 #视后 #生命树 - 抖音",
-          "url": "https://www.douyin.com/video/7656724930632879396",
-          "cover_url": "",
-          "author": "",
-          "duration": 259.181,
-          "stats": {},
-          "download_status": "metadata_only",
-          "local_path": "",
-          "tool": "browser_cdp",
-          "captured_at": "2026-06-29T21:53:30.177460+08:00",
-          "capture_method": "dom",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "evidence_role": "source_video"
-        }
-      ],
-      "images": [
-        {
-          "url": "https://wx4.sinaimg.cn/orj360/005UCmYely1iemg2njollg30vm0hsx6v.jpg",
-          "source_url": "https://weibo.com/5417283742/R6otPxapA?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 480,
-          "height": 270,
-          "captured_at": "2026-06-29T21:53:09.966874+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "url": "https://wx1.sinaimg.cn/orj360/005UCmYely1iemg2qi38ug31hc0nib2g.jpg",
-          "source_url": "https://weibo.com/5417283742/R6otPxapA?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 613,
-          "height": 270,
-          "captured_at": "2026-06-29T21:53:09.966874+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "url": "https://wx1.sinaimg.cn/orj360/005UCmYely1iemg2rza5lg30ah0agkjn.jpg",
-          "source_url": "https://weibo.com/5417283742/R6otPxapA?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 271,
-          "height": 270,
-          "captured_at": "2026-06-29T21:53:09.966874+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "url": "https://wx2.sinaimg.cn/orj360/005UCmYely1iemg2totlxg30qn0jmnpf.jpg",
-          "source_url": "https://weibo.com/5417283742/R6otPxapA?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 367,
-          "height": 270,
-          "captured_at": "2026-06-29T21:53:09.966874+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "url": "https://wx2.sinaimg.cn/orj360/005UCmYely1iemg2u2w6bj30wr13mdka.jpg",
-          "source_url": "https://weibo.com/5417283742/R6otPxapA?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 360,
-          "height": 435,
-          "captured_at": "2026-06-29T21:53:09.966874+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "url": "https://wx3.sinaimg.cn/orj360/005UCmYely1iemg2uu6c8g308w04zqv5.jpg",
-          "source_url": "https://weibo.com/5417283742/R6otPxapA?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 320,
-          "height": 179,
-          "captured_at": "2026-06-29T21:53:09.966874+08:00",
-          "capture_method": "dom"
-        }
-      ],
-      "comments": [
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "鸢尾 ... 咋可能是水后啊？人演的挺好的呀，莫非是有些粉丝嫉妒？ 2小时前·宁夏 11 分享 回复 展开1条回复 忧郁小蛋挞 ... 无尽的尽头真的很好看 不明白为什么可能是任素汐不够火没有人捧 1小时前·江苏 12 分享 回复 展开1条回复 媚眼如丝 ... 全网群嘲？我刷到的是那些粉圈的阴阳人家。她这部剧还是可以的 35分钟前·陕西 12 分享 回复 展开2条回复 现在即所有 ... 我刷了这么久，没有见一个人说水呀粉圈没去看 2小时前·辽宁 35 分享 回复 展开11条回复 @七里田间 ... 说实话，要不是白玉兰这几天刷屏，我根本不知道什么生命树，但是任素汐的《无尽的尽头》是真的好 1小时前·云南 83 分享 回复 展开6条回复 加载中",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T21:53:30.177460+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "鸢尾 ... 咋可能是水后啊？人演的挺好的呀，莫非是有些粉丝嫉妒？ 2小时前·宁夏 11 分享 回复 展开1条回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T21:53:30.177460+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "忧郁小蛋挞 ... 无尽的尽头真的很好看 不明白为什么可能是任素汐不够火没有人捧 1小时前·江苏 12 分享 回复 展开1条回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T21:53:30.177460+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "媚眼如丝 ... 全网群嘲？我刷到的是那些粉圈的阴阳人家。她这部剧还是可以的 35分钟前·陕西 12 分享 回复 展开2条回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T21:53:30.177460+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "现在即所有 ... 我刷了这么久，没有见一个人说水呀粉圈没去看 2小时前·辽宁 35 分享 回复 展开11条回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T21:53:30.177460+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "platform": "douyin",
-          "source_url": "https://www.douyin.com/video/7656724930632879396",
-          "content": "@七里田间 ... 说实话，要不是白玉兰这几天刷屏，我根本不知道什么生命树，但是任素汐的《无尽的尽头》是真的好 1小时前·云南 83 分享 回复 展开6条回复",
-          "author": "",
-          "comment_id": "",
-          "published_at": "",
-          "like_count": 0,
-          "captured_at": "2026-06-29T21:53:30.177460+08:00",
-          "capture_method": "dom"
-        }
-      ],
-      "platform_statuses": [
-        {
-          "platform": "weibo",
-          "status": "empty"
-        },
-        {
-          "platform": "douyin",
-          "status": "partial_failed"
-        },
-        {
-          "platform": "xiaohongshu",
-          "status": "partial_failed"
-        },
-        {
-          "platform": "kuaishou",
-          "status": "empty"
-        }
-      ],
-      "failures": [
-        {
-          "platform": "douyin",
-          "stage": "search",
-          "status": "empty",
-          "reason": "stale_filtered:2"
-        },
-        {
-          "platform": "xiaohongshu",
-          "stage": "search",
-          "status": "empty",
-          "reason": "stale_filtered:2"
-        },
-        {
-          "platform": "xiaohongshu",
-          "stage": "detail",
-          "status": "blocked",
-          "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
-        },
-        {
-          "platform": "xiaohongshu",
-          "stage": "comments",
-          "status": "empty",
-          "reason": "no_real_comment_nodes_detected"
-        },
-        {
-          "platform": "kuaishou",
-          "stage": "search",
-          "status": "empty",
-          "reason": "no_valid_search_results"
-        }
-      ]
-    },
-    {
-      "source": "Remote-Windows-Evidence",
-      "status": "partial_failed",
       "seed_title": "关晓彤一路小跑迎接爸爸探班",
       "keywords": [
         "关晓彤一路小跑迎接爸爸探班"
       ],
       "category": "entertainment",
-      "published_at": "2026-06-29T21:53:09.147381+08:00",
-      "summary": "9 关晓彤一路小跑迎接爸爸探班 剧集 564803 新",
-      "hot_score": 101,
-      "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E5%85%B3%E6%99%93%E5%BD%A4%E4%B8%80%E8%B7%AF%E5%B0%8F%E8%B7%91%E8%BF%8E%E6%8E%A5%E7%88%B8%E7%88%B8%E6%8E%A2%E7%8F%AD%23&t=31&band_rank=9&Refer=top",
-      "source_hotspot_rank": 9,
+      "published_at": "2026-06-29T22:13:16.936298+08:00",
+      "summary": "7 关晓彤一路小跑迎接爸爸探班 剧集 685242 新",
+      "hot_score": 103,
+      "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E5%85%B3%E6%99%93%E5%BD%A4%E4%B8%80%E8%B7%AF%E5%B0%8F%E8%B7%91%E8%BF%8E%E6%8E%A5%E7%88%B8%E7%88%B8%E6%8E%A2%E7%8F%AD%23&t=31&band_rank=7&Refer=top",
+      "source_hotspot_rank": 7,
       "source_hotspot_source": "Weibo-Hot-Realtime",
       "matched_platforms": [
         "weibo",
@@ -286,13 +33,65 @@
       ],
       "detail_pages": [
         {
+          "platform": "weibo",
+          "title": "热门 c 娱闻酱 今天20:17 来自 微博视频号 #关晓彤一路小跑迎接爸爸探班# 被这个关晓彤可爱到了🥺知道爸爸来探班直接撒欢儿小跑去迎接，状态好鲜活吧 L娱闻酱的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315239575486525 53 73 156",
+          "url": "https://weibo.com/6511456220/R6osB4JrY?refer_flag=1001030103_",
+          "author": "娱闻酱",
+          "published_at": "当前时间 00:00",
+          "content": "热门 c 娱闻酱 今天20:17 来自 微博视频号 #关晓彤一路小跑迎接爸爸探班# 被这个关晓彤可爱到了🥺知道爸爸来探班直接撒欢儿小跑去迎接，状态好鲜活吧 L娱闻酱的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315239575486525 53 73 1568",
+          "captured_at": "2026-06-29T22:14:08.212207+08:00",
+          "source_page_url": "https://weibo.com/6511456220/R6osB4JrY?refer_flag=1001030103_",
+          "source_page_title": "热门 c 娱闻酱 今天20:17 来自 微博视频号 #关晓彤一路小跑迎接爸爸探班# 被这个关晓彤可爱到了🥺知道爸爸来探班直接撒欢儿小跑去迎接，状态好鲜活吧 L娱闻酱的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315239575486525 53 73 156",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 予露墨染 55分钟前 来自 大耳狗的肉桂卷 #关晓彤一路小跑迎接爸爸探班#关晓彤奔波拍戏之余能等到爸爸来探班，小跑迎接的小动作满是依赖，褪去光环回归小女儿模样，这份柔软的父女情平淡却格外戳心 ​，太可爱了吧 L予露墨染的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=",
+          "url": "https://weibo.com/7961968229/R6oRvakgo?refer_flag=1001030103_",
+          "author": "予露墨染",
+          "published_at": "当前时间 00:00",
+          "content": "热门 c 予露墨染 55分钟前 来自 大耳狗的肉桂卷 #关晓彤一路小跑迎接爸爸探班#关晓彤奔波拍戏之余能等到爸爸来探班，小跑迎接的小动作满是依赖，褪去光环回归小女儿模样，这份柔软的父女情平淡却格外戳心 ​，太可爱了吧 L予露墨染的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315255266377785 1 15 199",
+          "captured_at": "2026-06-29T22:14:08.212207+08:00",
+          "source_page_url": "https://weibo.com/7961968229/R6oRvakgo?refer_flag=1001030103_",
+          "source_page_title": "热门 c 予露墨染 55分钟前 来自 大耳狗的肉桂卷 #关晓彤一路小跑迎接爸爸探班#关晓彤奔波拍戏之余能等到爸爸来探班，小跑迎接的小动作满是依赖，褪去光环回归小女儿模样，这份柔软的父女情平淡却格外戳心 ​，太可爱了吧 L予露墨染的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 皇子站C天打雷劈 33分钟前 来自 萌HarmonyOS设备 #关晓彤一路小跑迎接爸爸探班#这不就是小时候放学看见爸爸来接我的样子吗？好可爱的小彤这难得的松弛感 ​ 转发 3 168",
+          "url": "https://weibo.com/8010284290/R6p0Iue0M?refer_flag=1001030103_",
+          "author": "皇子站C天打雷劈",
+          "published_at": "",
+          "content": "热门 c 皇子站C天打雷劈 33分钟前 来自 萌HarmonyOS设备 #关晓彤一路小跑迎接爸爸探班#这不就是小时候放学看见爸爸来接我的样子吗？好可爱的小彤这难得的松弛感 ​ 转发 3 168",
+          "captured_at": "2026-06-29T22:14:08.212207+08:00",
+          "source_page_url": "https://weibo.com/8010284290/R6p0Iue0M?refer_flag=1001030103_",
+          "source_page_title": "热门 c 皇子站C天打雷劈 33分钟前 来自 萌HarmonyOS设备 #关晓彤一路小跑迎接爸爸探班#这不就是小时候放学看见爸爸来接我的样子吗？好可爱的小彤这难得的松弛感 ​ 转发 3 168",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 忆雾曲 10分钟前 来自 海神的使者Android #关晓彤一路小跑迎接爸爸探班#关晓彤这自律程度，气血不足的人看的要晕倒了，关晓彤好吓人的自律能力，活该她身材好！ ​ 播放视频 https://video.weibo.com/show?fid=1034:5315266381283490 转发 4 34",
+          "url": "https://weibo.com/7737973995/R6p9MfhNB?refer_flag=1001030103_",
+          "author": "忆雾曲",
+          "published_at": "当前时间 00:00",
+          "content": "热门 c 忆雾曲 10分钟前 来自 海神的使者Android #关晓彤一路小跑迎接爸爸探班#关晓彤这自律程度，气血不足的人看的要晕倒了，关晓彤好吓人的自律能力，活该她身材好！ ​ 播放视频 https://video.weibo.com/show?fid=1034:5315266381283490 转发 4 34",
+          "captured_at": "2026-06-29T22:14:08.212207+08:00",
+          "source_page_url": "https://weibo.com/7737973995/R6p9MfhNB?refer_flag=1001030103_",
+          "source_page_title": "热门 c 忆雾曲 10分钟前 来自 海神的使者Android #关晓彤一路小跑迎接爸爸探班#关晓彤这自律程度，气血不足的人看的要晕倒了，关晓彤好吓人的自律能力，活该她身材好！ ​ 播放视频 https://video.weibo.com/show?fid=1034:5315266381283490 转发 4 34",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
           "platform": "douyin",
           "title": "所有人 感受 （6.29） 林一跟晓彤爸爸打招呼🙋 #林一#关晓彤 #青岛 #我与爱同谋 - 抖音",
           "url": "https://www.douyin.com/video/7656735463226752500",
-          "content": "00:08 / 00:17 倍速 智能 清屏 连播",
+          "content": "00:07 / 00:17 倍速 智能 清屏 连播",
           "author": "",
-          "published_at": "00:08 / 00:17",
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
+          "published_at": "00:07 / 00:17",
+          "captured_at": "2026-06-29T22:14:28.426751+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://www.douyin.com/video/7656735463226752500",
@@ -300,27 +99,14 @@
         },
         {
           "platform": "xiaohongshu",
-          "title": "晓彤扑面而来的大长腿 森屿暖树 11小时前 100",
-          "url": "https://www.xiaohongshu.com/explore/6a41ddcb000000001102f805",
-          "author": "森屿暖树 11小时前",
-          "published_at": "森屿暖树 11小时前",
-          "content": "晓彤扑面而来的大长腿 森屿暖树 11小时前 100",
-          "captured_at": "2026-06-29T21:54:50.952736+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a41ddcb000000001102f805",
-          "source_page_title": "晓彤扑面而来的大长腿 森屿暖树 11小时前 100",
-          "capture_method": "lightweight_summary",
-          "evidence_role": "lightweight_platform_summary"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "🍓糖葫芦 昨天 22:10 126",
-          "url": "https://www.xiaohongshu.com/explore/6a412b3c0000000021022052",
-          "author": "🍓糖葫芦 昨天 22:10",
-          "published_at": "🍓糖葫芦 昨天 22:10",
-          "content": "🍓糖葫芦 昨天 22:10 126",
-          "captured_at": "2026-06-29T21:54:50.952736+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a412b3c0000000021022052",
-          "source_page_title": "🍓糖葫芦 昨天 22:10 126",
+          "title": "刚看完耀眼✨姐姐就出现在我面前 吳聖皓的假髮：） 21小时前 205",
+          "url": "https://www.xiaohongshu.com/explore/6a4150cc00000000170284a3",
+          "author": "吳聖皓的假髮：） 21小时前",
+          "published_at": "吳聖皓的假髮：） 21小时前",
+          "content": "刚看完耀眼✨姐姐就出现在我面前 吳聖皓的假髮：） 21小时前 205",
+          "captured_at": "2026-06-29T22:14:48.620859+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a4150cc00000000170284a3",
+          "source_page_title": "刚看完耀眼✨姐姐就出现在我面前 吳聖皓的假髮：） 21小时前 205",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         }
@@ -337,7 +123,7 @@
           "download_status": "metadata_only",
           "local_path": "",
           "tool": "browser_cdp",
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
+          "captured_at": "2026-06-29T22:14:28.426751+08:00",
           "capture_method": "dom",
           "source_url": "https://www.douyin.com/video/7656735463226752500",
           "evidence_role": "source_video"
@@ -345,12 +131,12 @@
       ],
       "images": [
         {
-          "url": "https://tvax2.sinaimg.cn/crop.0.0.822.822.1024/0076Fpdqly8id2re0l56ej30mu0mu0vb.jpg?KID=imgbed,tva&Expires=1782752061&ssig=M9LyBXHt2M",
+          "url": "https://tvax2.sinaimg.cn/crop.0.0.822.822.1024/0076Fpdqly8id2re0l56ej30mu0mu0vb.jpg?KID=imgbed,tva&Expires=1782753259&ssig=5AL5d3qgXA",
           "source_url": "https://weibo.com/6511456220/R6osB4JrY?refer_flag=1001030103_",
           "platform": "weibo",
           "width": 821,
           "height": 821,
-          "captured_at": "2026-06-29T21:54:10.623212+08:00",
+          "captured_at": "2026-06-29T22:14:08.212207+08:00",
           "capture_method": "dom"
         },
         {
@@ -359,43 +145,34 @@
           "platform": "weibo",
           "width": 480,
           "height": 853,
-          "captured_at": "2026-06-29T21:54:10.623212+08:00",
+          "captured_at": "2026-06-29T22:14:08.212207+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/841c0b1566b91ffd166717963fe13b00~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098098000&x-signature=0VZIjFR8neDK8S%2BBukMPXylM5Qs%3D",
+          "url": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/841c0b1566b91ffd166717963fe13b00~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098101600&x-signature=Ww9GKYJtn9XpjiR%2FKWdFJv8HH9s%3D",
           "source_url": "https://www.douyin.com/video/7656735463226752500",
           "platform": "douyin",
           "width": 440,
           "height": 330,
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
+          "captured_at": "2026-06-29T22:14:28.426751+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://p9-pc-sign.douyinpic.com/image-cut-tos-priv/825c87f70891574a36fd75f25602a0e5~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098098000&x-signature=ZNTza5FvTql5oTORgo0VChIAJMI%3D",
-          "source_url": "https://www.douyin.com/video/7656759887263523279",
-          "platform": "douyin",
-          "width": 441,
-          "height": 330,
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "url": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/16945bf939d22eee0e922cdaf727819d~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_WEBPC_RELATED_AWEME&sc=cover&se=false&x-expires=2098098000&x-signature=%2BRfFtjw9pbYCQXnL40b13ATkSSM%3D",
+          "url": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/600cd411bf26ac1984e03c4528ab45db~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_WEBPC_RELATED_AWEME&sc=cover&se=false&x-expires=2098101600&x-signature=SoIaQDyWJ5zR8x6NFgkhYVEGILE%3D",
           "source_url": "https://www.douyin.com/video/7656735463226752500",
           "platform": "douyin",
           "width": 440,
           "height": 330,
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
+          "captured_at": "2026-06-29T22:14:28.426751+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://sns-webpic-qc.xhscdn.com/202606292154/a66a6ec2a214941bd14749967a5679df/1040g008321vt4oi4n45049p5svkva6b4pv8l718!nc_n_webp_mw_1",
-          "source_url": "https://www.xiaohongshu.com/explore/6a41ddcb000000001102f805",
+          "url": "https://sns-webpic-qc.xhscdn.com/202606292214/ecc2ba717e2ac516e2afd694e78616c1/1040g2sg321vf83db7o704a71la8lmrpvj7bpv5o!nc_n_webp_mw_1",
+          "source_url": "https://www.xiaohongshu.com/explore/6a4150cc00000000170284a3",
           "platform": "xiaohongshu",
           "width": 640,
-          "height": 1138,
-          "captured_at": "2026-06-29T21:54:50.952736+08:00",
+          "height": 854,
+          "captured_at": "2026-06-29T22:14:48.620859+08:00",
           "capture_method": "dom"
         }
       ],
@@ -403,74 +180,74 @@
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7656735463226752500",
-          "content": "思锦 ... 好漂亮 4小时前·天津 0 分享 回复 乐嘻嘻 ... 没看到打招呼啊？在哪 1小时前·江苏 2 分享 回复 YI UOT- 作者 ... 视频后面右下角 1小时前·山东 1 分享 回复 发财≤梦 ... 别人像没睡醒的 林一像压根就没睡的 2小时前·河北 0 分享 回复 展开2条回复 #11.28 ... 这是在哪啊 3小时前·山东 0 分享 回复 暂时没有更多评论",
+          "content": "思锦 ... 好漂亮 5小时前·天津 1 分享 回复 乐嘻嘻 ... 没看到打招呼啊？在哪 2小时前·江苏 2 分享 回复 YI UOT- 作者 ... 视频后面右下角 2小时前·山东 1 分享 回复 发财≤梦 ... 别人像没睡醒的 林一像压根就没睡的 3小时前·河北 0 分享 回复 展开3条回复 #11.28 ... 这是在哪啊 4小时前·山东 0 分享 回复 暂时没有更多评论",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
+          "captured_at": "2026-06-29T22:14:28.426751+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7656735463226752500",
-          "content": "思锦 ... 好漂亮 4小时前·天津 0 分享 回复",
+          "content": "思锦 ... 好漂亮 5小时前·天津 1 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
+          "captured_at": "2026-06-29T22:14:28.426751+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7656735463226752500",
-          "content": "乐嘻嘻 ... 没看到打招呼啊？在哪 1小时前·江苏 2 分享 回复 YI UOT- 作者 ... 视频后面右下角 1小时前·山东 1 分享 回复",
+          "content": "乐嘻嘻 ... 没看到打招呼啊？在哪 2小时前·江苏 2 分享 回复 YI UOT- 作者 ... 视频后面右下角 2小时前·山东 1 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
+          "captured_at": "2026-06-29T22:14:28.426751+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7656735463226752500",
-          "content": "YI UOT- 作者 ... 视频后面右下角 1小时前·山东 1 分享 回复",
+          "content": "YI UOT- 作者 ... 视频后面右下角 2小时前·山东 1 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
+          "captured_at": "2026-06-29T22:14:28.426751+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7656735463226752500",
-          "content": "发财≤梦 ... 别人像没睡醒的 林一像压根就没睡的 2小时前·河北 0 分享 回复 展开2条回复",
+          "content": "发财≤梦 ... 别人像没睡醒的 林一像压根就没睡的 3小时前·河北 0 分享 回复 展开3条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
+          "captured_at": "2026-06-29T22:14:28.426751+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7656735463226752500",
-          "content": "#11.28 ... 这是在哪啊 3小时前·山东 0 分享 回复",
+          "content": "#11.28 ... 这是在哪啊 4小时前·山东 0 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-06-29T21:54:30.758015+08:00",
+          "captured_at": "2026-06-29T22:14:28.426751+08:00",
           "capture_method": "dom"
         }
       ],
       "platform_statuses": [
         {
           "platform": "weibo",
-          "status": "empty"
+          "status": "partial_failed"
         },
         {
           "platform": "douyin",
@@ -487,16 +264,22 @@
       ],
       "failures": [
         {
+          "platform": "weibo",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        },
+        {
           "platform": "douyin",
           "stage": "search",
           "status": "empty",
-          "reason": "stale_filtered:2"
+          "reason": "stale_filtered:3"
         },
         {
           "platform": "xiaohongshu",
           "stage": "search",
           "status": "empty",
-          "reason": "stale_filtered:2"
+          "reason": "stale_filtered:3"
         },
         {
           "platform": "xiaohongshu",
@@ -521,29 +304,9 @@
   ],
   "platform_statuses": [
     {
-      "topic": "杨紫获白玉兰视后为何争议难平",
-      "platform": "weibo",
-      "status": "empty"
-    },
-    {
-      "topic": "杨紫获白玉兰视后为何争议难平",
-      "platform": "douyin",
-      "status": "partial_failed"
-    },
-    {
-      "topic": "杨紫获白玉兰视后为何争议难平",
-      "platform": "xiaohongshu",
-      "status": "partial_failed"
-    },
-    {
-      "topic": "杨紫获白玉兰视后为何争议难平",
-      "platform": "kuaishou",
-      "status": "empty"
-    },
-    {
       "topic": "关晓彤一路小跑迎接爸爸探班",
       "platform": "weibo",
-      "status": "empty"
+      "status": "partial_failed"
     },
     {
       "topic": "关晓彤一路小跑迎接爸爸探班",
@@ -563,28 +326,34 @@
   ],
   "failures": [
     {
-      "platform": "douyin",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:2"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:2"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "detail",
-      "status": "blocked",
-      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
-    },
-    {
-      "platform": "xiaohongshu",
+      "platform": "weibo",
       "stage": "comments",
       "status": "empty",
       "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "douyin",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:4"
+    },
+    {
+      "platform": "douyin",
+      "stage": "search",
+      "status": "empty",
+      "reason": "no_valid_search_results"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:4"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "no_valid_search_results"
     },
     {
       "platform": "kuaishou",
@@ -593,16 +362,22 @@
       "reason": "no_valid_search_results"
     },
     {
+      "platform": "weibo",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
       "platform": "douyin",
       "stage": "search",
       "status": "empty",
-      "reason": "stale_filtered:2"
+      "reason": "stale_filtered:3"
     },
     {
       "platform": "xiaohongshu",
       "stage": "search",
       "status": "empty",
-      "reason": "stale_filtered:2"
+      "reason": "stale_filtered:3"
     },
     {
       "platform": "xiaohongshu",
@@ -734,7 +509,7 @@
       "platform": "xiaohongshu",
       "stage": "search",
       "status": "empty",
-      "reason": "stale_filtered:2"
+      "reason": "stale_filtered:3"
     },
     {
       "platform": "xiaohongshu",
