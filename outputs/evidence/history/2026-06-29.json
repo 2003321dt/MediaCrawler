@@ -1,19 +1,326 @@
 {
   "schema_version": "1.0",
-  "run_id": "0a278104-ce20-4edb-ac63-fd3e758c62af",
-  "status": "empty",
+  "run_id": "1f006e51-2326-4fc4-bb41-28631982f158",
+  "status": "partial_failed",
   "mode": "remote_deep_evidence",
   "source": "Remote-Windows-Evidence",
   "source_role": "external_enrichment",
-  "started_at": "2026-06-29T21:34:07.641742+08:00",
-  "finished_at": "2026-06-29T21:37:40.213014+08:00",
+  "started_at": "2026-06-29T21:46:09.629261+08:00",
+  "finished_at": "2026-06-29T21:50:11.224662+08:00",
   "window_hours": 24,
   "radar_top_limit": 10,
   "seed_limit": 5,
   "topic_limit": 5,
-  "topics": [],
-  "platform_statuses": [],
+  "topics": [
+    {
+      "source": "Remote-Windows-Evidence",
+      "status": "partial_failed",
+      "seed_title": "关晓彤一路小跑迎接爸爸探班",
+      "keywords": [
+        "关晓彤一路小跑迎接爸爸探班"
+      ],
+      "category": "entertainment",
+      "published_at": "2026-06-29T21:46:15.767409+08:00",
+      "summary": "8 关晓彤一路小跑迎接爸爸探班 剧集 461979 新",
+      "hot_score": 102,
+      "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E5%85%B3%E6%99%93%E5%BD%A4%E4%B8%80%E8%B7%AF%E5%B0%8F%E8%B7%91%E8%BF%8E%E6%8E%A5%E7%88%B8%E7%88%B8%E6%8E%A2%E7%8F%AD%23&t=31&band_rank=8&Refer=top",
+      "source_hotspot_rank": 8,
+      "source_hotspot_source": "Weibo-Hot-Realtime",
+      "matched_platforms": [
+        "douyin",
+        "xiaohongshu"
+      ],
+      "detail_pages": [
+        {
+          "platform": "douyin",
+          "title": "所有人 感受 （6.29） 林一跟晓彤爸爸打招呼🙋 #林一#关晓彤 #青岛 #我与爱同谋 - 抖音",
+          "url": "https://www.douyin.com/video/7656735463226752500",
+          "content": "00:07 / 00:17 倍速 智能 清屏 连播",
+          "author": "",
+          "published_at": "00:07 / 00:17",
+          "captured_at": "2026-06-29T21:46:38.325056+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://www.douyin.com/video/7656735463226752500",
+          "source_page_title": "所有人 感受 （6.29） 林一跟晓彤爸爸打招呼🙋 #林一#关晓彤 #青岛 #我与爱同谋 - 抖音"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "正片re：豹豹抢答正确跟打了胜仗似的开心 不要给我限流 10小时前 325",
+          "url": "https://www.xiaohongshu.com/explore/6a41e70f000000000f01e759",
+          "author": "不要给我限流 10小时前",
+          "published_at": "不要给我限流 10小时前",
+          "content": "正片re：豹豹抢答正确跟打了胜仗似的开心 不要给我限流 10小时前 325",
+          "captured_at": "2026-06-29T21:46:58.544464+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a41e70f000000000f01e759",
+          "source_page_title": "正片re：豹豹抢答正确跟打了胜仗似的开心 不要给我限流 10小时前 325",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        }
+      ],
+      "videos": [
+        {
+          "platform": "weibo",
+          "title": "微博正文 - 微博",
+          "url": "https://weibo.com/6511456220/R6osB4JrY?refer_flag=1001030103_",
+          "cover_url": "",
+          "author": "娱闻酱",
+          "duration": 7.105011,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-06-29T21:46:18.150714+08:00",
+          "capture_method": "dom",
+          "source_url": "https://weibo.com/6511456220/R6osB4JrY?refer_flag=1001030103_",
+          "evidence_role": "source_video"
+        },
+        {
+          "platform": "douyin",
+          "title": "所有人 感受 （6.29） 林一跟晓彤爸爸打招呼🙋 #林一#关晓彤 #青岛 #我与爱同谋 - 抖音",
+          "url": "https://www.douyin.com/video/7656735463226752500",
+          "cover_url": "",
+          "author": "",
+          "duration": 17.414966,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-06-29T21:46:38.325056+08:00",
+          "capture_method": "dom",
+          "source_url": "https://www.douyin.com/video/7656735463226752500",
+          "evidence_role": "source_video"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/005ZwWLZly1iekh04c0e8j31jk2bc7wh.jpg",
+          "source_url": "https://weibo.com/5489873079/R6oYxrQaV?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 540,
+          "captured_at": "2026-06-29T21:46:18.150714+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx1.sinaimg.cn/orj360/005ZwWLZly1iekh05ah5fj31jk2bc4qp.jpg",
+          "source_url": "https://weibo.com/5489873079/R6oYxrQaV?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 540,
+          "captured_at": "2026-06-29T21:46:18.150714+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx4.sinaimg.cn/orj360/005ZwWLZly1iekh06tr38j32s1462x6q.jpg",
+          "source_url": "https://weibo.com/5489873079/R6oYxrQaV?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 540,
+          "captured_at": "2026-06-29T21:46:18.150714+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx3.sinaimg.cn/orj360/005ZwWLZly1iemi8ojrqej31jk2bc1kx.jpg",
+          "source_url": "https://weibo.com/5489873079/R6oYxrQaV?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 540,
+          "captured_at": "2026-06-29T21:46:18.150714+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/005ZwWLZly1iemi8pi5l7j31jk2bc1kx.jpg",
+          "source_url": "https://weibo.com/5489873079/R6oYxrQaV?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 540,
+          "captured_at": "2026-06-29T21:46:18.150714+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx3.sinaimg.cn/orj360/005ZwWLZly1iemi8qga6zj31jk2bc1kx.jpg",
+          "source_url": "https://weibo.com/5489873079/R6oYxrQaV?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 540,
+          "captured_at": "2026-06-29T21:46:18.150714+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "comments": [
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7656735463226752500",
+          "content": "乐嘻嘻 ... 没看到打招呼啊？在哪 1小时前·江苏 2 分享 回复 YI UOT- 作者 ... 视频后面右下角 1小时前·山东 1 分享 回复 发财≤梦 ... 别人像没睡醒的 林一像压根就没睡的 2小时前·河北 0 分享 回复 思锦 ... 好漂亮 4小时前·天津 0 分享 回复 #11.28 ... 这是在哪啊 3小时前·山东 0 分享 回复 暂时没有更多评论",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:46:38.325056+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7656735463226752500",
+          "content": "乐嘻嘻 ... 没看到打招呼啊？在哪 1小时前·江苏 2 分享 回复 YI UOT- 作者 ... 视频后面右下角 1小时前·山东 1 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:46:38.325056+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7656735463226752500",
+          "content": "YI UOT- 作者 ... 视频后面右下角 1小时前·山东 1 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:46:38.325056+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7656735463226752500",
+          "content": "发财≤梦 ... 别人像没睡醒的 林一像压根就没睡的 2小时前·河北 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:46:38.325056+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7656735463226752500",
+          "content": "思锦 ... 好漂亮 4小时前·天津 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:46:38.325056+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7656735463226752500",
+          "content": "#11.28 ... 这是在哪啊 3小时前·山东 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:46:38.325056+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "empty"
+        },
+        {
+          "platform": "douyin",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failures": [
+        {
+          "platform": "douyin",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:3"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:3"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "detail",
+          "status": "blocked",
+          "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "no_valid_search_results"
+        }
+      ]
+    }
+  ],
+  "platform_statuses": [
+    {
+      "topic": "关晓彤一路小跑迎接爸爸探班",
+      "platform": "weibo",
+      "status": "empty"
+    },
+    {
+      "topic": "关晓彤一路小跑迎接爸爸探班",
+      "platform": "douyin",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "关晓彤一路小跑迎接爸爸探班",
+      "platform": "xiaohongshu",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "关晓彤一路小跑迎接爸爸探班",
+      "platform": "kuaishou",
+      "status": "empty"
+    }
+  ],
   "failures": [
+    {
+      "platform": "douyin",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:3"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:3"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "detail",
+      "status": "blocked",
+      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "no_valid_search_results"
+    },
     {
       "platform": "weibo",
       "stage": "search",
@@ -126,55 +433,19 @@
       "platform": "xiaohongshu",
       "stage": "search",
       "status": "empty",
-      "reason": "stale_filtered:4"
+      "reason": "stale_filtered:2"
     },
     {
       "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
-    },
-    {
-      "platform": "kuaishou",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
-    },
-    {
-      "platform": "weibo",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "weibo",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
-    },
-    {
-      "platform": "douyin",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "douyin",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
+      "stage": "detail",
+      "status": "blocked",
+      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
     },
     {
       "platform": "xiaohongshu",
-      "stage": "search",
+      "stage": "comments",
       "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
+      "reason": "no_real_comment_nodes_detected"
     },
     {
       "platform": "kuaishou",
