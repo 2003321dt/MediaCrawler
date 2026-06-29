@@ -1,42 +1,319 @@
 {
   "schema_version": "1.0",
-  "run_id": "ae238d54-cc71-4bc9-88b9-2aa44990936e",
-  "status": "needs_login",
+  "run_id": "371a2ce3-b6ae-4b65-b346-190e600a2a65",
+  "status": "partial_failed",
   "mode": "remote_deep_evidence",
   "source": "Remote-Windows-Evidence",
   "source_role": "external_enrichment",
-  "started_at": "2026-06-29T14:52:48.882844+08:00",
-  "finished_at": "2026-06-29T14:53:29.630421+08:00",
+  "started_at": "2026-06-29T21:08:40.301325+08:00",
+  "finished_at": "2026-06-29T21:09:41.720219+08:00",
   "window_hours": 24,
   "radar_top_limit": 10,
-  "seed_limit": 5,
-  "topic_limit": 3,
-  "topics": [],
-  "platform_statuses": [],
+  "seed_limit": 1,
+  "topic_limit": 1,
+  "topics": [
+    {
+      "source": "Remote-Windows-Evidence",
+      "status": "partial_failed",
+      "seed_title": "蜜语纪",
+      "keywords": [
+        "蜜语纪"
+      ],
+      "category": "entertainment",
+      "published_at": "2026-06-29T00:31:21.286Z",
+      "summary": "类型：家庭、剧情 演员：钟汉良、朱珠 聚焦明星经理人纪封与经历婚变后沦为酒店保洁的许蜜语成长历程。",
+      "hot_score": 100,
+      "source_hotspot_url": "https://www.baidu.com/s?wd=%E8%9C%9C%E8%AF%AD%E7%BA%AA+%E7%94%B5%E8%A7%86%E5%89%A7",
+      "source_hotspot_rank": 1,
+      "source_hotspot_source": "RSSHub-Baidu-Teleplay",
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "detail_pages": [
+        {
+          "platform": "weibo",
+          "title": "@蜜语纪官微 的个人主页",
+          "url": "https://weibo.com/u/7846894176",
+          "author": "关注",
+          "published_at": "5-5 10:00",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 关注 蜜语纪官微 2万粉丝 18关注 73万转评赞 关注 客服 昨日阅读数小于1000 视频累计播放量601.2万 电视剧《蜜语纪》官方微博 IP属地：北京 精选 微博 视频 相册 全部微博（495） 蜜语纪官微 5-5 10:00 来自 微博网页版 #蜜语纪收官# 灯火落幕，浦荣饭店故事终章落笔✨每一次职场博弈，每一场心动拉扯，都在此刻画上句点。感恩与我们共度每一段精彩旅程的观众！#蜜语纪# 今晚19:30@东方卫视番茄台 ，18:00@腾讯视频 萤火单元 @爱奇艺 正在热播。 领衔主演：纪封@钟汉良 许蜜语@朱珠ZhuZhu 鲁贞贞@李梦VIVIEN 聂予诚 ​​​ ...展开 174 335 5626 蜜语纪官微 6-15 21:24 来自 微博视频号 #青青草原的风从蜜语纪吹到了爱情有烟火# 再给「非常有钱」点份全绿套餐，记纪总账上！#爱情有烟火# #蜜语纪# 电视剧爱情有烟火等人的共创视频 ​​​ 00:31 10.6万次观看 共创 转发 6 21 蜜语纪官微 5-5 19:00 来自 微博视频号 #蜜语纪收官# 纪封@钟汉良 许蜜语@朱珠ZhuZhu 带领浦荣众人细致服务，让每一位客人宾至如归。成功促成马科斯@高卿尘Nine 代表励博集团与云天集团达成合作。#蜜语纪# 今晚19:30@东方卫视番茄台 ，18:00@腾讯视频 萤火单元 @爱奇艺 正在热播。 蜜语纪官微的微博视频 ​​​ 01:15 6480次观看 10 22 198 蜜语纪官微 5-5 18:53 来自 微博网页版 守住初心，才能得以圆满，聂予诚，再会！#蜜语纪# #蜜语纪收官# #蜜语纪收官全员下班退房# @经超经超 聂予诚，离场。 因贪婪迷失，因自私失去，用一生遗憾教会他珍惜。 别辜负真心，别计算感情，别让遗憾成为人生主旋律。 以此为鉴，愿我们都能守住初心，珍惜眼前。 #蜜语纪收官全员下班退房# #蜜语纪# ​​​ 5-5 18:35 2076 3204 5471 转发 1 10 他5-5赞过的微博 郭晓婷工作室 5-5 17:00 #蜜语纪收官# 主厨李翘琪，下班打卡！ 热爱美食，坚守初心，清醒通透，自在洒脱。 不内耗，不迎合，做最真实的自己，活成向往的模样。 愿我们都能忠于热爱，自在生活，万事随心。 #蜜语纪收官全员下班退房# #蜜语纪# ​​​ 2 44 366 蜜语纪官微 5-5 18:43 来自 微博网页版 重构自我这件事，你做的很漂亮！再会，蜜语～#蜜语纪# #蜜语纪收官# #蜜语纪收官全员下班退房# @朱珠ZhuZhu #蜜语纪收官# 许蜜语，圆满下班。 走出关系围城，找回自我光芒，从依附他人到独立绽放，每一步都走得坚定。 女人的底气，从来都是自己给的。 告别许蜜语，愿所有女生，不困于过往，不畏惧将来，活成自己的光。 #蜜语纪收官全员下班退房# #蜜语纪# ​​​ 5-5 18:25 1万 2649 2.3万 1 2 11 蜜语纪官微 5-5 18:40 来自 微博网页版 期待下一程中分享沿途的精彩，蒋芷纯，再会～#蜜语纪# #蜜语纪收官# #蜜语纪收官全员下班退房# @海陆 #蜜语纪收官# 蒋芷纯，存档回忆，正式告别。 放下年少执念，与过往和解，转身奔赴新的人生。 人生没有过不去的过往，只有不肯向前的自己。 愿我们都能释怀过去，勇敢向前，书写新篇章。 #蜜语纪收官全员下班退房# #蜜语纪# ​​​ 5-5 18:01 1034 1065 1536 2 3 12 蜜语纪官微 5-5 18:38 来自 微博网页版 真诚永远是必杀技，再会，马科斯！#蜜语纪# #蜜语纪收官# #蜜语纪收官全员下班退房# @高卿尘Nine to Marcos 遇见你是我的幸运 谢谢你 谢谢蜜语纪 谢谢一切 通过这次的见面 我能尝试到更不一样的人生 我很喜欢我们之间的真诚 也很喜欢你对一切的用心和真心 这一次旅途让我体验到了很多事情 也见到了很多的新朋友 我更开心的是 今天大家终于能看到你也感受到了你的真诚 你对我的肯定让我知 ​​​ ...展开 5-5 17:03 8.8万 1.1万 2.3万 转发 1 25",
+          "captured_at": "2026-06-29T21:08:41.097030+08:00",
+          "capture_method": "dom_detail_page"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 翘屁嫩喵呜 04月28日 14:15 来自 微博视频号 #朱珠床戏给我看热了# 哎哟我的妈，本人看这个依旧老脸通红 蜜语纪拍到我想看的了，这个许蜜语真的是太！诱！了！ 好会拍，加上朱珠这张美丽的脸，匀停的身材 蜜桃一般的蜜语 喔莫，才是我想看的东东！！ 诱.惑而不俗.气，美.艳又动人，我开始斯哈斯哈了，他俩打",
+          "url": "https://weibo.com/5308823364/QCT3zbPjT?refer_flag=1001030103_",
+          "author": "翘屁嫩喵呜",
+          "published_at": "当前时间 00:00",
+          "content": "热门 c 翘屁嫩喵呜 04月28日 14:15 来自 微博视频号 #朱珠床戏给我看热了# 哎哟我的妈，本人看这个依旧老脸通红 蜜语纪拍到我想看的了，这个许蜜语真的是太！诱！了！ 好会拍，加上朱珠这张美丽的脸，匀停的身材 蜜桃一般的蜜语 喔莫，才是我想看的东东！！ 诱.惑而不俗.气，美.艳又动人，我开始斯哈斯哈了，他俩打得火热，唯余我一人独自哈斯🥹这种好 ​ 展开c 播放视频 https://video.weibo.com/show?fid=1034:5292680616542288 492 636 11862",
+          "captured_at": "2026-06-29T21:08:41.097030+08:00",
+          "capture_method": "dom_search_result"
+        },
+        {
+          "platform": "douyin",
+          "title": "《蜜语纪》09：五星级酒店内部腐败！ #蜜语纪 #蜜语纪鹅滴神剧啊 #了不起的精讲团 #甜可瓜 - 抖音",
+          "url": "https://www.douyin.com/video/7628957085434137892",
+          "author": "",
+          "published_at": "00:08 / 03:58",
+          "content": "00:08 / 03:58 倍速 智能 清屏 连播 全剧就许蜜语容易 10",
+          "captured_at": "2026-06-29T21:09:01.380082+08:00",
+          "capture_method": "dom_detail_page"
+        },
+        {
+          "platform": "douyin",
+          "title": "03:14 1.2万 每一个坏人都因为鲁贞贞得到了应有的报应 #蜜语纪 #爱情 #婚姻 #李梦#朱珠 @娱乐艾花花 2月前",
+          "url": "https://www.douyin.com/video/7633761958008737066",
+          "author": "",
+          "published_at": "",
+          "content": "03:14 1.2万 每一个坏人都因为鲁贞贞得到了应有的报应 #蜜语纪 #爱情 #婚姻 #李梦#朱珠 @娱乐艾花花 2月前",
+          "captured_at": "2026-06-29T21:09:01.380082+08:00",
+          "capture_method": "dom_search_result"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "Omg 互相表白熟男熟女的恋爱就是带感啊啊 满级观众 04-29 1002",
+          "url": "https://www.xiaohongshu.com/explore/69f1d20b0000000035023285",
+          "author": "满级观众 04-29",
+          "published_at": "满级观众 04-29",
+          "content": "Omg 互相表白熟男熟女的恋爱就是带感啊啊 满级观众 04-29 1002",
+          "captured_at": "2026-06-29T21:09:21.574267+08:00",
+          "capture_method": "dom_search_result"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "霸道总裁爱上做保洁的我 Coff 05-01 1041",
+          "url": "https://www.xiaohongshu.com/explore/69f4a3d8000000003502467d",
+          "author": "Coff 05-01",
+          "published_at": "Coff 05-01",
+          "content": "霸道总裁爱上做保洁的我 Coff 05-01 1041",
+          "captured_at": "2026-06-29T21:09:21.574267+08:00",
+          "capture_method": "dom_search_result"
+        }
+      ],
+      "videos": [
+        {
+          "platform": "douyin",
+          "title": "《蜜语纪》09：五星级酒店内部腐败！ #蜜语纪 #蜜语纪鹅滴神剧啊 #了不起的精讲团 #甜可瓜 - 抖音",
+          "url": "https://www.douyin.com/video/7628957085434137892",
+          "cover_url": "https://www.douyin.com/video/7628957085434137892",
+          "author": "",
+          "duration": 238.234,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-06-29T21:09:01.380082+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://tvax2.sinaimg.cn/crop.0.0.512.512.180/008z2LDily8htxtekao9dj30e80e8dgn.jpg?KID=imgbed,tva&Expires=1782749322&ssig=%2BL0n6JtRe9",
+          "source_url": "https://weibo.com/u/7846894176",
+          "platform": "weibo",
+          "width": 180,
+          "height": 180,
+          "captured_at": "2026-06-29T21:08:41.097030+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://h5.sinaimg.cn/upload/108/1866/2022/11/02/svvip_1.png",
+          "source_url": "https://weibo.com/u/7846894176",
+          "platform": "weibo",
+          "width": 116,
+          "height": 42,
+          "captured_at": "2026-06-29T21:08:41.097030+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/005Nhhtily8i59slhv6j1j30u00u043o.jpg?KID=imgbed,tva&Expires=1782749321&ssig=sbdktP%2BB5E",
+          "source_url": "https://weibo.com/5308823364/QCT3zbPjT?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 180,
+          "height": 180,
+          "captured_at": "2026-06-29T21:08:41.097030+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://h5.sinaimg.cn/upload/108/1866/2022/11/02/svvip_2.png",
+          "source_url": "https://weibo.com/5308823364/QCT3zbPjT?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 116,
+          "height": 42,
+          "captured_at": "2026-06-29T21:08:41.097030+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://tvax2.sinaimg.cn/crop.0.0.512.512.180/008z2LDily8htxtekao9dj30e80e8dgn.jpg?KID=imgbed,tva&Expires=1782749331&ssig=loPM0nueUl",
+          "source_url": "https://weibo.com/u/7846894176",
+          "platform": "weibo",
+          "width": 180,
+          "height": 180,
+          "captured_at": "2026-06-29T21:08:41.097030+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx3.sinaimg.cn/mw2000/008z2LDily1ic66v1aukuj30u00u0tfj.jpg",
+          "source_url": "https://weibo.com/u/7846894176",
+          "platform": "weibo",
+          "width": 1080,
+          "height": 1080,
+          "captured_at": "2026-06-29T21:08:41.097030+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "comments": [
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7628957085434137892",
+          "content": "LOVE阳光叶子 ... 整个剧就是一个主角吹捧许蜜语是一个最不真实的吹捧存在，相比之下鲁贞贞还算真实，唯独主角光环太假 1月前·四川 1 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:09:01.380082+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7628957085434137892",
+          "content": "都市剧能谱 ... 《蜜语记》最动人从不是糖，而是成年人的破碎与重建。许蜜语摔碎了十年婚姻的假象，从豪门太太跌到酒店保洁，没靠哭闹卖渗，只靠一股韧劲，在泥泞里把自己捡起来，再活一次。它不教你依附谁，只教你：就算生活塌了，你也能亲手重建人生。朱珠把那份清醒、隐忍又不肯认输的劲儿演到骨子里，钟汉良的克制深情，更是成年人爱情最好的模样。势均力敌，互相救赎。 1月前·辽宁 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:09:01.380082+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7628957085434137892",
+          "content": "谈笑风声不动情 ... 1天前·江苏 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:09:01.380082+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7628957085434137892",
+          "content": "미쳤나요 ... 她不容易？你容易？受不了了 作者赞过 2月前·辽宁 1084 分享 回复 甜可瓜 作者 ... 害，真的无语了。。谁容易啊 2月前·河南 345 分享 回复 展开4条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:09:01.380082+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7628957085434137892",
+          "content": "甜可瓜 作者 ... 害，真的无语了。。谁容易啊 2月前·河南 345 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-29T21:09:01.380082+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "douyin",
+          "status": "success"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failures": [
+        {
+          "platform": "weibo",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "detail",
+          "status": "blocked",
+          "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "no_valid_search_results"
+        }
+      ]
+    }
+  ],
+  "platform_statuses": [
+    {
+      "topic": "蜜语纪",
+      "platform": "weibo",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "蜜语纪",
+      "platform": "douyin",
+      "status": "success"
+    },
+    {
+      "topic": "蜜语纪",
+      "platform": "xiaohongshu",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "蜜语纪",
+      "platform": "kuaishou",
+      "status": "empty"
+    }
+  ],
   "failures": [
     {
       "platform": "weibo",
-      "stage": "search",
-      "status": "needs_login",
-      "reason": "login_prompt_detected"
-    },
-    {
-      "platform": "douyin",
-      "stage": "search",
-      "status": "needs_login",
-      "reason": "login_prompt_detected"
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
     },
     {
       "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "needs_login",
-      "reason": "login_prompt_detected"
+      "stage": "detail",
+      "status": "blocked",
+      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
     },
     {
       "platform": "kuaishou",
       "stage": "search",
-      "status": "needs_login",
-      "reason": "login_prompt_detected"
+      "status": "empty",
+      "reason": "no_valid_search_results"
     }
   ]
 }
