@@ -1,151 +1,310 @@
 {
   "schema_version": "1.0",
-  "run_id": "78f87797-7621-4d8d-a053-33e4d7b442a4",
+  "run_id": "1e82205b-8f3f-4fd0-b1dc-5431ac46a64d",
   "status": "partial_failed",
   "mode": "remote_deep_evidence",
   "source": "Remote-Windows-Evidence",
   "source_role": "external_enrichment",
-  "started_at": "2026-06-30T08:30:03.290151+08:00",
-  "finished_at": "2026-06-30T08:33:52.464155+08:00",
+  "started_at": "2026-06-30T19:26:25.941770+08:00",
+  "finished_at": "2026-06-30T19:29:48.170043+08:00",
   "window_hours": 24,
   "radar_top_limit": 10,
   "seed_limit": 5,
-  "topic_limit": 3,
+  "topic_limit": 2,
   "topics": [
     {
       "source": "Remote-Windows-Evidence",
       "status": "partial_failed",
-      "seed_title": "齐思钧回复张月",
+      "seed_title": "现在就出发4",
       "keywords": [
-        "齐思钧回复张月"
+        "现在就出发4"
       ],
       "category": "entertainment",
-      "published_at": "2026-06-30T08:30:09.582244+08:00",
-      "summary": "8 齐思钧回复张月 综艺 275379 新",
-      "hot_score": 102,
-      "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E9%BD%90%E6%80%9D%E9%92%A7%E5%9B%9E%E5%A4%8D%E5%BC%A0%E6%9C%88%23&t=31&band_rank=8&Refer=top",
-      "source_hotspot_rank": 8,
+      "published_at": "2026-06-30T19:26:32.087154+08:00",
+      "summary": "6 现在就出发4 综艺 347856",
+      "hot_score": 104,
+      "source_hotspot_url": "https://s.weibo.com/weibo?q=%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%BA%E5%8F%914&t=31&band_rank=6&Refer=top",
+      "source_hotspot_rank": 6,
       "source_hotspot_source": "Weibo-Hot-Realtime",
       "matched_platforms": [
         "weibo",
+        "douyin",
         "xiaohongshu"
       ],
       "detail_pages": [
         {
           "platform": "weibo",
-          "title": "热门 c 娱大蜀黍 30分钟前 齐思钧说的没错，张月未来的路会越来越广阔，更加绚烂！通过浪姐对张月有了更深的认识和了解，她真的很棒，舞台棒、情商棒、性格棒，各方面都很棒！最重要的是她很真诚，对待身边的人无比的贴心细心！总之，张月值得最好的温柔以待！ #齐思钧回复张月# ​ 播放视频 https://video.weib",
-          "url": "https://weibo.com/2709814831/R6t3Wl80b?refer_flag=1001030103_",
-          "author": "娱大蜀黍",
+          "title": "热门 c 西瓜娱乐 今天11:38 #曝现在就出发4阵容确定# 曝现在就出发新阵容🈶 沈腾、白敬亭、王安宇、贾冰、杨迪、金靖、郭麒麟、蒋龙！ #现在就出发4##曝现在就出发新阵容##暑假刷到宝了# ​ 播放视频 https://video.weibo.com/show?fid=1034:531547799650311",
+          "url": "https://weibo.com/6511173552/R6uuwm2um?refer_flag=1001030103_",
+          "author": "西瓜娱乐",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 娱大蜀黍 30分钟前 齐思钧说的没错，张月未来的路会越来越广阔，更加绚烂！通过浪姐对张月有了更深的认识和了解，她真的很棒，舞台棒、情商棒、性格棒，各方面都很棒！最重要的是她很真诚，对待身边的人无比的贴心细心！总之，张月值得最好的温柔以待！ #齐思钧回复张月# ​ 播放视频 https://video.weibo.com/show?fid=1034:5315415539122233 23 11 264",
-          "captured_at": "2026-06-30T08:30:10.411220+08:00",
-          "source_page_url": "https://weibo.com/2709814831/R6t3Wl80b?refer_flag=1001030103_",
-          "source_page_title": "热门 c 娱大蜀黍 30分钟前 齐思钧说的没错，张月未来的路会越来越广阔，更加绚烂！通过浪姐对张月有了更深的认识和了解，她真的很棒，舞台棒、情商棒、性格棒，各方面都很棒！最重要的是她很真诚，对待身边的人无比的贴心细心！总之，张月值得最好的温柔以待！ #齐思钧回复张月# ​ 播放视频 https://video.weib",
+          "content": "热门 c 西瓜娱乐 今天11:38 #曝现在就出发4阵容确定# 曝现在就出发新阵容🈶 沈腾、白敬亭、王安宇、贾冰、杨迪、金靖、郭麒麟、蒋龙！ #现在就出发4##曝现在就出发新阵容##暑假刷到宝了# ​ 播放视频 https://video.weibo.com/show?fid=1034:5315477996503110 465 3636 32908",
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
+          "source_page_url": "https://weibo.com/6511173552/R6uuwm2um?refer_flag=1001030103_",
+          "source_page_title": "热门 c 西瓜娱乐 今天11:38 #曝现在就出发4阵容确定# 曝现在就出发新阵容🈶 沈腾、白敬亭、王安宇、贾冰、杨迪、金靖、郭麒麟、蒋龙！ #现在就出发4##曝现在就出发新阵容##暑假刷到宝了# ​ 播放视频 https://video.weibo.com/show?fid=1034:531547799650311",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c -依古比古晚安- 54分钟前 来自 雷朋🌻所愿皆成真 #齐思钧回复张月# 这就是教科书级别的告别吗 张月发长文特别感谢主持人齐思钧 齐思钧迅速在评论区以“拼图”为喻暖心回复 友谊久久 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315410661146671 ",
-          "url": "https://weibo.com/6622019005/R6sU2zHD2?refer_flag=1001030103_",
-          "author": "-依古比古晚安-",
-          "published_at": "当前时间 00:00",
-          "content": "热门 c -依古比古晚安- 54分钟前 来自 雷朋🌻所愿皆成真 #齐思钧回复张月# 这就是教科书级别的告别吗 张月发长文特别感谢主持人齐思钧 齐思钧迅速在评论区以“拼图”为喻暖心回复 友谊久久 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315410661146671 2 7 137",
-          "captured_at": "2026-06-30T08:30:10.411220+08:00",
-          "source_page_url": "https://weibo.com/6622019005/R6sU2zHD2?refer_flag=1001030103_",
-          "source_page_title": "热门 c -依古比古晚安- 54分钟前 来自 雷朋🌻所愿皆成真 #齐思钧回复张月# 这就是教科书级别的告别吗 张月发长文特别感谢主持人齐思钧 齐思钧迅速在评论区以“拼图”为喻暖心回复 友谊久久 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315410661146671 ",
+          "title": "热门 c 传媒剧透哥 今天12:51 来自 芒果哥的Android 现在就出发4阵容确定： 沈腾、贾冰、王安宇、范丞丞、黄景瑜、王楚然，7月26日-29日三亚录制，阵容不会大改 #现在就出发确定范丞丞王楚然黄景瑜# ​ 36 154 941",
+          "url": "https://weibo.com/6490579504/R6uYlj12K?refer_flag=1001030103_",
+          "author": "传媒剧透哥",
+          "published_at": "",
+          "content": "热门 c 传媒剧透哥 今天12:51 来自 芒果哥的Android 现在就出发4阵容确定： 沈腾、贾冰、王安宇、范丞丞、黄景瑜、王楚然，7月26日-29日三亚录制，阵容不会大改 #现在就出发确定范丞丞王楚然黄景瑜# ​ 36 154 941",
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
+          "source_page_url": "https://weibo.com/6490579504/R6uYlj12K?refer_flag=1001030103_",
+          "source_page_title": "热门 c 传媒剧透哥 今天12:51 来自 芒果哥的Android 现在就出发4阵容确定： 沈腾、贾冰、王安宇、范丞丞、黄景瑜、王楚然，7月26日-29日三亚录制，阵容不会大改 #现在就出发确定范丞丞王楚然黄景瑜# ​ 36 154 941",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c 你对我的赞许_ 今天01:20 来自 尊嘟超爱你 #齐思钧回复张月#《乘风2026》收官后，张月发长文感谢主持人齐思钧，齐思钧用两句不同风格但同样温暖的回复回应了她，网友称这是“教科书级别”的体面互动。你们觉得呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:531",
-          "url": "https://weibo.com/8225919051/R6qrByDCC?refer_flag=1001030103_",
-          "author": "你对我的赞许_",
-          "published_at": "当前时间 00:00",
-          "content": "热门 c 你对我的赞许_ 今天01:20 来自 尊嘟超爱你 #齐思钧回复张月#《乘风2026》收官后，张月发长文感谢主持人齐思钧，齐思钧用两句不同风格但同样温暖的回复回应了她，网友称这是“教科书级别”的体面互动。你们觉得呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315316155088914 4 27 120",
-          "captured_at": "2026-06-30T08:30:10.411220+08:00",
-          "source_page_url": "https://weibo.com/8225919051/R6qrByDCC?refer_flag=1001030103_",
-          "source_page_title": "热门 c 你对我的赞许_ 今天01:20 来自 尊嘟超爱你 #齐思钧回复张月#《乘风2026》收官后，张月发长文感谢主持人齐思钧，齐思钧用两句不同风格但同样温暖的回复回应了她，网友称这是“教科书级别”的体面互动。你们觉得呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:531",
+          "title": "热门 c 残温念 今天16:39 来自 家产的臂弯 #现在就出发4# 我要这个原班人马听到没。不是原班人马不许出发 ​ 7 97 1224",
+          "url": "https://weibo.com/5540070169/R6wsJlmzK?refer_flag=1001030103_",
+          "author": "残温念",
+          "published_at": "",
+          "content": "热门 c 残温念 今天16:39 来自 家产的臂弯 #现在就出发4# 我要这个原班人马听到没。不是原班人马不许出发 ​ 7 97 1224",
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
+          "source_page_url": "https://weibo.com/5540070169/R6wsJlmzK?refer_flag=1001030103_",
+          "source_page_title": "热门 c 残温念 今天16:39 来自 家产的臂弯 #现在就出发4# 我要这个原班人马听到没。不是原班人马不许出发 ​ 7 97 1224",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c 赏优集 今天01:36 来自 马上好运 乘风收官评论区画风反差拉满。 齐思钧温柔寄语宽慰张月，文字真诚治愈； 王濛玩起趣味谐音梗送别黄灿灿，搞笑又暖心。一温情一搞怪，满满的节目情谊。 太爱看这群人聚在一起，天马行空、无忧无虑。走心安慰，搞笑玩梗，满屏都是轻松自在的欢乐氛围。 #齐思钧回复张月##王濛回复黄灿灿",
-          "url": "https://weibo.com/5312163974/R6qy4D6Sq?refer_flag=1001030103_",
-          "author": "赏优集",
-          "published_at": "当前时间 00:00",
-          "content": "热门 c 赏优集 今天01:36 来自 马上好运 乘风收官评论区画风反差拉满。 齐思钧温柔寄语宽慰张月，文字真诚治愈； 王濛玩起趣味谐音梗送别黄灿灿，搞笑又暖心。一温情一搞怪，满满的节目情谊。 太爱看这群人聚在一起，天马行空、无忧无虑。走心安慰，搞笑玩梗，满屏都是轻松自在的欢乐氛围。 #齐思钧回复张月##王濛回复黄灿灿#【 ​ 展开c 播放视频 https://video.weibo.com/show?fid=1034:5315320051597346 2 13 81",
-          "captured_at": "2026-06-30T08:30:10.411220+08:00",
-          "source_page_url": "https://weibo.com/5312163974/R6qy4D6Sq?refer_flag=1001030103_",
-          "source_page_title": "热门 c 赏优集 今天01:36 来自 马上好运 乘风收官评论区画风反差拉满。 齐思钧温柔寄语宽慰张月，文字真诚治愈； 王濛玩起趣味谐音梗送别黄灿灿，搞笑又暖心。一温情一搞怪，满满的节目情谊。 太爱看这群人聚在一起，天马行空、无忧无虑。走心安慰，搞笑玩梗，满屏都是轻松自在的欢乐氛围。 #齐思钧回复张月##王濛回复黄灿灿",
+          "title": "热门 c 八爪魚小星星 今天11:51 来自 HiPhone 17 Pro 严肃等待7月行程 判断现在就出发4录制阵容中 二次更新一下 已经确定就是现在就出发录制 目前已经确定的新阵容为 黄景瑜 范丞丞 王安宇 王楚然 （其他没有行程图暂时无法确定） ​ 8 121 618",
+          "url": "https://weibo.com/1670262962/R6uzScnkP?refer_flag=1001030103_",
+          "author": "八爪魚小星星",
+          "published_at": "",
+          "content": "热门 c 八爪魚小星星 今天11:51 来自 HiPhone 17 Pro 严肃等待7月行程 判断现在就出发4录制阵容中 二次更新一下 已经确定就是现在就出发录制 目前已经确定的新阵容为 黄景瑜 范丞丞 王安宇 王楚然 （其他没有行程图暂时无法确定） ​ 8 121 618",
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
+          "source_page_url": "https://weibo.com/1670262962/R6uzScnkP?refer_flag=1001030103_",
+          "source_page_title": "热门 c 八爪魚小星星 今天11:51 来自 HiPhone 17 Pro 严肃等待7月行程 判断现在就出发4录制阵容中 二次更新一下 已经确定就是现在就出发录制 目前已经确定的新阵容为 黄景瑜 范丞丞 王安宇 王楚然 （其他没有行程图暂时无法确定） ​ 8 121 618",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "微博正文 - 微博",
+          "url": "https://weibo.com/6511173552/R6uuwm2um?refer_flag=1001030103_",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 西瓜娱乐 公开 西瓜娱乐 26-6-30 11:38 已编辑 关注 #曝现在就出发4阵容确定# 曝现在就出发新阵容🈶 沈腾、白敬亭、王安宇、贾冰、杨迪、金靖、郭麒麟、蒋龙！ #现在就出发4##曝现在就出发新阵容##暑假刷到宝了# ​​​ 01:11 465 3636 3.3万 分享这条博文 同时转发 评论 按热度 按时间 氛围miss:黄景瑜 范丞丞 胡先煦 金晨 26-6-30 11:54 来自江苏 573 劉_小玉YUYU:金晨就算了 26-6-30 17:22 来自黑龙江 3 蓝栩棂Bluebird:黄Sir在拍戏，小胡在拍戏，其他人不知道 26-6-30 18:05 来自北京 共6条回复 喝啤酒爱打嗝:要原版人马，小胡呢？黄sir呢？ 26-6-30 11:49 来自广东 423 养米日记:黄sir会录的 查看图片 26-6-30 12:43 来自四川 8 蓝栩棂Bluebird:黄Sir在拍戏，可能会当飞行嘉宾吧 26-6-30 18:06 来自北京 共3条回复 Leu_拾熠 :集不齐可以不拍，等能集齐再拍，好么？ 这个阵容真没人想看 26-6-30 11:54 来自吉林 339 极品内向小x:怎么又有杨迪？ 26-6-30 11:45 来自福建 261 大宝黑咖不加糖 :我金晨呢？先别出发了吧 26-6-30 11:54 来自江苏 268 没有感情的磨叽大王:回复@用户7877215854:请问你是那一面墙吗？？？ 26-6-30 14:32 来自重庆 2 晴天喵喵喵123:回复@用户7877215854:她怎么了 26-6-30 13:03 来自浙江 共3条回复 Wendy宁小兔:黄sir 丞丞 小胡 天啊 小宋和大喜不回来 怎么还要再带走三个 不要大换血啊 就算不能原班人马也请微调吧 26-6-30 11:49 来自黑龙江 43 -I梨涡圆点I- :还我黄景瑜 26-6-30 12:29 来自内蒙古 30 皮皮想睡觉pika :有嘟有嘟 查看图片 26-6-30 13:50 来自湖北 1 桃红柳陌:有的 26-6-30 12:51 来自湖北 共3条回复 W12ing_:郭麒麟和金靖不行 26-6-30 11:46 来自上海 43 糖小小小甜:小胡，丞丞，黄sir 26-6-30 12:09 来自山东 32 bamboo_teng :呃假的不能再假了 黄景瑜和范丞丞那边已经发行程图了 大家不信谣不传谣 26-6-30 12:36 来自陕西 19 白鸽爱吃可露丽_ :那就放心了还好是原班人马 26-6-30 13:02 来自山西 rik16:都是同一天唉 那就是现发4放心了 26-6-30 12:48 来自山东 伊昂000 :假，黄景瑜会参加 26-6-30 12:29 来自上海 18 高冷高冷高冷姥姥 :期待三好学生蒋龙！ 26-6-30 12:18 来自湖南 17 kuailinzhai123:加上杨超越黄景瑜。我们必看 26-6-30 11:48 来自山东 20 皮皮想睡觉pika :黄景瑜行程都出来了，你这瓜也真的太假了 26-6-30 13:18 来自湖北 15 二极管滚 :啊没黄sir了吗？ 26-6-30 12:29 来自重庆 15 黄小鱼不喝冰:有，对接发行程了 26-6-30 12:35 来自辽宁 3 白鸽爱吃可露丽_ :回复@黄小鱼不喝冰:看到了看到了 26-6-30 13:16 来自山西 共4条回复 苏翊心baby :原班人马 26-6-30 12:09 来自山西 9 是你的小圆哦 :为什么没有FCC 26-6-30 12:01 来自广东 15 怎么引起范丞丞的注意:丞丞去的，七月行程有现发 26-6-30 14:17 来自内蒙古 2 是你的小圆哦 :回复@怎么引起范丞丞的注意:那我就放心了！！！ 26-6-30 14:30 来自广东 黄豆酱继续走路:不针对任何艺人，只是感觉现在就出发是几个各有特点的人碰撞出的意外欢乐，而不是靠着本身有喜感人的故意为之。所以加入几个综艺感特别强的，担心会破坏节目的原生属性。慎思啊 26-6-30 12:21 来自海南 16",
+          "author": "西瓜娱乐",
+          "published_at": "26-6-30 11:38",
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://weibo.com/6511173552/R6uuwm2um?refer_flag=1001030103_",
+          "source_page_title": "微博正文 - 微博"
+        },
+        {
+          "platform": "douyin",
+          "title": "曝现在就出发新一季常驻名单，熟人团大换血，新增嘉宾笑点 #现在就出发#现在就出发新阵容#综艺路透#沈腾综艺#下饭综艺推荐 - 抖音",
+          "url": "https://www.douyin.com/video/7657039745897248767",
+          "content": "00:07 / 01:35 倍速 智能 清屏 章节要点 《现在就出发4》新阵容曝光，老嘉宾大半退出，新增杨迪、金靖、郭麒麟、蒋龙四位喜剧大咖。节目录制地点定在东北，新增户外做饭、方言闯关游戏等环节，风景和趣味双重升级。虽然老成员离开令人遗憾，但新喜剧人加入有望带来全新化学反应。 00:00 引言 00:13 节目回顾 前几季节目因沈腾带队的熟人局获得高分，无尬演、无撕逼，适合下饭。 00:23 新阵容曝光 新阵容大洗牌，宋亚轩、金晨、黄景瑜等人不再常驻，沈腾、白敬亭、王安宇、贾冰坚守，新增杨迪、金靖、郭麒麟、蒋龙。 01:00 新一季亮点 新一季录制地点在东北，新增户外做饭、方言闯关游戏，风景和趣味双重升级。 01:10 结语 内容由AI生成",
+          "author": "",
+          "published_at": "00:07 / 01:35",
+          "captured_at": "2026-06-30T19:26:53.276356+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://www.douyin.com/video/7657039745897248767",
+          "source_page_title": "曝现在就出发新一季常驻名单，熟人团大换血，新增嘉宾笑点 #现在就出发#现在就出发新阵容#综艺路透#沈腾综艺#下饭综艺推荐 - 抖音"
         },
         {
           "platform": "xiaohongshu",
-          "title": "一杯冰美式 昨天 10:05 624",
-          "url": "https://www.xiaohongshu.com/explore/6a41496c000000000803f66e",
-          "author": "一杯冰美式 昨天 10:05",
-          "published_at": "一杯冰美式 昨天 10:05",
-          "content": "一杯冰美式 昨天 10:05 624",
-          "captured_at": "2026-06-30T08:30:40.668318+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a41496c000000000803f66e",
-          "source_page_title": "一杯冰美式 昨天 10:05 624",
+          "title": "现在就出发4要来了！！！ 差点长成美女 6小时前 25",
+          "url": "https://www.xiaohongshu.com/explore/6a4351090000000008025fb9",
+          "author": "差点长成美女 6小时前",
+          "published_at": "差点长成美女 6小时前",
+          "content": "现在就出发4要来了！！！ 差点长成美女 6小时前 25",
+          "captured_at": "2026-06-30T19:27:13.487413+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a4351090000000008025fb9",
+          "source_page_title": "现在就出发4要来了！！！ 差点长成美女 6小时前 25",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "🔥综艺 现在就出发4 吃瓜败火 5小时前 28",
+          "url": "https://www.xiaohongshu.com/explore/6a435af1000000001102cad6",
+          "author": "吃瓜败火 5小时前",
+          "published_at": "吃瓜败火 5小时前",
+          "content": "🔥综艺 现在就出发4 吃瓜败火 5小时前 28",
+          "captured_at": "2026-06-30T19:27:13.487413+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a435af1000000001102cad6",
+          "source_page_title": "🔥综艺 现在就出发4 吃瓜败火 5小时前 28",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "爆《现在就出发4》阵容大换血，你期待谁呢 沫霜雁 1小时前 5",
+          "url": "https://www.xiaohongshu.com/explore/6a4393b600000000110050ab",
+          "author": "沫霜雁 1小时前",
+          "published_at": "沫霜雁 1小时前",
+          "content": "爆《现在就出发4》阵容大换血，你期待谁呢 沫霜雁 1小时前 5",
+          "captured_at": "2026-06-30T19:27:13.487413+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a4393b600000000110050ab",
+          "source_page_title": "爆《现在就出发4》阵容大换血，你期待谁呢 沫霜雁 1小时前 5",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "现在就出发4阵容大换血 热门观众火龙果 2小时前 19",
+          "url": "https://www.xiaohongshu.com/explore/6a438b26000000001102fef0",
+          "author": "热门观众火龙果 2小时前",
+          "published_at": "热门观众火龙果 2小时前",
+          "content": "现在就出发4阵容大换血 热门观众火龙果 2小时前 19",
+          "captured_at": "2026-06-30T19:27:13.487413+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a438b26000000001102fef0",
+          "source_page_title": "现在就出发4阵容大换血 热门观众火龙果 2小时前 19",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         }
       ],
-      "videos": [],
+      "videos": [
+        {
+          "platform": "douyin",
+          "title": "曝现在就出发新一季常驻名单，熟人团大换血，新增嘉宾笑点 #现在就出发#现在就出发新阵容#综艺路透#沈腾综艺#下饭综艺推荐 - 抖音",
+          "url": "https://www.douyin.com/video/7657039745897248767",
+          "cover_url": "",
+          "author": "",
+          "duration": 94.734,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-06-30T19:26:53.276356+08:00",
+          "capture_method": "dom",
+          "source_url": "https://www.douyin.com/video/7657039745897248767",
+          "evidence_role": "source_video"
+        }
+      ],
       "images": [
         {
-          "url": "https://tvax1.sinaimg.cn/crop.0.0.640.640.1024/a1847e2fly8i6m35ho04oj20hs0hsdgr.jpg?KID=imgbed,tva&Expires=1782790219&ssig=Do7dXUdtGT",
-          "source_url": "https://weibo.com/2709814831/R6t3Wl80b?refer_flag=1001030103_",
+          "url": "https://wx3.sinaimg.cn/orj360/0062Vzktly1ienfb3rn8gj31jk113wyt.jpg",
+          "source_url": "https://weibo.com/5540070169/R6wsJlmzK?refer_flag=1001030103_",
           "platform": "weibo",
-          "width": 639,
-          "height": 639,
-          "captured_at": "2026-06-30T08:30:10.411220+08:00",
+          "width": 404,
+          "height": 270,
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://wx2.sinaimg.cn/orj480/a1847e2fly1ien05rafkuj20g00u63zg.jpg",
-          "source_url": "https://weibo.com/2709814831/R6t3Wl80b?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 480,
-          "height": 905,
-          "captured_at": "2026-06-30T08:30:10.411220+08:00",
-          "capture_method": "dom"
-        },
-        {
-          "url": "https://wx3.sinaimg.cn/orj360/a1847e2fly1ien05k74woj20wi6r3npd.jpg",
-          "source_url": "https://weibo.com/2709814831/R6t3Wl80b?refer_flag=1001030103_",
+          "url": "https://wx1.sinaimg.cn/orj360/638e30b2ly1ien81ft7wuj20xi1len7u.jpg",
+          "source_url": "https://weibo.com/1670262962/R6uzScnkP?refer_flag=1001030103_",
           "platform": "weibo",
           "width": 360,
-          "height": 1200,
-          "captured_at": "2026-06-30T08:30:10.411220+08:00",
+          "height": 617,
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://wx2.sinaimg.cn/orj360/a1847e2fly1ien05kp0qrj20wi0n5div.jpg",
-          "source_url": "https://weibo.com/2709814831/R6t3Wl80b?refer_flag=1001030103_",
+          "url": "https://wx3.sinaimg.cn/orj360/638e30b2ly1ien86noqfzj20uk0rr0uk.jpg",
+          "source_url": "https://weibo.com/1670262962/R6uzScnkP?refer_flag=1001030103_",
           "platform": "weibo",
-          "width": 379,
+          "width": 297,
           "height": 270,
-          "captured_at": "2026-06-30T08:30:10.411220+08:00",
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://sns-webpic-qc.xhscdn.com/202606300830/9cdb83d35f6b074455c5b78e2f7711a3/1040g2sg321ved3h2nue049eus4ieh3r2gs0kvlo!nc_n_webp_mw_1",
-          "source_url": "https://www.xiaohongshu.com/explore/6a41496c000000000803f66e",
-          "platform": "xiaohongshu",
-          "width": 640,
-          "height": 853,
-          "captured_at": "2026-06-30T08:30:40.668318+08:00",
+          "url": "https://wx3.sinaimg.cn/orj360/638e30b2ly1iena2jj4vbj21jk223k52.jpg",
+          "source_url": "https://weibo.com/1670262962/R6uzScnkP?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 480,
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx3.sinaimg.cn/orj360/638e30b2ly1ien80salxkj20u00k8abc.jpg",
+          "source_url": "https://weibo.com/1670262962/R6uzScnkP?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 401,
+          "height": 270,
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://tvax1.sinaimg.cn/crop.0.0.1022.1022.1024/0076EdGgly8h8v0wpi2k7j30se0sf0ut.jpg?KID=imgbed,tva&Expires=1782829601&ssig=0XEELZCTO%2B",
+          "source_url": "https://weibo.com/6511173552/R6uuwm2um?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 1021,
+          "height": 1022,
+          "captured_at": "2026-06-30T19:26:33.114957+08:00",
           "capture_method": "dom"
         }
       ],
-      "comments": [],
+      "comments": [
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657039745897248767",
+          "content": "会心一笑 ... 胡先煦呢？怎么的不提他呢，他不配有姓名吗！！！ 6分钟前·四川 0 分享 回复 杨杨得亿 ... 有王就行，和宋 5分钟前·广东 0 分享 回复 回族小美女 ... 不要金靖啊 3小时前·辽宁 42 分享 回复 展开6条回复 林间小鹿撞 ... 这几个新来的审美疲劳了，真的，全是他们，看的烦了 4分钟前·浙江 0 分享 回复 宇宙？ ... 杨迪 金靖 那些节目走到头了 12分钟前·江西 1 分享 回复 加载中",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-30T19:26:53.276356+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657039745897248767",
+          "content": "会心一笑 ... 胡先煦呢？怎么的不提他呢，他不配有姓名吗！！！ 6分钟前·四川 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-30T19:26:53.276356+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657039745897248767",
+          "content": "杨杨得亿 ... 有王就行，和宋 5分钟前·广东 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-30T19:26:53.276356+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657039745897248767",
+          "content": "回族小美女 ... 不要金靖啊 3小时前·辽宁 42 分享 回复 展开6条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-30T19:26:53.276356+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657039745897248767",
+          "content": "林间小鹿撞 ... 这几个新来的审美疲劳了，真的，全是他们，看的烦了 4分钟前·浙江 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-30T19:26:53.276356+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657039745897248767",
+          "content": "宇宙？ ... 杨迪 金靖 那些节目走到头了 12分钟前·江西 1 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-06-30T19:26:53.276356+08:00",
+          "capture_method": "dom"
+        }
+      ],
       "platform_statuses": [
         {
           "platform": "weibo",
@@ -153,7 +312,7 @@
         },
         {
           "platform": "douyin",
-          "status": "empty"
+          "status": "partial_failed"
         },
         {
           "platform": "xiaohongshu",
@@ -169,18 +328,6 @@
           "platform": "douyin",
           "stage": "search",
           "status": "empty",
-          "reason": "stale_filtered:4"
-        },
-        {
-          "platform": "douyin",
-          "stage": "search",
-          "status": "empty",
-          "reason": "no_valid_search_results"
-        },
-        {
-          "platform": "xiaohongshu",
-          "stage": "search",
-          "status": "empty",
           "reason": "stale_filtered:3"
         },
         {
@@ -193,7 +340,13 @@
           "platform": "kuaishou",
           "stage": "search",
           "status": "empty",
-          "reason": "no_detail_url_extracted"
+          "reason": "stale_filtered:4"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:4"
         }
       ],
       "warnings": [
@@ -214,22 +367,22 @@
   ],
   "platform_statuses": [
     {
-      "topic": "齐思钧回复张月",
+      "topic": "现在就出发4",
       "platform": "weibo",
       "status": "success"
     },
     {
-      "topic": "齐思钧回复张月",
+      "topic": "现在就出发4",
       "platform": "douyin",
-      "status": "empty"
+      "status": "partial_failed"
     },
     {
-      "topic": "齐思钧回复张月",
+      "topic": "现在就出发4",
       "platform": "xiaohongshu",
       "status": "partial_failed"
     },
     {
-      "topic": "齐思钧回复张月",
+      "topic": "现在就出发4",
       "platform": "kuaishou",
       "status": "empty"
     }
@@ -237,18 +390,6 @@
   "failures": [
     {
       "platform": "douyin",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:4"
-    },
-    {
-      "platform": "douyin",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_valid_search_results"
-    },
-    {
-      "platform": "xiaohongshu",
       "stage": "search",
       "status": "empty",
       "reason": "stale_filtered:3"
@@ -263,7 +404,13 @@
       "platform": "kuaishou",
       "stage": "search",
       "status": "empty",
-      "reason": "no_detail_url_extracted"
+      "reason": "stale_filtered:4"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:4"
     }
   ],
   "warnings": [
