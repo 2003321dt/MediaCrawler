@@ -2,7 +2,7 @@
   "status": "partial_failed",
   "source": "Railway-MediaCrawler",
   "source_role": "external_enrichment",
-  "finished_at": "2026-06-26T13:26:45.279408+00:00",
+  "finished_at": "2026-07-01T11:52:04.568964+00:00",
   "platforms": [
     "bili",
     "tieba",
@@ -13,10 +13,10 @@
       "source": "MediaCrawler-tieba",
       "source_role": "external_enrichment",
       "platform": "tieba",
-      "title": "凡人其实更像真人电视剧，而不是传统动画",
-      "url": "https://tieba.baidu.com/p/10822518119",
-      "summary": "我感觉从剧情、台词、运镜、建模等方面来看，凡人更像是按真人电视剧的标准来做的，而不是很多人刻板印象里的“动画片”，所以凡人才有那么多大龄粉丝",
-      "published_at": "2026-06-26 04:02:30",
+      "title": "封神榜之凤鸣岐山这部电视剧禅教是大反派吗？",
+      "url": "https://tieba.baidu.com/p/10832505127",
+      "summary": "首先本人没看过这部电视剧，看了某抖一段哪吒箭射石矶的片段，感觉就是把禅教当大反派来写。当然，封神小说里对哪吒射石矶的描写也确实有不合理的地方，但还是能感受到是作者就是把哪吒当正义的一方写，石矶当邪恶的一方写，只不过作者文笔欠考虑，具体写的时候没用具体事实来描述石矶之恶。 但这部电视剧直接把作者写的这种不合理的地方给加强了，我们来看电视剧是怎么描述的： 1，哪吒随手一箭，射死石矶的一个女弟子（或者丫鬟吧），关键还找了一个很可爱的小姑娘来演的 2，李靖找来哪吒赔礼，李靖先进去找石矶，哪吒和石矶另一个女弟子在外面（也是一个可爱的小女孩），那女弟子对自己师姐（或者师妹）的死当然很伤心，找哪吒问罪，哪吒全不认错，一副毫不在意的态度，然后冲突了起来，哪吒看对方要拔剑，直接一个乾坤圈把小女孩迎头劈下去，小女孩随之倒地身死不明。 3，电视剧里倒是把石矶描绘的很大度，本来被李靖做了思想工作，哪吒认个错就这样了，但李靖和石矶出来看到哪吒又把她另一名弟子打倒在地，当然不愿意了。 4，哪吒跑到他师父太乙那，石矶追过去，太乙知道原委后，完全也没任何道歉的态度，他给石矶说哪吒是鸿钧老祖下的任务降世来帮助周的，你石矶就是不能动，石矶哪受的了，和太乙打，打不过太乙反被杀。 我就看了这个片段，很好奇编剧究竟是把哪吒为首的禅教当作大反派来写，还是当作正派来写？如果当作大反派来写，这段剧情也没毛病，如果当作正义一方来写，那这段岂不是特别恶心观众？也许他意识到小说里哪吒和石矶的剧情写的不太合理，他如果把哪吒当作正义一方来写，那应该把这段不合理改得合理，比如把石矶写成大魔头，伤害了很多认，并且长得凶神恶煞。而不是把原本不太合理的剧情写的更不合理，随意杀伤了两个无辜的小女孩，毫无任何愧疚之情，随意杀人都有理了，对受害方赶尽杀绝。。。。干脆改名叫封神榜之魔头哪吒算了",
+      "published_at": "2026-06-30 06:02:36",
       "hot_score": 0.0,
       "category": "hotspot",
       "raw_payload": {
@@ -24,120 +24,87 @@
         "source_kind": "railway_mediacrawler",
         "platform": "tieba",
         "raw": {
-          "note_id": "10822518119",
-          "title": "凡人其实更像真人电视剧，而不是传统动画",
-          "desc": "我感觉从剧情、台词、运镜、建模等方面来看，凡人更像是按真人电视剧的标准来做的，而不是很多人刻板印象里的“动画片”，所以凡人才有那么多大龄粉丝",
-          "note_url": "https://tieba.baidu.com/p/10822518119",
-          "publish_time": "2026-06-26 04:02:30",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.1c3cca7b.M1fTwN4ySb0ncD7GE8HA3A%3Ft%3D1782480282",
-          "user_nickname": "高木同学赛高～",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.1c3cca7b.M1fTwN4ySb0ncD7GE8HA3A?t=1782480282",
-          "tieba_name": "国产动画片吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E5%9B%BD%E4%BA%A7%E5%8A%A8%E7%94%BB%E7%89%87",
-          "total_replay_num": 65,
-          "total_replay_page": 2,
-          "ip_location": "重庆",
-          "source_keyword": "电视剧",
-          "last_modify_ts": 1782480321067
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "有些粉丝真的很逆天，动漫打打就算了，还比上电视剧了。",
-      "url": "https://tieba.baidu.com/p/10818616048",
-      "summary": "一个帖子说剑来要出电视剧了，评论一堆某粉丝说剑来是雪中悍刀行一样的扑街货，热度肯定不如凡人电视剧。他们估计也不看电视剧的，他们眼中凡人修仙传有杨洋所以很出圈，其实不知道电视剧热度等级真的很森严，稍微查查数据都知道雪中悍刀行电视剧均集播放差不多是凡人的三倍，当年的年冠，下次碰瓷先了解一下吧，真的很丢人。",
-      "published_at": "2026-06-24 15:59:18",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10818616048",
-          "title": "有些粉丝真的很逆天，动漫打打就算了，还比上电视剧了。",
-          "desc": "一个帖子说剑来要出电视剧了，评论一堆某粉丝说剑来是雪中悍刀行一样的扑街货，热度肯定不如凡人电视剧。他们估计也不看电视剧的，他们眼中凡人修仙传有杨洋所以很出圈，其实不知道电视剧热度等级真的很森严，稍微查查数据都知道雪中悍刀行电视剧均集播放差不多是凡人的三倍，当年的年冠，下次碰瓷先了解一下吧，真的很丢人。",
-          "note_url": "https://tieba.baidu.com/p/10818616048",
-          "publish_time": "2026-06-24 15:59:18",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.43e26611.dXkyI71rt-IX3ySr0VKOVg%3Ft%3D1782480285",
-          "user_nickname": "且听风吟。🌛♤",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.43e26611.dXkyI71rt-IX3ySr0VKOVg?t=1782480285",
-          "tieba_name": "国产动画吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E5%9B%BD%E4%BA%A7%E5%8A%A8%E7%94%BB",
-          "total_replay_num": 90,
-          "total_replay_page": 4,
-          "ip_location": "四川",
-          "source_keyword": "电视剧",
-          "last_modify_ts": 1782480321078
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "剑来电视剧能有3w热度就很不错了...",
-      "url": "https://tieba.baidu.com/p/10820493653",
-      "summary": "剑来电视剧马上开播，一些吧友对于这部剧的预期似乎太好了。 3w热度都算扑街.... 3w热度，大概就是v30集均3000w左右。 今年已经过去半年，只有三部达成。 哪怕是去年腾爱两大平台拉胯至极，也有14部达到3000w以上。 再看云合的榜单收录s➕以上的电视剧，s➕的标准是v30集均1600左右。 23年49部s➕ 24年45部s➕ 25年42部s➕ 26年目前只有9部... 没错，25年全年的s➕电视剧，是目前的接近5倍... 这种情况下，剑来电视剧有个3w热度，v30三千万，已经算是很不错的了... 长剧市场两年因为短剧以及自身质量的问题，有所冲击。 不过下滑毕竟是慢慢来的，不可能一下子就腰斩。 以25年举例，25年腾爱两家发挥，尤其是上半年拉胯至极，直接跟优酷坐一桌了，但s➕和24年大差不差，只有3000w以上的差了7部。 可今年不只是3000w集均以上的天差地别，s➕的数量也开始腰斩都不止了... 所以对于此后几年上映的电视剧，除非是庆余年3出了，不然都别有太高的期望。image_emoticon16image_emoticon16image_emoticon16image_emoticon16image_emoticon16",
-      "published_at": "2026-06-25 08:34:12",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10820493653",
-          "title": "剑来电视剧能有3w热度就很不错了...",
-          "desc": "剑来电视剧马上开播，一些吧友对于这部剧的预期似乎太好了。 3w热度都算扑街.... 3w热度，大概就是v30集均3000w左右。 今年已经过去半年，只有三部达成。 哪怕是去年腾爱两大平台拉胯至极，也有14部达到3000w以上。 再看云合的榜单收录s➕以上的电视剧，s➕的标准是v30集均1600左右。 23年49部s➕ 24年45部s➕ 25年42部s➕ 26年目前只有9部... 没错，25年全年的s➕电视剧，是目前的接近5倍... 这种情况下，剑来电视剧有个3w热度，v30三千万，已经算是很不错的了... 长剧市场两年因为短剧以及自身质量的问题，有所冲击。 不过下滑毕竟是慢慢来的，不可能一下子就腰斩。 以25年举例，25年腾爱两家发挥，尤其是上半年拉胯至极，直接跟优酷坐一桌了，但s➕和24年大差不差，只有3000w以上的差了7部。 可今年不只是3000w集均以上的天差地别，s➕的数量也开始腰斩都不止了... 所以对于此后几年上映的电视剧，除非是庆余年3出了，不然都别有太高的期望。image_emoticon16image_emoticon16image_emoticon16image_emoticon16image_emoticon16",
-          "note_url": "https://tieba.baidu.com/p/10820493653",
-          "publish_time": "2026-06-25 08:34:12",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.f1dac7d3.Enf23Jmdliq3NvCEJb8WjQ%3Ft%3D1782480288",
-          "user_nickname": "倾城绝不2",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.f1dac7d3.Enf23Jmdliq3NvCEJb8WjQ?t=1782480288",
-          "tieba_name": "国产动画吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E5%9B%BD%E4%BA%A7%E5%8A%A8%E7%94%BB",
-          "total_replay_num": 20,
-          "total_replay_page": 2,
-          "ip_location": "四川",
-          "source_keyword": "电视剧",
-          "last_modify_ts": 1782480321079
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "说个暴论：现在小孩变成这样就是电视剧看少了，手机玩多了。",
-      "url": "https://tieba.baidu.com/p/10819740586",
-      "summary": "先看看手机上有什么：社区，网文，二游，短视频。 说句难听的，电视剧特别是以前的经典老剧对塑造正常的三观是有帮助的，你像手机上这些东西真的会让人只想沉迷于短期的爽感，只想在虚拟世界当皇帝。 上一个帖子六年时间对比就能看出来，原来大伙根本不屑于在虚拟世界开后宫甚至嗤之以鼻，现在你不开后宫反而成了大罪人😅",
-      "published_at": "2026-06-25 03:19:20",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10819740586",
-          "title": "说个暴论：现在小孩变成这样就是电视剧看少了，手机玩多了。",
-          "desc": "先看看手机上有什么：社区，网文，二游，短视频。 说句难听的，电视剧特别是以前的经典老剧对塑造正常的三观是有帮助的，你像手机上这些东西真的会让人只想沉迷于短期的爽感，只想在虚拟世界当皇帝。 上一个帖子六年时间对比就能看出来，原来大伙根本不屑于在虚拟世界开后宫甚至嗤之以鼻，现在你不开后宫反而成了大罪人😅",
-          "note_url": "https://tieba.baidu.com/p/10819740586",
-          "publish_time": "2026-06-25 03:19:20",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.c711e4fc.emtwcHqzplmOc_gysty9Qw%3Ft%3D1782480302",
-          "user_nickname": "shepherd丶lost",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.c711e4fc.emtwcHqzplmOc_gysty9Qw?t=1782480302",
-          "tieba_name": "有男偷玩吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E6%9C%89%E7%94%B7%E5%81%B7%E7%8E%A9",
-          "total_replay_num": 43,
+          "note_id": "10832505127",
+          "title": "封神榜之凤鸣岐山这部电视剧禅教是大反派吗？",
+          "desc": "首先本人没看过这部电视剧，看了某抖一段哪吒箭射石矶的片段，感觉就是把禅教当大反派来写。当然，封神小说里对哪吒射石矶的描写也确实有不合理的地方，但还是能感受到是作者就是把哪吒当正义的一方写，石矶当邪恶的一方写，只不过作者文笔欠考虑，具体写的时候没用具体事实来描述石矶之恶。 但这部电视剧直接把作者写的这种不合理的地方给加强了，我们来看电视剧是怎么描述的： 1，哪吒随手一箭，射死石矶的一个女弟子（或者丫鬟吧），关键还找了一个很可爱的小姑娘来演的 2，李靖找来哪吒赔礼，李靖先进去找石矶，哪吒和石矶另一个女弟子在外面（也是一个可爱的小女孩），那女弟子对自己师姐（或者师妹）的死当然很伤心，找哪吒问罪，哪吒全不认错，一副毫不在意的态度，然后冲突了起来，哪吒看对方要拔剑，直接一个乾坤圈把小女孩迎头劈下去，小女孩随之倒地身死不明。 3，电视剧里倒是把石矶描绘的很大度，本来被李靖做了思想工作，哪吒认个错就这样了，但李靖和石矶出来看到哪吒又把她另一名弟子打倒在地，当然不愿意了。 4，哪吒跑到他师父太乙那，石矶追过去，太乙知道原委后，完全也没任何道歉的态度，他给石矶说哪吒是鸿钧老祖下的任务降世来帮助周的，你石矶就是不能动，石矶哪受的了，和太乙打，打不过太乙反被杀。 我就看了这个片段，很好奇编剧究竟是把哪吒为首的禅教当作大反派来写，还是当作正派来写？如果当作大反派来写，这段剧情也没毛病，如果当作正义一方来写，那这段岂不是特别恶心观众？也许他意识到小说里哪吒和石矶的剧情写的不太合理，他如果把哪吒当作正义一方来写，那应该把这段不合理改得合理，比如把石矶写成大魔头，伤害了很多认，并且长得凶神恶煞。而不是把原本不太合理的剧情写的更不合理，随意杀伤了两个无辜的小女孩，毫无任何愧疚之情，随意杀人都有理了，对受害方赶尽杀绝。。。。干脆改名叫封神榜之魔头哪吒算了",
+          "note_url": "https://tieba.baidu.com/p/10832505127",
+          "publish_time": "2026-06-30 06:02:36",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.266eddf7.ttc1SG_fohS8CMl7u8TU-Q%3Ft%3D1782906609",
+          "user_nickname": "dygzzl",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.266eddf7.ttc1SG_fohS8CMl7u8TU-Q?t=1782906609",
+          "tieba_name": "西游记吧",
+          "tieba_link": "https://tieba.baidu.com/f?kw=%E8%A5%BF%E6%B8%B8%E8%AE%B0",
+          "total_replay_num": 14,
           "total_replay_page": 1,
+          "ip_location": "江苏",
+          "source_keyword": "电视剧",
+          "last_modify_ts": 1782906648867
+        }
+      }
+    },
+    {
+      "source": "MediaCrawler-tieba",
+      "source_role": "external_enrichment",
+      "platform": "tieba",
+      "title": "白玉兰，国内电视剧最高奖",
+      "url": "https://tieba.baidu.com/p/10822358792",
+      "summary": "目前来看，白玉兰奖确实是国内电视剧最高奖。看新华社的微博，涉及飞天奖、金鹰奖没几个，倒是白玉兰的相关一大堆。",
+      "published_at": "2026-06-26 02:55:42",
+      "hot_score": 0.0,
+      "category": "hotspot",
+      "raw_payload": {
+        "source_role": "external_enrichment",
+        "source_kind": "railway_mediacrawler",
+        "platform": "tieba",
+        "raw": {
+          "note_id": "10822358792",
+          "title": "白玉兰，国内电视剧最高奖",
+          "desc": "目前来看，白玉兰奖确实是国内电视剧最高奖。看新华社的微博，涉及飞天奖、金鹰奖没几个，倒是白玉兰的相关一大堆。",
+          "note_url": "https://tieba.baidu.com/p/10822358792",
+          "publish_time": "2026-06-26 02:55:42",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.d55193e9.Oh4mRxwEFISdhNfN_Zz8mw%3Ft%3D1782906614",
+          "user_nickname": "嗜血行僧",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.d55193e9.Oh4mRxwEFISdhNfN_Zz8mw?t=1782906614",
+          "tieba_name": "金像奖吧",
+          "tieba_link": "https://tieba.baidu.com/f?kw=%E9%87%91%E5%83%8F%E5%A5%96",
+          "total_replay_num": 34,
+          "total_replay_page": 2,
           "ip_location": "",
           "source_keyword": "电视剧",
-          "last_modify_ts": 1782480321079
+          "last_modify_ts": 1782906648869
+        }
+      }
+    },
+    {
+      "source": "MediaCrawler-tieba",
+      "source_role": "external_enrichment",
+      "platform": "tieba",
+      "title": "杨洋◆260525◆【原创】预祝电视剧｛雨霖铃｝收视长虹",
+      "url": "https://tieba.baidu.com/p/10741701890",
+      "summary": "恭喜我们在2026年这个夏天迎来演员杨洋在电视剧 ｛雨霖铃｝中饰演的展昭角色。他，一身侠气，无畏艰险。为匡扶正义、明察秋毫、恪守公论、一往无前！感谢演员杨洋让我们这个夏天重新认识“展昭”。 预祝电视剧｛雨霖铃｝收视长虹！ 杨洋先生，我们一直在。",
+      "published_at": "2026-05-24 16:43:16",
+      "hot_score": 0.0,
+      "category": "hotspot",
+      "raw_payload": {
+        "source_role": "external_enrichment",
+        "source_kind": "railway_mediacrawler",
+        "platform": "tieba",
+        "raw": {
+          "note_id": "10741701890",
+          "title": "杨洋◆260525◆【原创】预祝电视剧｛雨霖铃｝收视长虹",
+          "desc": "恭喜我们在2026年这个夏天迎来演员杨洋在电视剧 ｛雨霖铃｝中饰演的展昭角色。他，一身侠气，无畏艰险。为匡扶正义、明察秋毫、恪守公论、一往无前！感谢演员杨洋让我们这个夏天重新认识“展昭”。 预祝电视剧｛雨霖铃｝收视长虹！ 杨洋先生，我们一直在。",
+          "note_url": "https://tieba.baidu.com/p/10741701890",
+          "publish_time": "2026-05-24 16:43:16",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.f9a09bf3.qVMwNKRX-Z2i8akjqJfdLg%3Ft%3D1782906627",
+          "user_nickname": "飞箭仙",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.f9a09bf3.qVMwNKRX-Z2i8akjqJfdLg?t=1782906627",
+          "tieba_name": "杨洋吧",
+          "tieba_link": "https://tieba.baidu.com/f?kw=%E6%9D%A8%E6%B4%8B",
+          "total_replay_num": 63,
+          "total_replay_page": 5,
+          "ip_location": "河北",
+          "source_keyword": "电视剧",
+          "last_modify_ts": 1782906648870
         }
       }
     },
@@ -161,49 +128,16 @@
           "desc": "“改成这样让我生气，简直像天天打我的儿子一样。我和杨佩佩朋友都要作不成了，她怎么可以把黄蓉变成坏人？”“我希望改编我的作品要改得愈少愈好。” 「『黃蓉』是個活潑的女孩，楊佩佩怎麼把『黃蓉』改成了壞人，我就像是作父母的，看著自己的小孩被別人欺負，很心疼！早知道這樣，就不把版權簽給楊佩佩了，想付雙倍的價錢跟楊佩佩買回來。」 某些人看点魔改电视剧心疼杨过？金庸看魔改神雕剧只会心疼黄蓉。",
           "note_url": "https://tieba.baidu.com/p/10812230809",
           "publish_time": "2026-06-22 06:02:48",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.777e2ec2.i5rUcHHTSpujfBwD7wroVw%3Ft%3D1782480305",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.777e2ec2.i5rUcHHTSpujfBwD7wroVw%3Ft%3D1782906630",
           "user_nickname": "草莓爱胡椒",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.777e2ec2.i5rUcHHTSpujfBwD7wroVw?t=1782480305",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.777e2ec2.i5rUcHHTSpujfBwD7wroVw?t=1782906630",
           "tieba_name": "金庸吧",
           "tieba_link": "https://tieba.baidu.com/f?kw=%E9%87%91%E5%BA%B8",
           "total_replay_num": 29,
           "total_replay_page": 1,
           "ip_location": "浙江",
           "source_keyword": "电视剧",
-          "last_modify_ts": 1782480321080
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "【分享】电视剧2部，电影10部",
-      "url": "https://tieba.baidu.com/p/10752697440",
-      "summary": "电视剧 西关大少 30集 刘松仁、赵雅芝、张智霖、佘诗曼 电视剧 射雕英雄传 35集 张智霖 朱茵 2007年系列电影 陆小凤传奇 10部 张智霖 张智尧 何润东 严屹宽 张达明",
-      "published_at": "2026-05-28 21:39:24",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10752697440",
-          "title": "【分享】电视剧2部，电影10部",
-          "desc": "电视剧 西关大少 30集 刘松仁、赵雅芝、张智霖、佘诗曼 电视剧 射雕英雄传 35集 张智霖 朱茵 2007年系列电影 陆小凤传奇 10部 张智霖 张智尧 何润东 严屹宽 张达明",
-          "note_url": "https://tieba.baidu.com/p/10752697440",
-          "publish_time": "2026-05-28 21:39:24",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.2486813b.vGx3Chev5CyAVSmwkBI1_g%3Ft%3D1782480308",
-          "user_nickname": "星海山河与故人",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.2486813b.vGx3Chev5CyAVSmwkBI1_g?t=1782480308",
-          "tieba_name": "百度网盘吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98",
-          "total_replay_num": 13,
-          "total_replay_page": 1,
-          "ip_location": "辽宁",
-          "source_keyword": "电视剧",
-          "last_modify_ts": 1782480321160
+          "last_modify_ts": 1782906648870
         }
       }
     },
@@ -227,16 +161,16 @@
           "desc": "电视剧 莫离 已更新至5集 白鹿 丞磊主演 该剧改编自凤轻的小说《盛世嫡妃》，讲述了叶璃（白鹿 饰）因离山封山被困八年，借太后指婚，嫁给定王墨修尧（丞磊 饰）得以下山。面对王府衰败与丈夫的颓态，她以智慧整顿内务、查明旧案，并坚持为患有腿疾的墨修尧治疗。二人从相互试探到生死相托，联手对抗太后郭妗、穆阳侯等人的阴谋。同时，叶璃暗中调查揭开离山书院被围的真相，墨修尧也洗刷了家族冤屈。最后，二人携手立于春日阳光下，走向属于他们的未来的故事。",
           "note_url": "https://tieba.baidu.com/p/10779811041",
           "publish_time": "2026-06-09 08:38:29",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.2486813b.vGx3Chev5CyAVSmwkBI1_g%3Ft%3D1782480310",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.2486813b.vGx3Chev5CyAVSmwkBI1_g%3Ft%3D1782906632",
           "user_nickname": "星海山河与故人",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.2486813b.vGx3Chev5CyAVSmwkBI1_g?t=1782480310",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.2486813b.vGx3Chev5CyAVSmwkBI1_g?t=1782906632",
           "tieba_name": "百度网盘吧",
           "tieba_link": "https://tieba.baidu.com/f?kw=%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98",
-          "total_replay_num": 16,
+          "total_replay_num": 18,
           "total_replay_page": 2,
           "ip_location": "辽宁",
           "source_keyword": "电视剧",
-          "last_modify_ts": 1782480321161
+          "last_modify_ts": 1782906648871
         }
       }
     },
@@ -260,16 +194,49 @@
           "desc": "#周深献唱问心2主题曲# 【周深丨《赤子》（《问心2》电视剧片尾主题曲）丨新歌上线】 都市医疗情感剧《问心2》片尾主题曲《赤子》由林乔作词，何诗蒙作曲，林乔担任制作人，周深演唱。利落鼓点勾勒出医院日常步履不停的行进感，清晰有力的都市律动与剧集克制中见坚韧的气质完美共振。周深极具穿透力的声线裹挟着不容置疑的笃定，将那份滚烫的赤子信仰，唱得掷地有声。 『歌曲信息』 歌名：《赤子》 演唱：周深 词：林乔 曲：何诗蒙 编曲：何诗蒙 制作人：林乔 和声编唱：李沅芷 配唱制作人：徐威（52Hz Studio Shanghai） 人声录音师：徐威（52Hz Studio Shanghai） 人声录音室：52Hz Studio（Shanghai） 特别鸣谢：周深工作室 混音/母带：赵靖BIG.J（SBMS Beijing） 音乐总监：林乔 音乐制作：林深有鸣/听见时代 音乐出品发行：林深有鸣 唱片公司：林深有鸣 发行时间：2026-06-17",
           "note_url": "https://tieba.baidu.com/p/10800772202",
           "publish_time": "2026-06-17 13:08:03",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.7ed0bdc5.2WKI036wn2zkpDFosnm1hw%3Ft%3D1782480313",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.7ed0bdc5.2WKI036wn2zkpDFosnm1hw%3Ft%3D1782906635",
           "user_nickname": "周深吧信息组",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.7ed0bdc5.2WKI036wn2zkpDFosnm1hw?t=1782480313",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.7ed0bdc5.2WKI036wn2zkpDFosnm1hw?t=1782906635",
           "tieba_name": "周深吧",
           "tieba_link": "https://tieba.baidu.com/f?kw=%E5%91%A8%E6%B7%B1",
           "total_replay_num": 23,
           "total_replay_page": 2,
           "ip_location": "河北",
           "source_keyword": "电视剧",
-          "last_modify_ts": 1782480321162
+          "last_modify_ts": 1782906648872
+        }
+      }
+    },
+    {
+      "source": "MediaCrawler-tieba",
+      "source_role": "external_enrichment",
+      "platform": "tieba",
+      "title": "【分享】电视剧2部，电影10部",
+      "url": "https://tieba.baidu.com/p/10752697440",
+      "summary": "电视剧 西关大少 30集 刘松仁、赵雅芝、张智霖、佘诗曼 电视剧 射雕英雄传 35集 张智霖 朱茵 2007年系列电影 陆小凤传奇 10部 张智霖 张智尧 何润东 严屹宽 张达明",
+      "published_at": "2026-05-28 21:39:24",
+      "hot_score": 0.0,
+      "category": "hotspot",
+      "raw_payload": {
+        "source_role": "external_enrichment",
+        "source_kind": "railway_mediacrawler",
+        "platform": "tieba",
+        "raw": {
+          "note_id": "10752697440",
+          "title": "【分享】电视剧2部，电影10部",
+          "desc": "电视剧 西关大少 30集 刘松仁、赵雅芝、张智霖、佘诗曼 电视剧 射雕英雄传 35集 张智霖 朱茵 2007年系列电影 陆小凤传奇 10部 张智霖 张智尧 何润东 严屹宽 张达明",
+          "note_url": "https://tieba.baidu.com/p/10752697440",
+          "publish_time": "2026-05-28 21:39:24",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.2486813b.vGx3Chev5CyAVSmwkBI1_g%3Ft%3D1782906637",
+          "user_nickname": "星海山河与故人",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.2486813b.vGx3Chev5CyAVSmwkBI1_g?t=1782906638",
+          "tieba_name": "百度网盘吧",
+          "tieba_link": "https://tieba.baidu.com/f?kw=%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98",
+          "total_replay_num": 13,
+          "total_replay_page": 1,
+          "ip_location": "辽宁",
+          "source_keyword": "电视剧",
+          "last_modify_ts": 1782906648872
         }
       }
     },
@@ -293,16 +260,16 @@
           "desc": "https://tieba.baidu.com/mo/q/movideo/page?thumbnail=c93d70cf3bc79f3da141f225fca1cd11728b2906&video=93_f15f9beadf32d21d6bb3b9405ca6f487&product=tieba-movideo&thread_id=9982688144",
           "note_url": "https://tieba.baidu.com/p/9982688144",
           "publish_time": "2025-08-25 06:58:04",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.bb9401f0.qsb8CbSp2pfww4NYPu-Yrg%3Ft%3D1782480315",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.bb9401f0.qsb8CbSp2pfww4NYPu-Yrg%3Ft%3D1782906640",
           "user_nickname": "短剧评论区看全集",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.bb9401f0.qsb8CbSp2pfww4NYPu-Yrg?t=1782480315",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.bb9401f0.qsb8CbSp2pfww4NYPu-Yrg?t=1782906640",
           "tieba_name": "电视剧吧",
           "tieba_link": "https://tieba.baidu.com/f?kw=%E7%94%B5%E8%A7%86%E5%89%A7",
           "total_replay_num": 450,
           "total_replay_page": 10,
-          "ip_location": "黑龙江",
+          "ip_location": "辽宁",
           "source_keyword": "电视剧",
-          "last_modify_ts": 1782480321162
+          "last_modify_ts": 1782906648873
         }
       }
     },
@@ -326,16 +293,49 @@
           "desc": "https://tieba.baidu.com/mo/q/movideo/page?thumbnail=43166d224f4a20a4a9b70fd3d6529822720ed07d&video=119_c134ee55b42383abcf24bada8fbb1705&product=tieba-movideo&thread_id=9920478235",
           "note_url": "https://tieba.baidu.com/p/9920478235",
           "publish_time": "2025-08-01 22:11:40",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.bb9401f0.qsb8CbSp2pfww4NYPu-Yrg%3Ft%3D1782480318",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.bb9401f0.qsb8CbSp2pfww4NYPu-Yrg%3Ft%3D1782906643",
           "user_nickname": "短剧评论区看全集",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.bb9401f0.qsb8CbSp2pfww4NYPu-Yrg?t=1782480318",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.bb9401f0.qsb8CbSp2pfww4NYPu-Yrg?t=1782906643",
           "tieba_name": "电视剧吧",
           "tieba_link": "https://tieba.baidu.com/f?kw=%E7%94%B5%E8%A7%86%E5%89%A7",
           "total_replay_num": 89,
           "total_replay_page": 3,
-          "ip_location": "黑龙江",
+          "ip_location": "辽宁",
           "source_keyword": "电视剧",
-          "last_modify_ts": 1782480321163
+          "last_modify_ts": 1782906648874
+        }
+      }
+    },
+    {
+      "source": "MediaCrawler-tieba",
+      "source_role": "external_enrichment",
+      "platform": "tieba",
+      "title": "【剧·讨论】“史诗级过肺”#凡人修仙传",
+      "url": "https://tieba.baidu.com/p/9920461994",
+      "summary": "https://tieba.baidu.com/mo/q/movideo/page?thumbnail=8226cffc1e178a820e864cb4b003738da977e868&video=52_734e620a661bbec0e075bc014815e9e4&product=tieba-movideo&thread_id=9920461994",
+      "published_at": "2025-08-01 21:44:27",
+      "hot_score": 0.0,
+      "category": "hotspot",
+      "raw_payload": {
+        "source_role": "external_enrichment",
+        "source_kind": "railway_mediacrawler",
+        "platform": "tieba",
+        "raw": {
+          "note_id": "9920461994",
+          "title": "【剧·讨论】“史诗级过肺”#凡人修仙传",
+          "desc": "https://tieba.baidu.com/mo/q/movideo/page?thumbnail=8226cffc1e178a820e864cb4b003738da977e868&video=52_734e620a661bbec0e075bc014815e9e4&product=tieba-movideo&thread_id=9920461994",
+          "note_url": "https://tieba.baidu.com/p/9920461994",
+          "publish_time": "2025-08-01 21:44:27",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.bb9401f0.qsb8CbSp2pfww4NYPu-Yrg%3Ft%3D1782906646",
+          "user_nickname": "短剧评论区看全集",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.bb9401f0.qsb8CbSp2pfww4NYPu-Yrg?t=1782906646",
+          "tieba_name": "电视剧吧",
+          "tieba_link": "https://tieba.baidu.com/f?kw=%E7%94%B5%E8%A7%86%E5%89%A7",
+          "total_replay_num": 38,
+          "total_replay_page": 2,
+          "ip_location": "辽宁",
+          "source_keyword": "电视剧",
+          "last_modify_ts": 1782906648874
         }
       }
     }
@@ -345,19 +345,19 @@
       "platform": "bili",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91391
+      "duration_ms": 91113
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91215
+      "duration_ms": 90703
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x7bf439a6a500 state=finished raised DataFetchError>]",
-      "duration_ms": 57684
+      "message": "RetryError[<Future at 0x7a6a811e7e50 state=finished raised DataFetchError>]",
+      "duration_ms": 48696
     }
   ],
   "runs": [
@@ -365,19 +365,19 @@
       "platform": "bili",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91391
+      "duration_ms": 91113
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91215
+      "duration_ms": 90703
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x7bf439a6a500 state=finished raised DataFetchError>]",
-      "duration_ms": 57684
+      "message": "RetryError[<Future at 0x7a6a811e7e50 state=finished raised DataFetchError>]",
+      "duration_ms": 48696
     }
   ]
 }
