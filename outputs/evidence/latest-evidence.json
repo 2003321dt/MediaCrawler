@@ -1,12 +1,12 @@
 {
   "schema_version": "1.1",
-  "run_id": "bd17a2b0-6e4b-4886-870f-e60bdbb11404",
+  "run_id": "67254919-0e3e-4ded-8b90-b03108d20081",
   "status": "partial_failed",
   "mode": "remote_deep_evidence",
   "source": "Remote-Windows-Evidence",
   "source_role": "external_enrichment",
-  "started_at": "2026-07-02T11:10:44.716876+08:00",
-  "finished_at": "2026-07-02T11:15:39.658633+08:00",
+  "started_at": "2026-07-02T11:17:55.001853+08:00",
+  "finished_at": "2026-07-02T11:25:13.196049+08:00",
   "window_hours": 24,
   "radar_top_limit": 20,
   "seed_limit": 12,
@@ -74,17 +74,17 @@
       "title": "王俊凯疑疑疑歌词",
       "rank": 7,
       "source": "Weibo-Hot-Realtime",
-      "hotspot_type": "unknown",
-      "decision": "rejected",
-      "reason": "category_not_matched"
+      "hotspot_type": "performance",
+      "decision": "accepted",
+      "reason": "matched:performance"
     },
     {
       "title": "因杨紫白玉兰女主去看生命树",
       "rank": 8,
       "source": "Weibo-Hot-Realtime",
-      "hotspot_type": "unknown",
-      "decision": "rejected",
-      "reason": "category_not_matched"
+      "hotspot_type": "tv_drama",
+      "decision": "accepted",
+      "reason": "matched:tv_drama"
     },
     {
       "title": "卖了一万台的情感陪伴机器人",
@@ -119,7 +119,7 @@
       "reason": "matched:celebrity_work"
     },
     {
-      "title": "王楚钦说和孙颖莎逐渐能沟通了",
+      "title": "原来是小石潭记真的是写实派",
       "rank": 13,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -127,7 +127,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "原来是小石潭记真的是写实派",
+      "title": "王楚钦说和孙颖莎逐渐能沟通了",
       "rank": 14,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -143,20 +143,20 @@
       "reason": "matched:relationship_rumor"
     },
     {
-      "title": "短剧演员取消行程图",
-      "rank": 16,
-      "source": "Weibo-Hot-Realtime",
-      "hotspot_type": "short_drama",
-      "decision": "accepted",
-      "reason": "matched:short_drama,celebrity_work"
-    },
-    {
       "title": "我跟他的关系没有你想的那么好",
-      "rank": 17,
+      "rank": 16,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
       "decision": "rejected",
       "reason": "category_not_matched"
+    },
+    {
+      "title": "短剧演员取消行程图",
+      "rank": 17,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "short_drama",
+      "decision": "accepted",
+      "reason": "matched:short_drama,celebrity_work"
     },
     {
       "title": "赵丽颖我连心疼你都有时差了",
@@ -167,7 +167,7 @@
       "reason": "matched:entertainment_gossip"
     },
     {
-      "title": "男子飞踹妻子舞伴后发现对方是女子",
+      "title": "詹姆斯回应巴洛贡霸王步",
       "rank": 19,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -177,99 +177,10 @@
   ],
   "candidate_diagnostics": [
     {
-      "seed_title": "网友称白鹿打戏疑为替身",
-      "rank": 12,
+      "seed_title": "王俊凯疑疑疑歌词",
+      "rank": 7,
       "source": "Weibo-Hot-Realtime",
-      "hotspot_type": "celebrity_work",
-      "status": "partial_failed",
-      "decision": "accepted",
-      "reason": "multi_platform_direct_evidence",
-      "evidence_level": "multi_platform",
-      "claim_status": "confirmed",
-      "requires_review": false,
-      "independent_url_count": 13,
-      "matched_platforms": [
-        "weibo",
-        "douyin",
-        "xiaohongshu"
-      ],
-      "platform_statuses": [
-        {
-          "platform": "weibo",
-          "status": "success"
-        },
-        {
-          "platform": "douyin",
-          "status": "success"
-        },
-        {
-          "platform": "xiaohongshu",
-          "status": "partial_failed"
-        },
-        {
-          "platform": "kuaishou",
-          "status": "empty"
-        }
-      ],
-      "failure_reasons": [
-        "stale_filtered:2",
-        "light_mode_skip_detail_to_avoid_secondary_confirmation",
-        "no_valid_search_results"
-      ],
-      "risk_reasons": [
-        "light_mode_skip_detail_to_avoid_secondary_confirmation"
-      ]
-    },
-    {
-      "seed_title": "全球最美女孩结婚",
-      "rank": 15,
-      "source": "Weibo-Hot-Realtime",
-      "hotspot_type": "relationship_rumor",
-      "status": "partial_failed",
-      "decision": "accepted",
-      "reason": "multi_platform_direct_evidence",
-      "evidence_level": "multi_platform",
-      "claim_status": "rumor",
-      "requires_review": true,
-      "independent_url_count": 12,
-      "matched_platforms": [
-        "weibo",
-        "douyin",
-        "xiaohongshu"
-      ],
-      "platform_statuses": [
-        {
-          "platform": "weibo",
-          "status": "partial_failed"
-        },
-        {
-          "platform": "douyin",
-          "status": "success"
-        },
-        {
-          "platform": "xiaohongshu",
-          "status": "partial_failed"
-        },
-        {
-          "platform": "kuaishou",
-          "status": "empty"
-        }
-      ],
-      "failure_reasons": [
-        "stale_filtered:1",
-        "stale_filtered:2",
-        "light_mode_skip_detail_to_avoid_secondary_confirmation",
-        "no_detail_url_extracted"
-      ],
-      "risk_reasons": [
-        "light_mode_skip_detail_to_avoid_secondary_confirmation"
-      ]
-    },
-    {
-      "seed_title": "短剧演员取消行程图",
-      "rank": 16,
-      "source": "Weibo-Hot-Realtime",
-      "hotspot_type": "short_drama",
+      "hotspot_type": "performance",
       "status": "partial_failed",
       "decision": "accepted",
       "reason": "multi_platform_direct_evidence",
@@ -289,6 +200,181 @@
         },
         {
           "platform": "douyin",
+          "status": "success"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failure_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation",
+        "no_detail_url_extracted"
+      ],
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ]
+    },
+    {
+      "seed_title": "因杨紫白玉兰女主去看生命树",
+      "rank": 8,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "tv_drama",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "independent_url_count": 10,
+      "matched_platforms": [
+        "weibo",
+        "douyin"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "douyin",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "empty"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failure_reasons": [
+        "stale_filtered:1",
+        "stale_filtered:3",
+        "stale_filtered:4",
+        "only_stale_results",
+        "no_valid_search_results"
+      ],
+      "risk_reasons": []
+    },
+    {
+      "seed_title": "网友称白鹿打戏疑为替身",
+      "rank": 12,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "celebrity_work",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "independent_url_count": 12,
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "success"
+        },
+        {
+          "platform": "douyin",
+          "status": "success"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failure_reasons": [
+        "stale_filtered:3",
+        "light_mode_skip_detail_to_avoid_secondary_confirmation",
+        "no_detail_url_extracted"
+      ],
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ]
+    },
+    {
+      "seed_title": "全球最美女孩结婚",
+      "rank": 15,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "relationship_rumor",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "rumor",
+      "requires_review": true,
+      "independent_url_count": 13,
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "douyin",
+          "status": "success"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failure_reasons": [
+        "stale_filtered:1",
+        "stale_filtered:1",
+        "light_mode_skip_detail_to_avoid_secondary_confirmation",
+        "no_detail_url_extracted"
+      ],
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ]
+    },
+    {
+      "seed_title": "短剧演员取消行程图",
+      "rank": 17,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "short_drama",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "independent_url_count": 14,
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "success"
+        },
+        {
+          "platform": "douyin",
           "status": "partial_failed"
         },
         {
@@ -301,6 +387,7 @@
         }
       ],
       "failure_reasons": [
+        "stale_filtered:1",
         "stale_filtered:1",
         "light_mode_skip_detail_to_avoid_secondary_confirmation",
         "no_detail_url_extracted"
@@ -320,10 +407,11 @@
       "evidence_level": "multi_platform",
       "claim_status": "rumor",
       "requires_review": true,
-      "independent_url_count": 11,
+      "independent_url_count": 12,
       "matched_platforms": [
         "weibo",
-        "douyin"
+        "douyin",
+        "xiaohongshu"
       ],
       "platform_statuses": [
         {
@@ -336,7 +424,7 @@
         },
         {
           "platform": "xiaohongshu",
-          "status": "empty"
+          "status": "partial_failed"
         },
         {
           "platform": "kuaishou",
@@ -344,22 +432,663 @@
         }
       ],
       "failure_reasons": [
-        "stale_filtered:4",
-        "only_stale_results",
+        "stale_filtered:3",
+        "light_mode_skip_detail_to_avoid_secondary_confirmation",
         "no_detail_url_extracted"
       ],
-      "risk_reasons": []
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ]
     }
   ],
   "candidate_summary": {
     "scanned": 20,
-    "selected_seeds": 4,
-    "accepted_topics": 4,
+    "selected_seeds": 6,
+    "accepted_topics": 6,
     "single_platform": 0,
-    "multi_platform": 4,
+    "multi_platform": 6,
     "rejected": 0
   },
   "topics": [
+    {
+      "source": "Remote-Windows-Evidence",
+      "status": "partial_failed",
+      "seed_title": "王俊凯疑疑疑歌词",
+      "keywords": [
+        "王俊凯疑疑疑歌词"
+      ],
+      "category": "performance",
+      "hotspot_type": "performance",
+      "published_at": "2026-07-02T11:18:01.139062+08:00",
+      "summary": "7 王俊凯疑疑疑歌词 音乐 372292 新",
+      "hot_score": 103,
+      "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E7%96%91%E7%96%91%E7%96%91%E6%AD%8C%E8%AF%8D%23&t=31&band_rank=7&Refer=top",
+      "source_hotspot_rank": 7,
+      "source_hotspot_source": "Weibo-Hot-Realtime",
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "detail_pages": [
+        {
+          "platform": "weibo",
+          "title": "热门 c 娱闻大神 31分钟前 来自 iPhone客户端 #王俊凯疑疑疑歌词#王俊凯《疑疑疑》唱出很多纠结心绪，歌词直白细腻，旋律舒缓，独处听歌氛围感绝佳 ​ 24 12 647",
+          "url": "https://weibo.com/5389953206/R6N0s4571?refer_flag=1001030103_",
+          "author": "娱闻大神",
+          "published_at": "",
+          "content": "热门 c 娱闻大神 31分钟前 来自 iPhone客户端 #王俊凯疑疑疑歌词#王俊凯《疑疑疑》唱出很多纠结心绪，歌词直白细腻，旋律舒缓，独处听歌氛围感绝佳 ​ 24 12 647",
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "source_page_url": "https://weibo.com/5389953206/R6N0s4571?refer_flag=1001030103_",
+          "source_page_title": "热门 c 娱闻大神 31分钟前 来自 iPhone客户端 #王俊凯疑疑疑歌词#王俊凯《疑疑疑》唱出很多纠结心绪，歌词直白细腻，旋律舒缓，独处听歌氛围感绝佳 ​ 24 12 647",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "当事人 c TFBOYS-王俊凯 今天10:00 《J》来了！问我就是好听，再问就是……你去听啊！ QQ音乐： KWJK 酷狗音乐： O网页链接 酷我音乐： O网页链接 ​ 63930 58413 156122",
+          "url": "https://weibo.com/2609400635/R6MHG6mta?refer_flag=1001030103_",
+          "author": "TFBOYS-王俊凯",
+          "published_at": "",
+          "content": "当事人 c TFBOYS-王俊凯 今天10:00 《J》来了！问我就是好听，再问就是……你去听啊！ QQ音乐： KWJK 酷狗音乐： O网页链接 酷我音乐： O网页链接 ​ 63930 58413 156122",
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "source_page_url": "https://weibo.com/2609400635/R6MHG6mta?refer_flag=1001030103_",
+          "source_page_title": "当事人 c TFBOYS-王俊凯 今天10:00 《J》来了！问我就是好听，再问就是……你去听啊！ QQ音乐： KWJK 酷狗音乐： O网页链接 酷我音乐： O网页链接 ​ 63930 58413 156122",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 教父娱乐 39分钟前 来自 王俊凯超话 #王俊凯疑疑疑歌词##王俊凯疑疑疑好听# 王俊凯《疑疑疑》歌词🈶：“玫瑰氤氲气息缠绕，挂你嘴角 似有似无微弱信号，无处翻找…”氛围感直接拉满，越听越有韵味 L教父娱乐的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:",
+          "url": "https://weibo.com/1974754790/R6MXnrfql?refer_flag=1001030103_",
+          "author": "教父娱乐",
+          "published_at": "当前时间 00:00",
+          "content": "热门 c 教父娱乐 39分钟前 来自 王俊凯超话 #王俊凯疑疑疑歌词##王俊凯疑疑疑好听# 王俊凯《疑疑疑》歌词🈶：“玫瑰氤氲气息缠绕，挂你嘴角 似有似无微弱信号，无处翻找…”氛围感直接拉满，越听越有韵味 L教父娱乐的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316181419294768 35 24 891",
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "source_page_url": "https://weibo.com/1974754790/R6MXnrfql?refer_flag=1001030103_",
+          "source_page_title": "热门 c 教父娱乐 39分钟前 来自 王俊凯超话 #王俊凯疑疑疑歌词##王俊凯疑疑疑好听# 王俊凯《疑疑疑》歌词🈶：“玫瑰氤氲气息缠绕，挂你嘴角 似有似无微弱信号，无处翻找…”氛围感直接拉满，越听越有韵味 L教父娱乐的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 重庆防沉迷 30分钟前 来自 王俊凯超话 还是觉得歌名《疑疑疑》太有意思了…… 1.昨晚凯文案是问号，问号即是“疑” 2.发了31个问号，31——三疑——疑疑疑 3.纯玩派对这张图，也跟“？”和“疑”呼应，且🕙显示时间疑似3：01，又跟31对上了 4.kws文案是三个问号，也对上了疑疑疑 #王俊凯疑疑疑歌词",
+          "url": "https://weibo.com/6426604826/R6N0Rn8ox?refer_flag=1001030103_",
+          "author": "重庆防沉迷",
+          "published_at": "",
+          "content": "热门 c 重庆防沉迷 30分钟前 来自 王俊凯超话 还是觉得歌名《疑疑疑》太有意思了…… 1.昨晚凯文案是问号，问号即是“疑” 2.发了31个问号，31——三疑——疑疑疑 3.纯玩派对这张图，也跟“？”和“疑”呼应，且🕙显示时间疑似3：01，又跟31对上了 4.kws文案是三个问号，也对上了疑疑疑 #王俊凯疑疑疑歌词# ？ #王俊凯首张同名专辑wjk# ​ 709 200 1665",
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "source_page_url": "https://weibo.com/6426604826/R6N0Rn8ox?refer_flag=1001030103_",
+          "source_page_title": "热门 c 重庆防沉迷 30分钟前 来自 王俊凯超话 还是觉得歌名《疑疑疑》太有意思了…… 1.昨晚凯文案是问号，问号即是“疑” 2.发了31个问号，31——三疑——疑疑疑 3.纯玩派对这张图，也跟“？”和“疑”呼应，且🕙显示时间疑似3：01，又跟31对上了 4.kws文案是三个问号，也对上了疑疑疑 #王俊凯疑疑疑歌词",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "微博正文 - 微博",
+          "url": "https://weibo.com/5389953206/R6N0s4571?refer_flag=1001030103_",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 娱闻大神 公开 娱闻大神 26-7-2 10:46 发布于 河南 来自 iPhone客户端 关注 #王俊凯疑疑疑歌词#王俊凯《疑疑疑》唱出很多纠结心绪，歌词直白细腻，旋律舒缓，独处听歌氛围感绝佳 ​​​ 25 12 651 分享这条博文 同时转发 评论 按热度 按时间 可可西里爱上K:抓住了我的耳朵👂 26-7-2 11:01 来自四川 1 椰香牛奶果汁:这首歌听抓耳的，也很适合唱跳，很好听 26-7-2 11:14 来自浙江 哈哈给哈47681:好好听啊 26-7-2 11:12 来自浙江 水木_198401:好抓耳，忆忆忆 26-7-2 11:12 来自江苏 孟超姐姐就是我:好听 26-7-2 10:52 来自广东 王俊凯长得最帅:王俊凯王俊凯 26-7-2 11:14 来自湖南 王俊凯长得最帅:王俊凯 26-7-2 11:14 来自湖南 嵩嵩是Karry: 26-7-2 11:15 来自贵州 已加载全部评论",
+          "author": "娱闻大神",
+          "published_at": "26-7-2 10:46",
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://weibo.com/5389953206/R6N0s4571?refer_flag=1001030103_",
+          "source_page_title": "微博正文 - 微博"
+        },
+        {
+          "platform": "douyin",
+          "title": "用王俊凯新歌《疑疑疑》打开河南 共赴中原游览大美河山 #王俊凯 #新歌 #疑疑疑 #王俊凯首张同名专辑WJK #WJK - 抖音",
+          "url": "https://www.douyin.com/video/7657763508369651953",
+          "content": "00:07 / 00:18 倍速 智能 清屏 连播",
+          "author": "",
+          "published_at": "00:07 / 00:18",
+          "captured_at": "2026-07-02T11:18:21.298960+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://www.douyin.com/video/7657763508369651953",
+          "source_page_title": "用王俊凯新歌《疑疑疑》打开河南 共赴中原游览大美河山 #王俊凯 #新歌 #疑疑疑 #王俊凯首张同名专辑WJK #WJK - 抖音"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "🎧今日份歌曲推荐 戴dai2004 58分钟前 赞",
+          "url": "https://www.xiaohongshu.com/explore/6a45caf20000000011016018",
+          "author": "戴dai2004 58分钟前",
+          "published_at": "戴dai2004 58分钟前",
+          "content": "🎧今日份歌曲推荐 戴dai2004 58分钟前 赞",
+          "captured_at": "2026-07-02T11:18:41.552554+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45caf20000000011016018",
+          "source_page_title": "🎧今日份歌曲推荐 戴dai2004 58分钟前 赞",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "速度｜挑战全网第一个用疑疑疑背景音乐🥹🎵 Yjiujiu* 29分钟前 8",
+          "url": "https://www.xiaohongshu.com/explore/6a45d1b900000000070125c8",
+          "author": "Yjiujiu* 29分钟前",
+          "published_at": "Yjiujiu* 29分钟前",
+          "content": "速度｜挑战全网第一个用疑疑疑背景音乐🥹🎵 Yjiujiu* 29分钟前 8",
+          "captured_at": "2026-07-02T11:18:41.552554+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45d1b900000000070125c8",
+          "source_page_title": "速度｜挑战全网第一个用疑疑疑背景音乐🥹🎵 Yjiujiu* 29分钟前 8",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "《J》来了！！！ 想艾特王哥kkk 51分钟前 1",
+          "url": "https://www.xiaohongshu.com/explore/6a45cc6b0000000011018977",
+          "author": "想艾特王哥kkk 51分钟前",
+          "published_at": "想艾特王哥kkk 51分钟前",
+          "content": "《J》来了！！！ 想艾特王哥kkk 51分钟前 1",
+          "captured_at": "2026-07-02T11:18:41.552554+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45cc6b0000000011018977",
+          "source_page_title": "《J》来了！！！ 想艾特王哥kkk 51分钟前 1",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "来支持王俊凯老师新歌！！！ 郑妮妮爱吃炸洋芋🥔 25分钟前 10",
+          "url": "https://www.xiaohongshu.com/explore/6a45d29a000000001603f11d",
+          "author": "郑妮妮爱吃炸洋芋🥔 25分钟前",
+          "published_at": "郑妮妮爱吃炸洋芋🥔 25分钟前",
+          "content": "来支持王俊凯老师新歌！！！ 郑妮妮爱吃炸洋芋🥔 25分钟前 10",
+          "captured_at": "2026-07-02T11:18:41.552554+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45d29a000000001603f11d",
+          "source_page_title": "来支持王俊凯老师新歌！！！ 郑妮妮爱吃炸洋芋🥔 25分钟前 10",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        }
+      ],
+      "videos": [
+        {
+          "platform": "douyin",
+          "title": "用王俊凯新歌《疑疑疑》打开河南 共赴中原游览大美河山 #王俊凯 #新歌 #疑疑疑 #王俊凯首张同名专辑WJK #WJK - 抖音",
+          "url": "https://www.douyin.com/video/7657763508369651953",
+          "cover_url": "",
+          "author": "",
+          "duration": 18,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-07-02T11:18:21.298960+08:00",
+          "capture_method": "dom",
+          "source_url": "https://www.douyin.com/video/7657763508369651953",
+          "evidence_role": "source_video"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://wx3.sinaimg.cn/orj360/005SLH38ly1iepgcpeu61j30hy0u0ab6.jpg",
+          "source_url": "https://weibo.com/5389953206/R6N0s4571?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 602,
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/005SLH38ly1iepgcdfwefj30ei0u0wgu.jpg",
+          "source_url": "https://weibo.com/5389953206/R6N0s4571?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 745,
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx4.sinaimg.cn/orj360/005SLH38ly1iepgcpqn83j30ty0tyjx5.jpg",
+          "source_url": "https://weibo.com/5389953206/R6N0s4571?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 360,
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx4.sinaimg.cn/orj360/005SLH38ly1iepgcdq2u9j30j60ucmze.jpg",
+          "source_url": "https://weibo.com/5389953206/R6N0s4571?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 570,
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx1.sinaimg.cn/orj360/005SLH38ly1iepgcmxwitj30j60ra0v8.jpg",
+          "source_url": "https://weibo.com/5389953206/R6N0s4571?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 512,
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx1.sinaimg.cn/orj360/005SLH38ly1iepgcn5wfuj30j60s0go4.jpg",
+          "source_url": "https://weibo.com/5389953206/R6N0s4571?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 526,
+          "captured_at": "2026-07-02T11:18:01.141369+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "comments": [
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657763508369651953",
+          "content": "郑州同城会 作者 ... 小螃蟹们大声告诉我，凯凯的新歌夯不夯呀 3分钟前·河南 1 分享 回复 郑州同城会 作者 ... 小螃蟹们报道啦 4分钟前·河南 1 分享 回复 郑州同城会 作者 ... 小螃蟹们希望凯凯来河南开演唱会嘛 2分钟前·河南 1 分享 回复 暂时没有更多评论",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-02T11:18:21.298960+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657763508369651953",
+          "content": "郑州同城会 作者 ... 小螃蟹们大声告诉我，凯凯的新歌夯不夯呀 3分钟前·河南 1 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-02T11:18:21.298960+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657763508369651953",
+          "content": "郑州同城会 作者 ... 小螃蟹们报道啦 4分钟前·河南 1 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-02T11:18:21.298960+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657763508369651953",
+          "content": "郑州同城会 作者 ... 小螃蟹们希望凯凯来河南开演唱会嘛 2分钟前·河南 1 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-02T11:18:21.298960+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "success"
+        },
+        {
+          "platform": "douyin",
+          "status": "success"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failures": [
+        {
+          "platform": "xiaohongshu",
+          "stage": "detail",
+          "status": "blocked",
+          "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "no_detail_url_extracted"
+        }
+      ],
+      "warnings": [
+        {
+          "platform": "weibo",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        }
+      ],
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "admission_reason": "multi_platform_direct_evidence",
+      "independent_url_count": 15,
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ],
+      "source_attribution": {
+        "hotspot_source": "Weibo-Hot-Realtime",
+        "hotspot_url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E7%96%91%E7%96%91%E7%96%91%E6%AD%8C%E8%AF%8D%23&t=31&band_rank=7&Refer=top",
+        "hotspot_rank": 7,
+        "matched_platforms": [
+          "weibo",
+          "douyin",
+          "xiaohongshu"
+        ]
+      }
+    },
+    {
+      "source": "Remote-Windows-Evidence",
+      "status": "partial_failed",
+      "seed_title": "因杨紫白玉兰女主去看生命树",
+      "keywords": [
+        "因杨紫白玉兰女主去看生命树"
+      ],
+      "category": "tv_drama",
+      "hotspot_type": "tv_drama",
+      "published_at": "2026-07-02T11:18:01.139081+08:00",
+      "summary": "8 因杨紫白玉兰女主去看生命树 盛典 372143 新",
+      "hot_score": 102,
+      "source_hotspot_url": "https://s.weibo.com/weibo?q=%E5%9B%A0%E6%9D%A8%E7%B4%AB%E7%99%BD%E7%8E%89%E5%85%B0%E5%A5%B3%E4%B8%BB%E5%8E%BB%E7%9C%8B%E7%94%9F%E5%91%BD%E6%A0%91&t=31&band_rank=8&Refer=top",
+      "source_hotspot_rank": 8,
+      "source_hotspot_source": "Weibo-Hot-Realtime",
+      "matched_platforms": [
+        "weibo",
+        "douyin"
+      ],
+      "detail_pages": [
+        {
+          "platform": "weibo",
+          "title": "热门 c Du_Mber小姐 07月01日 23:03 来自 杨紫被窝 “我因为杨紫的白玉兰女主去看了《生命树》” ​ 220 222 5139",
+          "url": "https://weibo.com/2701584757/R6IpdlVrb?refer_flag=1001030103_",
+          "author": "Du_Mber小姐",
+          "published_at": "",
+          "content": "热门 c Du_Mber小姐 07月01日 23:03 来自 杨紫被窝 “我因为杨紫的白玉兰女主去看了《生命树》” ​ 220 222 5139",
+          "captured_at": "2026-07-02T11:19:13.319203+08:00",
+          "source_page_url": "https://weibo.com/2701584757/R6IpdlVrb?refer_flag=1001030103_",
+          "source_page_title": "热门 c Du_Mber小姐 07月01日 23:03 来自 杨紫被窝 “我因为杨紫的白玉兰女主去看了《生命树》” ​ 220 222 5139",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 是一个娱雪天 07月01日 17:01 来自 OPPO Reno15 孔笙的大徒弟李雪，竟然靠一部收视率倒数的剧，又拿了个白玉兰最佳导演？ ​这事有点意思，这部叫《生命树》的剧，听着挺冷门，看单频道收视率，在央八今年黄金档里排倒数第三 ​但你再看另一份数据，全网联播，它又是全国第一，开播10分钟收视直接干到1",
+          "url": "https://weibo.com/6198467790/R6G29rwkG?refer_flag=1001030103_",
+          "author": "是一个娱雪天",
+          "published_at": "",
+          "content": "热门 c 是一个娱雪天 07月01日 17:01 来自 OPPO Reno15 孔笙的大徒弟李雪，竟然靠一部收视率倒数的剧，又拿了个白玉兰最佳导演？ ​这事有点意思，这部叫《生命树》的剧，听着挺冷门，看单频道收视率，在央八今年黄金档里排倒数第三 ​但你再看另一份数据，全网联播，它又是全国第一，开播10分钟收视直接干到1.78%，31分钟冲破2.3%，触达了10.7亿人次，豆瓣 ​ 展开c 21 180 1415",
+          "captured_at": "2026-07-02T11:19:13.319203+08:00",
+          "source_page_url": "https://weibo.com/6198467790/R6G29rwkG?refer_flag=1001030103_",
+          "source_page_title": "热门 c 是一个娱雪天 07月01日 17:01 来自 OPPO Reno15 孔笙的大徒弟李雪，竟然靠一部收视率倒数的剧，又拿了个白玉兰最佳导演？ ​这事有点意思，这部叫《生命树》的剧，听着挺冷门，看单频道收视率，在央八今年黄金档里排倒数第三 ​但你再看另一份数据，全网联播，它又是全国第一，开播10分钟收视直接干到1",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 视后粉丝柠檬阿茶 07月01日 14:35 置景公司分享，白玉兰庆功宴就是自信娱乐给演员杨紫举办的 ​ 20 29 3003",
+          "url": "https://weibo.com/6270126036/R6F4W0Bv1?refer_flag=1001030103_",
+          "author": "视后粉丝柠檬阿茶",
+          "published_at": "",
+          "content": "热门 c 视后粉丝柠檬阿茶 07月01日 14:35 置景公司分享，白玉兰庆功宴就是自信娱乐给演员杨紫举办的 ​ 20 29 3003",
+          "captured_at": "2026-07-02T11:19:13.319203+08:00",
+          "source_page_url": "https://weibo.com/6270126036/R6F4W0Bv1?refer_flag=1001030103_",
+          "source_page_title": "热门 c 视后粉丝柠檬阿茶 07月01日 14:35 置景公司分享，白玉兰庆功宴就是自信娱乐给演员杨紫举办的 ​ 20 29 3003",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "微博正文 - 微博",
+          "url": "https://weibo.com/2701584757/R6IpdlVrb?refer_flag=1001030103_",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 Du_Mber小姐 公开 Du_Mber小姐 26-7-1 23:03 发布于 湖北 来自 杨紫被窝 关注 “我因为杨紫的白玉兰女主去看了《生命树》” ​​​ 点赞是美意，赞赏是鼓励 为TA助威 220 223 5150 分享这条博文 同时转发 评论 30天内，博主已拉黑多于30名恶意评论用户，请谨慎评论 按热度 按时间 喝点冰美式吧 :生命树值得一切荣誉 26-7-1 23:38 来自安徽 53 LOVEGOLD_799W :生命树，夯爆了！ 26-7-1 23:13 来自江苏 44 Andy_Nuyoah :因为关键字热源烫搜了悦悦伟大 26-7-2 11:19 来自山东 1 Andy_Nuyoah :@Du_Mber小姐 26-7-2 11:19 来自山东 Andy_Nuyoah :所以杨紫拿奖后，生命树热度飙升了快 2000 26-7-2 11:18 来自山东 1 Andy_Nuyoah :都赶上一部在播剧了 26-7-2 11:18 来自山东 肆夕-夏天 :生命树这么好的剧应该被看到 26-7-2 10:39 来自广东 4 奥家惜珺 :生命树就是夯，值得拿奖！ 26-7-2 08:51 来自上海 4 阡陌0086 :生命树伟大！ 26-7-2 08:31 来自甘肃 4 珍珍福朵朵 :杨紫伟大，生命树夯爆了 26-7-2 10:53 来自四川 4 颖0528 :杨紫值得 26-7-2 10:42 来自陕西 4 抠抠搜搜花了好多冤枉钱 :真的看过就知道什么叫实至名归，也会明白下死手下黑水背后的潜台词其实是“害怕”。没有关系，欢迎每一个对《生命树》有质疑的人都来剧中检验 26-7-2 10:38 来自湖北 4 落随心0 :生命树真的好看 26-7-2 10:26 来自河南 3 开心开心过好每天 :生命树真得很震撼#杨紫[超话]# 26-7-2 05:40 来自浙江 4 闲来小神仙 :越来越多的人知道生命树有多好了 26-7-2 10:50 来自广东 2 菜菜宝石花 :生命树伟大 26-7-2 10:48 来自浙江 2 颜淡的影子 :生命树播的时候全网黑水 26-7-2 10:44 来自陕西 2 春风来11:生命树真的好好看，我已经很久没有看过电视了，而且我看电视喜欢快进，生命树一点都没有快进，大家不要因为黑子而错过这部剧 26-7-2 10:44 来自湖北 2 颜淡的影子 :生命树值得更多的人看见 26-7-2 10:44 来自陕西 2 不不不不不动声色 :没有人看了这部剧说它不值得 杨紫拿视后才是实至名归 26-7-2 10:40 来自安徽 2 奶牛官喝牛奶 :生命树伟大 26-7-2 10:39 来自广东 3 a-surfer_- :生命树值得被更多人看到！杨紫视后实至名归！ 26-7-2 01:21 来自重庆 3",
+          "author": "Du_Mber小姐",
+          "published_at": "26-7-1 23:03",
+          "captured_at": "2026-07-02T11:19:13.319203+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://weibo.com/2701584757/R6IpdlVrb?refer_flag=1001030103_",
+          "source_page_title": "微博正文 - 微博"
+        },
+        {
+          "platform": "douyin",
+          "title": "整整九年四次陪跑，杨紫终于凭借生命树拿到了属于自己的白玉兰 #杨紫#白玉兰奖#生命树#演员#白玉兰 - 抖音",
+          "url": "https://www.douyin.com/video/7657481217217940762",
+          "content": "00:07 / 02:26 倍速 智能 清屏 作者声明：内容为转载信息 章节要点 杨紫凭借《生命树》获得白玉兰最佳女主角，结束了九年四次陪跑的历程。台下提名者真心为她鼓掌，李雪导演、林永健老师等老戏骨也为她感到欣慰。杨紫在演艺生涯中不断挑战不同题材，展现出扎实的演技。她认为这是新起点，人生没有白走的路。 00:00 引言 00:05 获奖现场 杨紫获得白玉兰最佳女主角，台下提名者真心鼓掌，李雪导演眼圈红透，林永健老师偷偷抹眼泪，胡歌带着笑意点头，肖战表情激动。 01:14 陪跑经历 杨紫四次提名白玉兰，陪跑九年，每次都跳出舒适圈挑战不同题材。 02:08 结语 杨紫认为这是新起点，人生没有白走的路，每一步都算数。 内容由AI生成",
+          "author": "",
+          "published_at": "00:07 / 02:26",
+          "captured_at": "2026-07-02T11:19:33.516829+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://www.douyin.com/video/7657481217217940762",
+          "source_page_title": "整整九年四次陪跑，杨紫终于凭借生命树拿到了属于自己的白玉兰 #杨紫#白玉兰奖#生命树#演员#白玉兰 - 抖音"
+        }
+      ],
+      "videos": [
+        {
+          "platform": "douyin",
+          "title": "整整九年四次陪跑，杨紫终于凭借生命树拿到了属于自己的白玉兰 #杨紫#白玉兰奖#生命树#演员#白玉兰 - 抖音",
+          "url": "https://www.douyin.com/video/7657481217217940762",
+          "cover_url": "",
+          "author": "",
+          "duration": 146.1,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-07-02T11:19:33.516829+08:00",
+          "capture_method": "dom",
+          "source_url": "https://www.douyin.com/video/7657481217217940762",
+          "evidence_role": "source_video"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://wx3.sinaimg.cn/orj360/a106e975gy1ieov06fp0jj20z00u0agb.jpg",
+          "source_url": "https://weibo.com/2701584757/R6IpdlVrb?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 315,
+          "height": 270,
+          "captured_at": "2026-07-02T11:19:13.319203+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/a106e975gy1ieouzzu6qhj20z00yc7d3.jpg",
+          "source_url": "https://weibo.com/2701584757/R6IpdlVrb?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 275,
+          "height": 270,
+          "captured_at": "2026-07-02T11:19:13.319203+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx3.sinaimg.cn/orj360/a106e975gy1ieov082bxmj20z00nqae5.jpg",
+          "source_url": "https://weibo.com/2701584757/R6IpdlVrb?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 398,
+          "height": 270,
+          "captured_at": "2026-07-02T11:19:13.319203+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx4.sinaimg.cn/orj360/006Lu8CWgy1ieolkotwwoj30rs0ik76h.jpg",
+          "source_url": "https://weibo.com/6198467790/R6G29rwkG?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 404,
+          "height": 270,
+          "captured_at": "2026-07-02T11:19:13.319203+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx3.sinaimg.cn/orj360/006QkOd6gy1ieohcf5x5bj30xi1or4ez.jpg",
+          "source_url": "https://weibo.com/6270126036/R6F4W0Bv1?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 653,
+          "captured_at": "2026-07-02T11:19:13.319203+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/006QkOd6gy1ieohcfkrpqj31401hcgys.jpg",
+          "source_url": "https://weibo.com/6270126036/R6F4W0Bv1?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 480,
+          "captured_at": "2026-07-02T11:19:13.319203+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "comments": [
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657481217217940762",
+          "content": "妮妹 ... 都聪明了，怕镜头过度解读，后面的都保持笑容 15小时前·重庆 6 分享 回复 小麦色 ... 也是最后一次。。这个量 15小时前·山东 0 分享 回复 敲门砖 ... 生命树真演得非常 8小时前·四川 0 分享 回复 浅听雨声 ... 没听说，听见的都是夸奖的 15小时前·江苏 5 分享 回复 古希腊掌管假设的神 ... 唐朝诡事录之西行拿到亚洲AACA剧王在白玉兰连提名都没，说白玉兰奖没黑幕谁信 12小时前·浙江 1 分享 回复 展开28条回复 加载中",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-02T11:19:33.516829+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657481217217940762",
+          "content": "妮妹 ... 都聪明了，怕镜头过度解读，后面的都保持笑容 15小时前·重庆 6 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-02T11:19:33.516829+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657481217217940762",
+          "content": "小麦色 ... 也是最后一次。。这个量 15小时前·山东 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-02T11:19:33.516829+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657481217217940762",
+          "content": "敲门砖 ... 生命树真演得非常 8小时前·四川 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-02T11:19:33.516829+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657481217217940762",
+          "content": "浅听雨声 ... 没听说，听见的都是夸奖的 15小时前·江苏 5 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-02T11:19:33.516829+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7657481217217940762",
+          "content": "古希腊掌管假设的神 ... 唐朝诡事录之西行拿到亚洲AACA剧王在白玉兰连提名都没，说白玉兰奖没黑幕谁信 12小时前·浙江 1 分享 回复 展开28条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-02T11:19:33.516829+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "douyin",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "empty"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failures": [
+        {
+          "platform": "weibo",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:1"
+        },
+        {
+          "platform": "douyin",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:3"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:4"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "search",
+          "status": "empty",
+          "reason": "only_stale_results"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "no_valid_search_results"
+        }
+      ],
+      "warnings": [
+        {
+          "platform": "weibo",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        }
+      ],
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "admission_reason": "multi_platform_direct_evidence",
+      "independent_url_count": 10,
+      "risk_reasons": [],
+      "source_attribution": {
+        "hotspot_source": "Weibo-Hot-Realtime",
+        "hotspot_url": "https://s.weibo.com/weibo?q=%E5%9B%A0%E6%9D%A8%E7%B4%AB%E7%99%BD%E7%8E%89%E5%85%B0%E5%A5%B3%E4%B8%BB%E5%8E%BB%E7%9C%8B%E7%94%9F%E5%91%BD%E6%A0%91&t=31&band_rank=8&Refer=top",
+        "hotspot_rank": 8,
+        "matched_platforms": [
+          "weibo",
+          "douyin"
+        ]
+      }
+    },
     {
       "source": "Remote-Windows-Evidence",
       "status": "partial_failed",
@@ -369,8 +1098,8 @@
       ],
       "category": "celebrity_work",
       "hotspot_type": "celebrity_work",
-      "published_at": "2026-07-02T11:10:50.846323+08:00",
-      "summary": "12 网友称白鹿打戏疑为替身 322390 热",
+      "published_at": "2026-07-02T11:18:01.139103+08:00",
+      "summary": "12 网友称白鹿打戏疑为替身 364470 热",
       "hot_score": 98,
       "source_hotspot_url": "https://s.weibo.com/weibo?q=%E7%BD%91%E5%8F%8B%E7%A7%B0%E7%99%BD%E9%B9%BF%E6%89%93%E6%88%8F%E7%96%91%E4%B8%BA%E6%9B%BF%E8%BA%AB&t=31&band_rank=12&Refer=top",
       "source_hotspot_rank": 12,
@@ -383,53 +1112,53 @@
       "detail_pages": [
         {
           "platform": "weibo",
-          "title": "热门 c 如此多娇娇i 07月01日 17:30 网友发现白鹿打戏是替身，剧方还给替身脸打码，下沉发酵之后官抖删除了相关切片视频，还改了镜头 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316185512673309 454 1589 33741",
+          "title": "热门 c 如此多娇娇i 07月01日 17:30 网友发现白鹿打戏是替身，剧方还给替身脸打码，下沉发酵之后官抖删除了相关切片视频，还改了镜头 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316185512673309 467 1662 36060",
           "url": "https://weibo.com/8451251981/R6GdVdZzf?refer_flag=1001030103_",
           "author": "如此多娇娇i",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 如此多娇娇i 07月01日 17:30 网友发现白鹿打戏是替身，剧方还给替身脸打码，下沉发酵之后官抖删除了相关切片视频，还改了镜头 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316185512673309 454 1589 33741",
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "content": "热门 c 如此多娇娇i 07月01日 17:30 网友发现白鹿打戏是替身，剧方还给替身脸打码，下沉发酵之后官抖删除了相关切片视频，还改了镜头 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316185512673309 467 1662 36060",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "source_page_url": "https://weibo.com/8451251981/R6GdVdZzf?refer_flag=1001030103_",
-          "source_page_title": "热门 c 如此多娇娇i 07月01日 17:30 网友发现白鹿打戏是替身，剧方还给替身脸打码，下沉发酵之后官抖删除了相关切片视频，还改了镜头 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316185512673309 454 1589 33741",
+          "source_page_title": "热门 c 如此多娇娇i 07月01日 17:30 网友发现白鹿打戏是替身，剧方还给替身脸打码，下沉发酵之后官抖删除了相关切片视频，还改了镜头 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316185512673309 467 1662 36060",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c iWarrenS 今天09:35 来自 iWarrenS iPhone 17 就算演员用替身其实挺常见的，高难度动作需要替身来完成作为观众也能理解的，但是乱带节奏就不对了，白鹿给我的感觉是一直很敬业认真的！#网友称白鹿打戏疑为替身# ​ 52 265 4315",
+          "title": "热门 c iWarrenS 今天09:35 来自 iWarrenS iPhone 17 就算演员用替身其实挺常见的，高难度动作需要替身来完成作为观众也能理解的，但是乱带节奏就不对了，白鹿给我的感觉是一直很敬业认真的！#网友称白鹿打戏疑为替身# ​ 56 272 4462",
           "url": "https://weibo.com/5259434254/R6MxJ3Oe8?refer_flag=1001030103_",
           "author": "iWarrenS",
           "published_at": "",
-          "content": "热门 c iWarrenS 今天09:35 来自 iWarrenS iPhone 17 就算演员用替身其实挺常见的，高难度动作需要替身来完成作为观众也能理解的，但是乱带节奏就不对了，白鹿给我的感觉是一直很敬业认真的！#网友称白鹿打戏疑为替身# ​ 52 265 4315",
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "content": "热门 c iWarrenS 今天09:35 来自 iWarrenS iPhone 17 就算演员用替身其实挺常见的，高难度动作需要替身来完成作为观众也能理解的，但是乱带节奏就不对了，白鹿给我的感觉是一直很敬业认真的！#网友称白鹿打戏疑为替身# ​ 56 272 4462",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "source_page_url": "https://weibo.com/5259434254/R6MxJ3Oe8?refer_flag=1001030103_",
-          "source_page_title": "热门 c iWarrenS 今天09:35 来自 iWarrenS iPhone 17 就算演员用替身其实挺常见的，高难度动作需要替身来完成作为观众也能理解的，但是乱带节奏就不对了，白鹿给我的感觉是一直很敬业认真的！#网友称白鹿打戏疑为替身# ​ 52 265 4315",
+          "source_page_title": "热门 c iWarrenS 今天09:35 来自 iWarrenS iPhone 17 就算演员用替身其实挺常见的，高难度动作需要替身来完成作为观众也能理解的，但是乱带节奏就不对了，白鹿给我的感觉是一直很敬业认真的！#网友称白鹿打戏疑为替身# ​ 56 272 4462",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c 每天都在困丝 今天09:29 恭喜#白鹿# 莫离唯一出圈：马赛克 #网友称白鹿打戏疑为替身# ​ 68 90 838",
+          "title": "热门 c 每天都在困丝 今天09:29 恭喜#白鹿# 莫离唯一出圈：马赛克 #网友称白鹿打戏疑为替身# ​ 69 91 920",
           "url": "https://weibo.com/6432345565/R6MvmiMwi?refer_flag=1001030103_",
           "author": "每天都在困丝",
           "published_at": "",
-          "content": "热门 c 每天都在困丝 今天09:29 恭喜#白鹿# 莫离唯一出圈：马赛克 #网友称白鹿打戏疑为替身# ​ 68 90 838",
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "content": "热门 c 每天都在困丝 今天09:29 恭喜#白鹿# 莫离唯一出圈：马赛克 #网友称白鹿打戏疑为替身# ​ 69 91 920",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "source_page_url": "https://weibo.com/6432345565/R6MvmiMwi?refer_flag=1001030103_",
-          "source_page_title": "热门 c 每天都在困丝 今天09:29 恭喜#白鹿# 莫离唯一出圈：马赛克 #网友称白鹿打戏疑为替身# ​ 68 90 838",
+          "source_page_title": "热门 c 每天都在困丝 今天09:29 恭喜#白鹿# 莫离唯一出圈：马赛克 #网友称白鹿打戏疑为替身# ​ 69 91 920",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c _白鹿的小猪崽 45分钟前 来自 璃家小青猪iPhone客户端 #网友称白鹿打戏疑为替身# 鉴赏白鹿打戏 这直接自己上的打戏 骑马戏确实不是某同事能懂的！丞磊唯一的自知之明“感谢你给我这个废人一线生还的机会” 能和鹿皇拍戏 确实得跪谢 ​ 播放视频 https://video.weibo.com/show?f",
+          "title": "热门 c _白鹿的小猪崽 55分钟前 来自 璃家小青猪iPhone客户端 #网友称白鹿打戏疑为替身# 鉴赏白鹿打戏 这直接自己上的打戏 骑马戏确实不是某同事能懂的！丞磊唯一的自知之明“感谢你给我这个废人一线生还的机会” 能和鹿皇拍戏 确实得跪谢 ​ 播放视频 https://video.weibo.com/show?f",
           "url": "https://weibo.com/1615228127/R6MRKFSy2?refer_flag=1001030103_",
           "author": "_白鹿的小猪崽",
           "published_at": "当前时间 00:00",
-          "content": "热门 c _白鹿的小猪崽 45分钟前 来自 璃家小青猪iPhone客户端 #网友称白鹿打戏疑为替身# 鉴赏白鹿打戏 这直接自己上的打戏 骑马戏确实不是某同事能懂的！丞磊唯一的自知之明“感谢你给我这个废人一线生还的机会” 能和鹿皇拍戏 确实得跪谢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316176784326750 162 437 2589",
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "content": "热门 c _白鹿的小猪崽 55分钟前 来自 璃家小青猪iPhone客户端 #网友称白鹿打戏疑为替身# 鉴赏白鹿打戏 这直接自己上的打戏 骑马戏确实不是某同事能懂的！丞磊唯一的自知之明“感谢你给我这个废人一线生还的机会” 能和鹿皇拍戏 确实得跪谢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316176784326750 181 493 3119",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "source_page_url": "https://weibo.com/1615228127/R6MRKFSy2?refer_flag=1001030103_",
-          "source_page_title": "热门 c _白鹿的小猪崽 45分钟前 来自 璃家小青猪iPhone客户端 #网友称白鹿打戏疑为替身# 鉴赏白鹿打戏 这直接自己上的打戏 骑马戏确实不是某同事能懂的！丞磊唯一的自知之明“感谢你给我这个废人一线生还的机会” 能和鹿皇拍戏 确实得跪谢 ​ 播放视频 https://video.weibo.com/show?f",
+          "source_page_title": "热门 c _白鹿的小猪崽 55分钟前 来自 璃家小青猪iPhone客户端 #网友称白鹿打戏疑为替身# 鉴赏白鹿打戏 这直接自己上的打戏 骑马戏确实不是某同事能懂的！丞磊唯一的自知之明“感谢你给我这个废人一线生还的机会” 能和鹿皇拍戏 确实得跪谢 ​ 播放视频 https://video.weibo.com/show?f",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
@@ -437,10 +1166,10 @@
           "platform": "weibo",
           "title": "微博正文 - 微博",
           "url": "https://weibo.com/8451251981/R6GdVdZzf?refer_flag=1001030103_",
-          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 如此多娇娇i 公开 如此多娇娇i 26-7-1 17:30 发布于 广东 已编辑 关注 网友发现白鹿打戏是替身，剧方还给替身脸打码，下沉发酵之后官抖删除了相关切片视频，还改了镜头 ​​​ 00:30 点赞是美意，赞赏是鼓励 为TA助威 454 1591 3.4万 分享这条博文 同时转发 评论 30天内，博主已拉黑恶意评论用户4人，请谨慎评论 按热度 按时间 站方已开启评论精选，以下为博主精选评论 名字是个啥东东啊 :说实话，他确实够🐮🍺。不管是综艺还是电视剧，只要被发现不好的镜头，立马就会被处理。这真不是一般人能做到的。 26-7-1 20:34 来自广东 5119 合知法犯法小混混 :劳碌只要删掉就不存在 26-7-1 17:31 来自浙江 2736 贪睡日记邋遢版 :这个动作看起来也不那么难啊 居然打码也要放 26-7-1 17:49 来自湖北 1916 在竹艺馆骑单车的开心果 :跟对三 不要，可以成为一对了 26-7-1 17:35 来自广东 952 你管我叫什么009 :厚台硬真好啊 26-7-1 18:31 来自浙江 1002 乐易幸运:想到她之前最出圈的跳城楼戏是替身 我就意难平 26-7-2 09:28 来自山东 385 快乐挖掘机挖掘快乐:钱和名是要赚的，苦和累是不想受的 26-7-2 09:28 来自河南 242 嘻00p :我只能说男主挺惨的 26-7-1 17:35 来自辽宁 15 走出来遛一遛 :她团队是真干活啊，都还没传开，已经处理完毕，估计没多少人知道。其实用替身没啥，用替身还打马赛克，被扒出来就删镜头，难道之前是想吹自己上的吗？ 26-7-1 17:33 来自山东 140 锦鲤附体11116 :居然能如此盯着舆论，那她粉丝骂人那么难听都是脏话知道吗？ 26-7-1 17:31 来自江苏 109 卷毛yier:内娱第一位马赛克大女主 26-7-2 10:39 来自上海 45 璟姏-微亖版 :替身正常，用替身戏吹自己，就emmm 26-7-2 10:13 来自湖南 44 一只猫11111:用替身太正常不过了 但是你既然没水平拍到大家看不出来是替身或者说不是那么明显 你打个马赛克几个意思 什么片才会用到马赛克 26-7-2 10:12 来自四川 15 风车村骑马的大橘:不是疑为替身，就是替身。演员用替身可以，这个没问题，但是，但是，但是，给替身打码和二次剪辑掉替身面部的事情还是头一次见，而且，而且，而且，这是这剧开播以来，作为路人第一次也是唯一刷到过的片段 26-7-2 10:11 来自江苏 109 茉莉卡文学 :内娱还是太善了，这就是三级演员吗 26-7-2 09:56 来自重庆 36 星辰与共---:喜欢的还是周生如故的时候……现在周生如故跳楼的滤镜也整破了 26-7-2 09:37 来自福建 32 魔力de赞:大女主的风光原来是替身替她负重前行 26-7-2 09:27 来自北京 108 来杯咖啡七分糖加冰:上次替身跳城楼好像也在反复大营销 26-7-2 09:23 来自福建 30 用户7771190637 :cl在前面拍打戏，替身在后面喝茶 26-7-2 08:51 来自浙江 39 任太太 :丞磊高温穿那么厚的铠甲打戏辛苦拍摄却被删了 26-7-1 19:36 来自河南 30 喜盛吉祥 :她粉丝引以为傲的十一红衣跳城楼也是替身跳的，这部剧打戏也是替身打的，内娱不敬业第一人啊！ 26-7-1 17:44 来自黑龙江 77 看什么看看书:大女主怎么这样啊 26-7-1 17:44 来自上海 24 -小白小白下楼梯- :原来她的高光是替身打的 26-7-1 17:33 来自广东 63 已加载全部评论",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 如此多娇娇i 公开 如此多娇娇i 26-7-1 17:30 发布于 广东 已编辑 关注 网友发现白鹿打戏是替身，剧方还给替身脸打码，下沉发酵之后官抖删除了相关切片视频，还改了镜头 ​​​ 00:30 点赞是美意，赞赏是鼓励 为TA助威 467 1664 3.6万 分享这条博文 同时转发 评论 30天内，博主已拉黑恶意评论用户4人，请谨慎评论 按热度 按时间 站方已开启评论精选，以下为博主精选评论 在竹艺馆骑单车的开心果 :跟对三 不要，可以成为一对了 26-7-1 17:35 来自广东 1009 你管我叫什么009 :厚台硬真好啊 26-7-1 18:31 来自浙江 1128 火锅不能没有脆毛肚 :好像丞磊很多高光打戏？也被要求删了？ 26-7-1 17:55 来自江苏 915 霸波奔儿er :问就是有腰伤啦 26-7-2 00:19 来自江苏 785 乐易幸运:想到她之前最出圈的跳城楼戏是替身 我就意难平 26-7-2 09:28 来自山东 492 温情多伦多 :好大的威风啊 26-7-1 23:12 来自河南 30 丞欢ending:原来是真的啊，用替身可以理解，那你起码得尊重人啊，连夜改，把人家替身演员的辛苦付出放了，替身演员的命也是命啊 26-7-2 10:56 来自北京 52 温情多伦多 :哪有白鹿这样的，周生如故用的替身，营销自己拍跳楼戏，莫离打戏自己不努力，打马赛克也就罢了，还害怕别人的努力被看见，把别人表现好的都删光，完全无视别人的付出和汗水！你在其他剧营销自己打戏的时候，非常多吧？ 26-7-2 10:17 来自河南 173 小圆同学002:真的感觉她资源好到爆!!别的明星出事都被说死了也没有说谁挺，到她这里就是捂嘴了，奔跑为了她还阴阳观众。别的明星都是小配角一步步上来的，她好像就没怎么演过配角吧？怎么感觉她一直在演主演? 26-7-2 10:09 来自江苏 57 向西的波妞_Rin :plq说用替身的多了去了这真是小学生给我们阅读理解呐！用替身没人说有问题哈！用替身了，要打马赛克然后剪上正片，被发现后连夜又剪正片视频就是你们厉害了真不愧#白鹿内娱首位马赛克大女主# 26-7-2 09:53 来自广东 163 桃子不奈甜等伯乐:她到底背后是啥靠山？感觉她这个年龄段的女星，她实力又不强、经常小牌大耍感觉！ 26-7-2 09:30 来自贵州 101 清风予静谧:天龙人一句话的事，真的很讨厌她，没演技没公众形象没文化，德不配位反遭其噬 26-7-2 09:20 来自福建 2 爱吃香菜Tz :这些制片人剧方就该戏混子治，内娱被这些东西搞得乌烟瘴气一整个利益盘子怪不得有些艺人以拿到钱为主，戏随便演演，可能就是演了也不知道会怎么样，这些东西不要无视让他们躲在后面了，以后以骂这么东西为主 26-7-2 07:07 来自安徽 1 哆Ia咪发so:腰伤警告，敬业警告 26-7-2 02:44 来自广东 10 一涛海水 :想当年周生如故的时候，那个跳楼就是替身，前面营销了好久，说敬业，结果后来发现是替身，又说是腰不好。真真正正活该，报应来得太晚，林沾着她也是活该，跟之前那位赵奶一样，都是活该 26-7-1 19:15 来自湖南 49 第七个下雨天see :又不是第一次了，周生如故跳楼也是替身 26-7-1 19:12 来自新疆 29 醛克皅:就这么简单的动作也不愿意拍？ 26-7-1 19:02 来自浙江 19 清醒梦境rr :大胆，俺们漉漉腰疼你不知道吗！ 26-7-1 19:00 来自甘肃 4 那就睡一觉好吧 :最恶心的难道不是想给自己的人设叠buff却懒得自己上场最后有效画面太少，用马赛克糊脸；男主角40度重盔甲高难度打戏全部自己打最后基本全删 26-7-1 17:55 来自浙江 23 楠昌之星南 :天🐲人顺极了对表演毫无敬畏之心，把观众当nc 26-7-1 17:46 来自山东 29 从宇宙大爆炸开始 :常看常新，课件看不完撸猫有福咯 26-7-1 17:37 来自湖北 19 嘻00p :我只能说男主挺惨的 26-7-1 17:35 来自辽宁 18 走出来遛一遛 :她团队是真干活啊，都还没传开，已经处理完毕，估计没多少人知道。其实用替身没啥，用替身还打马赛克，被扒出来就删镜头，难道之前是想吹自己上的吗？ 26-7-1 17:33 来自山东 146",
           "author": "如此多娇娇i",
           "published_at": "26-7-1 17:30",
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://weibo.com/8451251981/R6GdVdZzf?refer_flag=1001030103_",
@@ -450,10 +1179,10 @@
           "platform": "douyin",
           "title": "古装剧替身乱象再现，白鹿打戏靠替身，丞磊实拍戏份反被删减， 影视寒冬真的要来了吗？#白鹿 #替身 #刘亦菲 #赵丽颖 #内娱 - 抖音",
           "url": "https://www.douyin.com/video/7657521948305460490",
-          "content": "00:07 / 04:51 倍速 智能 清屏 刚消停两天又来了 14 以前爆了还过不过了 现在这个镜头没有了，连夜修改 22 剧里已经删了哈哈哈 章节要点 白鹿新剧替身争议引发对演员职业素养的讨论。周生如故故里替身事件揭示了部分演员为保风头而滥用替身的现象。影视圈求职现状表明，有实力的演员渴望好剧本，而滥用替身的演员应被淘汰。刘亦菲、赵丽颖等演员凭借努力和实力成为大女主，为行业树立了榜样。 00:00 白鹿替身争议 白鹿新剧替身过多，正脸被打码，动作戏替身包揽大部分高光。 00:35 周生如故替身事件 周生如故故里替身事件，女主替身完成经典镜头，男主努力拍摄被删减。 02:10 影视圈求职现状 影视圈求职现状，演员集体求职，大腕放下身段求剧本。 03:32 真正的大女主 刘亦菲、赵丽颖等演员靠真本事成为大女主，滥用替身的演员应退场。",
+          "content": "00:07 / 04:51 倍速 智能 清屏 刚消停两天又来了 15 以前爆了还过不过了 现在这个镜头没有了，连夜修改 23 剧里已经删了哈哈哈 章节要点 白鹿新剧替身争议引发对演员职业素养的讨论。周生如故故里替身事件揭示了部分演员为保风头而滥用替身的现象。影视圈求职现状表明，有实力的演员渴望好剧本，而滥用替身的演员应被淘汰。刘亦菲、赵丽颖等演员凭借努力和实力成为大女主，为行业树立了榜样。 00:00 白鹿替身争议 白鹿新剧替身过多，正脸被打码，动作戏替身包揽大部分高光。 00:35 周生如故替身事件 周生如故故里替身事件，女主替身完成经典镜头，男主努力拍摄被删减。 02:10 影视圈求职现状 影视圈求职现状，演员集体求职，大腕放下身段求剧本。 03:32 真正的大女主 刘亦菲、赵丽颖等演员靠真本事成为大女主，滥用替身的演员应退场。",
           "author": "",
           "published_at": "00:07 / 04:51",
-          "captured_at": "2026-07-02T11:11:11.042532+08:00",
+          "captured_at": "2026-07-02T11:20:45.055708+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://www.douyin.com/video/7657521948305460490",
@@ -461,27 +1190,14 @@
         },
         {
           "platform": "xiaohongshu",
-          "title": "追星赢家🥰白鹿爆！ 阿涵🍀 1天前 7",
-          "url": "https://www.xiaohongshu.com/explore/6a44622200000000070257bd",
-          "author": "阿涵🍀 1天前",
-          "published_at": "阿涵🍀 1天前",
-          "content": "追星赢家🥰白鹿爆！ 阿涵🍀 1天前 7",
-          "captured_at": "2026-07-02T11:11:31.220509+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a44622200000000070257bd",
-          "source_page_title": "追星赢家🥰白鹿爆！ 阿涵🍀 1天前 7",
-          "capture_method": "lightweight_summary",
-          "evidence_role": "lightweight_platform_summary"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "妍一曦 kim^ 昨天 20:53 45",
-          "url": "https://www.xiaohongshu.com/explore/6a450dde000000001603fb15",
-          "author": "妍一曦 kim^ 昨天 20:53",
-          "published_at": "妍一曦 kim^ 昨天 20:53",
-          "content": "妍一曦 kim^ 昨天 20:53 45",
-          "captured_at": "2026-07-02T11:11:31.220509+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a450dde000000001603fb15",
-          "source_page_title": "妍一曦 kim^ 昨天 20:53 45",
+          "title": "不尬不黑，对白鹿莫离的评价 鸡蛋黄 45分钟前 赞",
+          "url": "https://www.xiaohongshu.com/explore/6a45ce72000000000e03f000",
+          "author": "鸡蛋黄 45分钟前",
+          "published_at": "鸡蛋黄 45分钟前",
+          "content": "不尬不黑，对白鹿莫离的评价 鸡蛋黄 45分钟前 赞",
+          "captured_at": "2026-07-02T11:21:05.206620+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45ce72000000000e03f000",
+          "source_page_title": "不尬不黑，对白鹿莫离的评价 鸡蛋黄 45分钟前 赞",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         }
@@ -498,7 +1214,7 @@
           "download_status": "metadata_only",
           "local_path": "",
           "tool": "browser_cdp",
-          "captured_at": "2026-07-02T11:11:11.042532+08:00",
+          "captured_at": "2026-07-02T11:20:45.055708+08:00",
           "capture_method": "dom",
           "source_url": "https://www.douyin.com/video/7657521948305460490",
           "evidence_role": "source_video"
@@ -511,7 +1227,7 @@
           "platform": "weibo",
           "width": 405,
           "height": 270,
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "capture_method": "dom"
         },
         {
@@ -520,7 +1236,7 @@
           "platform": "weibo",
           "width": 270,
           "height": 270,
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "capture_method": "dom"
         },
         {
@@ -529,7 +1245,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 477,
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "capture_method": "dom"
         },
         {
@@ -538,7 +1254,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 384,
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "capture_method": "dom"
         },
         {
@@ -547,7 +1263,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 491,
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "capture_method": "dom"
         },
         {
@@ -556,7 +1272,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 505,
-          "captured_at": "2026-07-02T11:10:50.869549+08:00",
+          "captured_at": "2026-07-02T11:20:24.919094+08:00",
           "capture_method": "dom"
         }
       ],
@@ -564,78 +1280,78 @@
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657521948305460490",
-          "content": "钱兜兜 ... 在刷到白鹿暑假瘦二十斤 3小时前·河南 2.1万 分享 回复 展开1948条回复 沈记烧饼夹里脊 ... 再刷到白鹿我赚一百万 1小时前·安徽 830 分享 回复 胶九爷 作者 ... 48分钟前·河南 34 分享 回复 展开64条回复 开心 ... 怪不得剧宣时丞磊不爱搭理白鹿 2小时前·辽宁 48 分享 回复 展开5条回复 怡 ... 我是真不知道bl到底咋火的 49分钟前·湖南 233 分享 回复 展开4条回复 ᯠ_ ̫ _ᯄ ... 现在还有bl的粉丝吗 1分钟前·辽宁 0 分享 回复 加载中",
+          "content": "绝望的文盲 ... 白鹿这样的性格放到高中就是人人蛐蛐的存在 16分钟前·山西 231 分享 回复 展开3条回复 钱兜兜 ... 在刷到白鹿暑假瘦二十斤 3小时前·河南 2.3万 分享 回复 展开2194条回复 沈记烧饼夹里脊 ... 再刷到白鹿我赚一百万 1小时前·安徽 1070 分享 回复 胶九爷 作者 ... 58分钟前·河南 53 分享 回复 展开75条回复 YYYYn. ... 谁敢艾特白鹿 1分钟前·河北 0 分享 回复 夏课爱杨颖 ... 白鹿老头多的很，他根本不带怕的好吧 1小时前·安徽 294 分享 回复 展开35条回复 加载中",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:11:11.042532+08:00",
+          "captured_at": "2026-07-02T11:20:45.055708+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657521948305460490",
-          "content": "钱兜兜 ... 在刷到白鹿暑假瘦二十斤 3小时前·河南 2.1万 分享 回复 展开1948条回复",
+          "content": "绝望的文盲 ... 白鹿这样的性格放到高中就是人人蛐蛐的存在 16分钟前·山西 231 分享 回复 展开3条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:11:11.042532+08:00",
+          "captured_at": "2026-07-02T11:20:45.055708+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657521948305460490",
-          "content": "沈记烧饼夹里脊 ... 再刷到白鹿我赚一百万 1小时前·安徽 830 分享 回复 胶九爷 作者 ... 48分钟前·河南 34 分享 回复 展开64条回复",
+          "content": "钱兜兜 ... 在刷到白鹿暑假瘦二十斤 3小时前·河南 2.3万 分享 回复 展开2194条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:11:11.042532+08:00",
+          "captured_at": "2026-07-02T11:20:45.055708+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657521948305460490",
-          "content": "胶九爷 作者 ... 48分钟前·河南 34 分享 回复",
+          "content": "沈记烧饼夹里脊 ... 再刷到白鹿我赚一百万 1小时前·安徽 1070 分享 回复 胶九爷 作者 ... 58分钟前·河南 53 分享 回复 展开75条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:11:11.042532+08:00",
+          "captured_at": "2026-07-02T11:20:45.055708+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657521948305460490",
-          "content": "开心 ... 怪不得剧宣时丞磊不爱搭理白鹿 2小时前·辽宁 48 分享 回复 展开5条回复",
+          "content": "胶九爷 作者 ... 58分钟前·河南 53 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:11:11.042532+08:00",
+          "captured_at": "2026-07-02T11:20:45.055708+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657521948305460490",
-          "content": "怡 ... 我是真不知道bl到底咋火的 49分钟前·湖南 233 分享 回复 展开4条回复",
+          "content": "YYYYn. ... 谁敢艾特白鹿 1分钟前·河北 0 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:11:11.042532+08:00",
+          "captured_at": "2026-07-02T11:20:45.055708+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657521948305460490",
-          "content": "ᯠ_ ̫ _ᯄ ... 现在还有bl的粉丝吗 1分钟前·辽宁 0 分享 回复",
+          "content": "夏课爱杨颖 ... 白鹿老头多的很，他根本不带怕的好吧 1小时前·安徽 294 分享 回复 展开35条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:11:11.042532+08:00",
+          "captured_at": "2026-07-02T11:20:45.055708+08:00",
           "capture_method": "dom"
         }
       ],
@@ -662,7 +1378,7 @@
           "platform": "xiaohongshu",
           "stage": "search",
           "status": "empty",
-          "reason": "stale_filtered:2"
+          "reason": "stale_filtered:3"
         },
         {
           "platform": "xiaohongshu",
@@ -674,7 +1390,7 @@
           "platform": "kuaishou",
           "stage": "search",
           "status": "empty",
-          "reason": "no_valid_search_results"
+          "reason": "no_detail_url_extracted"
         }
       ],
       "warnings": [
@@ -695,7 +1411,7 @@
       "claim_status": "confirmed",
       "requires_review": false,
       "admission_reason": "multi_platform_direct_evidence",
-      "independent_url_count": 13,
+      "independent_url_count": 12,
       "risk_reasons": [
         "light_mode_skip_detail_to_avoid_secondary_confirmation"
       ],
@@ -719,8 +1435,8 @@
       ],
       "category": "relationship_rumor",
       "hotspot_type": "relationship_rumor",
-      "published_at": "2026-07-02T11:10:50.846349+08:00",
-      "summary": "15 全球最美女孩结婚 318242",
+      "published_at": "2026-07-02T11:18:01.139123+08:00",
+      "summary": "15 全球最美女孩结婚 359896",
       "hot_score": 95,
       "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E7%90%83%E6%9C%80%E7%BE%8E%E5%A5%B3%E5%AD%A9%E7%BB%93%E5%A9%9A%23&t=31&band_rank=15&Refer=top",
       "source_hotspot_rank": 15,
@@ -733,27 +1449,27 @@
       "detail_pages": [
         {
           "platform": "weibo",
-          "title": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 190 814 1",
+          "title": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 195 829 1",
           "url": "https://weibo.com/1642591402/R6DZl4XpV?refer_flag=1001030103_",
           "author": "新浪娱乐",
           "published_at": "",
-          "content": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 190 814 13490",
-          "captured_at": "2026-07-02T11:12:03.189959+08:00",
+          "content": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 195 829 13690",
+          "captured_at": "2026-07-02T11:21:36.572204+08:00",
           "source_page_url": "https://weibo.com/1642591402/R6DZl4XpV?refer_flag=1001030103_",
-          "source_page_title": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 190 814 1",
+          "source_page_title": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 195 829 1",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 67 546",
+          "title": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 67 547",
           "url": "https://weibo.com/7552475310/R6JAY6o33?refer_flag=1001030103_",
           "author": "彻晩",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 67 546",
-          "captured_at": "2026-07-02T11:12:03.189959+08:00",
+          "content": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 67 547",
+          "captured_at": "2026-07-02T11:21:36.572204+08:00",
           "source_page_url": "https://weibo.com/7552475310/R6JAY6o33?refer_flag=1001030103_",
-          "source_page_title": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 67 546",
+          "source_page_title": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 67 547",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
@@ -764,7 +1480,7 @@
           "author": "C科技",
           "published_at": "",
           "content": "热门 c C科技 今天07:26 #全球最美女孩结婚#对美是不是有什么误解？ ​ 1 41 55",
-          "captured_at": "2026-07-02T11:12:03.189959+08:00",
+          "captured_at": "2026-07-02T11:21:36.572204+08:00",
           "source_page_url": "https://weibo.com/1823630913/R6LHjeqvZ?refer_flag=1001030103_",
           "source_page_title": "热门 c C科技 今天07:26 #全球最美女孩结婚#对美是不是有什么误解？ ​ 1 41 55",
           "capture_method": "weibo_search_card",
@@ -774,10 +1490,10 @@
           "platform": "weibo",
           "title": "微博正文 - 微博",
           "url": "https://weibo.com/1642591402/R6DZl4XpV?refer_flag=1001030103_",
-          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 新浪娱乐 公开 新浪娱乐 新浪娱乐超话 26-7-1 11:48 来自 微博网页版 已编辑 关注 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​​​ 190 814 1.3万 分享这条博文 同时转发 评论 按倒序 按正序 按热度 谁抢了我的猫咪大侠 :有些人动不动就全球最美，全国最美巴拉巴拉的，才看过几个人啊就这么给出评价。 26-7-2 03:41 来自河南 2 Ku只想安安静静做条咸鱼 :难道审美飞流直下三千尺 26-7-2 02:07 来自广东 1 刘芳爱军装爱武装 :对最美有啥误解一定是这样的 26-7-2 10:00 来自北京 奔赴山海的龍女 :男友挺帅的倒是 26-7-2 08:59 来自甘肃 臭迪和香浦:幻视“Rick” 26-7-2 10:07 来自上海 一缕半夏微光abc :只能说审美都是主观的东西 26-7-2 08:56 来自浙江 男拳北腿nanquan :最美太夸张， 26-7-2 07:50 来自江西 红梅2831 :这全球最美吗？ 26-7-2 07:23 来自四川 醒着喜欢你 :这算是长残了么 26-7-2 07:20 来自浙江 强强的笑话 :我的眼镜布呢？ 26-7-2 06:15 来自山东 用户7625867762:小时候也不好看啊 26-7-2 02:22 来自黑龙江 4 雨说体育俆静雨:又是政治正确吗 26-7-2 01:13 来自浙江 4 向地球发射月光的信号塔:是《暮光之城》里贝拉的那个女儿吗？ 26-7-2 00:55 来自重庆 4 小燃喜欢你:查了下 不是一个人 26-7-2 01:05 来自上海 1 记仇的天蝎座0317:丑爆了，还全球最美 26-7-2 07:53 来自广东 2 爱吃冰淇淋的畅畅:点开照片前满满期待，点开照片后无语走开。 26-7-2 07:38 来自云南 2 凹凸曼奥特曼小m:全球最香肠嘴女孩 26-7-2 07:29 来自海南 2 隐身豆先生:就这种欧阳锋嘴，谁他妈会喜欢啊 26-7-2 07:28 来自江苏 2 财经机会分析 :长大不是最美了！嘴巴太大了 26-7-2 07:26 来自浙江 2 乔治青莲居士:额，看上去很一般啊。 26-7-2 07:26 来自湖南 2 怀抱素月:说法国最美恐怕都少有人赞成 26-7-2 07:25 来自四川 2",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 新浪娱乐 公开 新浪娱乐 新浪娱乐超话 26-7-1 11:48 来自 微博网页版 已编辑 关注 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​​​ 195 829 1.4万 分享这条博文 同时转发 评论 按倒序 按正序 按热度 谁抢了我的猫咪大侠 :有些人动不动就全球最美，全国最美巴拉巴拉的，才看过几个人啊就这么给出评价。 26-7-2 03:41 来自河南 2 Ku只想安安静静做条咸鱼 :难道审美飞流直下三千尺 26-7-2 02:07 来自广东 1 刘芳爱军装爱武装 :对最美有啥误解一定是这样的 26-7-2 10:00 来自北京 奔赴山海的龍女 :男友挺帅的倒是 26-7-2 08:59 来自甘肃 臭迪和香浦:幻视“Rick” 26-7-2 10:07 来自上海 一缕半夏微光abc :只能说审美都是主观的东西 26-7-2 08:56 来自浙江 男拳北腿nanquan :最美太夸张， 26-7-2 07:50 来自江西 红梅2831 :这全球最美吗？ 26-7-2 07:23 来自四川 醒着喜欢你 :这算是长残了么 26-7-2 07:20 来自浙江 强强的笑话 :我的眼镜布呢？ 26-7-2 06:15 来自山东 用户7625867762:小时候也不好看啊 26-7-2 02:22 来自黑龙江 4 雨说体育俆静雨:又是政治正确吗 26-7-2 01:13 来自浙江 4 记仇的天蝎座0317:丑爆了，还全球最美 26-7-2 07:53 来自广东 2 爱吃冰淇淋的畅畅:点开照片前满满期待，点开照片后无语走开。 26-7-2 07:38 来自云南 2 凹凸曼奥特曼小m:全球最香肠嘴女孩 26-7-2 07:29 来自海南 2 隐身豆先生:就这种欧阳锋嘴，谁他妈会喜欢啊 26-7-2 07:28 来自江苏 2 财经机会分析 :长大不是最美了！嘴巴太大了 26-7-2 07:26 来自浙江 2 乔治青莲居士:额，看上去很一般啊。 26-7-2 07:26 来自湖南 2 怀抱素月:说法国最美恐怕都少有人赞成 26-7-2 07:25 来自四川 2 suppertuffy:不及中国面孔的五分之一，美个屁 26-7-2 03:19 来自河南 2 看不起别人是自己修养不够:这得花多少钱才能上的了这种话题？ 26-7-2 02:15 来自广东 2",
           "author": "新浪娱乐",
           "published_at": "26-7-1 11:48",
-          "captured_at": "2026-07-02T11:12:03.189959+08:00",
+          "captured_at": "2026-07-02T11:21:36.572204+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://weibo.com/1642591402/R6DZl4XpV?refer_flag=1001030103_",
@@ -790,7 +1506,7 @@
           "content": "00:07 / 04:11 倍速 智能 清屏 章节要点 6岁时因拍摄《Vogue Enfants》而惊艳全球的“全球最美女孩”布隆多，如今已正式结婚。婚礼在巴黎市政厅举行，布隆多身着纯白长裙，搭配斗篷式披肩，发型和妆容素净高雅。新人选择驾驶古董敞篷跑车离场，布隆多的宠物犬也盛装出席。布隆多曾在童年时因拍摄性感照片引发争议，但她拒绝迎合畸形审美，更看重个性和内在气质。如今，她已将事业与生活重心迁回法国，与丈夫在各自圈内拥有深厚人脉。 00:06 婚礼细节 01:10 求婚与家庭变故 01:55 早年成名 02:54 争议与个人态度 03:43 婚后生活 内容由AI生成",
           "author": "",
           "published_at": "00:07 / 04:11",
-          "captured_at": "2026-07-02T11:12:23.391135+08:00",
+          "captured_at": "2026-07-02T11:21:56.711530+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://www.douyin.com/video/7657094863204142386",
@@ -798,27 +1514,40 @@
         },
         {
           "platform": "xiaohongshu",
-          "title": "她要嫁了！霉霉婚礼倒计时：全网都在等的“ 带你去看外面的世界 昨天 22:14 11",
-          "url": "https://www.xiaohongshu.com/explore/6a4520d3000000000803df9e",
-          "author": "带你去看外面的世界 昨天 22:14",
-          "published_at": "带你去看外面的世界 昨天 22:14",
-          "content": "她要嫁了！霉霉婚礼倒计时：全网都在等的“ 带你去看外面的世界 昨天 22:14 11",
-          "captured_at": "2026-07-02T11:12:43.558868+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a4520d3000000000803df9e",
-          "source_page_title": "她要嫁了！霉霉婚礼倒计时：全网都在等的“ 带你去看外面的世界 昨天 22:14 11",
+          "title": "我没有被邀请😢 MuL 22分钟前 3",
+          "url": "https://www.xiaohongshu.com/explore/6a45d40f00000000070238da",
+          "author": "MuL 22分钟前",
+          "published_at": "MuL 22分钟前",
+          "content": "我没有被邀请😢 MuL 22分钟前 3",
+          "captured_at": "2026-07-02T11:22:16.887796+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45d40f00000000070238da",
+          "source_page_title": "我没有被邀请😢 MuL 22分钟前 3",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         },
         {
           "platform": "xiaohongshu",
-          "title": "我没有被邀请😢 MuL 13分钟前 3",
-          "url": "https://www.xiaohongshu.com/explore/6a45d40f00000000070238da",
-          "author": "MuL 13分钟前",
-          "published_at": "MuL 13分钟前",
-          "content": "我没有被邀请😢 MuL 13分钟前 3",
-          "captured_at": "2026-07-02T11:12:43.558868+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a45d40f00000000070238da",
-          "source_page_title": "我没有被邀请😢 MuL 13分钟前 3",
+          "title": "不回消息就是在参加婚礼，急事请致电☎️ 咖喱朱古力 1小时前 19",
+          "url": "https://www.xiaohongshu.com/explore/6a45c497000000001003d481",
+          "author": "咖喱朱古力 1小时前",
+          "published_at": "咖喱朱古力 1小时前",
+          "content": "不回消息就是在参加婚礼，急事请致电☎️ 咖喱朱古力 1小时前 19",
+          "captured_at": "2026-07-02T11:22:16.887796+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45c497000000001003d481",
+          "source_page_title": "不回消息就是在参加婚礼，急事请致电☎️ 咖喱朱古力 1小时前 19",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "👸🏻 ice 2小时前 8",
+          "url": "https://www.xiaohongshu.com/explore/6a45bb6e000000002103f1be",
+          "author": "ice 2小时前",
+          "published_at": "ice 2小时前",
+          "content": "👸🏻 ice 2小时前 8",
+          "captured_at": "2026-07-02T11:22:16.887796+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45bb6e000000002103f1be",
+          "source_page_title": "👸🏻 ice 2小时前 8",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         }
@@ -835,7 +1564,7 @@
           "download_status": "metadata_only",
           "local_path": "",
           "tool": "browser_cdp",
-          "captured_at": "2026-07-02T11:12:23.391135+08:00",
+          "captured_at": "2026-07-02T11:21:56.711530+08:00",
           "capture_method": "dom",
           "source_url": "https://www.douyin.com/video/7657094863204142386",
           "evidence_role": "source_video"
@@ -848,7 +1577,7 @@
           "platform": "weibo",
           "width": 423,
           "height": 270,
-          "captured_at": "2026-07-02T11:12:03.189959+08:00",
+          "captured_at": "2026-07-02T11:21:36.572204+08:00",
           "capture_method": "dom"
         },
         {
@@ -857,7 +1586,7 @@
           "platform": "weibo",
           "width": 391,
           "height": 270,
-          "captured_at": "2026-07-02T11:12:03.189959+08:00",
+          "captured_at": "2026-07-02T11:21:36.572204+08:00",
           "capture_method": "dom"
         },
         {
@@ -866,7 +1595,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 462,
-          "captured_at": "2026-07-02T11:12:03.189959+08:00",
+          "captured_at": "2026-07-02T11:21:36.572204+08:00",
           "capture_method": "dom"
         },
         {
@@ -875,7 +1604,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 465,
-          "captured_at": "2026-07-02T11:12:03.189959+08:00",
+          "captured_at": "2026-07-02T11:21:36.572204+08:00",
           "capture_method": "dom"
         },
         {
@@ -884,7 +1613,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 432,
-          "captured_at": "2026-07-02T11:12:03.189959+08:00",
+          "captured_at": "2026-07-02T11:21:36.572204+08:00",
           "capture_method": "dom"
         },
         {
@@ -893,7 +1622,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 551,
-          "captured_at": "2026-07-02T11:12:03.189959+08:00",
+          "captured_at": "2026-07-02T11:21:36.572204+08:00",
           "capture_method": "dom"
         }
       ],
@@ -906,7 +1635,7 @@
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:12:23.391135+08:00",
+          "captured_at": "2026-07-02T11:21:56.711530+08:00",
           "capture_method": "dom"
         },
         {
@@ -917,7 +1646,7 @@
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:12:23.391135+08:00",
+          "captured_at": "2026-07-02T11:21:56.711530+08:00",
           "capture_method": "dom"
         }
       ],
@@ -950,7 +1679,7 @@
           "platform": "xiaohongshu",
           "stage": "search",
           "status": "empty",
-          "reason": "stale_filtered:2"
+          "reason": "stale_filtered:1"
         },
         {
           "platform": "xiaohongshu",
@@ -983,7 +1712,7 @@
       "claim_status": "rumor",
       "requires_review": true,
       "admission_reason": "multi_platform_direct_evidence",
-      "independent_url_count": 12,
+      "independent_url_count": 13,
       "risk_reasons": [
         "light_mode_skip_detail_to_avoid_secondary_confirmation"
       ],
@@ -1007,11 +1736,11 @@
       ],
       "category": "short_drama",
       "hotspot_type": "short_drama",
-      "published_at": "2026-07-02T11:10:50.846359+08:00",
-      "summary": "16 短剧演员取消行程图 317528",
-      "hot_score": 94,
-      "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E7%9F%AD%E5%89%A7%E6%BC%94%E5%91%98%E5%8F%96%E6%B6%88%E8%A1%8C%E7%A8%8B%E5%9B%BE%23&t=31&band_rank=16&Refer=top",
-      "source_hotspot_rank": 16,
+      "published_at": "2026-07-02T11:18:01.139139+08:00",
+      "summary": "17 短剧演员取消行程图 355403",
+      "hot_score": 93,
+      "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E7%9F%AD%E5%89%A7%E6%BC%94%E5%91%98%E5%8F%96%E6%B6%88%E8%A1%8C%E7%A8%8B%E5%9B%BE%23&t=31&band_rank=17&Refer=top",
+      "source_hotspot_rank": 17,
       "source_hotspot_source": "Weibo-Hot-Realtime",
       "matched_platforms": [
         "weibo",
@@ -1026,7 +1755,7 @@
           "author": "中国蓝新闻",
           "published_at": "当前时间 00:00",
           "content": "热门 c 中国蓝新闻 07月01日 15:34 来自 微博视频号 【#韩雨彤说短剧项目变动跌宕起伏#】#韩雨彤谈真人短剧现状# 近日，演员韩雨彤在直播中透露真人短剧现状，她表示现在真人剧项目变动也是跌宕起伏，她表示现在确实难干。（来源：韩雨彤直播片段） #短剧演员取消行程图# L中国蓝新闻的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5315893299707938 213 132 750",
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
+          "captured_at": "2026-07-02T11:22:48.847725+08:00",
           "source_page_url": "https://weibo.com/2286092114/R6FsUCF00?refer_flag=1001030103_",
           "source_page_title": "热门 c 中国蓝新闻 07月01日 15:34 来自 微博视频号 【#韩雨彤说短剧项目变动跌宕起伏#】#韩雨彤谈真人短剧现状# 近日，演员韩雨彤在直播中透露真人短剧现状，她表示现在真人剧项目变动也是跌宕起伏，她表示现在确实难干。（来源：韩雨彤直播片段） #短剧演员取消行程图# L中国蓝新闻的微博视频 ​ 播放视频 ht",
           "capture_method": "weibo_search_card",
@@ -1034,40 +1763,40 @@
         },
         {
           "platform": "weibo",
-          "title": "热门 c Bunny小课堂 07月01日 14:08 来自 iPhone客户端 你们真人短剧现在已经到这个地步了吗，短剧头部演员暂停半月行程同步 ​ 39 44 253",
-          "url": "https://weibo.com/5601456932/R6ETSlj1j?refer_flag=1001030103_",
-          "author": "Bunny小课堂",
-          "published_at": "",
-          "content": "热门 c Bunny小课堂 07月01日 14:08 来自 iPhone客户端 你们真人短剧现在已经到这个地步了吗，短剧头部演员暂停半月行程同步 ​ 39 44 253",
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
-          "source_page_url": "https://weibo.com/5601456932/R6ETSlj1j?refer_flag=1001030103_",
-          "source_page_title": "热门 c Bunny小课堂 07月01日 14:08 来自 iPhone客户端 你们真人短剧现在已经到这个地步了吗，短剧头部演员暂停半月行程同步 ​ 39 44 253",
-          "capture_method": "weibo_search_card",
-          "evidence_role": "source_post_summary"
-        },
-        {
-          "platform": "weibo",
-          "title": "热门 c 榴莲饼干玥玥酱 25分钟前 来自 Find X8 Ultra 卫星版 #短剧演员取消行程图# 看得出来AI短剧盛行，还是冲击了很多短剧演员的市场！但不得不说现在有些AI短剧确实做的很好，例如《归墟》《你好事务所》《零号档案》，这类天花板级别的AI短剧可以说是秒杀了很多短剧漫剧，无论是从剧集制作还有特效情节各方",
-          "url": "https://weibo.com/7524946997/R6N14nebV?refer_flag=1001030103_",
-          "author": "榴莲饼干玥玥酱",
-          "published_at": "",
-          "content": "热门 c 榴莲饼干玥玥酱 25分钟前 来自 Find X8 Ultra 卫星版 #短剧演员取消行程图# 看得出来AI短剧盛行，还是冲击了很多短剧演员的市场！但不得不说现在有些AI短剧确实做的很好，例如《归墟》《你好事务所》《零号档案》，这类天花板级别的AI短剧可以说是秒杀了很多短剧漫剧，无论是从剧集制作还有特效情节各方面，真的值得票房过亿！短剧演员取消行程图，一方面 ​ 展开c 转发 10 44",
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
-          "source_page_url": "https://weibo.com/7524946997/R6N14nebV?refer_flag=1001030103_",
-          "source_page_title": "热门 c 榴莲饼干玥玥酱 25分钟前 来自 Find X8 Ultra 卫星版 #短剧演员取消行程图# 看得出来AI短剧盛行，还是冲击了很多短剧演员的市场！但不得不说现在有些AI短剧确实做的很好，例如《归墟》《你好事务所》《零号档案》，这类天花板级别的AI短剧可以说是秒杀了很多短剧漫剧，无论是从剧集制作还有特效情节各方",
-          "capture_method": "weibo_search_card",
-          "evidence_role": "source_post_summary"
-        },
-        {
-          "platform": "weibo",
-          "title": "热门 c 浮糖咕咕 23分钟前 #短剧演员取消行程图# 项目老是有变动，为了防止粉丝希望落空取消也能理解。 ​ 转发 7 38",
+          "title": "热门 c 浮糖咕咕 33分钟前 #短剧演员取消行程图# 项目老是有变动，为了防止粉丝希望落空取消也能理解。 ​ 转发 7 39",
           "url": "https://weibo.com/7572653717/R6N1F1QlP?refer_flag=1001030103_",
           "author": "浮糖咕咕",
           "published_at": "",
-          "content": "热门 c 浮糖咕咕 23分钟前 #短剧演员取消行程图# 项目老是有变动，为了防止粉丝希望落空取消也能理解。 ​ 转发 7 38",
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
+          "content": "热门 c 浮糖咕咕 33分钟前 #短剧演员取消行程图# 项目老是有变动，为了防止粉丝希望落空取消也能理解。 ​ 转发 7 39",
+          "captured_at": "2026-07-02T11:22:48.847725+08:00",
           "source_page_url": "https://weibo.com/7572653717/R6N1F1QlP?refer_flag=1001030103_",
-          "source_page_title": "热门 c 浮糖咕咕 23分钟前 #短剧演员取消行程图# 项目老是有变动，为了防止粉丝希望落空取消也能理解。 ​ 转发 7 38",
+          "source_page_title": "热门 c 浮糖咕咕 33分钟前 #短剧演员取消行程图# 项目老是有变动，为了防止粉丝希望落空取消也能理解。 ​ 转发 7 39",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 榴莲饼干玥玥酱 34分钟前 来自 Find X8 Ultra 卫星版 #短剧演员取消行程图# 看得出来AI短剧盛行，还是冲击了很多短剧演员的市场！但不得不说现在有些AI短剧确实做的很好，例如《归墟》《你好事务所》《零号档案》，这类天花板级别的AI短剧可以说是秒杀了很多短剧漫剧，无论是从剧集制作还有特效情节各方",
+          "url": "https://weibo.com/7524946997/R6N14nebV?refer_flag=1001030103_",
+          "author": "榴莲饼干玥玥酱",
+          "published_at": "",
+          "content": "热门 c 榴莲饼干玥玥酱 34分钟前 来自 Find X8 Ultra 卫星版 #短剧演员取消行程图# 看得出来AI短剧盛行，还是冲击了很多短剧演员的市场！但不得不说现在有些AI短剧确实做的很好，例如《归墟》《你好事务所》《零号档案》，这类天花板级别的AI短剧可以说是秒杀了很多短剧漫剧，无论是从剧集制作还有特效情节各方面，真的值得票房过亿！短剧演员取消行程图，一方面 ​ 展开c 转发 11 52",
+          "captured_at": "2026-07-02T11:22:48.847725+08:00",
+          "source_page_url": "https://weibo.com/7524946997/R6N14nebV?refer_flag=1001030103_",
+          "source_page_title": "热门 c 榴莲饼干玥玥酱 34分钟前 来自 Find X8 Ultra 卫星版 #短剧演员取消行程图# 看得出来AI短剧盛行，还是冲击了很多短剧演员的市场！但不得不说现在有些AI短剧确实做的很好，例如《归墟》《你好事务所》《零号档案》，这类天花板级别的AI短剧可以说是秒杀了很多短剧漫剧，无论是从剧集制作还有特效情节各方",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 诱捕圣体 今天09:54 #短剧演员取消行程图#短剧圈都要大变天了，这么快也迎来了寒冬，说实话漫剧现在越来越好看了，颜值和演技都比有的短剧演员好，真的要好好反思了 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316170405052554 12 47 377",
+          "url": "https://weibo.com/7408460858/R6MFzdez4?refer_flag=1001030103_",
+          "author": "诱捕圣体",
+          "published_at": "当前时间 00:00",
+          "content": "热门 c 诱捕圣体 今天09:54 #短剧演员取消行程图#短剧圈都要大变天了，这么快也迎来了寒冬，说实话漫剧现在越来越好看了，颜值和演技都比有的短剧演员好，真的要好好反思了 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316170405052554 12 47 377",
+          "captured_at": "2026-07-02T11:22:48.847725+08:00",
+          "source_page_url": "https://weibo.com/7408460858/R6MFzdez4?refer_flag=1001030103_",
+          "source_page_title": "热门 c 诱捕圣体 今天09:54 #短剧演员取消行程图#短剧圈都要大变天了，这么快也迎来了寒冬，说实话漫剧现在越来越好看了，颜值和演技都比有的短剧演员好，真的要好好反思了 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316170405052554 12 47 377",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
@@ -1078,7 +1807,7 @@
           "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 中国蓝新闻 公开 中国蓝新闻 26-7-1 15:34 来自 微博视频号 已编辑 关注 【#韩雨彤说短剧项目变动跌宕起伏#】#韩雨彤谈真人短剧现状# 近日，演员韩雨彤在直播中透露真人短剧现状，她表示现在真人剧项目变动也是跌宕起伏，她表示现在确实难干。（来源：韩雨彤直播片段） #短剧演员取消行程图# 中国蓝新闻的微博视频 ​​​ 播放视频 00:31 20.8万次观看 点赞是美意，赞赏是鼓励 为TA助威 213 132 750 分享这条博文 同时转发 评论 30天内，博主已拉黑恶意评论用户14人，请谨慎评论 按热度 按时间 陌上留桑 :哎，现在什么都不好干 26-7-1 15:55 来自上海 11 这里是小孙吖 :各行各业都很不容易啊 26-7-1 15:51 来自山东 害人的小日子 :期待韩雨桐更多优秀的作品 26-7-1 15:51 来自内蒙古 甜品小圆圆 :各行各业都不容易 26-7-1 15:51 来自广西 天生宅妹m :对啊 但其实各行各业都不容易 26-7-1 15:51 来自山东 南瓜头喃哈哈 :确实挺好的很喜欢 26-7-1 15:51 来自广东 江上昼雪_ :非常理解她这样的心情 26-7-1 15:51 来自江苏 哇达西哭了 :确实是各行各业都不容易 26-7-1 15:51 来自湖南 阳光美丽的小可爱o :确实是这样 感觉竞争也是很激烈 26-7-1 15:51 来自山东 西瓜芝芝 :现在大环境不太好啊 26-7-1 15:51 来自江苏 淡淡的勾画曾经 :真的挺艰难的 26-7-1 15:51 来自河北 春天好浪漫 :真的很喜欢韩雨桐特别明媚的女孩子 26-7-1 15:51 来自内蒙古 菲菲的幸福FF :现在确实做什么都难呀 26-7-1 15:51 来自江西 奶油芋泥派 :每个行业确实都挺不容易 26-7-1 15:50 来自安徽 fhfsw :大环境不好，确实是这样的 26-7-1 15:50 来自山东 3天饿9顿啊 :现在在演员行业也不容易啊 26-7-1 15:50 来自湖北 欢心1013 :行业冷暖，身处其中才知跌宕起伏 26-7-1 15:50 来自浙江 奈奈0205 :潮水退去，才知谁在认真做内容 26-7-1 15:52 来自浙江 不爱香菜TXC :短剧赛道竞争白热化，从业者不易 26-7-1 15:51 来自浙江 收集阳光和日落 :短剧的竞争也很大 26-7-1 15:50 来自江苏 月亮的猫ssr :现在市场确实是不景气呀 26-7-1 15:50 来自湖南 小韦亚替换小伟 :行业现状被直白说出来了 26-7-1 15:50 来自吉林 猫湫Atopos :继续加油吧 真的超级优秀 26-7-1 15:50 来自河北",
           "author": "中国蓝新闻",
           "published_at": "26-7-1 15:34",
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
+          "captured_at": "2026-07-02T11:22:48.847725+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://weibo.com/2286092114/R6FsUCF00?refer_flag=1001030103_",
@@ -1088,10 +1817,10 @@
           "platform": "douyin",
           "title": "#韩雨彤称真人短剧难干 短剧头部艺人也开始面临行业生存压力，ai 到底还要取代多少行业#短剧 #ai #配音演员 #韩雨彤 - 抖音",
           "url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "00:07 / 00:38 倍速 智能 清屏 连播",
+          "content": "00:08 / 00:38 倍速 智能 清屏 连播",
           "author": "",
-          "published_at": "00:07 / 00:38",
-          "captured_at": "2026-07-02T11:13:35.382962+08:00",
+          "published_at": "00:08 / 00:38",
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://www.douyin.com/video/7657578564996353330",
@@ -1099,40 +1828,27 @@
         },
         {
           "platform": "xiaohongshu",
-          "title": "短剧演员7️⃣月行程图汇总（三） 我在短国瓜田吃撑了 1天前 94",
-          "url": "https://www.xiaohongshu.com/explore/6a4361dc000000000f02bc59",
-          "author": "我在短国瓜田吃撑了 1天前",
-          "published_at": "我在短国瓜田吃撑了 1天前",
-          "content": "短剧演员7️⃣月行程图汇总（三） 我在短国瓜田吃撑了 1天前 94",
-          "captured_at": "2026-07-02T11:13:55.614501+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a4361dc000000000f02bc59",
-          "source_page_title": "短剧演员7️⃣月行程图汇总（三） 我在短国瓜田吃撑了 1天前 94",
+          "title": "宝贝 扣倪几哇 1天前 171",
+          "url": "https://www.xiaohongshu.com/explore/6a448180000000000f017a25",
+          "author": "扣倪几哇 1天前",
+          "published_at": "扣倪几哇 1天前",
+          "content": "宝贝 扣倪几哇 1天前 171",
+          "captured_at": "2026-07-02T11:23:29.183132+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a448180000000000f017a25",
+          "source_page_title": "宝贝 扣倪几哇 1天前 171",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         },
         {
           "platform": "xiaohongshu",
-          "title": "刘润铭事件情况说明来了 邪恶小大妈 1天前 82",
-          "url": "https://www.xiaohongshu.com/explore/6a43d3d2000000001702898e",
-          "author": "邪恶小大妈 1天前",
-          "published_at": "邪恶小大妈 1天前",
-          "content": "刘润铭事件情况说明来了 邪恶小大妈 1天前 82",
-          "captured_at": "2026-07-02T11:13:55.614501+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a43d3d2000000001702898e",
-          "source_page_title": "刘润铭事件情况说明来了 邪恶小大妈 1天前 82",
-          "capture_method": "lightweight_summary",
-          "evidence_role": "lightweight_platform_summary"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "短剧演员6月行程图⑥ 南瓜小米粥 1天前 19",
-          "url": "https://www.xiaohongshu.com/explore/6a4203b3000000002102354d",
+          "title": "短剧演员7月行程图❹ 南瓜小米粥 1天前 41",
+          "url": "https://www.xiaohongshu.com/explore/6a4484ad0000000007020802",
           "author": "南瓜小米粥 1天前",
           "published_at": "南瓜小米粥 1天前",
-          "content": "短剧演员6月行程图⑥ 南瓜小米粥 1天前 19",
-          "captured_at": "2026-07-02T11:13:55.614501+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a4203b3000000002102354d",
-          "source_page_title": "短剧演员6月行程图⑥ 南瓜小米粥 1天前 19",
+          "content": "短剧演员7月行程图❹ 南瓜小米粥 1天前 41",
+          "captured_at": "2026-07-02T11:23:29.183132+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a4484ad0000000007020802",
+          "source_page_title": "短剧演员7月行程图❹ 南瓜小米粥 1天前 41",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         },
@@ -1143,7 +1859,7 @@
           "author": "奶油小泡芙 1天前",
           "published_at": "奶油小泡芙 1天前",
           "content": "奶油小泡芙 1天前 3",
-          "captured_at": "2026-07-02T11:13:55.614501+08:00",
+          "captured_at": "2026-07-02T11:23:29.183132+08:00",
           "source_page_url": "https://www.xiaohongshu.com/explore/6a445af9000000000702e921",
           "source_page_title": "奶油小泡芙 1天前 3",
           "capture_method": "lightweight_summary",
@@ -1162,7 +1878,7 @@
           "download_status": "metadata_only",
           "local_path": "",
           "tool": "browser_cdp",
-          "captured_at": "2026-07-02T11:13:35.382962+08:00",
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
           "evidence_role": "source_video"
@@ -1170,57 +1886,57 @@
       ],
       "images": [
         {
-          "url": "https://wx3.sinaimg.cn/orj360/006758Pyly1ieogjadp0tj30u00sm0wr.jpg",
-          "source_url": "https://weibo.com/5601456932/R6ETSlj1j?refer_flag=1001030103_",
+          "url": "https://tvax2.sinaimg.cn/crop.0.0.1000.1000.1024/8842ff52ly8heqfusvnwbj20rs0rsmxx.jpg?KID=imgbed,tva&Expires=1782973378&ssig=OKn7cTQKhl",
+          "source_url": "https://weibo.com/2286092114/R6FsUCF00?refer_flag=1001030103_",
           "platform": "weibo",
-          "width": 283,
-          "height": 270,
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
+          "width": 999,
+          "height": 999,
+          "captured_at": "2026-07-02T11:22:48.847725+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://wx1.sinaimg.cn/orj360/006758Pyly1ieogjapx44j30u00u9wjc.jpg",
-          "source_url": "https://weibo.com/5601456932/R6ETSlj1j?refer_flag=1001030103_",
+          "url": "https://wx2.sinaimg.cn/orj480/8842ff52ly1ieoj15c8nvj20k00zkjs3.jpg",
+          "source_url": "https://weibo.com/2286092114/R6FsUCF00?refer_flag=1001030103_",
           "platform": "weibo",
-          "width": 360,
-          "height": 363,
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
+          "width": 480,
+          "height": 853,
+          "captured_at": "2026-07-02T11:22:48.847725+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://wx3.sinaimg.cn/orj360/006758Pyly1ieogjb421ij30u00q1adr.jpg",
-          "source_url": "https://weibo.com/5601456932/R6ETSlj1j?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 311,
-          "height": 270,
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
+          "url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/4f1efbd04eec4307bea90fb55a1a7a5c~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098321200&x-signature=4EWjOj18ZIgisBUh%2Fa8GVAjWXzc%3D",
+          "source_url": "https://www.douyin.com/video/7657578564996353330",
+          "platform": "douyin",
+          "width": 330,
+          "height": 440,
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://wx1.sinaimg.cn/orj360/006758Pyly1ieogj9sw9tj30u00w6n1q.jpg",
-          "source_url": "https://weibo.com/5601456932/R6ETSlj1j?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 360,
-          "height": 386,
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
+          "url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/de0cb70ba9464cbba757398c9f765052~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098321200&x-signature=V7uEwzcnyAbcCyDZB4x%2Fylje3Og%3D",
+          "source_url": "https://www.douyin.com/video/7657743967223598379",
+          "platform": "douyin",
+          "width": 330,
+          "height": 440,
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://wx1.sinaimg.cn/orj360/006758Pyly1ieogjbjk9rj30u01a347l.jpg",
-          "source_url": "https://weibo.com/5601456932/R6ETSlj1j?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 360,
-          "height": 553,
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
+          "url": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/58a81faf0384b18b701c27f379965d34~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098321200&x-signature=vxBF82S4ut4bki0JE9O5tM46XVE%3D",
+          "source_url": "https://www.douyin.com/video/7657579190102920448",
+          "platform": "douyin",
+          "width": 440,
+          "height": 330,
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://wx3.sinaimg.cn/orj360/006758Pyly1ieogjbykj0j30xc16sk0i.jpg",
-          "source_url": "https://weibo.com/5601456932/R6ETSlj1j?refer_flag=1001030103_",
-          "platform": "weibo",
-          "width": 360,
-          "height": 462,
-          "captured_at": "2026-07-02T11:13:15.236656+08:00",
+          "url": "https://p3-pc-sign.douyinpic.com/image-cut-tos/908d6607f29805ff29c2a5f6069a8494~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_WEBPC_RELATED_AWEME&sc=cover&se=false&x-expires=2098321200&x-signature=uFNbJalzZ2%2Blyl5%2BQiwTWI2HcHw%3D",
+          "source_url": "https://www.douyin.com/video/7657578564996353330",
+          "platform": "douyin",
+          "width": 440,
+          "height": 330,
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom"
         }
       ],
@@ -1228,67 +1944,67 @@
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "云枫 ... 哈？听花岛剧很好的不至于吧 2小时前·广东 2 分享 回复 展开2条回复 屿源₍ᐢ..ᐢ₎ ༘ ... 王培延不是王延培 35分钟前·江苏 3 分享 回复 猫阳 ... ai确实牛，我以前还觉得不咋地，刷到后确实觉得牛掰。 2小时前·河北 61 分享 回复 展开5条回复 忧伤的大头菜 ... 这两年也没少挣 30分钟前·山东 2 分享 回复 展开1条回复 都闭嘴吧 ... 普通人还是同情同情自己吧。喝着蜜雪冰城同情背香奈儿的？ 58分钟前·浙江 127 分享 回复 展开4条回复 加载中",
+          "content": "浅浅 ... 他们这种一天好几千工资的一没工作的就哭，那我们这些普通打工人一个月好几千工资的不得哭死啊没有同情的义务 刚刚·广东 0 分享 回复 豆豆豆豆豆 ... 没事儿，他们也赚了好几年了，应该也赚够了，普通人还是多考虑考虑自己吧 4分钟前·河南 0 分享 回复 阿音不吃枣 ... 还是来期待韩雨彤新剧知许不许 7分钟前·山东 0 分享 回复 暮暮•ᴗ• ... 说真的，就算再难干，人家存款的零头也够普通人努力很久了，所以咱不用东西他们难不难，人家早就赚得够够的了 2分钟前·广东 0 分享 回复 忧伤的大头菜 ... 这两年也没少挣 39分钟前·山东 15 分享 回复 展开2条回复 加载中",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:13:35.382962+08:00",
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "云枫 ... 哈？听花岛剧很好的不至于吧 2小时前·广东 2 分享 回复 展开2条回复",
+          "content": "浅浅 ... 他们这种一天好几千工资的一没工作的就哭，那我们这些普通打工人一个月好几千工资的不得哭死啊没有同情的义务 刚刚·广东 0 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:13:35.382962+08:00",
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "屿源₍ᐢ..ᐢ₎ ༘ ... 王培延不是王延培 35分钟前·江苏 3 分享 回复",
+          "content": "豆豆豆豆豆 ... 没事儿，他们也赚了好几年了，应该也赚够了，普通人还是多考虑考虑自己吧 4分钟前·河南 0 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:13:35.382962+08:00",
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "猫阳 ... ai确实牛，我以前还觉得不咋地，刷到后确实觉得牛掰。 2小时前·河北 61 分享 回复 展开5条回复",
+          "content": "阿音不吃枣 ... 还是来期待韩雨彤新剧知许不许 7分钟前·山东 0 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:13:35.382962+08:00",
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "忧伤的大头菜 ... 这两年也没少挣 30分钟前·山东 2 分享 回复 展开1条回复",
+          "content": "暮暮•ᴗ• ... 说真的，就算再难干，人家存款的零头也够普通人努力很久了，所以咱不用东西他们难不难，人家早就赚得够够的了 2分钟前·广东 0 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:13:35.382962+08:00",
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "都闭嘴吧 ... 普通人还是同情同情自己吧。喝着蜜雪冰城同情背香奈儿的？ 58分钟前·浙江 127 分享 回复 展开4条回复",
+          "content": "忧伤的大头菜 ... 这两年也没少挣 39分钟前·山东 15 分享 回复 展开2条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T11:13:35.382962+08:00",
+          "captured_at": "2026-07-02T11:23:08.993028+08:00",
           "capture_method": "dom"
         }
       ],
@@ -1313,6 +2029,12 @@
       "failures": [
         {
           "platform": "douyin",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:1"
+        },
+        {
+          "platform": "xiaohongshu",
           "stage": "search",
           "status": "empty",
           "reason": "stale_filtered:1"
@@ -1348,14 +2070,14 @@
       "claim_status": "confirmed",
       "requires_review": false,
       "admission_reason": "multi_platform_direct_evidence",
-      "independent_url_count": 15,
+      "independent_url_count": 14,
       "risk_reasons": [
         "light_mode_skip_detail_to_avoid_secondary_confirmation"
       ],
       "source_attribution": {
         "hotspot_source": "Weibo-Hot-Realtime",
-        "hotspot_url": "https://s.weibo.com/weibo?q=%23%E7%9F%AD%E5%89%A7%E6%BC%94%E5%91%98%E5%8F%96%E6%B6%88%E8%A1%8C%E7%A8%8B%E5%9B%BE%23&t=31&band_rank=16&Refer=top",
-        "hotspot_rank": 16,
+        "hotspot_url": "https://s.weibo.com/weibo?q=%23%E7%9F%AD%E5%89%A7%E6%BC%94%E5%91%98%E5%8F%96%E6%B6%88%E8%A1%8C%E7%A8%8B%E5%9B%BE%23&t=31&band_rank=17&Refer=top",
+        "hotspot_rank": 17,
         "matched_platforms": [
           "weibo",
           "douyin",
@@ -1372,15 +2094,16 @@
       ],
       "category": "entertainment_gossip",
       "hotspot_type": "entertainment_gossip",
-      "published_at": "2026-07-02T11:10:50.846376+08:00",
-      "summary": "18 赵丽颖我连心疼你都有时差了 盛典 314369",
+      "published_at": "2026-07-02T11:18:01.139152+08:00",
+      "summary": "18 赵丽颖我连心疼你都有时差了 盛典 353836",
       "hot_score": 92,
       "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E6%88%91%E8%BF%9E%E5%BF%83%E7%96%BC%E4%BD%A0%E9%83%BD%E6%9C%89%E6%97%B6%E5%B7%AE%E4%BA%86%23&t=31&band_rank=18&Refer=top",
       "source_hotspot_rank": 18,
       "source_hotspot_source": "Weibo-Hot-Realtime",
       "matched_platforms": [
         "weibo",
-        "douyin"
+        "douyin",
+        "xiaohongshu"
       ],
       "detail_pages": [
         {
@@ -1389,10 +2112,23 @@
           "url": "https://weibo.com/2653906910/R6MdW1YAy?refer_flag=1001030103_",
           "author": "娱乐榜姐",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 娱乐榜姐 今天08:46 来自 微博视频号 #赵丽颖我连心疼你都有时差了# 赵丽颖我连心疼你都有时差了呜呜明明《风吹半夏》23集才是赵丽颖演技大爆发的片段，也是拿下飞天奖和金鹰奖的好作品！实至名归#暑假刷到宝了# L娱乐榜姐的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316152226676738 123 270 8855",
-          "captured_at": "2026-07-02T11:14:27.389699+08:00",
+          "content": "热门 c 娱乐榜姐 今天08:46 来自 微博视频号 #赵丽颖我连心疼你都有时差了# 赵丽颖我连心疼你都有时差了呜呜明明《风吹半夏》23集才是赵丽颖演技大爆发的片段，也是拿下飞天奖和金鹰奖的好作品！实至名归#暑假刷到宝了# L娱乐榜姐的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316152226676738 132 273 9185",
+          "captured_at": "2026-07-02T11:24:00.844700+08:00",
           "source_page_url": "https://weibo.com/2653906910/R6MdW1YAy?refer_flag=1001030103_",
           "source_page_title": "热门 c 娱乐榜姐 今天08:46 来自 微博视频号 #赵丽颖我连心疼你都有时差了# 赵丽颖我连心疼你都有时差了呜呜明明《风吹半夏》23集才是赵丽颖演技大爆发的片段，也是拿下飞天奖和金鹰奖的好作品！实至名归#暑假刷到宝了# L娱乐榜姐的微博视频 ​ 播放视频 https://video.weibo.com/show?f",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 胖颖飞刀呀 今天09:18 来自 赵丽颖超话 #赵丽颖我连心疼你都有时差了# 又来赚KPI了！ 别心疼了，要不我说句大家给金鹰奖赵丽颖投个票不过分吧！ ​ 42 74 1299",
+          "url": "https://weibo.com/7494141408/R6MqWfLxs?refer_flag=1001030103_",
+          "author": "胖颖飞刀呀",
+          "published_at": "",
+          "content": "热门 c 胖颖飞刀呀 今天09:18 来自 赵丽颖超话 #赵丽颖我连心疼你都有时差了# 又来赚KPI了！ 别心疼了，要不我说句大家给金鹰奖赵丽颖投个票不过分吧！ ​ 42 74 1299",
+          "captured_at": "2026-07-02T11:24:00.844700+08:00",
+          "source_page_url": "https://weibo.com/7494141408/R6MqWfLxs?refer_flag=1001030103_",
+          "source_page_title": "热门 c 胖颖飞刀呀 今天09:18 来自 赵丽颖超话 #赵丽颖我连心疼你都有时差了# 又来赚KPI了！ 别心疼了，要不我说句大家给金鹰奖赵丽颖投个票不过分吧！ ​ 42 74 1299",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
@@ -1402,8 +2138,8 @@
           "url": "https://weibo.com/5762926923/R6MvRcF8u?refer_flag=1001030103_",
           "author": "嘉木锄禾日当午",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 嘉木锄禾日当午 今天09:31 来自 赵丽颖超话 #赵丽颖我连心疼你都有时差了# 确实心疼赵丽颖，因为快三年前的事，还要被白玉兰拉出来说不停。那又怎样，白玉兰不给的，飞天给了，到底谁在意难平，懂的都懂，自己今年效果不好，搁这拿赵丽颖弥补战报呢？？？ ​ 播放视频 https://video.weibo.com/show?fid=1034:5316163069214816 20 63 1360",
-          "captured_at": "2026-07-02T11:14:27.389699+08:00",
+          "content": "热门 c 嘉木锄禾日当午 今天09:31 来自 赵丽颖超话 #赵丽颖我连心疼你都有时差了# 确实心疼赵丽颖，因为快三年前的事，还要被白玉兰拉出来说不停。那又怎样，白玉兰不给的，飞天给了，到底谁在意难平，懂的都懂，自己今年效果不好，搁这拿赵丽颖弥补战报呢？？？ ​ 播放视频 https://video.weibo.com/show?fid=1034:5316163069214816 20 65 1563",
+          "captured_at": "2026-07-02T11:24:00.844700+08:00",
           "source_page_url": "https://weibo.com/5762926923/R6MvRcF8u?refer_flag=1001030103_",
           "source_page_title": "热门 c 嘉木锄禾日当午 今天09:31 来自 赵丽颖超话 #赵丽颖我连心疼你都有时差了# 确实心疼赵丽颖，因为快三年前的事，还要被白玉兰拉出来说不停。那又怎样，白玉兰不给的，飞天给了，到底谁在意难平，懂的都懂，自己今年效果不好，搁这拿赵丽颖弥补战报呢？？？ ​ 播放视频 https://video.weibo.com",
           "capture_method": "weibo_search_card",
@@ -1411,27 +2147,14 @@
         },
         {
           "platform": "weibo",
-          "title": "热门 c 予橙诺- 今天08:45 #赵丽颖我连心疼你都有时差了#当年都嘲她三轮陪跑，差一点大满贯视后，不过后面飞天金鹰证明了赵姐的权威。好演员值得被看见 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316152738644010 10 29 875",
+          "title": "热门 c 予橙诺- 今天08:45 #赵丽颖我连心疼你都有时差了#当年都嘲她三轮陪跑，差一点大满贯视后，不过后面飞天金鹰证明了赵姐的权威。好演员值得被看见 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316152738644010 10 30 911",
           "url": "https://weibo.com/5690420368/R6MdbCb24?refer_flag=1001030103_",
           "author": "予橙诺-",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 予橙诺- 今天08:45 #赵丽颖我连心疼你都有时差了#当年都嘲她三轮陪跑，差一点大满贯视后，不过后面飞天金鹰证明了赵姐的权威。好演员值得被看见 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316152738644010 10 29 875",
-          "captured_at": "2026-07-02T11:14:27.389699+08:00",
+          "content": "热门 c 予橙诺- 今天08:45 #赵丽颖我连心疼你都有时差了#当年都嘲她三轮陪跑，差一点大满贯视后，不过后面飞天金鹰证明了赵姐的权威。好演员值得被看见 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316152738644010 10 30 911",
+          "captured_at": "2026-07-02T11:24:00.844700+08:00",
           "source_page_url": "https://weibo.com/5690420368/R6MdbCb24?refer_flag=1001030103_",
-          "source_page_title": "热门 c 予橙诺- 今天08:45 #赵丽颖我连心疼你都有时差了#当年都嘲她三轮陪跑，差一点大满贯视后，不过后面飞天金鹰证明了赵姐的权威。好演员值得被看见 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316152738644010 10 29 875",
-          "capture_method": "weibo_search_card",
-          "evidence_role": "source_post_summary"
-        },
-        {
-          "platform": "weibo",
-          "title": "热门 c 胖颖飞刀呀 今天09:18 来自 赵丽颖超话 #赵丽颖我连心疼你都有时差了# 又来赚KPI了！ 别心疼了，要不我说句大家给金鹰奖赵丽颖投个票不过分吧！ ​ 41 74 1243",
-          "url": "https://weibo.com/7494141408/R6MqWfLxs?refer_flag=1001030103_",
-          "author": "胖颖飞刀呀",
-          "published_at": "",
-          "content": "热门 c 胖颖飞刀呀 今天09:18 来自 赵丽颖超话 #赵丽颖我连心疼你都有时差了# 又来赚KPI了！ 别心疼了，要不我说句大家给金鹰奖赵丽颖投个票不过分吧！ ​ 41 74 1243",
-          "captured_at": "2026-07-02T11:14:27.389699+08:00",
-          "source_page_url": "https://weibo.com/7494141408/R6MqWfLxs?refer_flag=1001030103_",
-          "source_page_title": "热门 c 胖颖飞刀呀 今天09:18 来自 赵丽颖超话 #赵丽颖我连心疼你都有时差了# 又来赚KPI了！ 别心疼了，要不我说句大家给金鹰奖赵丽颖投个票不过分吧！ ​ 41 74 1243",
+          "source_page_title": "热门 c 予橙诺- 今天08:45 #赵丽颖我连心疼你都有时差了#当年都嘲她三轮陪跑，差一点大满贯视后，不过后面飞天金鹰证明了赵姐的权威。好演员值得被看见 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316152738644010 10 30 911",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
@@ -1439,10 +2162,10 @@
           "platform": "weibo",
           "title": "微博正文 - 微博",
           "url": "https://weibo.com/2653906910/R6MdW1YAy?refer_flag=1001030103_",
-          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 娱乐榜姐 公开 娱乐榜姐 26-7-2 08:46 发布于 广东 来自 微博视频号 关注 #赵丽颖我连心疼你都有时差了# 赵丽颖我连心疼你都有时差了呜呜明明《风吹半夏》23集才是赵丽颖演技大爆发的片段，也是拿下飞天奖和金鹰奖的好作品！实至名归#暑假刷到宝了# 娱乐榜姐的微博视频 ​​​ 播放视频 01:01 62万次观看 点赞是美意，赞赏是鼓励 为TA助威 123 269 8859 分享这条博文 同时转发 评论 按热度 按时间 Zanilia_国民甜心 :多久之前的事了 放过赵丽颖吧 飞天奖已经向观众证明了 赵丽颖许半夏的权威性了 别薅了 26-7-2 09:30 来自江苏 130 0316_1K :@小文明不文明 专注《国华的秘密》哦 支持点痣去探望国画 并且造小糙米2.0 26-7-2 08:58 来自河南 87 0316_1K :@娱乐榜姐 26-7-2 08:59 来自河南 18 本王在此_:资本运作沪玉兰不爱，我们大众全力托举， 26-7-2 09:20 来自安徽 60 你好吗莉香 :赵丽颖不需要心疼别把她拉出来搞热度了，人家有飞天金鹰，有这功夫不如给金鹰奖小城大事投票 26-7-2 09:57 来自北京 4 喜欢栗子1987:助力赵姐再拿金鹰，快来投票吧 26-7-2 11:03 来自河北 喜欢栗子1987:@娱乐榜姐 26-7-2 11:04 来自河北 喜欢栗子1987:两年前的事了，没完没了了？ 26-7-2 10:56 来自河北 2 茶柚cy_:内娱很难再拍出这么经典的大女主经商剧 26-7-2 10:23 来自福建 1 万物不及阿贞回眸一笑:@鸡飞狗跳怎是龙飞凤舞: 怎么了，你是毒贩子吗，这么轻车熟路 26-7-2 09:28 来自福建 4 伴颖听风吟:很久以前的事了，还要拉出来，干嘛呢这是 26-7-2 10:03 来自河南 2 尼尼青木雨:b站翻车，就拉其他明星出来 26-7-2 10:08 来自陕西 3 -你压到我腿毛了-Z :内娱再也没有演得这么好的女性角色了，许半夏完全可以一串三。 26-7-2 10:35 来自湖北 弱水三千--FM47152 :我的眼里只有你，李光洁 26-7-2 09:32 来自上海 1 xiao大牙:我觉着李光洁更让我代入 26-7-2 09:16 来自山东 3 一片叶子的独白WD:就是那次白玉兰当时放涂口红的片段给我气的，水玉兰就是水，不说别的演员人家有没有实力，就说举办方的恶心操作也是没谁了。当时还说自己报的，除非赵丽颖跟剧方有仇才会自己报这个片段，我一个业务选手也知道报哪些吧。 26-7-2 11:07 来自天津 蓝色沸点0923:不都结束几年了 还逮住丽薅啥意思 26-7-2 11:06 来自江苏 雅筱筱-被楚王带了八百度滤镜 :啥热搜不新不旧的说上就上 26-7-2 10:32 来自北京 西红柿打卤面爱好者:你有完没完了见不见啊，发多少才能结束 26-7-2 10:26 来自北京",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 娱乐榜姐 公开 娱乐榜姐 26-7-2 08:46 发布于 广东 来自 微博视频号 关注 #赵丽颖我连心疼你都有时差了# 赵丽颖我连心疼你都有时差了呜呜明明《风吹半夏》23集才是赵丽颖演技大爆发的片段，也是拿下飞天奖和金鹰奖的好作品！实至名归#暑假刷到宝了# 娱乐榜姐的微博视频 ​​​ 播放视频 01:01 64.8万次观看 点赞是美意，赞赏是鼓励 为TA助威 132 273 9189 分享这条博文 同时转发 评论 按热度 按时间 0316_1K :@小文明不文明 专注《国华的秘密》哦 支持点痣去探望国画 并且造小糙米2.0 26-7-2 08:58 来自河南 89 0316_1K :@娱乐榜姐 26-7-2 08:59 来自河南 18 本王在此_:资本运作沪玉兰不爱，我们大众全力托举， 26-7-2 09:20 来自安徽 63 凋尽的芦花 :孩子都饿死了你来奶了，无不无聊，几年前的事儿了，拉赵姐出来，烦不烦 26-7-2 09:40 来自甘肃 54 你好吗莉香 :赵丽颖不需要心疼别把她拉出来搞热度了，人家有飞天金鹰，有这功夫不如给金鹰奖小城大事投票 26-7-2 09:57 来自北京 4 喜欢栗子1987:助力赵姐再拿金鹰，快来投票吧 26-7-2 11:03 来自河北 1 喜欢栗子1987:@娱乐榜姐 26-7-2 11:04 来自河北 喜欢栗子1987:两年前的事了，没完没了了？ 26-7-2 10:56 来自河北 3 茶柚cy_:内娱很难再拍出这么经典的大女主经商剧 26-7-2 10:23 来自福建 1 万物不及阿贞回眸一笑:@鸡飞狗跳怎是龙飞凤舞: 怎么了，你是毒贩子吗，这么轻车熟路 26-7-2 09:28 来自福建 4 伴颖听风吟:很久以前的事了，还要拉出来，干嘛呢这是 26-7-2 10:03 来自河南 2 尼尼青木雨:b站翻车，就拉其他明星出来 26-7-2 10:08 来自陕西 5 -你压到我腿毛了-Z :内娱再也没有演得这么好的女性角色了，许半夏完全可以一串三。 26-7-2 10:35 来自湖北 尼尼青木雨:白预兰出圈啦 26-7-2 10:07 来自陕西 3 弱水三千--FM47152 :我的眼里只有你，李光洁 26-7-2 09:32 来自上海 1 xiao大牙:我觉着李光洁更让我代入 26-7-2 09:16 来自山东 3 小小张飞翼德王:过去的回不来外，心疼也回不来，赵丽颖从来都不失从头再来的勇气，也不知道好几年前的事了，现在突然搞出来是为谁挡刀，只知道赵丽颖风吹半夏值得 26-7-2 11:21 来自山东 一片叶子的独白WD:就是那次白玉兰当时放涂口红的片段给我气的，水玉兰就是水，不说别的演员人家有没有实力，就说举办方的恶心操作也是没谁了。当时还说自己报的，除非赵丽颖跟剧方有仇才会自己报这个片段，我一个业务选手也知道报哪些吧。 26-7-2 11:07 来自天津 蓝色沸点0923:不都结束几年了 还逮住丽薅啥意思 26-7-2 11:06 来自江苏",
           "author": "娱乐榜姐",
           "published_at": "26-7-2 08:46",
-          "captured_at": "2026-07-02T11:14:27.389699+08:00",
+          "captured_at": "2026-07-02T11:24:00.844700+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://weibo.com/2653906910/R6MdW1YAy?refer_flag=1001030103_",
@@ -1455,11 +2178,24 @@
           "content": "00:07 / 02:44 倍速 智能 清屏 连播 作品含 AI 生成内容 章节要点 赵丽颖在白玉兰颁奖现场被换镜头一事引发网友热议，大家发现她当时正经历多重重压，但她始终保持坚强。与其他艺人不同，赵丽颖不贩卖情绪，而是用成绩证明自己。她的隐忍让普通人产生情感共鸣，大家都有过心疼身边人的时差。如今，赵丽颖的努力得到回报，她的强大底色是不刻意卖惨，安静沉淀。 00:00 引言 00:36 热搜事件 赵丽颖在白玉兰颁奖现场被换镜头，三年后网友才发现她当时遭遇多重重压，但她始终保持坚强。 01:40 对比其他艺人 赵丽颖与其他85花不同，她不贩卖情绪，而是用成绩证明自己。 02:10 情感共鸣 赵丽颖的隐忍让普通人产生情感共鸣，大家都有过心疼身边人的时差。 02:28 结语 赵丽颖的努力得到回报，她的强大底色是不刻意卖惨，安静沉淀。 内容由AI生成",
           "author": "",
           "published_at": "00:07 / 02:44",
-          "captured_at": "2026-07-02T11:14:47.584933+08:00",
+          "captured_at": "2026-07-02T11:24:21.028799+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://www.douyin.com/video/7657735649454367552",
           "source_page_title": "赵丽颖我连心疼你都有时差了 #明星#娱乐 - 抖音"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "丽颖的追光者Y 49分钟前 41",
+          "url": "https://www.xiaohongshu.com/explore/6a45ce7e000000001503e4e6",
+          "author": "丽颖的追光者Y 49分钟前",
+          "published_at": "丽颖的追光者Y 49分钟前",
+          "content": "丽颖的追光者Y 49分钟前 41",
+          "captured_at": "2026-07-02T11:24:41.213122+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45ce7e000000001503e4e6",
+          "source_page_title": "丽颖的追光者Y 49分钟前 41",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
         }
       ],
       "videos": [
@@ -1474,7 +2210,7 @@
           "download_status": "metadata_only",
           "local_path": "",
           "tool": "browser_cdp",
-          "captured_at": "2026-07-02T11:14:47.584933+08:00",
+          "captured_at": "2026-07-02T11:24:21.028799+08:00",
           "capture_method": "dom",
           "source_url": "https://www.douyin.com/video/7657735649454367552",
           "evidence_role": "source_video"
@@ -1487,7 +2223,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 522,
-          "captured_at": "2026-07-02T11:14:27.389699+08:00",
+          "captured_at": "2026-07-02T11:24:00.844700+08:00",
           "capture_method": "dom"
         },
         {
@@ -1496,16 +2232,16 @@
           "platform": "weibo",
           "width": 360,
           "height": 375,
-          "captured_at": "2026-07-02T11:14:27.389699+08:00",
+          "captured_at": "2026-07-02T11:24:00.844700+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://tvax3.sinaimg.cn/crop.0.0.1080.1080.1024/9e2f67dely8idvjo6e9jlj20u00u0q43.jpg?KID=imgbed,tva&Expires=1782972877&ssig=%2B48LGkjqRG",
+          "url": "https://tvax3.sinaimg.cn/crop.0.0.1080.1080.1024/9e2f67dely8idvjo6e9jlj20u00u0q43.jpg?KID=imgbed,tva&Expires=1782973450&ssig=ZkbHKxikcT",
           "source_url": "https://weibo.com/2653906910/R6MdW1YAy?refer_flag=1001030103_",
           "platform": "weibo",
           "width": 1024,
           "height": 1024,
-          "captured_at": "2026-07-02T11:14:27.389699+08:00",
+          "captured_at": "2026-07-02T11:24:00.844700+08:00",
           "capture_method": "dom"
         },
         {
@@ -1514,7 +2250,7 @@
           "platform": "weibo",
           "width": 617,
           "height": 360,
-          "captured_at": "2026-07-02T11:14:27.389699+08:00",
+          "captured_at": "2026-07-02T11:24:00.844700+08:00",
           "capture_method": "dom"
         },
         {
@@ -1523,16 +2259,16 @@
           "platform": "douyin",
           "width": 439,
           "height": 330,
-          "captured_at": "2026-07-02T11:14:47.584933+08:00",
+          "captured_at": "2026-07-02T11:24:21.028799+08:00",
           "capture_method": "dom"
         },
         {
-          "url": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/46b5e0404af09cfaef3a65da026f27ef~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098321200&x-signature=YUMnQ50xklyfxhL0CZqOdrnDDTQ%3D",
-          "source_url": "https://www.douyin.com/video/7657558626890164581",
+          "url": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/9c6437c31e1848e89e03869cbf373141~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2098321200&x-signature=J%2F7EKmU63aZQmUvty6ATY5zN%2B%2Fw%3D",
+          "source_url": "https://www.douyin.com/video/7657753906226695467",
           "platform": "douyin",
-          "width": 437,
+          "width": 440,
           "height": 330,
-          "captured_at": "2026-07-02T11:14:47.584933+08:00",
+          "captured_at": "2026-07-02T11:24:21.028799+08:00",
           "capture_method": "dom"
         }
       ],
@@ -1548,7 +2284,7 @@
         },
         {
           "platform": "xiaohongshu",
-          "status": "empty"
+          "status": "partial_failed"
         },
         {
           "platform": "kuaishou",
@@ -1560,13 +2296,13 @@
           "platform": "xiaohongshu",
           "stage": "search",
           "status": "empty",
-          "reason": "stale_filtered:4"
+          "reason": "stale_filtered:3"
         },
         {
           "platform": "xiaohongshu",
-          "stage": "search",
-          "status": "empty",
-          "reason": "only_stale_results"
+          "stage": "detail",
+          "status": "blocked",
+          "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
         },
         {
           "platform": "kuaishou",
@@ -1587,27 +2323,76 @@
           "stage": "comments",
           "status": "empty",
           "reason": "no_real_comment_nodes_detected"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
         }
       ],
       "evidence_level": "multi_platform",
       "claim_status": "rumor",
       "requires_review": true,
       "admission_reason": "multi_platform_direct_evidence",
-      "independent_url_count": 11,
-      "risk_reasons": [],
+      "independent_url_count": 12,
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ],
       "source_attribution": {
         "hotspot_source": "Weibo-Hot-Realtime",
         "hotspot_url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E6%88%91%E8%BF%9E%E5%BF%83%E7%96%BC%E4%BD%A0%E9%83%BD%E6%9C%89%E6%97%B6%E5%B7%AE%E4%BA%86%23&t=31&band_rank=18&Refer=top",
         "hotspot_rank": 18,
         "matched_platforms": [
           "weibo",
-          "douyin"
+          "douyin",
+          "xiaohongshu"
         ]
       }
     }
   ],
   "platform_statuses": [
     {
+      "topic": "王俊凯疑疑疑歌词",
+      "platform": "weibo",
+      "status": "success"
+    },
+    {
+      "topic": "王俊凯疑疑疑歌词",
+      "platform": "douyin",
+      "status": "success"
+    },
+    {
+      "topic": "王俊凯疑疑疑歌词",
+      "platform": "xiaohongshu",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "王俊凯疑疑疑歌词",
+      "platform": "kuaishou",
+      "status": "empty"
+    },
+    {
+      "topic": "因杨紫白玉兰女主去看生命树",
+      "platform": "weibo",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "因杨紫白玉兰女主去看生命树",
+      "platform": "douyin",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "因杨紫白玉兰女主去看生命树",
+      "platform": "xiaohongshu",
+      "status": "empty"
+    },
+    {
+      "topic": "因杨紫白玉兰女主去看生命树",
+      "platform": "kuaishou",
+      "status": "empty"
+    },
+    {
       "topic": "网友称白鹿打戏疑为替身",
       "platform": "weibo",
       "status": "success"
@@ -1680,7 +2465,7 @@
     {
       "topic": "赵丽颖我连心疼你都有时差了",
       "platform": "xiaohongshu",
-      "status": "empty"
+      "status": "partial_failed"
     },
     {
       "topic": "赵丽颖我连心疼你都有时差了",
@@ -1691,12 +2476,6 @@
   "failures": [
     {
       "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:2"
-    },
-    {
-      "platform": "xiaohongshu",
       "stage": "detail",
       "status": "blocked",
       "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
@@ -1705,7 +2484,7 @@
       "platform": "kuaishou",
       "stage": "search",
       "status": "empty",
-      "reason": "no_valid_search_results"
+      "reason": "no_detail_url_extracted"
     },
     {
       "platform": "weibo",
@@ -1714,40 +2493,10 @@
       "reason": "stale_filtered:1"
     },
     {
-      "platform": "xiaohongshu",
-      "stage": "search",
-      "status": "empty",
-      "reason": "stale_filtered:2"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "detail",
-      "status": "blocked",
-      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
-    },
-    {
-      "platform": "kuaishou",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_detail_url_extracted"
-    },
-    {
       "platform": "douyin",
       "stage": "search",
       "status": "empty",
-      "reason": "stale_filtered:1"
-    },
-    {
-      "platform": "xiaohongshu",
-      "stage": "detail",
-      "status": "blocked",
-      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
-    },
-    {
-      "platform": "kuaishou",
-      "stage": "search",
-      "status": "empty",
-      "reason": "no_detail_url_extracted"
+      "reason": "stale_filtered:3"
     },
     {
       "platform": "xiaohongshu",
@@ -1760,6 +2509,90 @@
       "stage": "search",
       "status": "empty",
       "reason": "only_stale_results"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "no_valid_search_results"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:3"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "detail",
+      "status": "blocked",
+      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "no_detail_url_extracted"
+    },
+    {
+      "platform": "weibo",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:1"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:1"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "detail",
+      "status": "blocked",
+      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "no_detail_url_extracted"
+    },
+    {
+      "platform": "douyin",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:1"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:1"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "detail",
+      "status": "blocked",
+      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "no_detail_url_extracted"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:3"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "detail",
+      "status": "blocked",
+      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
     },
     {
       "platform": "kuaishou",
@@ -1788,6 +2621,24 @@
       "reason": "no_real_comment_nodes_detected"
     },
     {
+      "platform": "weibo",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "weibo",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
       "platform": "xiaohongshu",
       "stage": "comments",
       "status": "empty",
@@ -1813,6 +2664,12 @@
     },
     {
       "platform": "douyin",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "xiaohongshu",
       "stage": "comments",
       "status": "empty",
       "reason": "no_real_comment_nodes_detected"
