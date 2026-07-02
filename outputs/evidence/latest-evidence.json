@@ -1,12 +1,12 @@
 {
   "schema_version": "1.1",
-  "run_id": "1880d07f-be5e-4188-8c88-e0421037fb5a",
+  "run_id": "ba0c894d-9f90-4a1f-98c6-bc668c685b31",
   "status": "partial_failed",
   "mode": "remote_deep_evidence",
   "source": "Remote-Windows-Evidence",
   "source_role": "external_enrichment",
-  "started_at": "2026-07-02T10:14:50.162810+08:00",
-  "finished_at": "2026-07-02T10:18:32.314222+08:00",
+  "started_at": "2026-07-02T10:21:52.856383+08:00",
+  "finished_at": "2026-07-02T10:25:36.180073+08:00",
   "window_hours": 24,
   "radar_top_limit": 20,
   "seed_limit": 12,
@@ -63,7 +63,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "赵丽颖我连心疼你都有时差了",
+      "title": "姑姑亲了一口宝宝差点都会说话了",
       "rank": 6,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -71,7 +71,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "孙颖莎给勒布伦打趴下了",
+      "title": "赵丽颖我连心疼你都有时差了",
       "rank": 7,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -87,7 +87,7 @@
       "reason": "matched:variety"
     },
     {
-      "title": "姑姑亲了一口宝宝差点都会说话了",
+      "title": "孙颖莎给勒布伦打趴下了",
       "rank": 9,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -119,7 +119,7 @@
       "reason": "matched:relationship_rumor"
     },
     {
-      "title": "比利时 内讧",
+      "title": "美国红牌",
       "rank": 13,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -135,7 +135,7 @@
       "reason": "matched:short_drama,celebrity_work"
     },
     {
-      "title": "韩国女消防员15个月被迫陪酒24次",
+      "title": "我跟他的关系没有你想的那么好",
       "rank": 15,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -143,7 +143,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "iPhone17真涨价后你还会入手吗",
+      "title": "韩国女消防员15个月被迫陪酒24次",
       "rank": 16,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -151,7 +151,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "王一博人鱼上映倒计时",
+      "title": "美国2比0波黑",
       "rank": 17,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -159,7 +159,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "被好好爱过的人很好相处",
+      "title": "人工智能冲击婚纱影楼",
       "rank": 18,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -167,12 +167,148 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "德布劳内世界杯最后一舞",
+      "title": "孙颖莎vs米特兰姆",
       "rank": 19,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
       "decision": "rejected",
       "reason": "category_not_matched"
+    }
+  ],
+  "candidate_diagnostics": [
+    {
+      "seed_title": "柳柳选择爆灯离开",
+      "rank": 8,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "variety",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "independent_url_count": 12,
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "success"
+        },
+        {
+          "platform": "douyin",
+          "status": "success"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failure_reasons": [
+        "stale_filtered:3",
+        "light_mode_skip_detail_to_avoid_secondary_confirmation",
+        "no_detail_url_extracted"
+      ],
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ]
+    },
+    {
+      "seed_title": "全球最美女孩结婚",
+      "rank": 12,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "relationship_rumor",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "rumor",
+      "requires_review": true,
+      "independent_url_count": 13,
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "douyin",
+          "status": "success"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failure_reasons": [
+        "stale_filtered:1",
+        "stale_filtered:1",
+        "light_mode_skip_detail_to_avoid_secondary_confirmation",
+        "no_detail_url_extracted"
+      ],
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ]
+    },
+    {
+      "seed_title": "短剧演员取消行程图",
+      "rank": 14,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "short_drama",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "independent_url_count": 13,
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "success"
+        },
+        {
+          "platform": "douyin",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failure_reasons": [
+        "stale_filtered:1",
+        "stale_filtered:2",
+        "light_mode_skip_detail_to_avoid_secondary_confirmation",
+        "no_detail_url_extracted"
+      ],
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ]
     }
   ],
   "candidate_summary": {
@@ -193,8 +329,8 @@
       ],
       "category": "variety",
       "hotspot_type": "variety",
-      "published_at": "2026-07-02T10:14:56.282436+08:00",
-      "summary": "8 柳柳选择爆灯离开 综艺 572271 新",
+      "published_at": "2026-07-02T10:21:58.994418+08:00",
+      "summary": "8 柳柳选择爆灯离开 综艺 573193 新",
       "hot_score": 102,
       "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E6%9F%B3%E6%9F%B3%E9%80%89%E6%8B%A9%E7%88%86%E7%81%AF%E7%A6%BB%E5%BC%80%23&t=31&band_rank=8&Refer=top",
       "source_hotspot_rank": 8,
@@ -207,25 +343,12 @@
       "detail_pages": [
         {
           "platform": "weibo",
-          "title": "热门 c 圈大神 今天08:55 #柳柳选择爆灯离开##半熟恋人# 《半熟恋人》下期预告，柳柳打算爆灯离开独美？？？如果真的离开，堪比白浅跳诛仙台了吧将会为整个恋综画上最浓墨的一笔。 柳柳啊，伤心了咱可别委屈自己哈～柳柳个性签名懒得动心！ ​ 播放视频 https://video.weibo.com/show?fid=",
-          "url": "https://weibo.com/1716826231/R6MhvcsLt?refer_flag=1001030103_",
-          "author": "圈大神",
-          "published_at": "当前时间 00:00",
-          "content": "热门 c 圈大神 今天08:55 #柳柳选择爆灯离开##半熟恋人# 《半熟恋人》下期预告，柳柳打算爆灯离开独美？？？如果真的离开，堪比白浅跳诛仙台了吧将会为整个恋综画上最浓墨的一笔。 柳柳啊，伤心了咱可别委屈自己哈～柳柳个性签名懒得动心！ ​ 播放视频 https://video.weibo.com/show?fid=1034:5316155259420690 19 122 1061",
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
-          "source_page_url": "https://weibo.com/1716826231/R6MhvcsLt?refer_flag=1001030103_",
-          "source_page_title": "热门 c 圈大神 今天08:55 #柳柳选择爆灯离开##半熟恋人# 《半熟恋人》下期预告，柳柳打算爆灯离开独美？？？如果真的离开，堪比白浅跳诛仙台了吧将会为整个恋综画上最浓墨的一笔。 柳柳啊，伤心了咱可别委屈自己哈～柳柳个性签名懒得动心！ ​ 播放视频 https://video.weibo.com/show?fid=",
-          "capture_method": "weibo_search_card",
-          "evidence_role": "source_post_summary"
-        },
-        {
-          "platform": "weibo",
           "title": "热门 c 娱圈桃花仙 07月01日 15:56 《半熟恋人》最新预告里，柳柳的决定让人意外——她选择爆灯离开。 明明没有心动对象，却还是按下了爆灯键。她要独自离开海岛，提前回上海。这个决定看着决绝，细想却再合理不过。和周佑凌那场争吵后，她大概是真的心凉了。继续留下，每天都要看着他和丹琪亲密相伴，池塘边闲聊、拍照时贴紧、",
           "url": "https://weibo.com/5133127916/R6FBQnTa8?refer_flag=1001030103_",
           "author": "娱圈桃花仙",
           "published_at": "",
-          "content": "热门 c 娱圈桃花仙 07月01日 15:56 《半熟恋人》最新预告里，柳柳的决定让人意外——她选择爆灯离开。 明明没有心动对象，却还是按下了爆灯键。她要独自离开海岛，提前回上海。这个决定看着决绝，细想却再合理不过。和周佑凌那场争吵后，她大概是真的心凉了。继续留下，每天都要看着他和丹琪亲密相伴，池塘边闲聊、拍照时贴紧、毫不避 ​ 展开c 11 259 2627",
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
+          "content": "热门 c 娱圈桃花仙 07月01日 15:56 《半熟恋人》最新预告里，柳柳的决定让人意外——她选择爆灯离开。 明明没有心动对象，却还是按下了爆灯键。她要独自离开海岛，提前回上海。这个决定看着决绝，细想却再合理不过。和周佑凌那场争吵后，她大概是真的心凉了。继续留下，每天都要看着他和丹琪亲密相伴，池塘边闲聊、拍照时贴紧、毫不避 ​ 展开c 12 268 2656",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
           "source_page_url": "https://weibo.com/5133127916/R6FBQnTa8?refer_flag=1001030103_",
           "source_page_title": "热门 c 娱圈桃花仙 07月01日 15:56 《半熟恋人》最新预告里，柳柳的决定让人意外——她选择爆灯离开。 明明没有心动对象，却还是按下了爆灯键。她要独自离开海岛，提前回上海。这个决定看着决绝，细想却再合理不过。和周佑凌那场争吵后，她大概是真的心凉了。继续留下，每天都要看着他和丹琪亲密相伴，池塘边闲聊、拍照时贴紧、",
           "capture_method": "weibo_search_card",
@@ -233,51 +356,64 @@
         },
         {
           "platform": "weibo",
-          "title": "热门 c 得意-惬意-肆意 30分钟前 来自 马上暴富 #半熟恋人最新预告# 《半熟恋人》预告看点拉满，柳柳爆灯离场意难平 最新预告爆点十足，柳柳果断爆灯独自离开海岛，和周佑凌的误会持续发酵，二人感情走向难测。 争吵过后柳柳心生失望，不愿看着周佑凌和丹琪亲近，干脆选择提前回上海，利落断舍离看得观众直呼解气。 另一边周佑",
-          "url": "https://weibo.com/7441855283/R6MB6Eqcm?refer_flag=1001030103_",
-          "author": "得意-惬意-肆意",
+          "title": "热门 c 圈大神 今天08:55 #柳柳选择爆灯离开##半熟恋人# 《半熟恋人》下期预告，柳柳打算爆灯离开独美？？？如果真的离开，堪比白浅跳诛仙台了吧将会为整个恋综画上最浓墨的一笔。 柳柳啊，伤心了咱可别委屈自己哈～柳柳个性签名懒得动心！ ​ 播放视频 https://video.weibo.com/show?fid=",
+          "url": "https://weibo.com/1716826231/R6MhvcsLt?refer_flag=1001030103_",
+          "author": "圈大神",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 得意-惬意-肆意 30分钟前 来自 马上暴富 #半熟恋人最新预告# 《半熟恋人》预告看点拉满，柳柳爆灯离场意难平 最新预告爆点十足，柳柳果断爆灯独自离开海岛，和周佑凌的误会持续发酵，二人感情走向难测。 争吵过后柳柳心生失望，不愿看着周佑凌和丹琪亲近，干脆选择提前回上海，利落断舍离看得观众直呼解气。 另一边周佑凌撞见柳柳和凌李政说笑 ​ 展开c 播放视频 https://video.weibo.com/show?fid=1034:5316167640744027 6 11 54",
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
-          "source_page_url": "https://weibo.com/7441855283/R6MB6Eqcm?refer_flag=1001030103_",
-          "source_page_title": "热门 c 得意-惬意-肆意 30分钟前 来自 马上暴富 #半熟恋人最新预告# 《半熟恋人》预告看点拉满，柳柳爆灯离场意难平 最新预告爆点十足，柳柳果断爆灯独自离开海岛，和周佑凌的误会持续发酵，二人感情走向难测。 争吵过后柳柳心生失望，不愿看着周佑凌和丹琪亲近，干脆选择提前回上海，利落断舍离看得观众直呼解气。 另一边周佑",
+          "content": "热门 c 圈大神 今天08:55 #柳柳选择爆灯离开##半熟恋人# 《半熟恋人》下期预告，柳柳打算爆灯离开独美？？？如果真的离开，堪比白浅跳诛仙台了吧将会为整个恋综画上最浓墨的一笔。 柳柳啊，伤心了咱可别委屈自己哈～柳柳个性签名懒得动心！ ​ 播放视频 https://video.weibo.com/show?fid=1034:5316155259420690 22 164 1406",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
+          "source_page_url": "https://weibo.com/1716826231/R6MhvcsLt?refer_flag=1001030103_",
+          "source_page_title": "热门 c 圈大神 今天08:55 #柳柳选择爆灯离开##半熟恋人# 《半熟恋人》下期预告，柳柳打算爆灯离开独美？？？如果真的离开，堪比白浅跳诛仙台了吧将会为整个恋综画上最浓墨的一笔。 柳柳啊，伤心了咱可别委屈自己哈～柳柳个性签名懒得动心！ ​ 播放视频 https://video.weibo.com/show?fid=",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c 剧评达人 07月01日 22:43 来自 微博视频号 《半熟恋人》最新预告，柳柳做了一个让人出人意料的决定——爆灯离开。 没有心动的人，也要爆灯。她选择独自离开海岛，提前回到上海。这个决定挺决绝的，细想又完全合理——在和周佑凌吵完那场架之后，她大概是真的心凉透了。继续留下，每一天都要看着那个人和丹琪在一起，每",
-          "url": "https://weibo.com/7967873615/R6Ih52cWL?refer_flag=1001030103_",
-          "author": "剧评达人",
+          "title": "热门 c 星娱酱 48分钟前 来自 微博视频号 #柳柳选择爆灯离开##半熟恋人#如果真的离开了也是可以理解的，但从节目来看，确实太憋屈了感觉就没有怎么开心过，我都想让姐姐独美了 L星娱酱的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316165115773017",
+          "url": "https://weibo.com/2909406375/R6MwUz96Z?refer_flag=1001030103_",
+          "author": "星娱酱",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 剧评达人 07月01日 22:43 来自 微博视频号 《半熟恋人》最新预告，柳柳做了一个让人出人意料的决定——爆灯离开。 没有心动的人，也要爆灯。她选择独自离开海岛，提前回到上海。这个决定挺决绝的，细想又完全合理——在和周佑凌吵完那场架之后，她大概是真的心凉透了。继续留下，每一天都要看着那个人和丹琪在一起，每一个画面里他们都是亲密相 ​ 展开c 播放视频 https://video.weibo.com/show?fid=1034:5316001424933018 转发 2 3",
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
-          "source_page_url": "https://weibo.com/7967873615/R6Ih52cWL?refer_flag=1001030103_",
-          "source_page_title": "热门 c 剧评达人 07月01日 22:43 来自 微博视频号 《半熟恋人》最新预告，柳柳做了一个让人出人意料的决定——爆灯离开。 没有心动的人，也要爆灯。她选择独自离开海岛，提前回到上海。这个决定挺决绝的，细想又完全合理——在和周佑凌吵完那场架之后，她大概是真的心凉透了。继续留下，每一天都要看着那个人和丹琪在一起，每",
+          "content": "热门 c 星娱酱 48分钟前 来自 微博视频号 #柳柳选择爆灯离开##半熟恋人#如果真的离开了也是可以理解的，但从节目来看，确实太憋屈了感觉就没有怎么开心过，我都想让姐姐独美了 L星娱酱的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316165115773017 118 125 378",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
+          "source_page_url": "https://weibo.com/2909406375/R6MwUz96Z?refer_flag=1001030103_",
+          "source_page_title": "热门 c 星娱酱 48分钟前 来自 微博视频号 #柳柳选择爆灯离开##半熟恋人#如果真的离开了也是可以理解的，但从节目来看，确实太憋屈了感觉就没有怎么开心过，我都想让姐姐独美了 L星娱酱的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316165115773017",
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "热门 c 娱九叔 40分钟前 #柳柳选择爆灯离开# 下期预告看哭，柳柳干脆爆灯退场独美，堪比白浅跳诛仙台。别委屈自己，离开错的人，自在做自己才最重要。#半熟恋人# ​ 播放视频 https://video.weibo.com/show?fid=1034:5316167250673669 104 105 292",
+          "url": "https://weibo.com/6354475832/R6MAiqv5L?refer_flag=1001030103_",
+          "author": "娱九叔",
+          "published_at": "当前时间 00:00",
+          "content": "热门 c 娱九叔 40分钟前 #柳柳选择爆灯离开# 下期预告看哭，柳柳干脆爆灯退场独美，堪比白浅跳诛仙台。别委屈自己，离开错的人，自在做自己才最重要。#半熟恋人# ​ 播放视频 https://video.weibo.com/show?fid=1034:5316167250673669 104 105 292",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
+          "source_page_url": "https://weibo.com/6354475832/R6MAiqv5L?refer_flag=1001030103_",
+          "source_page_title": "热门 c 娱九叔 40分钟前 #柳柳选择爆灯离开# 下期预告看哭，柳柳干脆爆灯退场独美，堪比白浅跳诛仙台。别委屈自己，离开错的人，自在做自己才最重要。#半熟恋人# ​ 播放视频 https://video.weibo.com/show?fid=1034:5316167250673669 104 105 292",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
           "title": "微博正文 - 微博",
-          "url": "https://weibo.com/1716826231/R6MhvcsLt?refer_flag=1001030103_",
-          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 圈大神 公开 圈大神 26-7-2 08:55 发布于 河南 已编辑 关注 #柳柳选择爆灯离开##半熟恋人# 《半熟恋人》下期预告，柳柳打算爆灯离开独美？？？如果真的离开，堪比白浅跳诛仙台了吧将会为整个恋综画上最浓墨的一笔。 柳柳啊，伤心了咱可别委屈自己哈～柳柳个性签名懒得动心！ ​​​ 00:07 点赞是美意，赞赏是鼓励 为TA助威 19 124 1066 分享这条博文 同时转发 评论 按热度 按时间 雾眠可乐气泡水 :尊重柳柳选择，自己开心就好了 26-7-2 10:15 来自江苏 1 微博智搜 :评论区围绕柳柳爆灯离开事件，支持派（35%）赞其清醒止损、独美体面；质疑派（28%）猜测她养鱼失败、以退为进；反感营销派（18%）批评剧本痕迹重、热搜频繁；另有分析派（12%）指出双方犹豫伤及他人。整体情绪两极分化，既有叫好也有质疑动机。查看最新戳->微博智搜 26-7-2 10:06 海米想好鸣子:池子里鱼都跑了，她可不就得灰溜溜撤了，她茶，地球人都知道了 26-7-2 10:03 来自辽宁 3 郑大顺-小子Maple:绿茶 26-7-2 10:01 来自浙江 2 Thartite:都还是未知，怎么词条是肯定句啊，瞎写 26-7-2 09:36 来自浙江 2 哦喜欢方便面:那可太好了小屋洁净了 26-7-2 10:07 来自广东 1 都雅思:就你们信预告，信不信 不是导演就是高高的呢个兄弟喜欢单琪 26-7-2 09:53 来自新疆 季小色快乐:以退为进 26-7-2 09:49 来自天津 mooncatzhou:难过想哭，柳柳离开吧，独美 26-7-2 09:48 来自江苏 胡大川201906:赶紧走吧，不真诚的人看到就烦 26-7-2 09:48 来自广东 用户6211999025:柳柳独美吧，会遇见懂你的人 26-7-2 09:46 来自辽宁 腼腆的雪恩:丢人了，可不得和节目组吐槽然后想着以退为进，养鱼，鱼要算了，没面子了，尴尬，又菜又爱玩 26-7-2 09:42 来自内蒙古 甘愿来作憨人s:哈哈哈哈哈哈哈，重生剧本吗？红果味来了 26-7-2 09:39 来自浙江 用户6406270438:不要侮辱白浅 26-7-2 09:28 来自美国 _Y我想要两颗西柚 :柳柳选择爆灯离开 心疼柳柳的清醒 没心动就及时止损，柳柳这波爆灯离开简直太飒了！ 期待独美的高光 堪比白浅跳诛仙台？这绝对是恋综史上最决绝的转身，坐等正片！ 拒绝委屈的恋爱观 第十天还在犹豫就是不够喜欢，柳柳不委屈自己，独美才是最好的归宿。 26-7-2 09:45 来自广东 2 用户7266061628:她走了，这个节目就烂尾了 26-7-2 09:54 来自浙江 喝一吨雪碧ha:节目组不会放她离开的 26-7-2 09:38 来自广东 在南山练瑜伽的甜椒:谁走她都不会走，给自己加戏，恶心 26-7-2 09:52 来自河南 1 难忘弯弯笑眼 :这么下头，快走吧 26-7-2 09:49 来自山东 2 美丽天秤座:赶紧离开吧，不要祸害别人了 26-7-2 09:32 来自江苏 9 柒柒8739:她离开不是因为周，而是鱼塘里的鱼都跑了，不爆灯离开干嘛，她不仅知道养鱼，还知道鱼跑了给自己体面离开 26-7-2 09:26 来自浙江 101 糊涂虫1139:被几个人当面戳穿没脸待下去了 26-7-2 09:48 来自四川 1 腼腆的雪恩:是的，就是没面子了，你看她聊天那个技术，玩脱了，寻思播出我不就完蛋了，赶紧和节目组哭着吐槽他一波，而且肯定不是真退，以退为进，说周误会他了，然后反转一下挽尊，不会养鱼了大概率 26-7-2 09:44 来自内蒙古 1 共7条回复 pianoupupup:柳和周都半斤八两，可怜了小屋其他人，没哄她没围着她转就要被说80。 26-7-2 09:21 来自广东 8 海里雾与星河 :我就说了句周丹柳都有错 为啥现在成了柳一个受害者 别的嘉宾评论区被围攻了 我被骂惨了 26-7-2 09:24 来自北京 2 共5条回复",
-          "author": "圈大神",
-          "published_at": "26-7-2 08:55",
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
+          "url": "https://weibo.com/5133127916/R6FBQnTa8?refer_flag=1001030103_",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 娱圈桃花仙 公开 娱圈桃花仙 26-7-1 15:56 发布于 广东 关注 《半熟恋人》最新预告里，柳柳的决定让人意外——她选择爆灯离开。 明明没有心动对象，却还是按下了爆灯键。她要独自离开海岛，提前回上海。这个决定看着决绝，细想却再合理不过。和周佑凌那场争吵后，她大概是真的心凉了。继续留下，每天都要看着他和丹琪亲密相伴，池塘边闲聊、拍照时贴紧、毫不避讳地牵手……换谁都熬不住。 柳柳看着这一切，心里该多不是滋味。所以她选了断舍离——不是不够喜欢，是喜欢得太累了。走得干脆，也让人觉得解气。既然这里没有能让她安心的人，不如先让自己安全退场。 柳柳，走吧，独自美丽也很好。 点赞是美意，赞赏是鼓励 为TA助威 12 268 2656 分享这条博文 同时转发 评论 按热度 按时间 喵呜小鱼呀 :看脸小忧伤 26-7-1 16:33 来自广东 综尚 :真的好有魅力呀！ 26-7-1 16:27 来自广东 省钱姨妈:矫情 26-7-2 08:30 来自广东 1 军哥想听歌:根本不喜欢 26-7-1 22:34 来自浙江 2 一条趟平的咸鱼1234567:要是她能退，我敬她，可她不是后面还录着么，没退吧。 26-7-1 21:49 来自浙江 2 手机用户2131652877:太好了，这里的人都不适合柳柳， 26-7-1 21:32 来自黑龙江 3 Q琪儿tina:真的假的？又说她跟周成了？ 26-7-1 20:00 来自广东 1 mulingjia:是这样吗？第几期播这个 26-7-1 19:30 来自广东 1 蘑菇哥哥呦:独美吧 26-7-2 10:19 来自江苏 只愿君昕似我昕:三观跟着五官走的人太多了…… 26-7-2 10:15 来自湖南 mooncatzhou:柳柳从来没跟别的男嘉宾搂搂抱抱牵手，都只是聊天吃饭，男的除了kiss啥都做了，很老登了 26-7-2 10:14 来自江苏 武是個大盗賊:这是最后的破釜沉舟，经历过，对方以退为进。我们火象就吃这套 26-7-2 10:09 来自浙江 白羊朱歌精:那些传言说在一起的都是假的 26-7-2 10:09 来自广东 可乐鱼骨头:莫名其妙 这女的 自己作 26-7-2 10:04 来自四川 没有喵的鱼v:养的鱼全跑了，她也没必要再呆了！ 26-7-2 09:48 来自河南 烁叔叔:图片评论 26-7-2 09:44 来自广东 Angelfish_Lv:与其继续拧巴，继续伤害别人和自己，离开对她来说是好的选择。 26-7-2 09:43 来自浙江 一等奖非我莫属:她对周又没那么喜欢，看到周和陈丹琪为什么换谁都熬不住，现在看到营销号的内容真是降智 26-7-2 09:39 来自海南 猫猫爱骨头吖:这绿茶到底买了多少热搜明明就是她钓鱼失败了 26-7-2 09:38 来自四川 美丽天秤座:因为她只有这样才能洗白她端水的罪名 26-7-2 09:35 来自江苏",
+          "author": "娱圈桃花仙",
+          "published_at": "26-7-1 15:56",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
-          "source_page_url": "https://weibo.com/1716826231/R6MhvcsLt?refer_flag=1001030103_",
+          "source_page_url": "https://weibo.com/5133127916/R6FBQnTa8?refer_flag=1001030103_",
           "source_page_title": "微博正文 - 微博"
         },
         {
           "platform": "douyin",
           "title": "嘴上说喜欢喜欢她 行动全是伤害 或许退出对柳柳来说是最好的选择 - 抖音",
           "url": "https://www.douyin.com/video/7657416879484857851",
-          "content": "00:08 / 00:29 倍速 智能 清屏 连播 你爱我就加入我的鱼塘，而不是又喊又闹 作者声明：个人观点，仅供参考",
+          "content": "00:07 / 00:29 倍速 智能 清屏 连播 你爱我就加入我的鱼塘，而不是又喊又闹 作者声明：个人观点，仅供参考",
           "author": "",
-          "published_at": "00:08 / 00:29",
-          "captured_at": "2026-07-02T10:15:16.504312+08:00",
+          "published_at": "00:07 / 00:29",
+          "captured_at": "2026-07-02T10:22:19.163394+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://www.douyin.com/video/7657416879484857851",
@@ -285,14 +421,14 @@
         },
         {
           "platform": "xiaohongshu",
-          "title": "端水大师 咩咩 1天前 605",
-          "url": "https://www.xiaohongshu.com/explore/6a43addb00000000170098a6",
-          "author": "咩咩 1天前",
-          "published_at": "咩咩 1天前",
-          "content": "端水大师 咩咩 1天前 605",
-          "captured_at": "2026-07-02T10:15:36.716662+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a43addb00000000170098a6",
-          "source_page_title": "端水大师 咩咩 1天前 605",
+          "title": "震惊了❗️最新柳柳变卦又又又哭，霸总甩门走 专注女性成长的浅浅 1天前 195",
+          "url": "https://www.xiaohongshu.com/explore/6a43680a000000000f01c7d5",
+          "author": "专注女性成长的浅浅 1天前",
+          "published_at": "专注女性成长的浅浅 1天前",
+          "content": "震惊了❗️最新柳柳变卦又又又哭，霸总甩门走 专注女性成长的浅浅 1天前 195",
+          "captured_at": "2026-07-02T10:22:39.333014+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a43680a000000000f01c7d5",
+          "source_page_title": "震惊了❗️最新柳柳变卦又又又哭，霸总甩门走 专注女性成长的浅浅 1天前 195",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         }
@@ -309,7 +445,7 @@
           "download_status": "metadata_only",
           "local_path": "",
           "tool": "browser_cdp",
-          "captured_at": "2026-07-02T10:15:16.504312+08:00",
+          "captured_at": "2026-07-02T10:22:19.163394+08:00",
           "capture_method": "dom",
           "source_url": "https://www.douyin.com/video/7657416879484857851",
           "evidence_role": "source_video"
@@ -322,7 +458,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 550,
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
           "capture_method": "dom"
         },
         {
@@ -331,7 +467,7 @@
           "platform": "weibo",
           "width": 370,
           "height": 270,
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
           "capture_method": "dom"
         },
         {
@@ -340,7 +476,7 @@
           "platform": "weibo",
           "width": 363,
           "height": 270,
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
           "capture_method": "dom"
         },
         {
@@ -349,7 +485,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 270,
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
           "capture_method": "dom"
         },
         {
@@ -358,7 +494,7 @@
           "platform": "weibo",
           "width": 357,
           "height": 270,
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
           "capture_method": "dom"
         },
         {
@@ -367,7 +503,7 @@
           "platform": "weibo",
           "width": 374,
           "height": 270,
-          "captured_at": "2026-07-02T10:14:56.304926+08:00",
+          "captured_at": "2026-07-02T10:21:58.997264+08:00",
           "capture_method": "dom"
         }
       ],
@@ -375,67 +511,67 @@
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657416879484857851",
-          "content": "QQ糖 ... 他们两个抱在一起？ 51分钟前·广东 0 分享 回复 a7 ... 离开吧，离开了也好，柳柳独美 19小时前·广东 135 分享 回复 展开5条回复 老张没事就去看看足球 ... 我突然明白为什么这么多人支持她。因为部分女生现实中想成为她，而男生不想遇到她。 43分钟前·四川 0 分享 回复 夨 ... 只能说柳上错了节目，她应该去隔壁心动的信号 16小时前·贵州 37 分享 回复 展开5条回复 槲寄生 ... 看到了人性的冷漠，柳柳应该很后悔参与恋综吧 19小时前·浙江 135 分享 回复 展开4条回复 加载中",
+          "content": "老张没事就去看看足球 ... 我突然明白为什么这么多人支持她。因为部分女生现实中想成为她，而男生不想遇到她。 50分钟前·四川 0 分享 回复 QQ糖 ... 他们两个抱在一起？ 58分钟前·广东 0 分享 回复 小森灵1 ... 可以犹豫啊也可以一个都不选，但是要坦诚回答问题吧谁也不想被忽悠，谁都想被真诚对待 25分钟前·北京 1 分享 回复 碟碟以碟以碟碟 ... 周的喜欢也真的非常拿不出手 16小时前·福建 46 分享 回复 展开3条回复 🄺🄾🄱🄴🅆🄰🅈🅆🄴🄽 ... 池塘里的都跑了，因为没吃的了 16小时前·广东 4 分享 回复 展开1条回复 加载中",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:15:16.504312+08:00",
+          "captured_at": "2026-07-02T10:22:19.163394+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657416879484857851",
-          "content": "QQ糖 ... 他们两个抱在一起？ 51分钟前·广东 0 分享 回复",
+          "content": "老张没事就去看看足球 ... 我突然明白为什么这么多人支持她。因为部分女生现实中想成为她，而男生不想遇到她。 50分钟前·四川 0 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:15:16.504312+08:00",
+          "captured_at": "2026-07-02T10:22:19.163394+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657416879484857851",
-          "content": "a7 ... 离开吧，离开了也好，柳柳独美 19小时前·广东 135 分享 回复 展开5条回复",
+          "content": "QQ糖 ... 他们两个抱在一起？ 58分钟前·广东 0 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:15:16.504312+08:00",
+          "captured_at": "2026-07-02T10:22:19.163394+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657416879484857851",
-          "content": "老张没事就去看看足球 ... 我突然明白为什么这么多人支持她。因为部分女生现实中想成为她，而男生不想遇到她。 43分钟前·四川 0 分享 回复",
+          "content": "小森灵1 ... 可以犹豫啊也可以一个都不选，但是要坦诚回答问题吧谁也不想被忽悠，谁都想被真诚对待 25分钟前·北京 1 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:15:16.504312+08:00",
+          "captured_at": "2026-07-02T10:22:19.163394+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657416879484857851",
-          "content": "夨 ... 只能说柳上错了节目，她应该去隔壁心动的信号 16小时前·贵州 37 分享 回复 展开5条回复",
+          "content": "碟碟以碟以碟碟 ... 周的喜欢也真的非常拿不出手 16小时前·福建 46 分享 回复 展开3条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:15:16.504312+08:00",
+          "captured_at": "2026-07-02T10:22:19.163394+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657416879484857851",
-          "content": "槲寄生 ... 看到了人性的冷漠，柳柳应该很后悔参与恋综吧 19小时前·浙江 135 分享 回复 展开4条回复",
+          "content": "🄺🄾🄱🄴🅆🄰🅈🅆🄴🄽 ... 池塘里的都跑了，因为没吃的了 16小时前·广东 4 分享 回复 展开1条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:15:16.504312+08:00",
+          "captured_at": "2026-07-02T10:22:19.163394+08:00",
           "capture_method": "dom"
         }
       ],
@@ -519,8 +655,8 @@
       ],
       "category": "relationship_rumor",
       "hotspot_type": "relationship_rumor",
-      "published_at": "2026-07-02T10:14:56.282475+08:00",
-      "summary": "12 全球最美女孩结婚 495897 热",
+      "published_at": "2026-07-02T10:21:58.994464+08:00",
+      "summary": "12 全球最美女孩结婚 528857 热",
       "hot_score": 98,
       "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E5%85%A8%E7%90%83%E6%9C%80%E7%BE%8E%E5%A5%B3%E5%AD%A9%E7%BB%93%E5%A9%9A%23&t=31&band_rank=12&Refer=top",
       "source_hotspot_rank": 12,
@@ -533,40 +669,40 @@
       "detail_pages": [
         {
           "platform": "weibo",
-          "title": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 164 709 1",
+          "title": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 168 726 1",
           "url": "https://weibo.com/1642591402/R6DZl4XpV?refer_flag=1001030103_",
           "author": "新浪娱乐",
           "published_at": "",
-          "content": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 164 709 11947",
-          "captured_at": "2026-07-02T10:16:08.473178+08:00",
+          "content": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 168 726 12165",
+          "captured_at": "2026-07-02T10:23:11.474834+08:00",
           "source_page_url": "https://weibo.com/1642591402/R6DZl4XpV?refer_flag=1001030103_",
-          "source_page_title": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 164 709 1",
+          "source_page_title": "热门 c 新浪娱乐 07月01日 11:48 来自 新浪娱乐超话 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​ 168 726 1",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 61 512",
+          "title": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 61 525",
           "url": "https://weibo.com/7552475310/R6JAY6o33?refer_flag=1001030103_",
           "author": "彻晩",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 61 512",
-          "captured_at": "2026-07-02T10:16:08.473178+08:00",
+          "content": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 61 525",
+          "captured_at": "2026-07-02T10:23:11.474834+08:00",
           "source_page_url": "https://weibo.com/7552475310/R6JAY6o33?refer_flag=1001030103_",
-          "source_page_title": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 61 512",
+          "source_page_title": "热门 c 彻晩 今天02:05 来自 永远外显超话 #全球最美女孩结婚# 小时候是那时流行的超模厌世脸，长大后反差有点大呢 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316052133806090 30 61 525",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c C科技 今天07:26 #全球最美女孩结婚#对美是不是有什么误解？ ​ 1 36 46",
+          "title": "热门 c C科技 今天07:26 #全球最美女孩结婚#对美是不是有什么误解？ ​ 1 38 49",
           "url": "https://weibo.com/1823630913/R6LHjeqvZ?refer_flag=1001030103_",
           "author": "C科技",
           "published_at": "",
-          "content": "热门 c C科技 今天07:26 #全球最美女孩结婚#对美是不是有什么误解？ ​ 1 36 46",
-          "captured_at": "2026-07-02T10:16:08.473178+08:00",
+          "content": "热门 c C科技 今天07:26 #全球最美女孩结婚#对美是不是有什么误解？ ​ 1 38 49",
+          "captured_at": "2026-07-02T10:23:11.474834+08:00",
           "source_page_url": "https://weibo.com/1823630913/R6LHjeqvZ?refer_flag=1001030103_",
-          "source_page_title": "热门 c C科技 今天07:26 #全球最美女孩结婚#对美是不是有什么误解？ ​ 1 36 46",
+          "source_page_title": "热门 c C科技 今天07:26 #全球最美女孩结婚#对美是不是有什么误解？ ​ 1 38 49",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
@@ -574,10 +710,10 @@
           "platform": "weibo",
           "title": "微博正文 - 微博",
           "url": "https://weibo.com/1642591402/R6DZl4XpV?refer_flag=1001030103_",
-          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 新浪娱乐 公开 新浪娱乐 新浪娱乐超话 26-7-1 11:48 来自 微博网页版 已编辑 关注 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​​​ 164 709 1.2万 分享这条博文 同时转发 评论 按倒序 按正序 按热度 田瑾妮儿:好家伙，这名起的可真大，全球 26-7-2 01:09 来自山东 209 2019一生何求:你也可以自己起一个，全太阳系，全宇宙 26-7-2 08:10 来自广东 15 清甜小en桃:就是她六岁这张照片，说实话也没有多美，反而缺少儿童的童真，好烦这种动不动“全球最美”，全小区最美都还不一定呢 26-7-2 01:40 来自重庆 253 美少女-樱桃:瞳仁颜色好看吧，嘴欣赏不了一点。放山东，叫耷拉嘴角。 26-7-2 06:45 来自山东 16 1-1AP1:像哈兰德幼年体 26-7-2 09:10 来自山东 2 隐身豆先生:就这种欧阳锋嘴，谁他妈会喜欢啊 26-7-2 07:28 来自江苏 2 财经机会分析 :长大不是最美了！嘴巴太大了 26-7-2 07:26 来自浙江 2 乔治青莲居士:额，看上去很一般啊。 26-7-2 07:26 来自湖南 2 怀抱素月:说法国最美恐怕都少有人赞成 26-7-2 07:25 来自四川 2 suppertuffy:不及中国面孔的五分之一，美个屁 26-7-2 03:19 来自河南 2 看不起别人是自己修养不够:这得花多少钱才能上的了这种话题？ 26-7-2 02:15 来自广东 2 格尔wb:班里都选不上最美 26-7-2 01:26 来自内蒙古 3 林娜贝儿Lynae:这个称号到底是怎么评出来的 26-7-2 00:57 来自广东 3 向地球发射月光的信号塔:是《暮光之城》里贝拉的那个女儿吗？ 26-7-2 00:55 来自重庆 4 小燃喜欢你:查了下 不是一个人 26-7-2 01:05 来自上海 1 Like吹梦大西洲:就这 26-7-2 00:28 来自福建 3 程艾影没有伍岚正:回复@叶肥妞:腊肠嘴凹脸颊 26-7-2 09:24 来自河南 1 蓝猫甜瓜:美你大ye 26-7-2 09:21 来自河北 1 双子兔真伟大:广告法里有明确规定，最，这个字请不要乱用⚠️ 26-7-2 09:14 来自湖北 1 浙江小蜀黍:别算全球，在中国算丑的 26-7-2 08:33 来自浙江 1 美兮小公主 :并不美啊 26-7-2 08:29 来自安徽 1 吖賢运气爆棚:到底是谁替我做决定 26-7-2 07:20 来自广东 1 星辰灿烂月微光 :谁评的？我怎么没参与，难道这球不是地球？ 26-7-2 07:12 来自浙江 1 向阳生长耶耶耶:最美牵强了吧 26-7-2 07:04 来自上海 1 煜婷hon:丑了吧唧的 26-7-2 03:34 来自浙江 1 kohkin:她们到底为什么会喜欢腊肠嘴…… 26-7-2 01:34 来自广东 1",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 新浪娱乐 公开 新浪娱乐 新浪娱乐超话 26-7-1 11:48 来自 微博网页版 已编辑 关注 #全球最美女孩结婚##全球最美女孩近照# 据外媒，6岁时被评为“全球最美女孩”的法国模特Thylane Blondeau和法国男友本·阿塔尔近日举行婚礼。照片中她身穿白色修身长裙，搭配优雅盘发，与男友一同乘跑车抵达现场，十分恩爱。 ​​​ 168 726 1.2万 分享这条博文 同时转发 评论 按倒序 按正序 按热度 田瑾妮儿:好家伙，这名起的可真大，全球 26-7-2 01:09 来自山东 216 2019一生何求:你也可以自己起一个，全太阳系，全宇宙 26-7-2 08:10 来自广东 16 清甜小en桃:就是她六岁这张照片，说实话也没有多美，反而缺少儿童的童真，好烦这种动不动“全球最美”，全小区最美都还不一定呢 26-7-2 01:40 来自重庆 255 美少女-樱桃:瞳仁颜色好看吧，嘴欣赏不了一点。放山东，叫耷拉嘴角。 26-7-2 06:45 来自山东 16 1-1AP1:像哈兰德幼年体 26-7-2 09:10 来自山东 2 隐身豆先生:就这种欧阳锋嘴，谁他妈会喜欢啊 26-7-2 07:28 来自江苏 2 财经机会分析 :长大不是最美了！嘴巴太大了 26-7-2 07:26 来自浙江 2 乔治青莲居士:额，看上去很一般啊。 26-7-2 07:26 来自湖南 2 怀抱素月:说法国最美恐怕都少有人赞成 26-7-2 07:25 来自四川 2 suppertuffy:不及中国面孔的五分之一，美个屁 26-7-2 03:19 来自河南 2 看不起别人是自己修养不够:这得花多少钱才能上的了这种话题？ 26-7-2 02:15 来自广东 2 格尔wb:班里都选不上最美 26-7-2 01:26 来自内蒙古 3 林娜贝儿Lynae:这个称号到底是怎么评出来的 26-7-2 00:57 来自广东 3 向地球发射月光的信号塔:是《暮光之城》里贝拉的那个女儿吗？ 26-7-2 00:55 来自重庆 4 小燃喜欢你:查了下 不是一个人 26-7-2 01:05 来自上海 1 Like吹梦大西洲:就这 26-7-2 00:28 来自福建 3 程艾影没有伍岚正:回复@叶肥妞:腊肠嘴凹脸颊 26-7-2 09:24 来自河南 1 蓝猫甜瓜:美你大ye 26-7-2 09:21 来自河北 1 双子兔真伟大:广告法里有明确规定，最，这个字请不要乱用⚠️ 26-7-2 09:14 来自湖北 1 浙江小蜀黍:别算全球，在中国算丑的 26-7-2 08:33 来自浙江 1 美兮小公主 :并不美啊 26-7-2 08:29 来自安徽 1 吖賢运气爆棚:到底是谁替我做决定 26-7-2 07:20 来自广东 1 星辰灿烂月微光 :谁评的？我怎么没参与，难道这球不是地球？ 26-7-2 07:12 来自浙江 1 向阳生长耶耶耶:最美牵强了吧 26-7-2 07:04 来自上海 1 煜婷hon:丑了吧唧的 26-7-2 03:34 来自浙江 1 kohkin:她们到底为什么会喜欢腊肠嘴…… 26-7-2 01:34 来自广东 1",
           "author": "新浪娱乐",
           "published_at": "26-7-1 11:48",
-          "captured_at": "2026-07-02T10:16:08.473178+08:00",
+          "captured_at": "2026-07-02T10:23:11.474834+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://weibo.com/1642591402/R6DZl4XpV?refer_flag=1001030103_",
@@ -587,10 +723,10 @@
           "platform": "douyin",
           "title": "6岁就惊艳全球的“全球最美女孩”，如今已经正式结婚了 - 抖音",
           "url": "https://www.douyin.com/video/7657094863204142386",
-          "content": "00:07 / 04:11 倍速 智能 清屏 章节要点 6岁时因拍摄《Vogue Enfants》而惊艳全球的“全球最美女孩”布隆多，如今已正式结婚。婚礼在巴黎市政厅举行，布隆多身着纯白长裙，搭配斗篷式披肩，发型和妆容素净高雅。新人选择驾驶古董敞篷跑车离场，布隆多的宠物犬也盛装出席。布隆多曾在童年时因拍摄性感照片引发争议，但她拒绝迎合畸形审美，更看重个性和内在气质。如今，她已将事业与生活重心迁回法国，与丈夫在各自圈内拥有深厚人脉。 00:06 婚礼细节 01:10 求婚与家庭变故 01:55 早年成名 02:54 争议与个人态度 03:43 婚后生活 内容由AI生成",
+          "content": "00:08 / 04:11 倍速 智能 清屏 章节要点 6岁时因拍摄《Vogue Enfants》而惊艳全球的“全球最美女孩”布隆多，如今已正式结婚。婚礼在巴黎市政厅举行，布隆多身着纯白长裙，搭配斗篷式披肩，发型和妆容素净高雅。新人选择驾驶古董敞篷跑车离场，布隆多的宠物犬也盛装出席。布隆多曾在童年时因拍摄性感照片引发争议，但她拒绝迎合畸形审美，更看重个性和内在气质。如今，她已将事业与生活重心迁回法国，与丈夫在各自圈内拥有深厚人脉。 00:06 婚礼细节 01:10 求婚与家庭变故 01:55 早年成名 02:54 争议与个人态度 03:43 婚后生活 内容由AI生成",
           "author": "",
-          "published_at": "00:07 / 04:11",
-          "captured_at": "2026-07-02T10:16:28.620125+08:00",
+          "published_at": "00:08 / 04:11",
+          "captured_at": "2026-07-02T10:23:31.621418+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://www.douyin.com/video/7657094863204142386",
@@ -598,40 +734,40 @@
         },
         {
           "platform": "xiaohongshu",
-          "title": "🌸被求婚的花海，浪漫到窒息～ 半勺泡泡糖 昨天 21:14 15",
-          "url": "https://www.xiaohongshu.com/explore/6a4512ad000000001702c75c",
-          "author": "半勺泡泡糖 昨天 21:14",
-          "published_at": "半勺泡泡糖 昨天 21:14",
-          "content": "🌸被求婚的花海，浪漫到窒息～ 半勺泡泡糖 昨天 21:14 15",
-          "captured_at": "2026-07-02T10:16:48.797267+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a4512ad000000001702c75c",
-          "source_page_title": "🌸被求婚的花海，浪漫到窒息～ 半勺泡泡糖 昨天 21:14 15",
+          "title": "老霉你的婚礼我来了 北大街 56分钟前 21",
+          "url": "https://www.xiaohongshu.com/explore/6a45be86000000000802650e",
+          "author": "北大街 56分钟前",
+          "published_at": "北大街 56分钟前",
+          "content": "老霉你的婚礼我来了 北大街 56分钟前 21",
+          "captured_at": "2026-07-02T10:23:51.826408+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45be86000000000802650e",
+          "source_page_title": "老霉你的婚礼我来了 北大街 56分钟前 21",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         },
         {
           "platform": "xiaohongshu",
-          "title": "不回消息就是在参加婚礼，急事请致电☎️ 咖喱朱古力 23分钟前 2",
-          "url": "https://www.xiaohongshu.com/explore/6a45c497000000001003d481",
-          "author": "咖喱朱古力 23分钟前",
-          "published_at": "咖喱朱古力 23分钟前",
-          "content": "不回消息就是在参加婚礼，急事请致电☎️ 咖喱朱古力 23分钟前 2",
-          "captured_at": "2026-07-02T10:16:48.797267+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a45c497000000001003d481",
-          "source_page_title": "不回消息就是在参加婚礼，急事请致电☎️ 咖喱朱古力 23分钟前 2",
+          "title": "👸🏻 ice 1小时前 7",
+          "url": "https://www.xiaohongshu.com/explore/6a45bb6e000000002103f1be",
+          "author": "ice 1小时前",
+          "published_at": "ice 1小时前",
+          "content": "👸🏻 ice 1小时前 7",
+          "captured_at": "2026-07-02T10:23:51.826408+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a45bb6e000000002103f1be",
+          "source_page_title": "👸🏻 ice 1小时前 7",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         },
         {
           "platform": "xiaohongshu",
-          "title": "霉霉结婚我就不去了 橘丙丙 33分钟前 44",
-          "url": "https://www.xiaohongshu.com/explore/6a45c21c000000002201964b",
-          "author": "橘丙丙 33分钟前",
-          "published_at": "橘丙丙 33分钟前",
-          "content": "霉霉结婚我就不去了 橘丙丙 33分钟前 44",
-          "captured_at": "2026-07-02T10:16:48.797267+08:00",
-          "source_page_url": "https://www.xiaohongshu.com/explore/6a45c21c000000002201964b",
-          "source_page_title": "霉霉结婚我就不去了 橘丙丙 33分钟前 44",
+          "title": "霉霉世纪婚礼疯传🔥纽约全城封路！ 土土聊娱乐 9小时前 19",
+          "url": "https://www.xiaohongshu.com/explore/6a454a9d0000000006021388",
+          "author": "土土聊娱乐 9小时前",
+          "published_at": "土土聊娱乐 9小时前",
+          "content": "霉霉世纪婚礼疯传🔥纽约全城封路！ 土土聊娱乐 9小时前 19",
+          "captured_at": "2026-07-02T10:23:51.826408+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a454a9d0000000006021388",
+          "source_page_title": "霉霉世纪婚礼疯传🔥纽约全城封路！ 土土聊娱乐 9小时前 19",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         }
@@ -643,12 +779,12 @@
           "url": "https://www.douyin.com/video/7657094863204142386",
           "cover_url": "",
           "author": "",
-          "duration": 251.267,
+          "duration": 251.309,
           "stats": {},
           "download_status": "metadata_only",
           "local_path": "",
           "tool": "browser_cdp",
-          "captured_at": "2026-07-02T10:16:28.620125+08:00",
+          "captured_at": "2026-07-02T10:23:31.621418+08:00",
           "capture_method": "dom",
           "source_url": "https://www.douyin.com/video/7657094863204142386",
           "evidence_role": "source_video"
@@ -661,7 +797,7 @@
           "platform": "weibo",
           "width": 423,
           "height": 270,
-          "captured_at": "2026-07-02T10:16:08.473178+08:00",
+          "captured_at": "2026-07-02T10:23:11.474834+08:00",
           "capture_method": "dom"
         },
         {
@@ -670,7 +806,7 @@
           "platform": "weibo",
           "width": 391,
           "height": 270,
-          "captured_at": "2026-07-02T10:16:08.473178+08:00",
+          "captured_at": "2026-07-02T10:23:11.474834+08:00",
           "capture_method": "dom"
         },
         {
@@ -679,7 +815,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 462,
-          "captured_at": "2026-07-02T10:16:08.473178+08:00",
+          "captured_at": "2026-07-02T10:23:11.474834+08:00",
           "capture_method": "dom"
         },
         {
@@ -688,7 +824,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 465,
-          "captured_at": "2026-07-02T10:16:08.473178+08:00",
+          "captured_at": "2026-07-02T10:23:11.474834+08:00",
           "capture_method": "dom"
         },
         {
@@ -697,7 +833,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 432,
-          "captured_at": "2026-07-02T10:16:08.473178+08:00",
+          "captured_at": "2026-07-02T10:23:11.474834+08:00",
           "capture_method": "dom"
         },
         {
@@ -706,7 +842,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 551,
-          "captured_at": "2026-07-02T10:16:08.473178+08:00",
+          "captured_at": "2026-07-02T10:23:11.474834+08:00",
           "capture_method": "dom"
         }
       ],
@@ -719,7 +855,7 @@
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:16:28.620125+08:00",
+          "captured_at": "2026-07-02T10:23:31.621418+08:00",
           "capture_method": "dom"
         },
         {
@@ -730,7 +866,7 @@
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:16:28.620125+08:00",
+          "captured_at": "2026-07-02T10:23:31.621418+08:00",
           "capture_method": "dom"
         }
       ],
@@ -820,8 +956,8 @@
       ],
       "category": "short_drama",
       "hotspot_type": "short_drama",
-      "published_at": "2026-07-02T10:14:56.282495+08:00",
-      "summary": "14 短剧演员取消行程图 447674 新",
+      "published_at": "2026-07-02T10:21:58.994488+08:00",
+      "summary": "14 短剧演员取消行程图 478090 新",
       "hot_score": 96,
       "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E7%9F%AD%E5%89%A7%E6%BC%94%E5%91%98%E5%8F%96%E6%B6%88%E8%A1%8C%E7%A8%8B%E5%9B%BE%23&t=31&band_rank=14&Refer=top",
       "source_hotspot_rank": 14,
@@ -834,27 +970,27 @@
       "detail_pages": [
         {
           "platform": "weibo",
-          "title": "热门 c 1X1X 07月01日 13:27 真人短剧行业怕是真要凉，头部公司旗下演员都没有行程图了… ​ 56 120 1501",
+          "title": "热门 c 1X1X 07月01日 13:27 真人短剧行业怕是真要凉，头部公司旗下演员都没有行程图了… ​ 56 121 1526",
           "url": "https://weibo.com/5032932021/R6EDly7a1?refer_flag=1001030103_",
           "author": "1X1X",
           "published_at": "",
-          "content": "热门 c 1X1X 07月01日 13:27 真人短剧行业怕是真要凉，头部公司旗下演员都没有行程图了… ​ 56 120 1501",
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "content": "热门 c 1X1X 07月01日 13:27 真人短剧行业怕是真要凉，头部公司旗下演员都没有行程图了… ​ 56 121 1526",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "source_page_url": "https://weibo.com/5032932021/R6EDly7a1?refer_flag=1001030103_",
-          "source_page_title": "热门 c 1X1X 07月01日 13:27 真人短剧行业怕是真要凉，头部公司旗下演员都没有行程图了… ​ 56 120 1501",
+          "source_page_title": "热门 c 1X1X 07月01日 13:27 真人短剧行业怕是真要凉，头部公司旗下演员都没有行程图了… ​ 56 121 1526",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
         {
           "platform": "weibo",
-          "title": "热门 c Kissnechoy 50分钟前 听花岛旗下多名短剧头部演员自2026年6月底起集中宣布暂停发布半月行程图，这一集体动作被普遍视为真人短剧行业在AI冲击下面临项目缩减、行业洗牌的缩影。#短剧演员取消行程图# ​ 4 6 129",
+          "title": "热门 c Kissnechoy 57分钟前 听花岛旗下多名短剧头部演员自2026年6月底起集中宣布暂停发布半月行程图，这一集体动作被普遍视为真人短剧行业在AI冲击下面临项目缩减、行业洗牌的缩影。#短剧演员取消行程图# ​ 4 8 131",
           "url": "https://weibo.com/7356742809/R6Mu5r98u?refer_flag=1001030103_",
           "author": "Kissnechoy",
           "published_at": "",
-          "content": "热门 c Kissnechoy 50分钟前 听花岛旗下多名短剧头部演员自2026年6月底起集中宣布暂停发布半月行程图，这一集体动作被普遍视为真人短剧行业在AI冲击下面临项目缩减、行业洗牌的缩影。#短剧演员取消行程图# ​ 4 6 129",
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "content": "热门 c Kissnechoy 57分钟前 听花岛旗下多名短剧头部演员自2026年6月底起集中宣布暂停发布半月行程图，这一集体动作被普遍视为真人短剧行业在AI冲击下面临项目缩减、行业洗牌的缩影。#短剧演员取消行程图# ​ 4 8 131",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "source_page_url": "https://weibo.com/7356742809/R6Mu5r98u?refer_flag=1001030103_",
-          "source_page_title": "热门 c Kissnechoy 50分钟前 听花岛旗下多名短剧头部演员自2026年6月底起集中宣布暂停发布半月行程图，这一集体动作被普遍视为真人短剧行业在AI冲击下面临项目缩减、行业洗牌的缩影。#短剧演员取消行程图# ​ 4 6 129",
+          "source_page_title": "热门 c Kissnechoy 57分钟前 听花岛旗下多名短剧头部演员自2026年6月底起集中宣布暂停发布半月行程图，这一集体动作被普遍视为真人短剧行业在AI冲击下面临项目缩减、行业洗牌的缩影。#短剧演员取消行程图# ​ 4 8 131",
           "capture_method": "weibo_search_card",
           "evidence_role": "source_post_summary"
         },
@@ -864,8 +1000,8 @@
           "url": "https://weibo.com/3764009732/R6M9r5hYP?refer_flag=1001030103_",
           "author": "菠萝吹火火",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 菠萝吹火火 今天08:35 来自 iPhone 15 Pro #真人短剧行业现状#短剧行业大变天！头部演员统一停更行程图，因为ai短剧的出现，真人赛道收缩，资金全跑去AI短剧，短剧演员现在处境太难，要变成行业寒冬了吗 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316160707559511 11 18 79",
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "content": "热门 c 菠萝吹火火 今天08:35 来自 iPhone 15 Pro #真人短剧行业现状#短剧行业大变天！头部演员统一停更行程图，因为ai短剧的出现，真人赛道收缩，资金全跑去AI短剧，短剧演员现在处境太难，要变成行业寒冬了吗 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316160707559511 12 18 80",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "source_page_url": "https://weibo.com/3764009732/R6M9r5hYP?refer_flag=1001030103_",
           "source_page_title": "热门 c 菠萝吹火火 今天08:35 来自 iPhone 15 Pro #真人短剧行业现状#短剧行业大变天！头部演员统一停更行程图，因为ai短剧的出现，真人赛道收缩，资金全跑去AI短剧，短剧演员现在处境太难，要变成行业寒冬了吗 ​ 播放视频 https://video.weibo.com/show?fid=1034:5",
           "capture_method": "weibo_search_card",
@@ -877,8 +1013,8 @@
           "url": "https://weibo.com/7568545784/R6MlkxwBe?refer_flag=1001030103_",
           "author": "賢夢如詩",
           "published_at": "当前时间 00:00",
-          "content": "热门 c 賢夢如詩 今天09:05 #真人短剧行业现状#这真的是被AI冲击的最严重的行业啊……头部演员行程图都不敢提前公布了，这也不是什么好事情，演艺本身就是人类的表达艺术的提现，被Ai取代这让人无法理解，也让普通人在艺术届夭折 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316157863821372 8 16 123",
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "content": "热门 c 賢夢如詩 今天09:05 #真人短剧行业现状#这真的是被AI冲击的最严重的行业啊……头部演员行程图都不敢提前公布了，这也不是什么好事情，演艺本身就是人类的表达艺术的提现，被Ai取代这让人无法理解，也让普通人在艺术届夭折 ​ 播放视频 https://video.weibo.com/show?fid=1034:5316157863821372 9 16 126",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "source_page_url": "https://weibo.com/7568545784/R6MlkxwBe?refer_flag=1001030103_",
           "source_page_title": "热门 c 賢夢如詩 今天09:05 #真人短剧行业现状#这真的是被AI冲击的最严重的行业啊……头部演员行程图都不敢提前公布了，这也不是什么好事情，演艺本身就是人类的表达艺术的提现，被Ai取代这让人无法理解，也让普通人在艺术届夭折 ​ 播放视频 https://video.weibo.com/show?fid=1034:",
           "capture_method": "weibo_search_card",
@@ -888,10 +1024,10 @@
           "platform": "weibo",
           "title": "微博正文 - 微博",
           "url": "https://weibo.com/5032932021/R6EDly7a1?refer_flag=1001030103_",
-          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 1X1X 公开 1X1X 26-7-1 13:27 发布于 广东 关注 真人短剧行业怕是真要凉，头部公司旗下演员都没有行程图了… ​​​ 56 121 1501 分享这条博文 同时转发 评论 按热度 按时间 小狗守着玫瑰花 :啧啧 26-7-1 23:06 来自内蒙古 素人的事业批绝不认输 :他们还出行程图？？？ 26-7-1 14:15 来自重庆 YUBO-博:其实相对于AI表演 还是更喜欢真人表演，AI很帅但都长的差不多。 26-7-2 07:55 来自广西 1 会飞的猫咪66666 :漫剧有没觉得每个剧都长一样，就是装扮改了一点 26-7-2 08:05 来自四川 Kisslove哈:Ai真的很香 26-7-2 07:44 来自内蒙古 十三少年暖暖暖:以后就是质量高的用真人，质量低的不如直接ai，演的比比那些演技差的真人还好 26-7-2 06:50 来自江苏 昕之翼-:名字不吉利，短剧短短的花期 26-7-2 05:39 来自福建 如此看来甚好 :那长剧呢 26-7-2 00:26 来自美国 要你屁股命 :ai短剧好难看。。 26-7-1 23:34 来自山东 2 过客望风景 :啊红利期这么短，不过ai出来后影响确实比较大 26-7-1 23:15 来自广西 桃咲月野 :这个时代就是日新月异 26-7-1 16:03 来自四川 哈基米德Pro :还蛮喜欢短剧的演员 很多都是高学历 身材管理又严格 非常自律 26-7-1 23:03 来自广东 1 微博智搜 :评论区主要围绕真人短剧行业前景展开：45%观点认为行程图取消反映项目变数大、资源收缩，行业红利期缩短；30%强调AI漫剧在颜值、成本、场景还原上的优势，正抢夺市场；25%批评真人短剧演员颜值演技双低、剧情套路化。整体情绪悲观，指向AI冲击与...查看最新戳->微博智搜 26-7-2 07:30 无风就是好天气:看真人短剧我很尴尬不知为何，ai短剧就不会。每天沉迷于ai漫剧里。快乐无比。 26-7-2 07:41 来自黑龙江 2 逐浪不迷航:短剧已看腻，基本就这些套路，市场凉凉也是意料之中的。 26-7-2 08:17 来自浙江 1 hhvhhjf珍08:我真的开始看ai剧了，女主好漂亮，服化道也特别好看， 26-7-1 23:54 来自湖北 2 hitomilucifer:他们家不开戏，他们签约艺人没行程不关别人事 26-7-2 10:17 来自广东 晴空星夜:觉得还是AI的好看，很多真人的套路太雷同，演技又不够 26-7-2 10:02 来自广东 星星小萌神:真人短剧演技很尬 26-7-2 09:02 来自福建 一二一二007:李柯以是那个太奶吗？ 26-7-2 08:41 来自浙江",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 1X1X 公开 1X1X 26-7-1 13:27 发布于 广东 关注 真人短剧行业怕是真要凉，头部公司旗下演员都没有行程图了… ​​​ 56 121 1526 分享这条博文 同时转发 评论 按热度 按时间 会飞的猫咪66666 :漫剧有没觉得每个剧都长一样，就是装扮改了一点 26-7-2 08:05 来自四川 Kisslove哈:Ai真的很香 26-7-2 07:44 来自内蒙古 十三少年暖暖暖:以后就是质量高的用真人，质量低的不如直接ai，演的比比那些演技差的真人还好 26-7-2 06:50 来自江苏 昕之翼-:名字不吉利，短剧短短的花期 26-7-2 05:39 来自福建 如此看来甚好 :那长剧呢 26-7-2 00:26 来自美国 要你屁股命 :ai短剧好难看。。 26-7-1 23:34 来自山东 2 过客望风景 :啊红利期这么短，不过ai出来后影响确实比较大 26-7-1 23:15 来自广西 桃咲月野 :这个时代就是日新月异 26-7-1 16:03 来自四川 哈基米德Pro :还蛮喜欢短剧的演员 很多都是高学历 身材管理又严格 非常自律 26-7-1 23:03 来自广东 1 微博智搜 :评论区主要围绕真人短剧行业前景展开：45%观点认为行程图取消反映项目变数大、资源收缩，行业红利期缩短；30%强调AI漫剧在颜值、成本、场景还原上的优势，正抢夺市场；25%批评真人短剧演员颜值演技双低、剧情套路化。整体情绪悲观，指向AI冲击与...查看最新戳->微博智搜 26-7-2 07:30 无风就是好天气:看真人短剧我很尴尬不知为何，ai短剧就不会。每天沉迷于ai漫剧里。快乐无比。 26-7-2 07:41 来自黑龙江 2 逐浪不迷航:短剧已看腻，基本就这些套路，市场凉凉也是意料之中的。 26-7-2 08:17 来自浙江 1 hhvhhjf珍08:我真的开始看ai剧了，女主好漂亮，服化道也特别好看， 26-7-1 23:54 来自湖北 2 hitomilucifer:他们家不开戏，他们签约艺人没行程不关别人事 26-7-2 10:17 来自广东 晴空星夜:觉得还是AI的好看，很多真人的套路太雷同，演技又不够 26-7-2 10:02 来自广东 星星小萌神:真人短剧演技很尬 26-7-2 09:02 来自福建 一二一二007:李柯以是那个太奶吗？ 26-7-2 08:41 来自浙江 Leo7o:Ai短剧，要剧情有剧情，要颜值有颜值，谁还会去看辣眼睛的演技 26-7-2 08:38 来自广西 YYU江南:没啥可看的，剧情就是降低人的智商和擦边 26-7-2 08:27 来自江苏 Y昉Y:漫剧也会昙花一现，漫剧比短剧缺了人气 26-7-2 08:22 来自广东",
           "author": "1X1X",
           "published_at": "26-7-1 13:27",
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://weibo.com/5032932021/R6EDly7a1?refer_flag=1001030103_",
@@ -901,10 +1037,10 @@
           "platform": "douyin",
           "title": "#韩雨彤称真人短剧难干 短剧头部艺人也开始面临行业生存压力，ai 到底还要取代多少行业#短剧 #ai #配音演员 #韩雨彤 - 抖音",
           "url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "00:07 / 00:38 倍速 智能 清屏 连播",
+          "content": "00:08 / 00:38 倍速 智能 清屏 连播",
           "author": "",
-          "published_at": "00:07 / 00:38",
-          "captured_at": "2026-07-02T10:17:40.314829+08:00",
+          "published_at": "00:08 / 00:38",
+          "captured_at": "2026-07-02T10:24:44.108570+08:00",
           "capture_method": "dom_detail_page",
           "evidence_role": "detail_page",
           "source_page_url": "https://www.douyin.com/video/7657578564996353330",
@@ -917,9 +1053,22 @@
           "author": "南瓜小米粥 1天前",
           "published_at": "南瓜小米粥 1天前",
           "content": "短剧演员6月行程图⑥ 南瓜小米粥 1天前 19",
-          "captured_at": "2026-07-02T10:18:00.492997+08:00",
+          "captured_at": "2026-07-02T10:25:04.305966+08:00",
           "source_page_url": "https://www.xiaohongshu.com/explore/6a4203b3000000002102354d",
           "source_page_title": "短剧演员6月行程图⑥ 南瓜小米粥 1天前 19",
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "短剧演员7️⃣月行程图汇总（六） 我在短国瓜田吃撑了 昨天 16:17 24",
+          "url": "https://www.xiaohongshu.com/explore/6a44cd1f000000001102d6c5",
+          "author": "我在短国瓜田吃撑了 昨天 16:17",
+          "published_at": "我在短国瓜田吃撑了 昨天 16:17",
+          "content": "短剧演员7️⃣月行程图汇总（六） 我在短国瓜田吃撑了 昨天 16:17 24",
+          "captured_at": "2026-07-02T10:25:04.305966+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a44cd1f000000001102d6c5",
+          "source_page_title": "短剧演员7️⃣月行程图汇总（六） 我在短国瓜田吃撑了 昨天 16:17 24",
           "capture_method": "lightweight_summary",
           "evidence_role": "lightweight_platform_summary"
         }
@@ -936,7 +1085,7 @@
           "download_status": "metadata_only",
           "local_path": "",
           "tool": "browser_cdp",
-          "captured_at": "2026-07-02T10:17:40.314829+08:00",
+          "captured_at": "2026-07-02T10:24:44.108570+08:00",
           "capture_method": "dom",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
           "evidence_role": "source_video"
@@ -949,7 +1098,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 462,
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "capture_method": "dom"
         },
         {
@@ -958,7 +1107,7 @@
           "platform": "weibo",
           "width": 283,
           "height": 270,
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "capture_method": "dom"
         },
         {
@@ -967,7 +1116,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 363,
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "capture_method": "dom"
         },
         {
@@ -976,7 +1125,7 @@
           "platform": "weibo",
           "width": 311,
           "height": 270,
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "capture_method": "dom"
         },
         {
@@ -985,7 +1134,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 386,
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "capture_method": "dom"
         },
         {
@@ -994,7 +1143,7 @@
           "platform": "weibo",
           "width": 360,
           "height": 553,
-          "captured_at": "2026-07-02T10:17:20.144881+08:00",
+          "captured_at": "2026-07-02T10:24:23.928287+08:00",
           "capture_method": "dom"
         }
       ],
@@ -1002,67 +1151,67 @@
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "都闭嘴吧 ... 普通人还是同情同情自己吧。喝着蜜雪冰城同情背香奈儿的？ 2分钟前·浙江 0 分享 回复 葫芦侠 ... 因为短裤大多数都是快餐，流量起来了质量没上来，观众当然不买账 4分钟前·江西 1 分享 回复 云枫 ... 哈？听花岛剧很好的不至于吧 1小时前·广东 0 分享 回复 展开1条回复 芹菜炒牛肉 ... 但是好的剧本以及角色AI还是替代不了我没有真人剧看才会找Ai看的难受 12分钟前·河南 3 分享 回复 展开1条回复 猫阳 ... ai确实牛，我以前还觉得不咋地，刷到后确实觉得牛掰。 1小时前·河北 28 分享 回复 展开3条回复 加载中",
+          "content": "葫芦侠 ... 因为短裤大多数都是快餐，流量起来了质量没上来，观众当然不买账 11分钟前·江西 1 分享 回复 云枫 ... 哈？听花岛剧很好的不至于吧 1小时前·广东 1 分享 回复 展开1条回复 芹菜炒牛肉 ... 但是好的剧本以及角色AI还是替代不了我没有真人剧看才会找Ai看的难受 19分钟前·河南 6 分享 回复 展开1条回复 猫阳 ... ai确实牛，我以前还觉得不咋地，刷到后确实觉得牛掰。 1小时前·河北 34 分享 回复 展开3条回复 Ha乖乖 ... 我现在看到AI都烦 38分钟前·广东 0 分享 回复 展开1条回复 加载中",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:17:40.314829+08:00",
+          "captured_at": "2026-07-02T10:24:44.108570+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "都闭嘴吧 ... 普通人还是同情同情自己吧。喝着蜜雪冰城同情背香奈儿的？ 2分钟前·浙江 0 分享 回复",
+          "content": "葫芦侠 ... 因为短裤大多数都是快餐，流量起来了质量没上来，观众当然不买账 11分钟前·江西 1 分享 回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:17:40.314829+08:00",
+          "captured_at": "2026-07-02T10:24:44.108570+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "葫芦侠 ... 因为短裤大多数都是快餐，流量起来了质量没上来，观众当然不买账 4分钟前·江西 1 分享 回复",
+          "content": "云枫 ... 哈？听花岛剧很好的不至于吧 1小时前·广东 1 分享 回复 展开1条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:17:40.314829+08:00",
+          "captured_at": "2026-07-02T10:24:44.108570+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "云枫 ... 哈？听花岛剧很好的不至于吧 1小时前·广东 0 分享 回复 展开1条回复",
+          "content": "芹菜炒牛肉 ... 但是好的剧本以及角色AI还是替代不了我没有真人剧看才会找Ai看的难受 19分钟前·河南 6 分享 回复 展开1条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:17:40.314829+08:00",
+          "captured_at": "2026-07-02T10:24:44.108570+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "芹菜炒牛肉 ... 但是好的剧本以及角色AI还是替代不了我没有真人剧看才会找Ai看的难受 12分钟前·河南 3 分享 回复 展开1条回复",
+          "content": "猫阳 ... ai确实牛，我以前还觉得不咋地，刷到后确实觉得牛掰。 1小时前·河北 34 分享 回复 展开3条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:17:40.314829+08:00",
+          "captured_at": "2026-07-02T10:24:44.108570+08:00",
           "capture_method": "dom"
         },
         {
           "platform": "douyin",
           "source_url": "https://www.douyin.com/video/7657578564996353330",
-          "content": "猫阳 ... ai确实牛，我以前还觉得不咋地，刷到后确实觉得牛掰。 1小时前·河北 28 分享 回复 展开3条回复",
+          "content": "Ha乖乖 ... 我现在看到AI都烦 38分钟前·广东 0 分享 回复 展开1条回复",
           "author": "",
           "comment_id": "",
           "published_at": "",
           "like_count": 0,
-          "captured_at": "2026-07-02T10:17:40.314829+08:00",
+          "captured_at": "2026-07-02T10:24:44.108570+08:00",
           "capture_method": "dom"
         }
       ],
@@ -1095,7 +1244,7 @@
           "platform": "xiaohongshu",
           "stage": "search",
           "status": "empty",
-          "reason": "stale_filtered:3"
+          "reason": "stale_filtered:2"
         },
         {
           "platform": "xiaohongshu",
@@ -1128,7 +1277,7 @@
       "claim_status": "confirmed",
       "requires_review": false,
       "admission_reason": "multi_platform_direct_evidence",
-      "independent_url_count": 12,
+      "independent_url_count": 13,
       "risk_reasons": [
         "light_mode_skip_detail_to_avoid_secondary_confirmation"
       ],
@@ -1259,7 +1408,7 @@
       "platform": "xiaohongshu",
       "stage": "search",
       "status": "empty",
-      "reason": "stale_filtered:3"
+      "reason": "stale_filtered:2"
     },
     {
       "platform": "xiaohongshu",
