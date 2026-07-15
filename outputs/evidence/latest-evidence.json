@@ -1,12 +1,12 @@
 {
   "schema_version": "1.1",
-  "run_id": "207eedf7-5700-4b83-9bdb-58f667db3890",
-  "status": "empty",
+  "run_id": "b9236a26-84d0-4c19-907b-a2f6828fccef",
+  "status": "partial_failed",
   "mode": "remote_deep_evidence",
   "source": "Remote-Windows-Evidence",
   "source_role": "external_enrichment",
-  "started_at": "2026-07-15T08:30:02.982656+08:00",
-  "finished_at": "2026-07-15T08:30:09.325613+08:00",
+  "started_at": "2026-07-15T19:13:34.694154+08:00",
+  "finished_at": "2026-07-15T19:17:48.041605+08:00",
   "window_hours": 24,
   "radar_top_limit": 20,
   "seed_limit": 12,
@@ -15,7 +15,7 @@
   "target_topic_max": 8,
   "seed_diagnostics": [
     {
-      "title": "总书记引领推动人工智能发展",
+      "title": "读懂习近平城市更新理念",
       "rank": 1,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -23,7 +23,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "姆巴佩心态崩了",
+      "title": "DeepSeek工资待遇太恐怖了",
       "rank": 1,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -31,7 +31,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "佛得角的含金量还在上升",
+      "title": "国台办回应两岸统一时间",
       "rank": 2,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -39,7 +39,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "惠民生促消费双向发力",
+      "title": "工作组赴吉林暴雨洪涝灾区",
       "rank": 3,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -47,7 +47,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "法国连续三年被西班牙淘汰",
+      "title": "电视卖不动了",
       "rank": 4,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -55,7 +55,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "亚马尔九擒姆巴佩",
+      "title": "2岁女童浴盆溺水父亲倒立控水",
       "rank": 5,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -63,15 +63,15 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "法国0比2西班牙",
+      "title": "功夫女足 换片源",
       "rank": 6,
       "source": "Weibo-Hot-Realtime",
-      "hotspot_type": "unknown",
-      "decision": "rejected",
-      "reason": "category_not_matched"
+      "hotspot_type": "film",
+      "decision": "accepted",
+      "reason": "matched:film"
     },
     {
-      "title": "暑期档长剧 裸播",
+      "title": "旅游时突然被通知开除了",
       "rank": 7,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -79,15 +79,15 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "姆巴佩回应无缘世界杯决赛",
+      "title": "曝功夫女足被偷票房",
       "rank": 8,
       "source": "Weibo-Hot-Realtime",
-      "hotspot_type": "unknown",
-      "decision": "rejected",
-      "reason": "category_not_matched"
+      "hotspot_type": "film",
+      "decision": "accepted",
+      "reason": "matched:film"
     },
     {
-      "title": "邹市明说花了很多不该花的钱",
+      "title": "西班牙进球前一分钟的宇宙级传控",
       "rank": 9,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -95,15 +95,15 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "法国西班牙 总决赛提前上演",
+      "title": "百花杀",
       "rank": 10,
       "source": "Weibo-Hot-Realtime",
-      "hotspot_type": "unknown",
-      "decision": "rejected",
-      "reason": "category_not_matched"
+      "hotspot_type": "tv_drama",
+      "decision": "accepted",
+      "reason": "matched:tv_drama"
     },
     {
-      "title": "赵本山已彻底退出演艺工作",
+      "title": "TF家族运动会分队官宣",
       "rank": 11,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -111,7 +111,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "遭婚闹九级伤残伴娘被从柜子中拖出",
+      "title": "苹果AI 千问",
       "rank": 12,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -119,7 +119,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "亚马尔数据",
+      "title": "吴绮莉公开成龙拒认吴卓林原因",
       "rank": 13,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -127,7 +127,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "法国vs西班牙",
+      "title": "赵丽颖休息的状态",
       "rank": 14,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -135,7 +135,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "法国 大热必死",
+      "title": "西班牙首相就法国队没法国人道歉",
       "rank": 15,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -143,15 +143,15 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "给亚马尔装到了",
+      "title": "张月陈瑶 我家那闺女",
       "rank": 16,
       "source": "Weibo-Hot-Realtime",
-      "hotspot_type": "unknown",
-      "decision": "rejected",
-      "reason": "category_not_matched"
+      "hotspot_type": "variety",
+      "decision": "accepted",
+      "reason": "matched:variety"
     },
     {
-      "title": "迪丽热巴听到周星驰女儿的表情",
+      "title": "曾沛慈发了18张浪姐合照",
       "rank": 17,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -159,7 +159,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "江浙沪孩子最苦的可能就是退休后",
+      "title": "租18年的房子退租被判赔6万",
       "rank": 18,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -167,7 +167,7 @@
       "reason": "category_not_matched"
     },
     {
-      "title": "长鑫科技公告",
+      "title": "TOP不参加mini旅综录制",
       "rank": 19,
       "source": "Weibo-Hot-Realtime",
       "hotspot_type": "unknown",
@@ -175,17 +175,1985 @@
       "reason": "category_not_matched"
     }
   ],
-  "candidate_diagnostics": [],
+  "candidate_diagnostics": [
+    {
+      "seed_title": "功夫女足 换片源",
+      "rank": 6,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "film",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "independent_url_count": 15,
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu",
+        "kuaishou"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "douyin",
+          "status": "success"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "partial_failed"
+        }
+      ],
+      "failure_reasons": [
+        "stale_filtered:1",
+        "light_mode_skip_detail_to_avoid_secondary_confirmation",
+        "stale_filtered:2"
+      ],
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ]
+    },
+    {
+      "seed_title": "曝功夫女足被偷票房",
+      "rank": 8,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "film",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "independent_url_count": 13,
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "douyin",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failure_reasons": [
+        "stale_filtered:1",
+        "stale_filtered:2",
+        "stale_filtered:1",
+        "light_mode_skip_detail_to_avoid_secondary_confirmation",
+        "no_valid_search_results"
+      ],
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ]
+    },
+    {
+      "seed_title": "百花杀",
+      "rank": 10,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "tv_drama",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "independent_url_count": 13,
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "success"
+        },
+        {
+          "platform": "douyin",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failure_reasons": [
+        "stale_filtered:1",
+        "stale_filtered:2",
+        "light_mode_skip_detail_to_avoid_secondary_confirmation",
+        "stale_filtered:4",
+        "stale_filtered:4"
+      ],
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ]
+    },
+    {
+      "seed_title": "张月陈瑶 我家那闺女",
+      "rank": 16,
+      "source": "Weibo-Hot-Realtime",
+      "hotspot_type": "variety",
+      "status": "partial_failed",
+      "decision": "accepted",
+      "reason": "multi_platform_direct_evidence",
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "independent_url_count": 11,
+      "matched_platforms": [
+        "weibo",
+        "douyin"
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "success"
+        },
+        {
+          "platform": "douyin",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "empty"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failure_reasons": [
+        "stale_filtered:1",
+        "stale_filtered:4",
+        "only_stale_results",
+        "stale_filtered:3",
+        "stale_filtered:3"
+      ],
+      "risk_reasons": []
+    }
+  ],
   "candidate_summary": {
     "scanned": 20,
-    "selected_seeds": 0,
-    "accepted_topics": 0,
+    "selected_seeds": 4,
+    "accepted_topics": 4,
     "single_platform": 0,
-    "multi_platform": 0,
+    "multi_platform": 4,
     "rejected": 0
   },
-  "topics": [],
-  "platform_statuses": [],
-  "failures": [],
-  "warnings": []
+  "topics": [
+    {
+      "source": "Remote-Windows-Evidence",
+      "status": "partial_failed",
+      "seed_title": "功夫女足 换片源",
+      "keywords": [
+        "功夫女足 换片源"
+      ],
+      "category": "film",
+      "hotspot_type": "film",
+      "published_at": "2026-07-15T19:13:40.961857+08:00",
+      "summary": "6 功夫女足 换片源 电影 857272",
+      "hot_score": 104,
+      "source_hotspot_url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%20%E6%8D%A2%E7%89%87%E6%BA%90&t=31&band_rank=6&Refer=top",
+      "source_hotspot_rank": 6,
+      "source_hotspot_source": "Weibo-Hot-Realtime",
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu",
+        "kuaishou"
+      ],
+      "detail_pages": [
+        {
+          "platform": "weibo",
+          "title": "功夫女足 换片源",
+          "url": "https://weibo.com/1638832591/R8NCZbedm?refer_flag=1001030103_",
+          "author": "维多梨鸭Victoria",
+          "published_at": "今天16:01",
+          "content": "哈？第一次碰到换片源 们女足真是被赶鸭子上架的 #电影功夫女足# ​",
+          "captured_at": "2026-07-15T19:13:40.964136+08:00",
+          "source_page_url": "https://weibo.com/1638832591/R8NCZbedm?refer_flag=1001030103_",
+          "source_page_title": "功夫女足 换片源",
+          "topic_tags": [
+            "电影功夫女足"
+          ],
+          "raw_card_text": "热门 c 维多梨鸭Victoria 今天16:01 来自 🍐🦆のiPhone 15 Pro Max 哈？第一次碰到换片源 们女足真是被赶鸭子上架的 #电影功夫女足# ​ 68 93 2544",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "功夫女足 换片源",
+          "url": "https://weibo.com/8235152760/R8NLrfASy?refer_flag=1001030103_",
+          "author": "芭乐好喝椰",
+          "published_at": "今天16:22",
+          "content": "#功夫女足 换片源#据传《功夫女足》17号开始更换片源，这是真的假的呀？很少见上映之后更换片源的；这下看过的人可以去二刷了，票房会更好的吧，期待更好的成绩 ​",
+          "captured_at": "2026-07-15T19:13:40.964136+08:00",
+          "source_page_url": "https://weibo.com/8235152760/R8NLrfASy?refer_flag=1001030103_",
+          "source_page_title": "功夫女足 换片源",
+          "topic_tags": [
+            "功夫女足 换片源"
+          ],
+          "raw_card_text": "热门 c 芭乐好喝椰 今天16:22 来自 展丞浪漫主打歌 #功夫女足 换片源#据传《功夫女足》17号开始更换片源，这是真的假的呀？很少见上映之后更换片源的；这下看过的人可以去二刷了，票房会更好的吧，期待更好的成绩 ​ 播放视频 https://video.weibo.com/show?fid=1034:5320978847432754 12 135 1434",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "功夫女足 换片源",
+          "url": "https://weibo.com/5099780694/R8NUE3zPP?refer_flag=1001030103_",
+          "author": "珠宝君Yu东森",
+          "published_at": "今天16:45",
+          "content": "#功夫女足 换片源#功夫女足这电影换片源真的假的？如果是真的那不是扯淡在瞎搞吗？昨天晚上我刚去看的，看完还写了一篇影评，现在你又要换片源，那之前看过的这些人算什么啊？另外你没准备好的话你为什么要选择先上映呢？全部准备好了再上映也行啊，这骚操作背刺观众 吃相是真踏马的难看… ​",
+          "captured_at": "2026-07-15T19:13:40.964136+08:00",
+          "source_page_url": "https://weibo.com/5099780694/R8NUE3zPP?refer_flag=1001030103_",
+          "source_page_title": "功夫女足 换片源",
+          "topic_tags": [
+            "功夫女足 换片源"
+          ],
+          "raw_card_text": "热门 c 珠宝君Yu东森 今天16:45 来自 公众号同名iPhone 17 Pro Max #功夫女足 换片源#功夫女足这电影换片源真的假的？如果是真的那不是扯淡在瞎搞吗？昨天晚上我刚去看的，看完还写了一篇影评，现在你又要换片源，那之前看过的这些人算什么啊？另外你没准备好的话你为什么要选择先上映呢？全部准备好了再上映也行啊，这骚操作背刺观众 吃相是真踏马的难看… ​ 3 118 585",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "微博正文 - 微博",
+          "url": "https://weibo.com/1638832591/R8NCZbedm?refer_flag=1001030103_",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 维多梨鸭Victoria 公开 维多梨鸭Victoria 26-7-15 16:01 发布于 上海 来自 🍐🦆のiPhone 15 Pro Max 关注 哈？第一次碰到换片源 们女足真是被赶鸭子上架的 #电影功夫女足# ​​​ 点赞是美意，赞赏是鼓励 为TA助威 68 93 2545 分享这条博文 同时转发 评论 30天内，博主已拉黑恶意评论用户3人，请谨慎评论 按热度 按时间 在火焰山烤地瓜 :不多说了，重刷走起！ 26-7-15 16:11 来自广东 30 一只脱毛刺猬 :那我可以继续看了 26-7-15 16:12 来自山东 30 青瓜火腿_:原本就是想7月17号定档的 26-7-15 16:43 来自山东 1 糖果一箩筐LJCTJ:国家大力支持 26-7-15 19:08 来自四川 熬椰好困oi:为什么会这样呢 26-7-15 18:50 来自湖北 柟陈柟叙:嗯？是没做完后期就定档？在抖的第一个宣传视频有说过后期赶得上就定7.10号，赶不上就定7.17号，它定11号还以为做好了，没想到还是差了一些。星爷真是说话算话，要给我们看更好的效果了。 26-7-15 18:33 来自安徽 爱旅行的荧光棒:正好周末再看一遍 26-7-15 18:26 来自上海 勤奋的小璇同学:很明显被提档，定档匆忙，预告剪的也匆忙 26-7-15 18:24 来自辽宁 Pea-Tt:晕啊，那我周末再看一次咯！ 26-7-15 18:22 来自四川 你算哪一根小葱:那我要二刷三刷 26-7-15 18:18 来自河北 苦瓜苦瓜苦-Z:那刚好可以二刷，昨天看完，还想再看一遍 26-7-15 18:00 来自广东 用户7138002781:临时拉来热大盘的，后面好多电影都能跟着吃到红利 26-7-15 17:59 来自北京 凉拌人骨哒哒哒:对呀 看看今天出的后告片 那才是真正的预告片啊 赶鸭子上架被拉来当壮丁了 26-7-15 17:48 来自安徽 罗碧佳22284:行，那再去看一遍换了片源的。 26-7-15 17:48 来自四川 蛇吻薄荷:提档已成事实，能提前看也很幸福，能在周末看到更完善的版本也很幸福，功夫女足三刷我来啦！ 26-7-15 17:47 来自浙江 19楼养嘅牛牛:那我要去三刷了 26-7-15 17:43 来自广东 时怀遇:剧情一样不？ 26-7-15 17:36 来自贵州 鸿雁掠影浮光:今天已经二刷了 26-7-15 17:34 来自广东 太好了是周六:啥意思，还能这么玩 26-7-15 18:54 来自河北 与巴二三事 :ok可以再刷一遍啦 26-7-15 16:21 来自山东 1 释怀无声: 换片源是因为之前画面问题吧？我和另一个城市的朋友观看到的画面都有色阶断层情况，也就是画面高光部分会有一块块的绿斑。换片源应该是解决这个问题的，内容是以送审的为准，不大可能上线了还调整内容。 26-7-15 19:03 来自广西",
+          "author": "维多梨鸭Victoria",
+          "published_at": "26-7-15 16:01",
+          "captured_at": "2026-07-15T19:13:40.964136+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://weibo.com/1638832591/R8NCZbedm?refer_flag=1001030103_",
+          "source_page_title": "微博正文 - 微博"
+        },
+        {
+          "platform": "douyin",
+          "title": "功夫女足换片源 《功夫女足》正在热映。然而，全国院线统一将于7月17日启用新版优化片源，旧放映版本下线。首刷观众吐槽：我看的第一遍算啥，算我有钱吗。#功夫女足 （编辑：檀檀）投稿邮箱：3882124142@qq.com；更多视频点击关注@中安在线 - 抖音",
+          "url": "https://www.douyin.com/video/7662682369509428507",
+          "content": "00:06 / 00:25 倍速 智能 清屏 连播",
+          "author": "",
+          "published_at": "00:06 / 00:25",
+          "captured_at": "2026-07-15T19:14:01.188245+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://www.douyin.com/video/7662682369509428507",
+          "source_page_title": "功夫女足换片源 《功夫女足》正在热映。然而，全国院线统一将于7月17日启用新版优化片源，旧放映版本下线。首刷观众吐槽：我看的第一遍算啥，算我有钱吗。#功夫女足 （编辑：檀檀）投稿邮箱：3882124142@qq.com；更多视频点击关注@中安在线 - 抖音"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "᳐曲奇小猫 ᳐੭ 7分钟前 2",
+          "url": "https://www.xiaohongshu.com/explore/6a5769e300000000110066ab",
+          "author": "᳐曲奇小猫 ᳐੭ 7分钟前",
+          "published_at": "᳐曲奇小猫 ᳐੭ 7分钟前",
+          "content": "᳐曲奇小猫 ᳐੭ 7分钟前 2",
+          "captured_at": "2026-07-15T19:14:21.405221+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a5769e300000000110066ab",
+          "source_page_title": "᳐曲奇小猫 ᳐੭ 7分钟前 2",
+          "topic_tags": [],
+          "raw_card_text": "᳐曲奇小猫 ᳐੭ 7分钟前 2",
+          "normalization": {},
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "🫪你是说我们可能看了“绝版”的功夫女足？？ 满杯银河不加糖 1小时前 31",
+          "url": "https://www.xiaohongshu.com/explore/6a575a3500000000070266f2",
+          "author": "满杯银河不加糖 1小时前",
+          "published_at": "满杯银河不加糖 1小时前",
+          "content": "🫪你是说我们可能看了“绝版”的功夫女足？？ 满杯银河不加糖 1小时前 31",
+          "captured_at": "2026-07-15T19:14:21.405221+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a575a3500000000070266f2",
+          "source_page_title": "🫪你是说我们可能看了“绝版”的功夫女足？？ 满杯银河不加糖 1小时前 31",
+          "topic_tags": [],
+          "raw_card_text": "🫪你是说我们可能看了“绝版”的功夫女足？？ 满杯银河不加糖 1小时前 31",
+          "normalization": {},
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "女足8亿了，听说换片源了！ 汤圆圆不圆 2小时前 19",
+          "url": "https://www.xiaohongshu.com/explore/6a574904000000001603f5fa",
+          "author": "汤圆圆不圆 2小时前",
+          "published_at": "汤圆圆不圆 2小时前",
+          "content": "女足8亿了，听说换片源了！ 汤圆圆不圆 2小时前 19",
+          "captured_at": "2026-07-15T19:14:21.405221+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a574904000000001603f5fa",
+          "source_page_title": "女足8亿了，听说换片源了！ 汤圆圆不圆 2小时前 19",
+          "topic_tags": [],
+          "raw_card_text": "女足8亿了，听说换片源了！ 汤圆圆不圆 2小时前 19",
+          "normalization": {},
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "剪辑内容略有调整。 低空飞行\"电影小红书 1小时前 赞",
+          "url": "https://www.xiaohongshu.com/explore/6a5757a60000000011012894",
+          "author": "低空飞行\"电影小红书 1小时前",
+          "published_at": "低空飞行\"电影小红书 1小时前",
+          "content": "剪辑内容略有调整。 低空飞行\"电影小红书 1小时前 赞",
+          "captured_at": "2026-07-15T19:14:21.405221+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a5757a60000000011012894",
+          "source_page_title": "剪辑内容略有调整。 低空飞行\"电影小红书 1小时前 赞",
+          "topic_tags": [],
+          "raw_card_text": "剪辑内容略有调整。 低空飞行\"电影小红书 1小时前 赞",
+          "normalization": {},
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "kuaishou",
+          "title": "《功夫女足》正在热映。然而，全国院线统一将于7月17日启用新版优化片源，旧放映版本下线。首刷观众吐槽：我看的第一遍算啥，算我有钱吗。（编辑：檀檀）投稿邮箱：3882124142@qq.com；更多视频点击关注@中安在线-快手",
+          "url": "https://www.kuaishou.com/short-video/3xthq9vuqumkn5e",
+          "content": "目前浏览器版本过低，建议及时更新 点击重试 中安在线 1小时前 关注 《功夫女足》正在热映。然而，全国院线统一将于7月17日启用新版优化片源，旧放映版本下线。首刷观众吐槽：我看的第一遍算啥，算我有钱吗。（编辑：檀檀）投稿邮箱：3882124142@qq.com；更多视频点击关注@中安在线 16 分享 不感兴趣 举报 取消 发送 \\人的第七感\\【包容】 10分钟前 永远支持星爷 3 ！孤峰！ 11分钟前 算福利呗，因为后看的少看很多内容 1 已经到底了，没有更多评论了",
+          "author": "中安在线 1小时前 关注",
+          "published_at": "00:00NaN:NaN",
+          "captured_at": "2026-07-15T19:14:31.503760+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://www.kuaishou.com/short-video/3xthq9vuqumkn5e",
+          "source_page_title": "《功夫女足》正在热映。然而，全国院线统一将于7月17日启用新版优化片源，旧放映版本下线。首刷观众吐槽：我看的第一遍算啥，算我有钱吗。（编辑：檀檀）投稿邮箱：3882124142@qq.com；更多视频点击关注@中安在线-快手"
+        }
+      ],
+      "videos": [
+        {
+          "platform": "douyin",
+          "title": "功夫女足换片源 《功夫女足》正在热映。然而，全国院线统一将于7月17日启用新版优化片源，旧放映版本下线。首刷观众吐槽：我看的第一遍算啥，算我有钱吗。#功夫女足 （编辑：檀檀）投稿邮箱：3882124142@qq.com；更多视频点击关注@中安在线 - 抖音",
+          "url": "https://www.douyin.com/video/7662682369509428507",
+          "cover_url": "",
+          "author": "",
+          "duration": 24.821995,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-07-15T19:14:01.188245+08:00",
+          "capture_method": "dom",
+          "source_url": "https://www.douyin.com/video/7662682369509428507",
+          "evidence_role": "source_video"
+        },
+        {
+          "platform": "kuaishou",
+          "title": "《功夫女足》正在热映。然而，全国院线统一将于7月17日启用新版优化片源，旧放映版本下线。首刷观众吐槽：我看的第一遍算啥，算我有钱吗。（编辑：檀檀）投稿邮箱：3882124142@qq.com；更多视频点击关注@中安在线-快手",
+          "url": "https://www.kuaishou.com/short-video/3xthq9vuqumkn5e",
+          "cover_url": "",
+          "author": "中安在线 1小时前 关注",
+          "duration": 0,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-07-15T19:14:31.503760+08:00",
+          "capture_method": "dom",
+          "source_url": "https://www.kuaishou.com/short-video/3xthq9vuqumkn5e",
+          "evidence_role": "source_video"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://wx1.sinaimg.cn/orj360/61ae99cfgy1if4qip8oygj20zu1afwml.jpg",
+          "source_url": "https://weibo.com/1638832591/R8NCZbedm?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 466,
+          "captured_at": "2026-07-15T19:13:40.964136+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx1.sinaimg.cn/orj360/61ae99cfgy1if4qipm5akj20zu13t7c7.jpg",
+          "source_url": "https://weibo.com/1638832591/R8NCZbedm?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 400,
+          "captured_at": "2026-07-15T19:13:40.964136+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx1.sinaimg.cn/orj360/61ae99cfgy1if4qiq14uaj20zu0pcgpe.jpg",
+          "source_url": "https://weibo.com/1638832591/R8NCZbedm?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 382,
+          "height": 270,
+          "captured_at": "2026-07-15T19:13:40.964136+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx3.sinaimg.cn/orj360/005z89Vkgy1if4rrzoeggj32dc35sqv6.jpg",
+          "source_url": "https://weibo.com/5099780694/R8NUE3zPP?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 480,
+          "captured_at": "2026-07-15T19:13:40.964136+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://tvax2.sinaimg.cn/crop.0.0.512.512.1024/61ae99cfly8hg4r450quij20e80e8mxn.jpg?KID=imgbed,tva&Expires=1784124832&ssig=1b3x7OGBTn",
+          "source_url": "https://weibo.com/1638832591/R8NCZbedm?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 511,
+          "height": 511,
+          "captured_at": "2026-07-15T19:13:40.964136+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/a6f00c76725da6f9f46601c0c8a4b5a6~tplv-dy-resize-origshort-autoq-75:330.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=cover&se=false&x-expires=2099473200&x-signature=Uw04mxuaITNwiJX%2FdEYUNQp%2FHvA%3D",
+          "source_url": "https://www.douyin.com/video/7662682369509428507",
+          "platform": "douyin",
+          "width": 440,
+          "height": 330,
+          "captured_at": "2026-07-15T19:14:01.188245+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "comments": [
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662682369509428507",
+          "content": "小小酥哒 ... 刷刷刷 刚刚·广东 0 分享 回复 我还想她 ... 真的吗？那我要去 6分钟前·广东 0 分享 回复 我爱我命运 ... 不好意思，我真会二刷 2分钟前·广东 0 分享 回复 远方 ... 以前没过审，现在才过审 45分钟前·福建 2 分享 回复 用户1980626051948 ... 这算造谣吗 55分钟前·广东 1 分享 回复 展开2条回复 加载中",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:14:01.188245+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662682369509428507",
+          "content": "小小酥哒 ... 刷刷刷 刚刚·广东 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:14:01.188245+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662682369509428507",
+          "content": "我还想她 ... 真的吗？那我要去 6分钟前·广东 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:14:01.188245+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662682369509428507",
+          "content": "我爱我命运 ... 不好意思，我真会二刷 2分钟前·广东 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:14:01.188245+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662682369509428507",
+          "content": "远方 ... 以前没过审，现在才过审 45分钟前·福建 2 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:14:01.188245+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662682369509428507",
+          "content": "用户1980626051948 ... 这算造谣吗 55分钟前·广东 1 分享 回复 展开2条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:14:01.188245+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "kuaishou",
+          "source_url": "https://www.kuaishou.com/short-video/3xthq9vuqumkn5e",
+          "content": "永远支持星爷",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:14:31.503760+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "kuaishou",
+          "source_url": "https://www.kuaishou.com/short-video/3xthq9vuqumkn5e",
+          "content": "算福利呗，因为后看的少看很多内容",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:14:31.503760+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "douyin",
+          "status": "success"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "partial_failed"
+        }
+      ],
+      "failures": [
+        {
+          "platform": "weibo",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:1"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "detail",
+          "status": "blocked",
+          "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:2"
+        }
+      ],
+      "warnings": [
+        {
+          "platform": "weibo",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        }
+      ],
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "admission_reason": "multi_platform_direct_evidence",
+      "independent_url_count": 15,
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ],
+      "source_attribution": {
+        "hotspot_source": "Weibo-Hot-Realtime",
+        "hotspot_url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%20%E6%8D%A2%E7%89%87%E6%BA%90&t=31&band_rank=6&Refer=top",
+        "hotspot_rank": 6,
+        "matched_platforms": [
+          "weibo",
+          "douyin",
+          "xiaohongshu",
+          "kuaishou"
+        ]
+      }
+    },
+    {
+      "source": "Remote-Windows-Evidence",
+      "status": "partial_failed",
+      "seed_title": "曝功夫女足被偷票房",
+      "keywords": [
+        "曝功夫女足被偷票房"
+      ],
+      "category": "film",
+      "hotspot_type": "film",
+      "published_at": "2026-07-15T19:13:40.961898+08:00",
+      "summary": "8 曝功夫女足被偷票房 电影 584234 新",
+      "hot_score": 102,
+      "source_hotspot_url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E8%A2%AB%E5%81%B7%E7%A5%A8%E6%88%BF%23&t=31&band_rank=8&Refer=top",
+      "source_hotspot_rank": 8,
+      "source_hotspot_source": "Weibo-Hot-Realtime",
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "detail_pages": [
+        {
+          "platform": "weibo",
+          "title": "曝功夫女足被偷票房",
+          "url": "https://weibo.com/6543419106/R8Oa2uQ4i?refer_flag=1001030103_",
+          "author": "吃瓜姐妹",
+          "published_at": "今天17:23",
+          "content": "#曝功夫女足被偷票房#曝功夫女足被偷票房，观众发现去取票的时候功夫女足是手写电影票 ​",
+          "captured_at": "2026-07-15T19:14:46.377183+08:00",
+          "source_page_url": "https://weibo.com/6543419106/R8Oa2uQ4i?refer_flag=1001030103_",
+          "source_page_title": "曝功夫女足被偷票房",
+          "topic_tags": [
+            "曝功夫女足被偷票房"
+          ],
+          "raw_card_text": "热门 c 吃瓜姐妹 今天17:23 #曝功夫女足被偷票房#曝功夫女足被偷票房，观众发现去取票的时候功夫女足是手写电影票 ​ 80 374 6615",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "曝功夫女足被偷票房",
+          "url": "https://weibo.com/6357016358/R8FCU0GlC?refer_flag=1001030103_",
+          "author": "科技小六",
+          "published_at": "07月14日 19:39",
+          "content": "刚才刷到一个视频，说是《功夫女足》被偷票房了，最少被偷了1个亿的票房，影院偷票主要分为两种手段：一是机器故障为由出手写小票观影，二是套餐出票只打爆米花不打电影票，两种方式都不会计入官方票房，片方拿不到分成，这种操作模式真的吗，你们有遇到过吗。#功夫女足破7亿票房# ​",
+          "captured_at": "2026-07-15T19:14:46.377183+08:00",
+          "source_page_url": "https://weibo.com/6357016358/R8FCU0GlC?refer_flag=1001030103_",
+          "source_page_title": "曝功夫女足被偷票房",
+          "topic_tags": [
+            "功夫女足破7亿票房"
+          ],
+          "raw_card_text": "热门 c 科技小六 07月14日 19:39 刚才刷到一个视频，说是《功夫女足》被偷票房了，最少被偷了1个亿的票房，影院偷票主要分为两种手段：一是机器故障为由出手写小票观影，二是套餐出票只打爆米花不打电影票，两种方式都不会计入官方票房，片方拿不到分成，这种操作模式真的吗，你们有遇到过吗。#功夫女足破7亿票房# ​ 29 253 2717",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "曝功夫女足被偷票房",
+          "url": "https://weibo.com/1744332207/R8NiKEiEa?refer_flag=1001030103_",
+          "author": "钱江视频",
+          "published_at": "今天15:12",
+          "content": "【#律师回应功夫女足被偷票房#：该行为触碰多重法律红线】#曝功夫女足被偷票房# 由周星驰编剧并执导，@张小斐0110 @Dear-迪丽热巴 @张艺兴 领衔主演的新片《功夫女足》上映第四天累计票房就突破了7亿大关，势头强劲。可大量观众爆料，线下影院各类截留票房操作，网络舆论两极分化。部分网友 ​ 展开c",
+          "captured_at": "2026-07-15T19:14:46.377183+08:00",
+          "source_page_url": "https://weibo.com/1744332207/R8NiKEiEa?refer_flag=1001030103_",
+          "source_page_title": "曝功夫女足被偷票房",
+          "topic_tags": [
+            "律师回应功夫女足被偷票房",
+            "曝功夫女足被偷票房"
+          ],
+          "raw_card_text": "热门 c 钱江视频 记者采访 今天15:12 来自 迪丽热巴超话 【#律师回应功夫女足被偷票房#：该行为触碰多重法律红线】#曝功夫女足被偷票房# 由周星驰编剧并执导，@张小斐0110 @Dear-迪丽热巴 @张艺兴 领衔主演的新片《功夫女足》上映第四天累计票房就突破了7亿大关，势头强劲。可大量观众爆料，线下影院各类截留票房操作，网络舆论两极分化。部分网友 ​ 展开c 播放视频 https://video.weibo.com/show?fid=1034:5320961285619722 124 105 1648",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "微博正文 - 微博",
+          "url": "https://weibo.com/6543419106/R8Oa2uQ4i?refer_flag=1001030103_",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 吃瓜姐妹 公开 吃瓜姐妹 26-7-15 17:23 发布于 四川 已编辑 关注 #曝功夫女足被偷票房#曝功夫女足被偷票房，观众发现去取票的时候功夫女足是手写电影票 ​​​ 81 376 6635 分享这条博文 同时转发 评论 按热度 按时间 安林苹果:图片评论 26-7-15 18:08 来自四川 1 X_卡空时光:我的扫码是正常的 查看图片 26-7-15 18:53 来自河北 夏天的风很舒服呀:单独拍一张 ，我来查查看看到底是什么情况，不符可以直接举报 26-7-15 18:37 来自湖北 华华JGH:留着票，举报啊 26-7-15 17:56 来自山东 13 迪光丞影 :可以举报的，而且举报后赔偿的钱钱可能比你买票的钱还多呢！！ 26-7-15 18:17 来自广东 6 邻家的小羊 :天呐！ 26-7-15 17:51 来自辽宁 2 萝卜才三岁半 :必须严查投诉@电影功夫女足 26-7-15 18:45 来自浙江 你说我啧你不啧你_:偷票房是啥意思，手写是啥意思，有懂的解释一下 26-7-15 18:35 来自河北 哈里丝带儿了 :影院偷票指的是诱导退票再换现金支付或者给手写票、空白票；或打其他冷门电影票替换；双系统售票、捆绑套餐、包场不录正规系统、无效白条票等，这些卖票收入不计入票房，不参与分成，被影院全部私吞，也涉及偷税漏税！ 26-7-15 18:46 来自北京 -Mayarassamee-:偷给哪个电影了 26-7-15 18:34 来自吉林 哈里丝带儿了 :影院偷票指的是诱导退票再换现金支付或者给手写票、空白票；或打其他冷门电影票替换；双系统售票、捆绑套餐、包场不录正规系统、无效白条票等，这些卖票收入不计入票房，不参与分成，被影院全部私吞 26-7-15 18:46 来自北京 爱脸红的樱桃:有人举报返了1000块钱 26-7-15 18:16 来自湖北 7 四月一日狼寻樱:确实我们去影院不给出票你就进去吧，记住你几排几号就完了你跟他生要你也要不来呀 26-7-15 17:46 来自天津 4 战迪神颜且顶峰 :广而告之，遇到的都打电话举报，哪个城市哪个电影院，把票根留着，订票凭证留着 26-7-15 19:02 来自河南 1 公众号少年疯了 :魑魅魍魉，横行人间。 26-7-15 19:02 来自北京 1 躺平大熊猫:让正能量电影涨点票房怎么了。较真。。。 26-7-15 17:54 来自北京 1 晨昏线_y:明明这份业绩是你自己做的 但是报酬是别人的时候你也别太较真 26-7-15 18:43 来自广东 xmy7727:这是实打实的钱，跟盗窃有什么区别，你以为只是数据吗？ 26-7-15 18:44 来自广东 悠7-_-:举报电影院 有奖励的 26-7-15 19:12 来自湖南 ShininGAG:还有这个 26-7-15 18:52 来自江苏",
+          "author": "吃瓜姐妹",
+          "published_at": "26-7-15 17:23",
+          "captured_at": "2026-07-15T19:14:46.377183+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://weibo.com/6543419106/R8Oa2uQ4i?refer_flag=1001030103_",
+          "source_page_title": "微博正文 - 微博"
+        },
+        {
+          "platform": "douyin",
+          "title": "4天7亿票房的《功夫女足》，竟被大量网友曝出疑似遭遇“偷票房”，林子聪回应#功夫女足 #周星驰 #林子聪 - 抖音",
+          "url": "https://www.douyin.com/video/7662597897137929083",
+          "content": "00:08 / 00:44 倍速 智能 清屏 连播",
+          "author": "",
+          "published_at": "00:08 / 00:44",
+          "captured_at": "2026-07-15T19:15:06.508002+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://www.douyin.com/video/7662597897137929083",
+          "source_page_title": "4天7亿票房的《功夫女足》，竟被大量网友曝出疑似遭遇“偷票房”，林子聪回应#功夫女足 #周星驰 #林子聪 - 抖音"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "我都已经二刷了，《功夫女足》的票房正常吗？ 汪六记砂锅 10小时前 51",
+          "url": "https://www.xiaohongshu.com/explore/6a56d8120000000006032fd4",
+          "author": "汪六记砂锅 10小时前",
+          "published_at": "汪六记砂锅 10小时前",
+          "content": "我都已经二刷了，《功夫女足》的票房正常吗？ 汪六记砂锅 10小时前 51",
+          "captured_at": "2026-07-15T19:15:26.709708+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a56d8120000000006032fd4",
+          "source_page_title": "我都已经二刷了，《功夫女足》的票房正常吗？ 汪六记砂锅 10小时前 51",
+          "topic_tags": [],
+          "raw_card_text": "我都已经二刷了，《功夫女足》的票房正常吗？ 汪六记砂锅 10小时前 51",
+          "normalization": {},
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "杜绝偷票房，支持星爷 压力兔🐰 11小时前 48",
+          "url": "https://www.xiaohongshu.com/explore/6a56cd8e0000000011012f2b",
+          "author": "压力兔🐰 11小时前",
+          "published_at": "压力兔🐰 11小时前",
+          "content": "杜绝偷票房，支持星爷 压力兔🐰 11小时前 48",
+          "captured_at": "2026-07-15T19:15:26.709708+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a56cd8e0000000011012f2b",
+          "source_page_title": "杜绝偷票房，支持星爷 压力兔🐰 11小时前 48",
+          "topic_tags": [],
+          "raw_card_text": "杜绝偷票房，支持星爷 压力兔🐰 11小时前 48",
+          "normalization": {},
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "偷功夫女足票房 邹鑫屹 5小时前 26",
+          "url": "https://www.xiaohongshu.com/explore/6a571ff80000000021019c1a",
+          "author": "邹鑫屹 5小时前",
+          "published_at": "邹鑫屹 5小时前",
+          "content": "偷功夫女足票房 邹鑫屹 5小时前 26",
+          "captured_at": "2026-07-15T19:15:26.709708+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a571ff80000000021019c1a",
+          "source_page_title": "偷功夫女足票房 邹鑫屹 5小时前 26",
+          "topic_tags": [],
+          "raw_card_text": "偷功夫女足票房 邹鑫屹 5小时前 26",
+          "normalization": {},
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        }
+      ],
+      "videos": [
+        {
+          "platform": "douyin",
+          "title": "4天7亿票房的《功夫女足》，竟被大量网友曝出疑似遭遇“偷票房”，林子聪回应#功夫女足 #周星驰 #林子聪 - 抖音",
+          "url": "https://www.douyin.com/video/7662597897137929083",
+          "cover_url": "",
+          "author": "",
+          "duration": 43.839002,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-07-15T19:15:06.508002+08:00",
+          "capture_method": "dom",
+          "source_url": "https://www.douyin.com/video/7662597897137929083",
+          "evidence_role": "source_video"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://wx4.sinaimg.cn/orj360/0078PwdQgy1if4sva86whj30u01e1akc.jpg",
+          "source_url": "https://weibo.com/6543419106/R8Oa2uQ4i?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 600,
+          "captured_at": "2026-07-15T19:14:46.377183+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/0078PwdQgy1if4t9yp3ovj30xi1h6al0.jpg",
+          "source_url": "https://weibo.com/6543419106/R8Oa2uQ4i?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 571,
+          "captured_at": "2026-07-15T19:14:46.377183+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx4.sinaimg.cn/orj360/0078PwdQgy1if4t9z4ihlj30xi1dtn5x.jpg",
+          "source_url": "https://weibo.com/6543419106/R8Oa2uQ4i?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 535,
+          "captured_at": "2026-07-15T19:14:46.377183+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx3.sinaimg.cn/orj360/0078PwdQgy1if4t9y9ayej30xi1f0ajd.jpg",
+          "source_url": "https://weibo.com/6543419106/R8Oa2uQ4i?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 548,
+          "captured_at": "2026-07-15T19:14:46.377183+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/0078PwdQgy1if4t9zj8zej30xi16j48k.jpg",
+          "source_url": "https://weibo.com/6543419106/R8Oa2uQ4i?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 457,
+          "captured_at": "2026-07-15T19:14:46.377183+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/0078PwdQgy1if4t9zwwdcj30wi1dmn29.jpg",
+          "source_url": "https://weibo.com/6543419106/R8Oa2uQ4i?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 550,
+          "captured_at": "2026-07-15T19:14:46.377183+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "comments": [
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662597897137929083",
+          "content": "牛仔 ... 此刻估计真实票房已近10亿 累计偷票2-3亿 5小时前·广东 87 分享 回复 展开2条回复 深藏功与名。 ... 没偷5天破10亿松松的 7小时前·河南 246 分享 回复 展开11条回复 一叶片舟 ... 偷票房以前肯定有，这次只是惹错人了 6小时前·山东 79 分享 回复 展开11条回复 射手座d朦 ... 绝不止，上亿了 57分钟前·江苏 3 分享 回复 展开1条回复 温暖阳光 ... 不是多名，是大量，偷太严重了 7小时前·湖北 127 分享 回复 展开4条回复 加载中",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:15:06.508002+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662597897137929083",
+          "content": "牛仔 ... 此刻估计真实票房已近10亿 累计偷票2-3亿 5小时前·广东 87 分享 回复 展开2条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:15:06.508002+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662597897137929083",
+          "content": "深藏功与名。 ... 没偷5天破10亿松松的 7小时前·河南 246 分享 回复 展开11条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:15:06.508002+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662597897137929083",
+          "content": "一叶片舟 ... 偷票房以前肯定有，这次只是惹错人了 6小时前·山东 79 分享 回复 展开11条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:15:06.508002+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662597897137929083",
+          "content": "射手座d朦 ... 绝不止，上亿了 57分钟前·江苏 3 分享 回复 展开1条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:15:06.508002+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662597897137929083",
+          "content": "温暖阳光 ... 不是多名，是大量，偷太严重了 7小时前·湖北 127 分享 回复 展开4条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:15:06.508002+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "douyin",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failures": [
+        {
+          "platform": "weibo",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:1"
+        },
+        {
+          "platform": "douyin",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:2"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:1"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "detail",
+          "status": "blocked",
+          "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "no_valid_search_results"
+        }
+      ],
+      "warnings": [
+        {
+          "platform": "weibo",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        }
+      ],
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "admission_reason": "multi_platform_direct_evidence",
+      "independent_url_count": 13,
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ],
+      "source_attribution": {
+        "hotspot_source": "Weibo-Hot-Realtime",
+        "hotspot_url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E8%A2%AB%E5%81%B7%E7%A5%A8%E6%88%BF%23&t=31&band_rank=8&Refer=top",
+        "hotspot_rank": 8,
+        "matched_platforms": [
+          "weibo",
+          "douyin",
+          "xiaohongshu"
+        ]
+      }
+    },
+    {
+      "source": "Remote-Windows-Evidence",
+      "status": "partial_failed",
+      "seed_title": "百花杀",
+      "keywords": [
+        "百花杀"
+      ],
+      "category": "tv_drama",
+      "hotspot_type": "tv_drama",
+      "published_at": "2026-07-15T19:13:40.961911+08:00",
+      "summary": "10 百花杀 剧集 573585 新",
+      "hot_score": 100,
+      "source_hotspot_url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E6%9D%80&t=31&band_rank=10&Refer=top",
+      "source_hotspot_rank": 10,
+      "source_hotspot_source": "Weibo-Hot-Realtime",
+      "matched_platforms": [
+        "weibo",
+        "douyin",
+        "xiaohongshu"
+      ],
+      "detail_pages": [
+        {
+          "platform": "weibo",
+          "title": "百花杀",
+          "url": "https://weibo.com/2569522534/R8Oq2EY3s?refer_flag=1001030103_",
+          "author": "孟子义",
+          "published_at": "今天18:02",
+          "content": "#百花杀# 终于见面啦，跟阿爹@何润东 也转上圈圈了 L孟子义的微博视频 ​",
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "source_page_url": "https://weibo.com/2569522534/R8Oq2EY3s?refer_flag=1001030103_",
+          "source_page_title": "百花杀",
+          "topic_tags": [
+            "百花杀"
+          ],
+          "raw_card_text": "热门 c 孟子义 今天18:02 来自 微博视频号 #百花杀# 终于见面啦，跟阿爹@何润东 也转上圈圈了 L孟子义的微博视频 ​ 播放视频 https://video.weibo.com/show?fid=1034:5321003073732642 627 1730 9217",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "百花杀",
+          "url": "https://weibo.com/1594779263/R8LOeg8wF?refer_flag=1001030103_",
+          "author": "徐正溪Jeremy",
+          "published_at": "今天11:24",
+          "content": "五哥#百花杀#的极速一日游👣 ​",
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "source_page_url": "https://weibo.com/1594779263/R8LOeg8wF?refer_flag=1001030103_",
+          "source_page_title": "百花杀",
+          "topic_tags": [
+            "百花杀"
+          ],
+          "raw_card_text": "热门 c 徐正溪Jeremy 今天11:24 五哥#百花杀#的极速一日游👣 ​ 10229 10472 16479",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "百花杀",
+          "url": "https://weibo.com/3616296427/R8Ou3lC8j?refer_flag=1001030103_",
+          "author": "范帅琦",
+          "published_at": "今天18:12",
+          "content": "同事太粘人了怎么办？ #百花杀# ​",
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "source_page_url": "https://weibo.com/3616296427/R8Ou3lC8j?refer_flag=1001030103_",
+          "source_page_title": "百花杀",
+          "topic_tags": [
+            "百花杀"
+          ],
+          "raw_card_text": "热门 c 范帅琦 今天18:12 来自 范哥的座机iPhone客户端 同事太粘人了怎么办？ #百花杀# ​ 108 256 1141",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "百花杀",
+          "url": "https://weibo.com/7819800760/R8NCKgVpJ?refer_flag=1001030103_",
+          "author": "戏精林克",
+          "published_at": "今天16:01",
+          "content": "7.14云合 ​",
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "source_page_url": "https://weibo.com/7819800760/R8NCKgVpJ?refer_flag=1001030103_",
+          "source_page_title": "百花杀",
+          "topic_tags": [],
+          "raw_card_text": "热门 c 戏精林克 今天16:01 7.14云合 ​ 1 90 994",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "微博正文 - 微博",
+          "url": "https://weibo.com/2569522534/R8Oq2EY3s?refer_flag=1001030103_",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 孟子义 公开 孟子义 26-7-15 18:02 发布于 浙江 来自 微博视频号 关注 #百花杀# 终于见面啦，跟阿爹@何润东 也转上圈圈了 孟子义的微博视频 ​​​ 播放视频 01:10 13.9万次观看 628 1730 9228 分享这条博文 同时转发 评论 我是绿毛虫_ :来喽 今晚继续看沈汐和 26-7-15 18:11 来自北京 6 我是绿毛虫_ :@微博智搜 百花杀 26-7-15 18:11 来自北京 3 共3条回复 孟予我 :宝贝我们也转圈圈 26-7-15 18:03 来自北京 9 孟予我 :@孟子义 26-7-15 18:03 来自北京 3 大大澜将军 :我也想抱郡主 26-7-15 18:03 来自江西 7 大大澜将军 :@微博智搜 总结一下评论区 26-7-15 18:03 来自江西 2 共2条回复 shiminmin_ :宝宝来啦 今晚继续看沈汐和 26-7-15 18:03 来自上海 6 shiminmin_ :@孟子义 26-7-15 18:03 来自上海 1 小棠不想熬夜啦 :宝宝宝宝 26-7-15 18:03 来自广东 5 小棠不想熬夜啦 :@孟子义 26-7-15 18:03 来自广东 1 一天不背书 :继续看百花杀百花杀大爆沈汐和大爆 26-7-15 18:32 来自广西 14 Cyan青__ :宝宝我也要跟你转圈圈 26-7-15 18:06 来自河南 3 Cyan青__ :@孟子义 26-7-15 18:06 来自河南 1 易义咿易- :今晚我们也继续见面姐姐 26-7-15 18:05 来自陕西 3 易义咿易- :@孟子义 26-7-15 18:05 来自陕西 1 赴一场_温柔 :孟孟和何润东的父女档太有感觉了，这互动好甜！ 26-7-15 18:04 来自山东 3 赴一场_温柔 :@孟子义 26-7-15 18:04 来自山东 2 Kiki不发脾气只发财 :咱西北就是爱转圈圈哈 26-7-15 18:11 来自四川 1 Kiki不发脾气只发财 :@孟子义 26-7-15 18:11 来自四川 1 不懂不装董小姐 :爱转圈的西北人 26-7-15 18:10 来自安徽 1 不懂不装董小姐 :@孟子义 26-7-15 18:10 来自安徽 可乐喝多了- :今晚继续看沈汐和 26-7-15 18:07 来自辽宁 1 可乐喝多了- :@孟子义 26-7-15 18:07 来自辽宁 1 北极行歌 :正在看啦 26-7-15 18:06 来自内蒙古 1 北极行歌 :@孟子义 26-7-15 18:06 来自内蒙古 1 沈汐和写了两封信 :姐姐什么时候来哄我 26-7-15 18:06 来自浙江 1 沈汐和写了两封信 :@孟子义 26-7-15 18:06 来自浙江 椰椰小孟 :转圈圈汐和 26-7-15 18:05 来自福建 2 椰椰小孟 :@孟子义 26-7-15 18:05 来自福建 1",
+          "author": "孟子义",
+          "published_at": "26-7-15 18:02",
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://weibo.com/2569522534/R8Oq2EY3s?refer_flag=1001030103_",
+          "source_page_title": "微博正文 - 微博"
+        },
+        {
+          "platform": "douyin",
+          "title": "一物降一物，岳父降岳父🤪#沈汐和 #萧华雍 #沈岳山 #百花杀 - 抖音",
+          "url": "https://www.douyin.com/video/7662427374215499241",
+          "content": "00:07 / 00:43 倍速 智能 清屏 连播 这火烧眉毛还会转移呢 他嗓门太大，把他吓晕 哈哈哈哈，吓晕了",
+          "author": "",
+          "published_at": "00:07 / 00:43",
+          "captured_at": "2026-07-15T19:16:18.592049+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://www.douyin.com/video/7662427374215499241",
+          "source_page_title": "一物降一物，岳父降岳父🤪#沈汐和 #萧华雍 #沈岳山 #百花杀 - 抖音"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "阿伟 昨天 22:41 2.3万",
+          "url": "https://www.xiaohongshu.com/explore/6a546e73000000001102ea85",
+          "author": "阿伟 昨天 22:41",
+          "published_at": "阿伟 昨天 22:41",
+          "content": "阿伟 昨天 22:41 2.3万",
+          "captured_at": "2026-07-15T19:16:38.780377+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a546e73000000001102ea85",
+          "source_page_title": "阿伟 昨天 22:41 2.3万",
+          "topic_tags": [],
+          "raw_card_text": "阿伟 昨天 22:41 2.3万",
+          "normalization": {},
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "崔晋百没招了哈哈哈 小星星呀 昨天 21:45 8858",
+          "url": "https://www.xiaohongshu.com/explore/6a561cca00000000060204e8",
+          "author": "小星星呀 昨天 21:45",
+          "published_at": "小星星呀 昨天 21:45",
+          "content": "崔晋百没招了哈哈哈 小星星呀 昨天 21:45 8858",
+          "captured_at": "2026-07-15T19:16:38.780377+08:00",
+          "source_page_url": "https://www.xiaohongshu.com/explore/6a561cca00000000060204e8",
+          "source_page_title": "崔晋百没招了哈哈哈 小星星呀 昨天 21:45 8858",
+          "topic_tags": [],
+          "raw_card_text": "崔晋百没招了哈哈哈 小星星呀 昨天 21:45 8858",
+          "normalization": {},
+          "capture_method": "lightweight_summary",
+          "evidence_role": "lightweight_platform_summary"
+        }
+      ],
+      "videos": [
+        {
+          "platform": "douyin",
+          "title": "一物降一物，岳父降岳父🤪#沈汐和 #萧华雍 #沈岳山 #百花杀 - 抖音",
+          "url": "https://www.douyin.com/video/7662427374215499241",
+          "cover_url": "",
+          "author": "",
+          "duration": 43.285011,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-07-15T19:16:18.592049+08:00",
+          "capture_method": "dom",
+          "source_url": "https://www.douyin.com/video/7662427374215499241",
+          "evidence_role": "source_video"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/001JVwWbgy1if46oq84bwj62tc240qv602.jpg",
+          "source_url": "https://weibo.com/1594779263/R8LOeg8wF?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 270,
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx1.sinaimg.cn/orj360/001JVwWbgy1if46mseurfj62402tckjm02.jpg",
+          "source_url": "https://weibo.com/1594779263/R8LOeg8wF?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 480,
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx1.sinaimg.cn/orj360/001JVwWbgy1if46nzvpglj62tc240npe02.jpg",
+          "source_url": "https://weibo.com/1594779263/R8LOeg8wF?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 270,
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/001JVwWbgy1if46okxuh3j62tc240qv602.jpg",
+          "source_url": "https://weibo.com/1594779263/R8LOeg8wF?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 270,
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx4.sinaimg.cn/orj360/001JVwWbgy1if46qasuzjj62402tc1kz02.jpg",
+          "source_url": "https://weibo.com/1594779263/R8LOeg8wF?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 480,
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/001JVwWbgy1if46nh04i3j62tc240e8302.jpg",
+          "source_url": "https://weibo.com/1594779263/R8LOeg8wF?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 270,
+          "captured_at": "2026-07-15T19:15:58.417916+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "comments": [
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662427374215499241",
+          "content": "宋你一个冻梨亚_见过亚轩版 ... 哈哈哈哈哈哈哈哈 过不了多久也能摆岳父的架子了 3小时前·山东 2678 分享 回复 展开7条回复 爱吃锅包肉 ... 同时看百花杀和雀骨的有福了，已看乱套了 1小时前·黑龙江 418 分享 回复 展开20条回复 初玉 ... 这个太子是谁演的呀 3分钟前·河北 0 分享 回复 展开3条回复 心里有你 ... 百花杀啥时候播出呀！ 2小时前·陕西 8 分享 回复 展开6条回复 ˚𑁍ࠬܓ˚柿柿如意꧀ᩚ࿐: ˚𑁍ࠬ ... 何润东好久不看了，以前看在梁山伯与祝英台和泡沫之夏里 2小时前·河北 1 分享 回复 展开2条回复 加载中",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:16:18.592049+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662427374215499241",
+          "content": "宋你一个冻梨亚_见过亚轩版 ... 哈哈哈哈哈哈哈哈 过不了多久也能摆岳父的架子了 3小时前·山东 2678 分享 回复 展开7条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:16:18.592049+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662427374215499241",
+          "content": "爱吃锅包肉 ... 同时看百花杀和雀骨的有福了，已看乱套了 1小时前·黑龙江 418 分享 回复 展开20条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:16:18.592049+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662427374215499241",
+          "content": "初玉 ... 这个太子是谁演的呀 3分钟前·河北 0 分享 回复 展开3条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:16:18.592049+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662427374215499241",
+          "content": "心里有你 ... 百花杀啥时候播出呀！ 2小时前·陕西 8 分享 回复 展开6条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:16:18.592049+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662427374215499241",
+          "content": "˚𑁍ࠬܓ˚柿柿如意꧀ᩚ࿐: ˚𑁍ࠬ ... 何润东好久不看了，以前看在梁山伯与祝英台和泡沫之夏里 2小时前·河北 1 分享 回复 展开2条回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:16:18.592049+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "success"
+        },
+        {
+          "platform": "douyin",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failures": [
+        {
+          "platform": "douyin",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:1"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:2"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "detail",
+          "status": "blocked",
+          "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:4"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:4"
+        }
+      ],
+      "warnings": [
+        {
+          "platform": "weibo",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        }
+      ],
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "admission_reason": "multi_platform_direct_evidence",
+      "independent_url_count": 13,
+      "risk_reasons": [
+        "light_mode_skip_detail_to_avoid_secondary_confirmation"
+      ],
+      "source_attribution": {
+        "hotspot_source": "Weibo-Hot-Realtime",
+        "hotspot_url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E6%9D%80&t=31&band_rank=10&Refer=top",
+        "hotspot_rank": 10,
+        "matched_platforms": [
+          "weibo",
+          "douyin",
+          "xiaohongshu"
+        ]
+      }
+    },
+    {
+      "source": "Remote-Windows-Evidence",
+      "status": "partial_failed",
+      "seed_title": "张月陈瑶 我家那闺女",
+      "keywords": [
+        "张月陈瑶 我家那闺女"
+      ],
+      "category": "variety",
+      "hotspot_type": "variety",
+      "published_at": "2026-07-15T19:13:40.961947+08:00",
+      "summary": "16 张月陈瑶 我家那闺女 综艺 540927 新",
+      "hot_score": 94,
+      "source_hotspot_url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%9C%88%E9%99%88%E7%91%B6%20%E6%88%91%E5%AE%B6%E9%82%A3%E9%97%BA%E5%A5%B3&t=31&band_rank=16&Refer=top",
+      "source_hotspot_rank": 16,
+      "source_hotspot_source": "Weibo-Hot-Realtime",
+      "matched_platforms": [
+        "weibo",
+        "douyin"
+      ],
+      "detail_pages": [
+        {
+          "platform": "weibo",
+          "title": "张月陈瑶 我家那闺女",
+          "url": "https://weibo.com/1773434120/R8O7CjTg6?refer_flag=1001030103_",
+          "author": "同福嗑栈",
+          "published_at": "今天17:17",
+          "content": "张月将飞行陈瑶我家那闺女录制！对接确认张月飞行行程真，形式为多人录制，且张慧雯姐姐回复过粉丝下次羊村聚会很快了~ #张月飞行陈瑶我家那闺女录制##张月飞行陈瑶我家那闺女# ​​​",
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "source_page_url": "https://weibo.com/1773434120/R8O7CjTg6?refer_flag=1001030103_",
+          "source_page_title": "张月陈瑶 我家那闺女",
+          "topic_tags": [
+            "张月飞行陈瑶我家那闺女录制",
+            "张月飞行陈瑶我家那闺女"
+          ],
+          "raw_card_text": "热门 c 同福嗑栈 今天17:17 张月将飞行陈瑶我家那闺女录制！对接确认张月飞行行程真，形式为多人录制，且张慧雯姐姐回复过粉丝下次羊村聚会很快了~ #张月飞行陈瑶我家那闺女录制##张月飞行陈瑶我家那闺女# ​​​ 129 619 42580",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "张月陈瑶 我家那闺女",
+          "url": "https://weibo.com/1200038992/R8OoYuJmm?refer_flag=1001030103_",
+          "author": "平淡日子裡的刺-",
+          "published_at": "今天18:00",
+          "content": "#张月陈瑶 我家那闺女# 只期待张月 🩵🩵🩵🩵不期待其余闲杂人等 ​",
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "source_page_url": "https://weibo.com/1200038992/R8OoYuJmm?refer_flag=1001030103_",
+          "source_page_title": "张月陈瑶 我家那闺女",
+          "topic_tags": [
+            "张月陈瑶 我家那闺女"
+          ],
+          "raw_card_text": "热门 c 平淡日子裡的刺- 今天18:00 来自 iPhone 17 Pro #张月陈瑶 我家那闺女# 只期待张月 🩵🩵🩵🩵不期待其余闲杂人等 ​ 170 269 4166",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "张月陈瑶 我家那闺女",
+          "url": "https://weibo.com/5781340284/R8OqbBjIq?refer_flag=1001030103_",
+          "author": "芹菜虾仁粥",
+          "published_at": "今天18:03",
+          "content": "#张月陈瑶 我家那闺女# 只知道张月昨天超like破7000了🫰🏻 只知道张月主演的《种墨园》正在央视热播🫰🏻 ​",
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "source_page_url": "https://weibo.com/5781340284/R8OqbBjIq?refer_flag=1001030103_",
+          "source_page_title": "张月陈瑶 我家那闺女",
+          "topic_tags": [
+            "张月陈瑶 我家那闺女"
+          ],
+          "raw_card_text": "热门 c 芹菜虾仁粥 今天18:03 来自 所愿皆成真 #张月陈瑶 我家那闺女# 只知道张月昨天超like破7000了🫰🏻 只知道张月主演的《种墨园》正在央视热播🫰🏻 ​ 169 424 3461",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "张月陈瑶 我家那闺女",
+          "url": "https://weibo.com/6986124277/R8OsXjqsv?refer_flag=1001030103_",
+          "author": "爱吃肉松烤冷面zzzx_D",
+          "published_at": "今天18:09",
+          "content": "#张月陈瑶 我家那闺女#期待演员张月更多的作品和大家见面呀！张月主演宣纸非遗大剧《种墨园》正在🐑热播！！ ​",
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "source_page_url": "https://weibo.com/6986124277/R8OsXjqsv?refer_flag=1001030103_",
+          "source_page_title": "张月陈瑶 我家那闺女",
+          "topic_tags": [
+            "张月陈瑶 我家那闺女"
+          ],
+          "raw_card_text": "热门 c 爱吃肉松烤冷面zzzx_D 今天18:09 来自 iPhone 17 #张月陈瑶 我家那闺女#期待演员张月更多的作品和大家见面呀！张月主演宣纸非遗大剧《种墨园》正在🐑热播！！ ​ 141 325 2701",
+          "normalization": {
+            "title_source": "seed_title",
+            "content_source": "weibo_text_node",
+            "legacy_card_recovered": true
+          },
+          "capture_method": "weibo_search_card",
+          "evidence_role": "source_post_summary"
+        },
+        {
+          "platform": "weibo",
+          "title": "微博正文 - 微博",
+          "url": "https://weibo.com/1773434120/R8O7CjTg6?refer_flag=1001030103_",
+          "content": "首页 全部关注 最新微博 特别关注 好友圈 自定义分组 管理 名人明星 同事 同学 悄悄关注 返回 同福嗑栈 公开 同福嗑栈 26-7-15 17:17 发布于 山西 关注 张月将飞行陈瑶我家那闺女录制！对接确认张月飞行行程真，形式为多人录制，且张慧雯姐姐回复过粉丝下次羊村聚会很快了~ #张月飞行陈瑶我家那闺女录制##张月飞行陈瑶我家那闺女# ​​​ 点赞是美意，赞赏是鼓励 为TA助威 129 623 4.3万 分享这条博文 同时转发 评论 按热度 按时间 无欲无求养生人 :那就期待瑶月 26-7-15 18:24 来自江苏 180 无欲无求养生人 :@同福嗑栈 26-7-15 18:24 来自江苏 8 CoCo零可:张月被邀请也是节目组邀请，跟任何人无关，怪不得那天被节目组留下来聊了四十多分钟呢，人缘真好🩵🩵 26-7-15 18:07 来自广东 199 summerz不止在夏天出现:期待瑶月💜 26-7-15 18:17 来自辽宁 198 超级害羞腼腆脆弱版性感母蟑螂:期待张月陈瑶💜 瑶瑶月月玩得开心💜 26-7-15 18:26 来自马来西亚 132 超级害羞腼腆脆弱版性感母蟑螂:@同福嗑栈 26-7-15 18:26 来自马来西亚 6 月台留白:羊村小队玩的开心💜 26-7-15 18:03 来自江苏 105 翊心向张逐月 :年度队长张月实至名归，by5团聚之后羊村也来邀约，果然人美心善对每一个队伍都用心负责好评满满～ 26-7-15 18:06 来自河南 116 Viviansone:可以让彼此开心的人就应该一起呀💜支持交友自由💜支持快乐自由！ 26-7-15 18:23 来自四川 121 安得油:月月人真好，原来那天🥭找月聊40分钟是这个呀 26-7-15 18:04 来自湖北 102 ZariOOO:期待张月 26-7-15 17:59 来自广东 94 在黎明沦陷:张月人真好，重情重义的满分队长🩵🩵🩵 26-7-15 18:06 来自贵州 95 随意seC:狠狠期待我们瑶月咯💜 26-7-15 18:06 来自贵州 73 随意seC:@同福嗑栈 26-7-15 18:06 来自贵州 5 邀约好梦my :期待月月瑶瑶哦💜💜 26-7-15 18:31 来自湖南 65 邀约好梦my :@同福嗑栈 26-7-15 18:31 来自湖南 1 凯瑞恩y:期待陈瑶张月💜还有羊村小队 26-7-15 18:22 来自河北 75 xiaoxin_新:张月很真诚啊，浪姐所有姐姐都很喜欢她 26-7-15 18:03 来自浙江 88",
+          "author": "同福嗑栈",
+          "published_at": "26-7-15 17:17",
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://weibo.com/1773434120/R8O7CjTg6?refer_flag=1001030103_",
+          "source_page_title": "微博正文 - 微博"
+        },
+        {
+          "platform": "douyin",
+          "title": "陈瑶《我家那闺女2026》录制路透#陈瑶 #我家那闺女 #我家那闺女2026 #综艺#路透 - 抖音",
+          "url": "https://www.douyin.com/video/7662686940491342501",
+          "content": "00:07 / 01:28 倍速 智能 清屏 连播",
+          "author": "",
+          "published_at": "00:07 / 01:28",
+          "captured_at": "2026-07-15T19:17:13.445519+08:00",
+          "capture_method": "dom_detail_page",
+          "evidence_role": "detail_page",
+          "source_page_url": "https://www.douyin.com/video/7662686940491342501",
+          "source_page_title": "陈瑶《我家那闺女2026》录制路透#陈瑶 #我家那闺女 #我家那闺女2026 #综艺#路透 - 抖音"
+        }
+      ],
+      "videos": [
+        {
+          "platform": "douyin",
+          "title": "陈瑶《我家那闺女2026》录制路透#陈瑶 #我家那闺女 #我家那闺女2026 #综艺#路透 - 抖音",
+          "url": "https://www.douyin.com/video/7662686940491342501",
+          "cover_url": "",
+          "author": "",
+          "duration": 88.213,
+          "stats": {},
+          "download_status": "metadata_only",
+          "local_path": "",
+          "tool": "browser_cdp",
+          "captured_at": "2026-07-15T19:17:13.445519+08:00",
+          "capture_method": "dom",
+          "source_url": "https://www.douyin.com/video/7662686940491342501",
+          "evidence_role": "source_video"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://wx4.sinaimg.cn/orj360/69b47508ly1if4snezwnzj20xi0k8gmk.jpg",
+          "source_url": "https://weibo.com/1773434120/R8O7CjTg6?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 447,
+          "height": 270,
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/69b47508ly1if4snov9coj20uj0efwfs.jpg",
+          "source_url": "https://weibo.com/1773434120/R8O7CjTg6?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 572,
+          "height": 270,
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/69b47508ly1if4snf9w2oj20h008o0su.jpg",
+          "source_url": "https://weibo.com/1773434120/R8O7CjTg6?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 530,
+          "height": 270,
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx2.sinaimg.cn/orj360/69b47508ly1if4sp7ojk6j20u00ypdj9.jpg",
+          "source_url": "https://weibo.com/1773434120/R8O7CjTg6?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 416,
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx4.sinaimg.cn/orj360/47872450gy1if4txrkzjdj21ex24fe1s.jpg",
+          "source_url": "https://weibo.com/1200038992/R8OoYuJmm?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 540,
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "url": "https://wx3.sinaimg.cn/orj360/006jfUHWgy1if4tzslknxj31jk223ngf.jpg",
+          "source_url": "https://weibo.com/5781340284/R8OqbBjIq?refer_flag=1001030103_",
+          "platform": "weibo",
+          "width": 360,
+          "height": 480,
+          "captured_at": "2026-07-15T19:16:53.283533+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "comments": [
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662686940491342501",
+          "content": "你有脚气 ... 灿灿和瑶瑶两个人都已经让这个节目变成直播一样了 37分钟前·浙江 11 分享 回复 缕呀捋 ... 真的录了闺女啊，期待期待 16分钟前·安徽 0 分享 回复 吃颗蓝莓 ... 好想快点看到 8分钟前·安徽 0 分享 回复 暂时没有更多评论",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:17:13.445519+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662686940491342501",
+          "content": "你有脚气 ... 灿灿和瑶瑶两个人都已经让这个节目变成直播一样了 37分钟前·浙江 11 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:17:13.445519+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662686940491342501",
+          "content": "缕呀捋 ... 真的录了闺女啊，期待期待 16分钟前·安徽 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:17:13.445519+08:00",
+          "capture_method": "dom"
+        },
+        {
+          "platform": "douyin",
+          "source_url": "https://www.douyin.com/video/7662686940491342501",
+          "content": "吃颗蓝莓 ... 好想快点看到 8分钟前·安徽 0 分享 回复",
+          "author": "",
+          "comment_id": "",
+          "published_at": "",
+          "like_count": 0,
+          "captured_at": "2026-07-15T19:17:13.445519+08:00",
+          "capture_method": "dom"
+        }
+      ],
+      "platform_statuses": [
+        {
+          "platform": "weibo",
+          "status": "success"
+        },
+        {
+          "platform": "douyin",
+          "status": "partial_failed"
+        },
+        {
+          "platform": "xiaohongshu",
+          "status": "empty"
+        },
+        {
+          "platform": "kuaishou",
+          "status": "empty"
+        }
+      ],
+      "failures": [
+        {
+          "platform": "douyin",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:1"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:4"
+        },
+        {
+          "platform": "xiaohongshu",
+          "stage": "search",
+          "status": "empty",
+          "reason": "only_stale_results"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:3"
+        },
+        {
+          "platform": "kuaishou",
+          "stage": "search",
+          "status": "empty",
+          "reason": "stale_filtered:3"
+        }
+      ],
+      "warnings": [
+        {
+          "platform": "weibo",
+          "stage": "comments",
+          "status": "empty",
+          "reason": "no_real_comment_nodes_detected"
+        }
+      ],
+      "evidence_level": "multi_platform",
+      "claim_status": "confirmed",
+      "requires_review": false,
+      "admission_reason": "multi_platform_direct_evidence",
+      "independent_url_count": 11,
+      "risk_reasons": [],
+      "source_attribution": {
+        "hotspot_source": "Weibo-Hot-Realtime",
+        "hotspot_url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%9C%88%E9%99%88%E7%91%B6%20%E6%88%91%E5%AE%B6%E9%82%A3%E9%97%BA%E5%A5%B3&t=31&band_rank=16&Refer=top",
+        "hotspot_rank": 16,
+        "matched_platforms": [
+          "weibo",
+          "douyin"
+        ]
+      }
+    }
+  ],
+  "platform_statuses": [
+    {
+      "topic": "功夫女足 换片源",
+      "platform": "weibo",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "功夫女足 换片源",
+      "platform": "douyin",
+      "status": "success"
+    },
+    {
+      "topic": "功夫女足 换片源",
+      "platform": "xiaohongshu",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "功夫女足 换片源",
+      "platform": "kuaishou",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "曝功夫女足被偷票房",
+      "platform": "weibo",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "曝功夫女足被偷票房",
+      "platform": "douyin",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "曝功夫女足被偷票房",
+      "platform": "xiaohongshu",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "曝功夫女足被偷票房",
+      "platform": "kuaishou",
+      "status": "empty"
+    },
+    {
+      "topic": "百花杀",
+      "platform": "weibo",
+      "status": "success"
+    },
+    {
+      "topic": "百花杀",
+      "platform": "douyin",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "百花杀",
+      "platform": "xiaohongshu",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "百花杀",
+      "platform": "kuaishou",
+      "status": "empty"
+    },
+    {
+      "topic": "张月陈瑶 我家那闺女",
+      "platform": "weibo",
+      "status": "success"
+    },
+    {
+      "topic": "张月陈瑶 我家那闺女",
+      "platform": "douyin",
+      "status": "partial_failed"
+    },
+    {
+      "topic": "张月陈瑶 我家那闺女",
+      "platform": "xiaohongshu",
+      "status": "empty"
+    },
+    {
+      "topic": "张月陈瑶 我家那闺女",
+      "platform": "kuaishou",
+      "status": "empty"
+    }
+  ],
+  "failures": [
+    {
+      "platform": "weibo",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:1"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "detail",
+      "status": "blocked",
+      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:2"
+    },
+    {
+      "platform": "weibo",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:1"
+    },
+    {
+      "platform": "douyin",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:2"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:1"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "detail",
+      "status": "blocked",
+      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "no_valid_search_results"
+    },
+    {
+      "platform": "douyin",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:1"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:2"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "detail",
+      "status": "blocked",
+      "reason": "light_mode_skip_detail_to_avoid_secondary_confirmation"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:4"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:4"
+    },
+    {
+      "platform": "douyin",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:1"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:4"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "search",
+      "status": "empty",
+      "reason": "only_stale_results"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:3"
+    },
+    {
+      "platform": "kuaishou",
+      "stage": "search",
+      "status": "empty",
+      "reason": "stale_filtered:3"
+    }
+  ],
+  "warnings": [
+    {
+      "platform": "weibo",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "weibo",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "weibo",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "xiaohongshu",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    },
+    {
+      "platform": "weibo",
+      "stage": "comments",
+      "status": "empty",
+      "reason": "no_real_comment_nodes_detected"
+    }
+  ]
 }
