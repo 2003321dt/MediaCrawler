@@ -18,8 +18,14 @@ $settings = New-ScheduledTaskSettingsSet `
     -MultipleInstances IgnoreNew `
     -StartWhenAvailable `
     -DontStopIfGoingOnBatteries
+$referenceTask = Get-ScheduledTask -TaskName "ScraplingEvidenceDaily" -ErrorAction SilentlyContinue
+$userId = if ($referenceTask -and $referenceTask.Principal.UserId) {
+    $referenceTask.Principal.UserId
+} else {
+    $env:USERNAME
+}
 $principal = New-ScheduledTaskPrincipal `
-    -UserId "$env:USERDOMAIN\$env:USERNAME" `
+    -UserId $userId `
     -LogonType Interactive `
     -RunLevel Limited
 
