@@ -60,24 +60,33 @@ try {
     $result.trigger_status = [string]$trigger.status
 
     $deadline = [DateTimeOffset]::UtcNow.AddSeconds($MaxWaitSeconds)
+    $observedCurrentRun = $false
     do {
         Start-Sleep -Seconds $PollSeconds
         $status = Invoke-RestMethod -Uri "$ExecutorUrl/status?ts=$([DateTimeOffset]::UtcNow.ToUnixTimeSeconds())" -TimeoutSec 90
         $result.executor_status = [string]$status.executor.status
+        $executorStarted = [DateTimeOffset]::MinValue
+        if ([DateTimeOffset]::TryParse([string]$status.executor.started_at, [ref]$executorStarted) -and $executorStarted -ge $startedAt.AddMinutes(-1)) {
+            $observedCurrentRun = $true
+        }
         if ($status.latest) {
             $result.output_status = [string]$status.latest.status
             $result.output_finished_at = [string]$status.latest.finished_at
             $result.items = @($status.latest.items).Count
             $result.errors = @($status.latest.errors).Count
+            $observedOutputTime = [DateTimeOffset]::MinValue
+            if ([DateTimeOffset]::TryParse($result.output_finished_at, [ref]$observedOutputTime) -and $observedOutputTime -ge $startedAt.AddMinutes(-1)) {
+                $observedCurrentRun = $true
+            }
         }
-        $running = $result.executor_status -in @("running", "never_run")
+        $running = (-not $observedCurrentRun) -or $result.executor_status -in @("running", "never_run")
     } while ($running -and [DateTimeOffset]::UtcNow -lt $deadline)
 
     if ($running) {
         throw "executor did not finish within $MaxWaitSeconds seconds"
     }
 
-    $raw = Invoke-RestMethod -Uri "$rawUrl?ts=$([DateTimeOffset]::UtcNow.ToUnixTimeSeconds())" -TimeoutSec 90
+    $raw = Invoke-RestMethod -Uri "${rawUrl}?ts=$([DateTimeOffset]::UtcNow.ToUnixTimeSeconds())" -TimeoutSec 90
     $result.output_status = [string]$raw.status
     $result.output_finished_at = [string]$raw.finished_at
     $result.items = @($raw.items).Count
