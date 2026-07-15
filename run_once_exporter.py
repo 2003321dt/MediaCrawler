@@ -12,13 +12,17 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from uuid import uuid4
 
 import config
 import main as crawler_main
+from executor_contract import filter_recent_items
 
 
 DEFAULT_PLATFORMS = ("bili", "tieba", "zhihu")
-DEFAULT_KEYWORDS = "电视剧,综艺,短剧,热播,定档,开播"
+DEFAULT_KEYWORDS = (
+    "\u7535\u89c6\u5267,\u7efc\u827a,\u77ed\u5267,\u70ed\u64ad,\u5b9a\u6863,\u5f00\u64ad"
+)
 OUTPUT_PATH = Path(os.getenv("MC_OUTPUT", "outputs/mediacrawler/latest-hotspots.json"))
 SAVE_DATA_PATH = Path(os.getenv("MC_SAVE_DATA_PATH", "data/railway-run"))
 OUTPUT_REPO = os.getenv("OUTPUT_REPO", "")
@@ -175,7 +179,7 @@ def normalize_item(raw: dict[str, Any], platform: str) -> dict[str, Any]:
         "title": title,
         "url": url,
         "summary": summary,
-        "published_at": first(raw, "published_at", "pub_time", "publish_time", "created_at", "create_time", default=now_iso()),
+        "published_at": first(raw, "published_at", "pub_time", "publish_time", "created_at", "create_time", default=""),
         "hot_score": float(first(raw, "hot_score", "score", "heat", "rank_score", default=0) or 0),
         "category": "hotspot",
         "raw_payload": {
@@ -236,18 +240,29 @@ async def publish_to_github(payload: dict[str, Any]) -> dict[str, Any]:
 
 
 async def main() -> None:
+    global SAVE_DATA_PATH
+    run_id = str(uuid4())
+    started_at = now_iso()
+    SAVE_DATA_PATH = SAVE_DATA_PATH / run_id
+    SAVE_DATA_PATH.mkdir(parents=True, exist_ok=True)
     selected_platforms = platforms()
     results = []
     for platform in selected_platforms:
         results.append(await run_platform(platform))
-    items = read_jsonl_items()
+    raw_items = read_jsonl_items()
+    freshness_hours = int(os.getenv("MC_FRESHNESS_HOURS", "24"))
+    items, freshness = filter_recent_items(raw_items, window_hours=freshness_hours)
     failures = [result for result in results if result["status"] != "success"]
     status = "success" if items and not failures else "partial_failed" if items else "failed"
     payload = {
         "status": status,
         "source": "Railway-MediaCrawler",
         "source_role": "external_enrichment",
+        "run_id": run_id,
+        "started_at": started_at,
         "finished_at": now_iso(),
+        "freshness_window_hours": freshness_hours,
+        "freshness": freshness,
         "platforms": selected_platforms,
         "items": items,
         "errors": failures,
