@@ -2,7 +2,16 @@
   "status": "partial_failed",
   "source": "Railway-MediaCrawler",
   "source_role": "external_enrichment",
-  "finished_at": "2026-07-15T11:12:47.688796+00:00",
+  "run_id": "71d95458-5b27-4ca1-b487-25700d14a954",
+  "started_at": "2026-07-15T11:29:50.763830+00:00",
+  "finished_at": "2026-07-15T11:33:52.061594+00:00",
+  "freshness_window_hours": 24,
+  "freshness": {
+    "input": 20,
+    "kept": 2,
+    "dropped_old": 18,
+    "dropped_invalid_time": 0
+  },
   "platforms": [
     "bili",
     "tieba",
@@ -13,10 +22,10 @@
       "source": "MediaCrawler-tieba",
       "source_role": "external_enrichment",
       "platform": "tieba",
-      "title": "为什么有些明星打死不碰综艺！",
-      "url": "https://tieba.baidu.com/p/10764950211",
-      "summary": "杨紫曾亲口说，近两年不碰综艺了。你以为是清高？错，背后一笔账算得比谁都精。 胡歌一个综艺报价1个亿，他扭头就走。靳东，8000万真人秀递到手上，直接推开。张译，片酬稳稳站住2000万，就是不去综艺里跟你嘻嘻哈哈。他们图什么？ 图的是你看见胡歌，就只认他是梅长苏，而不是某个游戏里的傻大哥。图的是你看见张译，就信他兜里真揣着本孙子兵法，而不是综艺里插科打诨的嘉宾。演员的神秘感，就是他片酬的底气。综艺赚的是快钱，几个月几千万到手，但你在观众心里，也从某某角色变成了综艺咖，再演戏，观众一秒出戏。 在我看来，杨紫这步棋走得太对了，不是放弃了几千万的综艺快钱，而是保住了未来几十部戏，几十个角色的上亿价值。她是用的克制，赌一个更长的未来。",
-      "published_at": "2026-06-03 00:32:43",
+      "title": "已经开始期待下次综艺了",
+      "url": "https://tieba.baidu.com/p/10868805355",
+      "summary": "23期小综艺还有吗，这次能把ccb hzx都找来吗",
+      "published_at": "2026-07-14T17:08:18+00:00",
       "hot_score": 0.0,
       "category": "hotspot",
       "raw_payload": {
@@ -24,186 +33,21 @@
         "source_kind": "railway_mediacrawler",
         "platform": "tieba",
         "raw": {
-          "note_id": "10764950211",
-          "title": "为什么有些明星打死不碰综艺！",
-          "desc": "杨紫曾亲口说，近两年不碰综艺了。你以为是清高？错，背后一笔账算得比谁都精。 胡歌一个综艺报价1个亿，他扭头就走。靳东，8000万真人秀递到手上，直接推开。张译，片酬稳稳站住2000万，就是不去综艺里跟你嘻嘻哈哈。他们图什么？ 图的是你看见胡歌，就只认他是梅长苏，而不是某个游戏里的傻大哥。图的是你看见张译，就信他兜里真揣着本孙子兵法，而不是综艺里插科打诨的嘉宾。演员的神秘感，就是他片酬的底气。综艺赚的是快钱，几个月几千万到手，但你在观众心里，也从某某角色变成了综艺咖，再演戏，观众一秒出戏。 在我看来，杨紫这步棋走得太对了，不是放弃了几千万的综艺快钱，而是保住了未来几十部戏，几十个角色的上亿价值。她是用的克制，赌一个更长的未来。",
-          "note_url": "https://tieba.baidu.com/p/10764950211",
-          "publish_time": "2026-06-03 00:32:43",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.e24e63a0.5Ck4iKtwC3yJNQHuV0qBbA%3Ft%3D1784113848",
-          "user_nickname": "唠娱专业户",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.e24e63a0.5Ck4iKtwC3yJNQHuV0qBbA?t=1784113848",
-          "tieba_name": "娱圈大瓜吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E5%A8%B1%E5%9C%88%E5%A4%A7%E7%93%9C",
-          "total_replay_num": 122,
-          "total_replay_page": 6,
-          "ip_location": "山东",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784113886364
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "23期综艺，谁更上镜？",
-      "url": "https://tieba.baidu.com/p/10865379364",
-      "summary": "我的评价是综艺拉完了，还是来投一下票吧。 从体态、妆容、穿着等方面综合评价。",
-      "published_at": "2026-07-13 12:54:09",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10865379364",
-          "title": "23期综艺，谁更上镜？",
-          "desc": "我的评价是综艺拉完了，还是来投一下票吧。 从体态、妆容、穿着等方面综合评价。",
-          "note_url": "https://tieba.baidu.com/p/10865379364",
-          "publish_time": "2026-07-13 12:54:09",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.3eca5e43.ie93IT9Ibi6qR8T_A3J-4g%3Ft%3D1784113852",
-          "user_nickname": "英俊球手",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.3eca5e43.ie93IT9Ibi6qR8T_A3J-4g?t=1784113852",
+          "note_id": "10868805355",
+          "title": "已经开始期待下次综艺了",
+          "desc": "23期小综艺还有吗，这次能把ccb hzx都找来吗",
+          "note_url": "https://tieba.baidu.com/p/10868805355",
+          "publish_time": "2026-07-15 01:08:18",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.23032a3.i3Hobll9xdG3lczv9tZ-WQ%3Ft%3D1784115118",
+          "user_nickname": "护栏2028",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.23032a3.i3Hobll9xdG3lczv9tZ-WQ?t=1784115118",
           "tieba_name": "生个女孩吧",
           "tieba_link": "https://tieba.baidu.com/f?kw=%E7%94%9F%E4%B8%AA%E5%A5%B3%E5%AD%A9",
-          "total_replay_num": 101,
-          "total_replay_page": 7,
-          "ip_location": "广东",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784113886463
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "直播综艺是用来展现自己，吸粉的，不是用来赢的，更不是应付工作的",
-      "url": "https://tieba.baidu.com/p/10865501356",
-      "summary": "一个好的综艺，互动＞＞竞技输赢，不是真特么让你们来玩游戏比个输赢的好吧image_emoticon6 不管是凹人设还是本性如此，都应该积极一些，这场综艺的独狼太多了，互动性太差（此处点名批评最后一个节目的五匹狼）。 另外，点名批评右边的几位，别人在前边跳舞的时候，不打call行，聊天也行，但要聊天也请关麦聊天image_emoticon12。前边在跳星光环绕的孤岛，后边在开麦巨大声音发笑聊天，观感很差。 最后，策划拉完了，结束好歹跳一首大歌再走。",
-      "published_at": "2026-07-13 14:12:01",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10865501356",
-          "title": "直播综艺是用来展现自己，吸粉的，不是用来赢的，更不是应付工作的",
-          "desc": "一个好的综艺，互动＞＞竞技输赢，不是真特么让你们来玩游戏比个输赢的好吧image_emoticon6 不管是凹人设还是本性如此，都应该积极一些，这场综艺的独狼太多了，互动性太差（此处点名批评最后一个节目的五匹狼）。 另外，点名批评右边的几位，别人在前边跳舞的时候，不打call行，聊天也行，但要聊天也请关麦聊天image_emoticon12。前边在跳星光环绕的孤岛，后边在开麦巨大声音发笑聊天，观感很差。 最后，策划拉完了，结束好歹跳一首大歌再走。",
-          "note_url": "https://tieba.baidu.com/p/10865501356",
-          "publish_time": "2026-07-13 14:12:01",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.8fc10370.REz_A3GPYDFlapsP-qaAYQ%3Ft%3D1784113865",
-          "user_nickname": "十点一八",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.8fc10370.REz_A3GPYDFlapsP-qaAYQ?t=1784113865",
-          "tieba_name": "生个女孩吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E7%94%9F%E4%B8%AA%E5%A5%B3%E5%AD%A9",
-          "total_replay_num": 64,
-          "total_replay_page": 2,
-          "ip_location": "广东",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784113886464
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "血缘算什么？梁天20年护着宋丹丹母子",
-      "url": "https://tieba.baidu.com/p/10865262348",
-      "summary": "巴图在综艺里随口一声“二舅”，听得特别自然，梁天立马笑着认下这个外甥，还打趣巴图总跑去他家蹭饭。 看着两人相处融洽，细品才懂，这份亲近是二十多年实打实的真心熬出来的。当年宋丹丹跌入人生低谷，整日闭门不出，是梁天风雨无阻上门陪伴，帮忙接送巴图，替她挡掉各路的采访，硬生生把低谷里的母子俩拉了出来，这份雪中送炭的情分是格外难得。 反观英达，当年一句“怕介入太多引来闲话”听着体面，实则透着疏离。 巴图成长比较关键的十四年，亲生父亲几乎缺席，反倒是没有血缘的梁天，成了孩子的依靠。",
-      "published_at": "2026-07-13 11:46:17",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10865262348",
-          "title": "血缘算什么？梁天20年护着宋丹丹母子",
-          "desc": "巴图在综艺里随口一声“二舅”，听得特别自然，梁天立马笑着认下这个外甥，还打趣巴图总跑去他家蹭饭。 看着两人相处融洽，细品才懂，这份亲近是二十多年实打实的真心熬出来的。当年宋丹丹跌入人生低谷，整日闭门不出，是梁天风雨无阻上门陪伴，帮忙接送巴图，替她挡掉各路的采访，硬生生把低谷里的母子俩拉了出来，这份雪中送炭的情分是格外难得。 反观英达，当年一句“怕介入太多引来闲话”听着体面，实则透着疏离。 巴图成长比较关键的十四年，亲生父亲几乎缺席，反倒是没有血缘的梁天，成了孩子的依靠。",
-          "note_url": "https://tieba.baidu.com/p/10865262348",
-          "publish_time": "2026-07-13 11:46:17",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.9a7a5738.-LxZn888rUBdyjAhMCUbNw%3Ft%3D1784113868",
-          "user_nickname": "浅滩️",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.9a7a5738.-LxZn888rUBdyjAhMCUbNw?t=1784113868",
-          "tieba_name": "明星八卦吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E6%98%8E%E6%98%9F%E5%85%AB%E5%8D%A6",
-          "total_replay_num": 104,
-          "total_replay_page": 5,
-          "ip_location": "广西",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784113886464
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "周一到四每队纯MC小综艺可行吗？",
-      "url": "https://tieba.baidu.com/p/10867142796",
-      "summary": "昨天的小综艺就当非公演日看个消遣，很佩服有人还会去分析讨论各种细节，可见这河连总选期间都没啥可聊的，经历过瑶D大战、孙陆大战的都不会看得上这次小综艺。 这次小综艺策划投入大但收效小，游戏还费成员体力，不适合当长期企划。现在可在中心拍综艺很方便，要利用起来。而且中心拍综艺，没有现场观众氛围，一个队内的熟人才容易玩得起来，有综艺效果。我设想周一到四的非公演日，每队下楼直播讲mc小综艺，可分组或全队mc，讲一个话题或玩游戏，投入小收效大，比起这次小综艺好多了。",
-      "published_at": "2026-07-14 07:16:35",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10867142796",
-          "title": "周一到四每队纯MC小综艺可行吗？",
-          "desc": "昨天的小综艺就当非公演日看个消遣，很佩服有人还会去分析讨论各种细节，可见这河连总选期间都没啥可聊的，经历过瑶D大战、孙陆大战的都不会看得上这次小综艺。 这次小综艺策划投入大但收效小，游戏还费成员体力，不适合当长期企划。现在可在中心拍综艺很方便，要利用起来。而且中心拍综艺，没有现场观众氛围，一个队内的熟人才容易玩得起来，有综艺效果。我设想周一到四的非公演日，每队下楼直播讲mc小综艺，可分组或全队mc，讲一个话题或玩游戏，投入小收效大，比起这次小综艺好多了。",
-          "note_url": "https://tieba.baidu.com/p/10867142796",
-          "publish_time": "2026-07-14 07:16:35",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.a8df248e.JjY2-R80pMgtFuAx2N_nGA%3Ft%3D1784113870",
-          "user_nickname": "陆风小蔡",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.a8df248e.JjY2-R80pMgtFuAx2N_nGA?t=1784113870",
-          "tieba_name": "生个女孩吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E7%94%9F%E4%B8%AA%E5%A5%B3%E5%AD%A9",
-          "total_replay_num": 34,
-          "total_replay_page": 2,
-          "ip_location": "广东",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784113886470
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "蛤蟆不上综艺是对的 你想啊",
-      "url": "https://tieba.baidu.com/p/10866602056",
-      "summary": "一个长的丑总躲避镜头的人 腿粗的能踢足球的人 话都不会说的人 哪个综艺愿意要这种人？？？",
-      "published_at": "2026-07-14 03:29:40",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10866602056",
-          "title": "蛤蟆不上综艺是对的 你想啊",
-          "desc": "一个长的丑总躲避镜头的人 腿粗的能踢足球的人 话都不会说的人 哪个综艺愿意要这种人？？？",
-          "note_url": "https://tieba.baidu.com/p/10866602056",
-          "publish_time": "2026-07-14 03:29:40",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.2220b1cc.yK9h73T4WZUjolukUd1cog%3Ft%3D1784113873",
-          "user_nickname": "💯你选不出好团",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.2220b1cc.yK9h73T4WZUjolukUd1cog?t=1784113873",
-          "tieba_name": "生个女孩吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E7%94%9F%E4%B8%AA%E5%A5%B3%E5%AD%A9",
-          "total_replay_num": 18,
+          "total_replay_num": 19,
           "total_replay_page": 1,
-          "ip_location": "黑龙江",
+          "ip_location": "北京",
           "source_keyword": "综艺",
-          "last_modify_ts": 1784113886559
+          "last_modify_ts": 1784115136961
         }
       }
     },
@@ -211,10 +55,10 @@
       "source": "MediaCrawler-tieba",
       "source_role": "external_enrichment",
       "platform": "tieba",
-      "title": "锐评今天的23期综艺，骂得比较狠。",
-      "url": "https://tieba.baidu.com/p/10865706880",
-      "summary": "省流：混乱不堪控场、不知所云的策划，完全浪费了话题和关注度如此大的一期综艺。如同敲锣打鼓，端出一盘带着冰碴的预制菜。全靠23期的自身热度，以及满心期待的观众在发力。节目效果不如火烤一只草履虫。 上芭自从更换设备之后，可以相当清晰地欣赏小偶像的美颜。而上上周的第一期综艺，也是差不多的清晰度。但这场为了给玩游戏腾空间，选择让小偶像一字排开，坐在远离镜头的窗帘之前，拍摄到的小偶像是隐约的、失真的。观众期待的穿私服、有日常感的小偶像，在镜头里糊成了一团。 如果说这是为了游戏而作出的牺牲，那么从开场摘面具、到中场跳大绳、结尾穿自制衣服走秀的游戏环节，就是一场彻头彻尾的灾难。不断重复的低俗旋律（大东北）、毫无效果的扮丑装唐（花裙子、垃圾袋）、令人困惑的跳绳环节（除了消耗体力有任何意义吗）、混乱不看的记分准则，让这个游戏环节充满了令人尴尬的停顿、空白。 小偶像之间没有互相搭话，控场无法在尴尬时圆场，徒留十个人在场上面面相觑。典型的就是谈论队名环节，十个人嘀嘀咕咕了将近一分钟，最后蛄蛹出了两个无趣的队名，甚至在此之前，观众都不知道她们是要五人分为一队，还是两人分为一组。 回顾整个游戏环节，除了李婷展示体育生天赋，一次次争先按铃这一环节，稍微令大家感到有趣，其他的环节始终萦绕着不知所云的尴尬气氛：她们到底在干啥？争夺这些时尚单品有什么用？用一堆垃圾组成衣服走秀，真的有人想看吗？ 如果stf或者外包团队不懂如何制作令河粉感兴趣的综艺，我可以提一些建议： 1.如果想展示23期的美貌，就让她们半圆围坐，镜头拉近点。风格可以偏向语言类谈话，话题很多，比如大家最好奇的23期之间的小关系，小秘密。对彼此的初始和现在的印象等等。梦之门经历了这儿多事情，创造了这么多有趣的梗、有对抗的故事，呈现出来会相当精彩。 2.如果想展示23期的歌舞，就让她们多跳几首梦之门，我相信没人不爱看。即使只是静静地坐在那里，看经历蜕变的她们，跳出曾经的旋律，也令人感动。23期返场、乃至独立组队的话题一直未曾停歇，因为真的有很多人，是被这套公演和她们的羁绊纠缠吸引而来的。 3.如果想展示23期的综艺性，就多玩点有趣的游戏，经典的国王游戏 闻香识女人等。尺度大些也无妨，因为这是直播，不是需要报审的公演。跳绳和摘面具这种游戏到底是何意味？ 当然不可否认，23期自身也有一些问题，比如没有控场、放不开、搭话少。但她们的底子是好的（否则不会被称为黄金23期），也有很多故事和素质值得呈现，开直播前一千多的在线人数，不断刷屏的开门弹幕，就是证明。 总而言之，偶像很好，弹幕很有意思，其他拉完了。",
-      "published_at": "2026-07-13 16:45:38",
+      "title": "如何评价faker",
+      "url": "https://tieba.baidu.com/p/10869072489",
+      "summary": "队伍战绩这么差自己状态也不行不想着努力奋斗反而去拍综艺恰烂钱",
+      "published_at": "2026-07-14T18:59:23+00:00",
       "hot_score": 0.0,
       "category": "hotspot",
       "raw_payload": {
@@ -222,155 +66,63 @@
         "source_kind": "railway_mediacrawler",
         "platform": "tieba",
         "raw": {
-          "note_id": "10865706880",
-          "title": "锐评今天的23期综艺，骂得比较狠。",
-          "desc": "省流：混乱不堪控场、不知所云的策划，完全浪费了话题和关注度如此大的一期综艺。如同敲锣打鼓，端出一盘带着冰碴的预制菜。全靠23期的自身热度，以及满心期待的观众在发力。节目效果不如火烤一只草履虫。 上芭自从更换设备之后，可以相当清晰地欣赏小偶像的美颜。而上上周的第一期综艺，也是差不多的清晰度。但这场为了给玩游戏腾空间，选择让小偶像一字排开，坐在远离镜头的窗帘之前，拍摄到的小偶像是隐约的、失真的。观众期待的穿私服、有日常感的小偶像，在镜头里糊成了一团。 如果说这是为了游戏而作出的牺牲，那么从开场摘面具、到中场跳大绳、结尾穿自制衣服走秀的游戏环节，就是一场彻头彻尾的灾难。不断重复的低俗旋律（大东北）、毫无效果的扮丑装唐（花裙子、垃圾袋）、令人困惑的跳绳环节（除了消耗体力有任何意义吗）、混乱不看的记分准则，让这个游戏环节充满了令人尴尬的停顿、空白。 小偶像之间没有互相搭话，控场无法在尴尬时圆场，徒留十个人在场上面面相觑。典型的就是谈论队名环节，十个人嘀嘀咕咕了将近一分钟，最后蛄蛹出了两个无趣的队名，甚至在此之前，观众都不知道她们是要五人分为一队，还是两人分为一组。 回顾整个游戏环节，除了李婷展示体育生天赋，一次次争先按铃这一环节，稍微令大家感到有趣，其他的环节始终萦绕着不知所云的尴尬气氛：她们到底在干啥？争夺这些时尚单品有什么用？用一堆垃圾组成衣服走秀，真的有人想看吗？ 如果stf或者外包团队不懂如何制作令河粉感兴趣的综艺，我可以提一些建议： 1.如果想展示23期的美貌，就让她们半圆围坐，镜头拉近点。风格可以偏向语言类谈话，话题很多，比如大家最好奇的23期之间的小关系，小秘密。对彼此的初始和现在的印象等等。梦之门经历了这儿多事情，创造了这么多有趣的梗、有对抗的故事，呈现出来会相当精彩。 2.如果想展示23期的歌舞，就让她们多跳几首梦之门，我相信没人不爱看。即使只是静静地坐在那里，看经历蜕变的她们，跳出曾经的旋律，也令人感动。23期返场、乃至独立组队的话题一直未曾停歇，因为真的有很多人，是被这套公演和她们的羁绊纠缠吸引而来的。 3.如果想展示23期的综艺性，就多玩点有趣的游戏，经典的国王游戏 闻香识女人等。尺度大些也无妨，因为这是直播，不是需要报审的公演。跳绳和摘面具这种游戏到底是何意味？ 当然不可否认，23期自身也有一些问题，比如没有控场、放不开、搭话少。但她们的底子是好的（否则不会被称为黄金23期），也有很多故事和素质值得呈现，开直播前一千多的在线人数，不断刷屏的开门弹幕，就是证明。 总而言之，偶像很好，弹幕很有意思，其他拉完了。",
-          "note_url": "https://tieba.baidu.com/p/10865706880",
-          "publish_time": "2026-07-13 16:45:38",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.ba1aba12._v-lJbpSW11W4HaAWLJaYQ%3Ft%3D1784113876",
-          "user_nickname": "夜阁北斗",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.ba1aba12._v-lJbpSW11W4HaAWLJaYQ?t=1784113876",
-          "tieba_name": "生个女孩吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E7%94%9F%E4%B8%AA%E5%A5%B3%E5%AD%A9",
-          "total_replay_num": 32,
-          "total_replay_page": 2,
-          "ip_location": "江苏",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784113886561
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "浅说23期和24期综艺对比",
-      "url": "https://tieba.baidu.com/p/10866954585",
-      "summary": "有人说23期没有24期综艺氛围好，在我看来这是必然的。24期出道晚，新人公演还在继续，大家之间还没有特别大人气断层，就算是秦王，也是无缘速报中报新人top16。属于一种共患难的状态。 23期完全不同，梦之门已结束2月有余，重心已经转移到各自队伍内部。为争夺新人榜，互相的竞争已经到了刺刀见红的地步。糊糊和top之间也是天然产生鸿沟。 这综艺大家看个乐呵就好image_emoticon2，谁不想看馨之卡比出续集呢image_emoticon67",
-      "published_at": "2026-07-14 05:57:50",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10866954585",
-          "title": "浅说23期和24期综艺对比",
-          "desc": "有人说23期没有24期综艺氛围好，在我看来这是必然的。24期出道晚，新人公演还在继续，大家之间还没有特别大人气断层，就算是秦王，也是无缘速报中报新人top16。属于一种共患难的状态。 23期完全不同，梦之门已结束2月有余，重心已经转移到各自队伍内部。为争夺新人榜，互相的竞争已经到了刺刀见红的地步。糊糊和top之间也是天然产生鸿沟。 这综艺大家看个乐呵就好image_emoticon2，谁不想看馨之卡比出续集呢image_emoticon67",
-          "note_url": "https://tieba.baidu.com/p/10866954585",
-          "publish_time": "2026-07-14 05:57:50",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.32f062ca.gTJpWiSANAXsp3qdCmFVWA%3Ft%3D1784113878",
-          "user_nickname": "一颗胖🌞",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.32f062ca.gTJpWiSANAXsp3qdCmFVWA?t=1784113878",
-          "tieba_name": "生个女孩吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E7%94%9F%E4%B8%AA%E5%A5%B3%E5%AD%A9",
-          "total_replay_num": 12,
-          "total_replay_page": 1,
-          "ip_location": "安徽",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784113886561
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "【综艺】乘风破浪的姐姐第一期很火爆",
-      "url": "https://tieba.baidu.com/p/6744026887",
-      "summary": "只要后期不做烂，应该就是今年夏天最红火的一档综艺了。 看了一点点，上这综艺的老姐姐也不掉价。 我们晓明节目里人设摆在那里，就是吹捧姐姐去的。 有他这个一线中生小心翼翼捧，都给姐姐们抬咖了。 白百何当初真不应该推了，根本不用担心被说什么糊咖才上。",
-      "published_at": "2020-06-12 07:50:36",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "6744026887",
-          "title": "【综艺】乘风破浪的姐姐第一期很火爆",
-          "desc": "只要后期不做烂，应该就是今年夏天最红火的一档综艺了。 看了一点点，上这综艺的老姐姐也不掉价。 我们晓明节目里人设摆在那里，就是吹捧姐姐去的。 有他这个一线中生小心翼翼捧，都给姐姐们抬咖了。 白百何当初真不应该推了，根本不用担心被说什么糊咖才上。",
-          "note_url": "https://tieba.baidu.com/p/6744026887",
-          "publish_time": "2020-06-12 07:50:36",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.3626cd35.QaqkAv59PYrRHD4cF4FW7g%3Ft%3D1784113881",
-          "user_nickname": "今天又吃西红",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.3626cd35.QaqkAv59PYrRHD4cF4FW7g?t=1784113881",
-          "tieba_name": "金像奖吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E9%87%91%E5%83%8F%E5%A5%96",
-          "total_replay_num": 405,
+          "note_id": "10869072489",
+          "title": "如何评价faker",
+          "desc": "队伍战绩这么差自己状态也不行不想着努力奋斗反而去拍综艺恰烂钱",
+          "note_url": "https://tieba.baidu.com/p/10869072489",
+          "publish_time": "2026-07-15 02:59:23",
+          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.ca848645.i_pbmII6BxZDW0K2MH2Z8A%3Ft%3D1784115126",
+          "user_nickname": "无上冲击波简自豪",
+          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.ca848645.i_pbmII6BxZDW0K2MH2Z8A?t=1784115126",
+          "tieba_name": "抗压背锅吧",
+          "tieba_link": "https://tieba.baidu.com/f?kw=%E6%8A%97%E5%8E%8B%E8%83%8C%E9%94%85",
+          "total_replay_num": 123,
           "total_replay_page": 7,
-          "ip_location": "",
+          "ip_location": "四川",
           "source_keyword": "综艺",
-          "last_modify_ts": 1784113886562
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "【综艺直播讨论】总嘟嘟恋爱发觉，akb直播解散（大雾",
-      "url": "https://tieba.baidu.com/p/3451898803",
-      "summary": "众人期待已久的节目，国内一些媒体傻傻的被迷惑的综艺 就在今日上映， 时间：2014年12月6日晚上6点（北京时间） 地址：斗鱼，你们懂的讨论，感想，请来这里，到时候一句话一图贴将会予以删除。 还请大家观看，讨论时候遵守吧规",
-      "published_at": "2014-12-06 06:53:18",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "3451898803",
-          "title": "【综艺直播讨论】总嘟嘟恋爱发觉，akb直播解散（大雾",
-          "desc": "众人期待已久的节目，国内一些媒体傻傻的被迷惑的综艺 就在今日上映， 时间：2014年12月6日晚上6点（北京时间） 地址：斗鱼，你们懂的讨论，感想，请来这里，到时候一句话一图贴将会予以删除。 还请大家观看，讨论时候遵守吧规",
-          "note_url": "https://tieba.baidu.com/p/3451898803",
-          "publish_time": "2014-12-06 06:53:18",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.b49f4f6d.y-Y1w-JAkRS5uKExsHmRDg%3Ft%3D1784113884",
-          "user_nickname": "akb48吧务组",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.b49f4f6d.y-Y1w-JAkRS5uKExsHmRDg?t=1784113884",
-          "tieba_name": "akb48吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=akb48",
-          "total_replay_num": 1109,
-          "total_replay_page": 64,
-          "ip_location": "浙江",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784113886563
+          "last_modify_ts": 1784115136966
         }
       }
     }
   ],
   "errors": [
     {
+      "platform": "bili",
+      "status": "failed_timeout",
+      "message": "platform run exceeded 90s",
+      "duration_ms": 91503
+    },
+    {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 90936
+      "duration_ms": 91191
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x7af63dfba6b0 state=finished raised DataFetchError>]",
-      "duration_ms": 57823
+      "message": "RetryError[<Future at 0x7ee4997632b0 state=finished raised DataFetchError>]",
+      "duration_ms": 58509
     }
   ],
   "runs": [
     {
       "platform": "bili",
-      "status": "success",
-      "duration_ms": 83185
+      "status": "failed_timeout",
+      "message": "platform run exceeded 90s",
+      "duration_ms": 91503
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 90936
+      "duration_ms": 91191
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x7af63dfba6b0 state=finished raised DataFetchError>]",
-      "duration_ms": 57823
+      "message": "RetryError[<Future at 0x7ee4997632b0 state=finished raised DataFetchError>]",
+      "duration_ms": 58509
     }
   ]
 }
