@@ -1,15 +1,15 @@
 {
-  "status": "partial_failed",
+  "status": "failed",
   "source": "Railway-MediaCrawler",
   "source_role": "external_enrichment",
-  "run_id": "71d95458-5b27-4ca1-b487-25700d14a954",
-  "started_at": "2026-07-15T11:29:50.763830+00:00",
-  "finished_at": "2026-07-15T11:33:52.061594+00:00",
+  "run_id": "202f76ca-5086-42a7-be7d-9ea760988df9",
+  "started_at": "2026-07-16T00:16:12.775277+00:00",
+  "finished_at": "2026-07-16T00:20:09.088697+00:00",
   "freshness_window_hours": 24,
   "freshness": {
-    "input": 20,
-    "kept": 2,
-    "dropped_old": 18,
+    "input": 10,
+    "kept": 0,
+    "dropped_old": 10,
     "dropped_invalid_time": 0
   },
   "platforms": [
@@ -17,92 +17,25 @@
     "tieba",
     "zhihu"
   ],
-  "items": [
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "已经开始期待下次综艺了",
-      "url": "https://tieba.baidu.com/p/10868805355",
-      "summary": "23期小综艺还有吗，这次能把ccb hzx都找来吗",
-      "published_at": "2026-07-14T17:08:18+00:00",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10868805355",
-          "title": "已经开始期待下次综艺了",
-          "desc": "23期小综艺还有吗，这次能把ccb hzx都找来吗",
-          "note_url": "https://tieba.baidu.com/p/10868805355",
-          "publish_time": "2026-07-15 01:08:18",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.23032a3.i3Hobll9xdG3lczv9tZ-WQ%3Ft%3D1784115118",
-          "user_nickname": "护栏2028",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.23032a3.i3Hobll9xdG3lczv9tZ-WQ?t=1784115118",
-          "tieba_name": "生个女孩吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E7%94%9F%E4%B8%AA%E5%A5%B3%E5%AD%A9",
-          "total_replay_num": 19,
-          "total_replay_page": 1,
-          "ip_location": "北京",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784115136961
-        }
-      }
-    },
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "如何评价faker",
-      "url": "https://tieba.baidu.com/p/10869072489",
-      "summary": "队伍战绩这么差自己状态也不行不想着努力奋斗反而去拍综艺恰烂钱",
-      "published_at": "2026-07-14T18:59:23+00:00",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10869072489",
-          "title": "如何评价faker",
-          "desc": "队伍战绩这么差自己状态也不行不想着努力奋斗反而去拍综艺恰烂钱",
-          "note_url": "https://tieba.baidu.com/p/10869072489",
-          "publish_time": "2026-07-15 02:59:23",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.ca848645.i_pbmII6BxZDW0K2MH2Z8A%3Ft%3D1784115126",
-          "user_nickname": "无上冲击波简自豪",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.ca848645.i_pbmII6BxZDW0K2MH2Z8A?t=1784115126",
-          "tieba_name": "抗压背锅吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E6%8A%97%E5%8E%8B%E8%83%8C%E9%94%85",
-          "total_replay_num": 123,
-          "total_replay_page": 7,
-          "ip_location": "四川",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784115136966
-        }
-      }
-    }
-  ],
+  "items": [],
   "errors": [
     {
       "platform": "bili",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91503
+      "duration_ms": 91202
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91191
+      "duration_ms": 91097
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x7ee4997632b0 state=finished raised DataFetchError>]",
-      "duration_ms": 58509
+      "message": "RetryError[<Future at 0x7ae9693d30a0 state=finished raised DataFetchError>]",
+      "duration_ms": 54002
     }
   ],
   "runs": [
@@ -110,19 +43,19 @@
       "platform": "bili",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91503
+      "duration_ms": 91202
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91191
+      "duration_ms": 91097
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x7ee4997632b0 state=finished raised DataFetchError>]",
-      "duration_ms": 58509
+      "message": "RetryError[<Future at 0x7ae9693d30a0 state=finished raised DataFetchError>]",
+      "duration_ms": 54002
     }
   ]
 }
