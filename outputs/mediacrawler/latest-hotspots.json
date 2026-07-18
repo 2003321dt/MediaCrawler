@@ -2,9 +2,9 @@
   "status": "failed",
   "source": "Railway-MediaCrawler",
   "source_role": "external_enrichment",
-  "run_id": "575b497d-4017-4721-b39c-08428f1e7eb2",
-  "started_at": "2026-07-17T00:16:12.691303+00:00",
-  "finished_at": "2026-07-17T00:20:13.184213+00:00",
+  "run_id": "86490315-7931-46c1-adb5-dbf60feac69d",
+  "started_at": "2026-07-18T00:16:11.005867+00:00",
+  "finished_at": "2026-07-18T00:20:09.504202+00:00",
   "freshness_window_hours": 24,
   "freshness": {
     "input": 10,
@@ -23,19 +23,19 @@
       "platform": "bili",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91900
+      "duration_ms": 91090
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 90988
+      "duration_ms": 90714
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x74b8ccfd8160 state=finished raised DataFetchError>]",
-      "duration_ms": 57518
+      "message": "RetryError[<Future at 0x758155c25030 state=finished raised DataFetchError>]",
+      "duration_ms": 56685
     }
   ],
   "runs": [
@@ -43,19 +43,19 @@
       "platform": "bili",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91900
+      "duration_ms": 91090
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 90988
+      "duration_ms": 90714
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x74b8ccfd8160 state=finished raised DataFetchError>]",
-      "duration_ms": 57518
+      "message": "RetryError[<Future at 0x758155c25030 state=finished raised DataFetchError>]",
+      "duration_ms": 56685
     }
   ]
 }
