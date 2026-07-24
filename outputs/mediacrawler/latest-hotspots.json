@@ -2,14 +2,14 @@
   "status": "failed",
   "source": "Railway-MediaCrawler",
   "source_role": "external_enrichment",
-  "run_id": "7e65a89e-c7d8-4c6c-9923-00e04c37696f",
-  "started_at": "2026-07-19T00:16:10.708426+00:00",
-  "finished_at": "2026-07-19T00:20:03.309070+00:00",
+  "run_id": "aa4b584a-8866-4b34-bf3e-c5a3ec36835b",
+  "started_at": "2026-07-24T00:16:10.802206+00:00",
+  "finished_at": "2026-07-24T00:20:11.632818+00:00",
   "freshness_window_hours": 24,
   "freshness": {
-    "input": 20,
+    "input": 10,
     "kept": 0,
-    "dropped_old": 20,
+    "dropped_old": 10,
     "dropped_invalid_time": 0
   },
   "platforms": [
@@ -23,19 +23,19 @@
       "platform": "bili",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91393
+      "duration_ms": 93058
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 90709
+      "duration_ms": 90846
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x79257063fe20 state=finished raised DataFetchError>]",
-      "duration_ms": 50488
+      "message": "RetryError[<Future at 0x731b4405f1c0 state=finished raised DataFetchError>]",
+      "duration_ms": 56906
     }
   ],
   "runs": [
@@ -43,19 +43,19 @@
       "platform": "bili",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91393
+      "duration_ms": 93058
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 90709
+      "duration_ms": 90846
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x79257063fe20 state=finished raised DataFetchError>]",
-      "duration_ms": 50488
+      "message": "RetryError[<Future at 0x731b4405f1c0 state=finished raised DataFetchError>]",
+      "duration_ms": 56906
     }
   ]
 }
