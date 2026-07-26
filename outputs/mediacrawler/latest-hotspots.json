@@ -1,15 +1,15 @@
 {
-  "status": "partial_failed",
+  "status": "failed",
   "source": "Railway-MediaCrawler",
   "source_role": "external_enrichment",
-  "run_id": "fef7358b-652f-4cc6-825b-70da3bd5624a",
-  "started_at": "2026-07-25T00:15:59.744358+00:00",
-  "finished_at": "2026-07-25T00:19:45.346097+00:00",
+  "run_id": "297bec4f-fe31-4107-93b1-9891b2baeac4",
+  "started_at": "2026-07-26T00:15:32.525306+00:00",
+  "finished_at": "2026-07-26T00:19:35.557996+00:00",
   "freshness_window_hours": 24,
   "freshness": {
-    "input": 20,
-    "kept": 1,
-    "dropped_old": 19,
+    "input": 10,
+    "kept": 0,
+    "dropped_old": 10,
     "dropped_invalid_time": 0
   },
   "platforms": [
@@ -17,59 +17,25 @@
     "tieba",
     "zhihu"
   ],
-  "items": [
-    {
-      "source": "MediaCrawler-tieba",
-      "source_role": "external_enrichment",
-      "platform": "tieba",
-      "title": "低配版赵雅芝还可以，低配版林心如算怎么个事？",
-      "url": "https://tieba.baidu.com/p/10892205998",
-      "summary": "林心如究竟算什么？还有陈乔恩之流…… 平时吐槽85花上瘾了，动不动就按头什么低配版赵雅芝、林心如等等…… 从长红和咖位保持来看，85花至少做到了09年至今。 不明白林心如这位除了还珠、情深深雨蒙蒙、美人心计后再无有效作品输出的货色到底比你幂丽强在哪？ 我幂正儿八经爆剧有《仙三》、《宫》、《古剑奇谭》、《三生三世》。电影票房且到了《小时代系列》十多个亿，一番票房二十多个亿。 奖项没有，但是电影入围过圣塞，电视入围过白玉兰、金鹰。你如也没有！ 更关键的是我幂咖位从09年后一直在升，到了这几年式微也还是顶级那一批，整整17年了。 你如红了以后的第十七年是什么咖位，前几年更是上无人在意的综艺得管谢娜叫姐。 能不能忘掉那群吹上天的港台老妪啊？ 拍电影的不过是沾了盗版DVD和电影频道的光，拍电视的不过是起了个早而已，内地发展起来了以后，除了特质明显的几位有点地位，还有谁有地位啊？ 吧里狂吹的张艾嘉，来内地也不算多大咖！",
-      "published_at": "2026-07-24T04:17:34+00:00",
-      "hot_score": 0.0,
-      "category": "hotspot",
-      "raw_payload": {
-        "source_role": "external_enrichment",
-        "source_kind": "railway_mediacrawler",
-        "platform": "tieba",
-        "raw": {
-          "note_id": "10892205998",
-          "title": "低配版赵雅芝还可以，低配版林心如算怎么个事？",
-          "desc": "林心如究竟算什么？还有陈乔恩之流…… 平时吐槽85花上瘾了，动不动就按头什么低配版赵雅芝、林心如等等…… 从长红和咖位保持来看，85花至少做到了09年至今。 不明白林心如这位除了还珠、情深深雨蒙蒙、美人心计后再无有效作品输出的货色到底比你幂丽强在哪？ 我幂正儿八经爆剧有《仙三》、《宫》、《古剑奇谭》、《三生三世》。电影票房且到了《小时代系列》十多个亿，一番票房二十多个亿。 奖项没有，但是电影入围过圣塞，电视入围过白玉兰、金鹰。你如也没有！ 更关键的是我幂咖位从09年后一直在升，到了这几年式微也还是顶级那一批，整整17年了。 你如红了以后的第十七年是什么咖位，前几年更是上无人在意的综艺得管谢娜叫姐。 能不能忘掉那群吹上天的港台老妪啊？ 拍电影的不过是沾了盗版DVD和电影频道的光，拍电视的不过是起了个早而已，内地发展起来了以后，除了特质明显的几位有点地位，还有谁有地位啊？ 吧里狂吹的张艾嘉，来内地也不算多大咖！",
-          "note_url": "https://tieba.baidu.com/p/10892205998",
-          "publish_time": "2026-07-24 12:17:34",
-          "user_link": "https://tieba.baidu.com/home/main?id=tb.1.751c392d.MpJGZuCQtdOi8Mjwizj3VA%3Ft%3D1784938690",
-          "user_nickname": "Vv鲸鱼",
-          "user_avatar": "https://gss0.bdstatic.com/6LZ1dD3d1sgCo2Kml5_Y_D3/sys/portrait/item/tb.1.751c392d.MpJGZuCQtdOi8Mjwizj3VA?t=1784938690",
-          "tieba_name": "曼三吧",
-          "tieba_link": "https://tieba.baidu.com/f?kw=%E6%9B%BC%E4%B8%89",
-          "total_replay_num": 63,
-          "total_replay_page": 2,
-          "ip_location": "江西",
-          "source_keyword": "综艺",
-          "last_modify_ts": 1784938711136
-        }
-      }
-    }
-  ],
+  "items": [],
   "errors": [
     {
       "platform": "bili",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91398
+      "duration_ms": 92253
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 90692
+      "duration_ms": 91035
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x720abd8b8190 state=finished raised DataFetchError>]",
-      "duration_ms": 43502
+      "message": "RetryError[<Future at 0x7c24e2f6b190 state=finished raised DataFetchError>]",
+      "duration_ms": 59701
     }
   ],
   "runs": [
@@ -77,19 +43,19 @@
       "platform": "bili",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 91398
+      "duration_ms": 92253
     },
     {
       "platform": "tieba",
       "status": "failed_timeout",
       "message": "platform run exceeded 90s",
-      "duration_ms": 90692
+      "duration_ms": 91035
     },
     {
       "platform": "zhihu",
       "status": "failed",
-      "message": "RetryError[<Future at 0x720abd8b8190 state=finished raised DataFetchError>]",
-      "duration_ms": 43502
+      "message": "RetryError[<Future at 0x7c24e2f6b190 state=finished raised DataFetchError>]",
+      "duration_ms": 59701
     }
   ]
 }
